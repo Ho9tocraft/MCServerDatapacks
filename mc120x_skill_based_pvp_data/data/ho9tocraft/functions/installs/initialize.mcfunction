@@ -19,6 +19,8 @@ scoreboard objectives add scoreInit dummy
 #region Time Controls
 #Tick Loop(var: 1-20('20' means count reset))
 scoreboard objectives add TICK_ROOP dummy
+#1 sec. = 20 Ticks
+scoreboard objectives add TICK_PER_SECONDS dummy
 #endregion
 
 #region PvP Objectives
@@ -62,12 +64,19 @@ scoreboard objectives add AB_RECAST_V dummy
 scoreboard objectives add LB_CHARGE dummy
 #LB_RECAST_T(var: 0 to 100('0' means Ready to Charge))
 scoreboard objectives add LB_RECAST_T dummy
-#BATTLE_TIMER(var: 0 to INT_MAX('0' means Time Up, value means timer seconds))
+#BATTLE_TIMER(var: -1 to INT_MAX('0' means Time Up, value means timer seconds, '-1' means Lobby))
 scoreboard objectives add BATTLE_TIMER dummy
+#BATTLE_COND(var: -1 is Lobby, 0 is BattleInit, 1 is Battle, 2 is BattleResult)
+scoreboard objectives add BATTLE_COND dummy
+#BATTLE_STAGE(var: -1 is Lobby, 0.. are Battle Stage)
+scoreboard objectives add BATTLE_STAGE dummy
 #endregion
 
 #region Scoreboard Default Value for Dummy Player
 scoreboard players set ^VPHandler TICK_ROOP 1
+scoreboard players set ^VPHandler TICK_PER_SECONDS 20
 scoreboard players set ^VPHandler RESULT_RED 0
 scoreboard players set ^VPHandler RESULT_BLU 0
+scoreboard players set ^VPHandler BATTLE_TIMER -1
+scoreboard players set ^VPHandler BATTLE_COND -1
 #endregion

@@ -1,0 +1,87 @@
+[
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "all_of",
+                "terms": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "player",
+                            "equipment": {
+                                "head": { "items": ["netherite_helmet"], "count": 1 },
+                                "chest": { "items": ["netherite_chestplate"], "count": 1 },
+                                "legs": { "items": ["netherite_leggings"], "count": 1 },
+                                "feet": { "items": ["netherite_boots"], "count": 1 }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "CURRENT_JOB": -1
+                        }
+                    }
+                ]
+            }
+        ],
+        "components": {
+            "item_name": "{\"bold\":true,\"color\":\"#FDEFF2\",\"italic\":false,\"translate\":\"item.exorcist.hair_ornaments.name\"}",
+            "unbreakable": { "show_in_tooltip": false },
+            "enchantments": { "levels": {"fire_protection": 2, "protection": 2}, "show_in_tooltip": false },
+            "attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "generic.armor",
+                        "name": "generic.armor",
+                        "amount": 3,
+                        "operation": "add_value",
+                        "uuid": [1459404432,1488079393,-1463514196,-494616522],
+                        "slot": "head"
+                    },
+                    {
+                        "type": "generic.armor_toughness",
+                        "name": "generic.armor_toughness",
+                        "amount": 3,
+                        "operation": "add_value",
+                        "uuid": [1558777766,1264994749,-1099298625,-1857384973],
+                        "slot": "head"
+                    },
+                    {
+                        "type": "generic.knockback_resistance",
+                        "name": "generic.knockback_registance",
+                        "amount": 1,
+                        "operation": "add_value",
+                        "uuid": [1921354613,-907984079,-1237078662,-1362185942],
+                        "slot": "head"
+                    },
+                    {
+                        "type": "generic.max_health",
+                        "name": "generic.max_health",
+                        "amount": 5,
+                        "operation": "add_value",
+                        "uuid": [1712820774,1393183867,-1569273447,-1080917732],
+                        "slot": "head"
+                    },
+                    {
+                        "type": "generic.movement_speed",
+                        "name": "generic.movement_speed",
+                        "amount": 0.05,
+                        "operation": "add_multiplied_base",
+                        "uuid": [-1358225545,-352106118,-1531623338,1893204295],
+                        "slot": "head"
+                    }
+                ],
+                "show_in_tooltip": false
+            },
+            "trim": {
+                "material": "minecraft:raised_soul",
+                "pattern": "minecraft:raised_soul",
+                "show_in_tooltip": false
+            }
+        }
+    }
+]

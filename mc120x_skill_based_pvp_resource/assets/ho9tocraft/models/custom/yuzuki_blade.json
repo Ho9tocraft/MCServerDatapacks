@@ -1,0 +1,6 @@
+{
+    "parent": "ho9tocraft:custom/based/big_weapon",
+    "textures": {
+        "layer0": "ho9tocraft:item/yuzuki"
+    }
+}

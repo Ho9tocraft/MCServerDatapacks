@@ -1,0 +1,75 @@
+[
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "all_of",
+                "terms": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "player",
+                            "slots": {
+                                "hotbar.0": { "items": ["minecraft:netherite_sword"], "count": 1 }
+                            },
+                            "equipment": {
+                                "offhand": { "items": ["minecraft:diamond_sword"], "count": 1 }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "CURRENT_JOB": -1
+                        }
+                    }
+                ]
+            }
+        ],
+        "components": {
+            "item_name": "{\"bold\":true,\"color\":\"#FDEFF2\",\"italic\":false,\"translate\":\"item.exorcist.rightsword.name\"}",
+            "unbreakable": { "show_in_tooltip": false },
+            "custom_model_data": 1,
+            "enchantments": { "levels": { "sharpness": 10, "sweeping_edge": 3 }, "show_in_tooltip": false },
+            "attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "generic.attack_damage",
+                        "name": "generic.attack_damage",
+                        "amount": 16.5,
+                        "operation": "add_value",
+                        "uuid": [623163016,1461340361,-2123294137,1885133823],
+                        "slot": "mainhand"
+                    },
+                    {
+                        "type": "generic.attack_speed",
+                        "name": "generic.attack_speed",
+                        "amount": 1.875,
+                        "operation": "add_value",
+                        "uuid": [-1739572907,-54178880,-2114031961,-434423672],
+                        "slot": "mainhand"
+                    },
+                    {
+                        "type": "player.entity_interaction_range",
+                        "name": "player.entity_interaction_range",
+                        "amount": 3.5,
+                        "operation": "add_value",
+                        "uuid": [126347359,847400415,-1881817108,-1500714142],
+                        "slot": "mainhand"
+                    },
+                    {
+                        "type": "generic.step_height",
+                        "name": "generic.step_height",
+                        "amount": 1.2,
+                        "operation": "add_value",
+                        "uuid": [1341175991,1786464368,-2136209363,931997246],
+                        "slot": "offhand"
+                    }
+                ],
+                "show_in_tooltip": false
+            }
+        }
+    }
+]

@@ -1,0 +1,87 @@
+[
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "all_of",
+                "terms": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "player",
+                            "equipment": {
+                                "head": { "items": ["netherite_helmet"], "count": 1 },
+                                "chest": { "items": ["netherite_chestplate"], "count": 1 },
+                                "legs": { "items": ["netherite_leggings"], "count": 1 },
+                                "feet": { "items": ["netherite_boots"], "count": 1 }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "CURRENT_JOB": -1
+                        }
+                    }
+                ]
+            }
+        ],
+        "components": {
+            "item_name": "{\"bold\":true,\"color\":\"#FDEFF2\",\"italic\":false,\"translate\":\"item.exorcist.tunic.name\"}",
+            "unbreakable": { "show_in_tooltip": false },
+            "enchantments": { "levels": {"fire_protection": 2, "protection": 2}, "show_in_tooltip": false },
+            "attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "generic.armor",
+                        "name": "generic.armor",
+                        "amount": 3,
+                        "operation": "add_value",
+                        "uuid": [493400422,600459826,-1498699854,1770593611],
+                        "slot": "chest"
+                    },
+                    {
+                        "type": "generic.armor_toughness",
+                        "name": "generic.armor_toughness",
+                        "amount": 3,
+                        "operation": "add_value",
+                        "uuid": [566664782,-1406451228,-1638678361,761682328],
+                        "slot": "chest"
+                    },
+                    {
+                        "type": "generic.knockback_resistance",
+                        "name": "generic.knockback_registance",
+                        "amount": 1,
+                        "operation": "add_value",
+                        "uuid": [57461746,1046692533,-1917825327,80907490],
+                        "slot": "chest"
+                    },
+                    {
+                        "type": "generic.max_health",
+                        "name": "generic.max_health",
+                        "amount": 5,
+                        "operation": "add_value",
+                        "uuid": [-356702272,-1187165828,-1414832897,-1910967472],
+                        "slot": "chest"
+                    },
+                    {
+                        "type": "generic.movement_speed",
+                        "name": "generic.movement_speed",
+                        "amount": 0.05,
+                        "operation": "add_multiplied_base",
+                        "uuid": [1037217121,-736866526,-1699208878,371978364],
+                        "slot": "chest"
+                    }
+                ],
+                "show_in_tooltip": false
+            },
+            "trim": {
+                "material": "minecraft:raised_soul",
+                "pattern": "minecraft:raised_soul",
+                "show_in_tooltip": false
+            }
+        }
+    }
+]
