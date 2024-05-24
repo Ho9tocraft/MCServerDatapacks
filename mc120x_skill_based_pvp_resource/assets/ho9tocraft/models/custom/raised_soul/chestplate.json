@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "ho9tocraft:item/raised_soul_chestplate"
+    }
+}

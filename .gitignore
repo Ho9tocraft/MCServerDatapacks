@@ -1,0 +1,4 @@
+#解析のために保存しているため、clientから始まるすべてのフォルダはいらない
+.git/
+client*/
+mc120x_skill_based_pvp_resource/assets/*/textures/

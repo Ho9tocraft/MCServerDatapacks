@@ -1,0 +1,9 @@
+{
+    "asset_name": "none",
+    "ingredient": "air",
+    "description": {
+        "color": "#CCCCCC",
+        "translate": "trim_material.minecraft.iron"
+    },
+    "item_model_index": 0.0000
+}

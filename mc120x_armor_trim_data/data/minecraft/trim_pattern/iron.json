@@ -1,0 +1,7 @@
+{
+    "asset_id": "iron",
+    "description": {
+        "translate": "trim_pattern.minecraft.iron"
+    },
+    "template_item": "air"
+}

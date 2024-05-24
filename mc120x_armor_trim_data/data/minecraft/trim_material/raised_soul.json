@@ -1,0 +1,9 @@
+{
+    "asset_name": "none",
+    "ingredient": "air",
+    "description": {
+        "color": "#FDEFF2",
+        "translate": "trim_material.ho9tocraft.raised_soul"
+    },
+    "item_model_index": 0.00002
+}

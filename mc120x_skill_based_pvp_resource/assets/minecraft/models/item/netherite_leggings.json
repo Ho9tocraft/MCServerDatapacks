@@ -1,0 +1,9 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/netherite_leggings"
+    },
+    "overrides": [
+        {"predicate": {"trim_type": 0.00002}, "model": "ho9tocraft:custom/raised_soul/leggings"}
+    ]
+}

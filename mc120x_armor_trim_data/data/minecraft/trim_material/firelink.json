@@ -1,0 +1,9 @@
+{
+    "asset_name": "none",
+    "ingredient": "air",
+    "description": {
+        "color": "#EA5532",
+        "translate": "trim_material.ho9tocraft.firelink"
+    },
+    "item_model_index": 0.00001
+}

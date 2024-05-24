@@ -1,0 +1,27 @@
+{
+    "sources": [
+        {
+            "type": "paletted_permutations",
+            "textures": [
+                "minecraft:trims/models/armor/firelink",
+                "minecraft:trims/models/armor/firelink_leggings",
+                "minecraft:trims/models/armor/raised_soul",
+                "minecraft:trims/models/armor/raised_soul_leggings",
+                "minecraft:trims/models/armor/chainmail",
+                "minecraft:trims/models/armor/chainmail_leggings",
+                "minecraft:trims/models/armor/gold",
+                "minecraft:trims/models/armor/gold_leggings",
+                "minecraft:trims/models/armor/iron",
+                "minecraft:trims/models/armor/iron_leggings",
+                "minecraft:trims/models/armor/diamond",
+                "minecraft:trims/models/armor/diamond_leggings",
+                "minecraft:trims/models/armor/netherite",
+                "minecraft:trims/models/armor/netherite_leggings"
+            ],
+            "palette_key": "trims/color_palettes/trim_palette",
+            "permutations": {
+                "none": "trims/color_palettes/none"
+            }
+        }
+    ]
+}
