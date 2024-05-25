@@ -1,3 +1,24 @@
 {
-    "": ""
+    "trim_material.minecraft.default_chainmail": "チェインメイル装備(default)",
+    "trim_material.minecraft.default_iron": "鉄装備(default)",
+    "trim_material.minecraft.default_gold": "金装備(default)",
+    "trim_material.minecraft.default_diamond": "ダイヤモンド装備(default)",
+    "trim_material.minecraft.default_netherite": "ネザライト装備(default)",
+    "trim_material.ho9tocraft.firelink": "火継ぎ装備",
+    "trim_material.ho9tocraft.raised_soul": "刀使装備",
+    "trim_pattern.minecraft.default_chainmail": "チェインメイル装備(default)",
+    "trim_pattern.minecraft.default_iron": "鉄装備(default)",
+    "trim_pattern.minecraft.default_gold": "金装備(default)",
+    "trim_pattern.minecraft.default_diamond": "ダイヤモンド装備(default)",
+    "trim_pattern.minecraft.default_netherite": "ネザライト装備(default)",
+    "item.exorcist.hair_ornaments.name": "刀使の髪飾り",
+    "item.exorcist.tunic.name": "刀使の上衣",
+    "item.exorcist.skirt.name": "刀使の袴",
+    "item.exorcist.sash.name": "刀使の腰巻",
+    "item.exorcist.rightsword.name": "刀使の刀【段】",
+    "item.exorcist.leftsword.name": "刀使の刀【軽業】",
+    "item.paladin.helmet.name": "火継ぎの兜",
+    "item.paladin.chestplate.name": "火継ぎの胸当て",
+    "item.paladin.leggings": "火継ぎの脚甲",
+    "item.paladin.boots": "火継ぎの靴"
 }

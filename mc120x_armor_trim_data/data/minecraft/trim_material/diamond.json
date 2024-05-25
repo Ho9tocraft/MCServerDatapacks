@@ -3,7 +3,7 @@
     "ingredient": "air",
     "description": {
         "color": "#CCCCCC",
-        "translate": "trim_material.minecraft.diamond"
+        "translate": "trim_material.minecraft.default_diamond"
     },
     "item_model_index": 0.0000
 }

@@ -19,11 +19,8 @@
                         }
                     },
                     {
-                        "condition": "entity_scores",
-                        "entity": "this",
-                        "scores": {
-                            "CURRENT_JOB": -1
-                        }
+                        "condition": "reference",
+                        "name": "ho9tocraft:passive_selector/job_not_selected"
                     }
                 ]
             }
@@ -37,7 +34,7 @@
                     {
                         "type": "generic.armor",
                         "name": "generic.armor",
-                        "amount": 3,
+                        "amount": 8,
                         "operation": "add_value",
                         "uuid": [493400422,600459826,-1498699854,1770593611],
                         "slot": "chest"

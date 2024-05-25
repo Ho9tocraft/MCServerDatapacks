@@ -11,10 +11,10 @@
                         "predicate": {
                             "type": "player",
                             "equipment": {
-                                "head": { "items": ["netherite_helmet"], "count": 1 },
-                                "chest": { "items": ["netherite_chestplate"], "count": 1 },
-                                "legs": { "items": ["netherite_leggings"], "count": 1 },
-                                "feet": { "items": ["netherite_boots"], "count": 1 }
+                                "head": { "items": ["iron_helmet"], "count": 1 },
+                                "chest": { "items": ["iron_chestplate"], "count": 1 },
+                                "legs": { "items": ["iron_leggings"], "count": 1 },
+                                "feet": { "items": ["iron_boots"], "count": 1 }
                             }
                         }
                     },
@@ -26,9 +26,10 @@
             }
         ],
         "components": {
-            "item_name": "{\"bold\":true,\"color\":\"#FDEFF2\",\"italic\":false,\"translate\":\"item.exorcist.hair_ornaments.name\"}",
+
+            "item_name": "{\"bold\":true,\"color\":\"#D3381C\",\"italic\":false,\"translate\":\"item.paladin.leggings.name\"}",
             "unbreakable": { "show_in_tooltip": false },
-            "enchantments": { "levels": {"fire_protection": 2, "protection": 2}, "show_in_tooltip": false },
+            "enchantments": { "levels": {"blast_protection":3, "fire_protection": 3, "protection": 4}, "show_in_tooltip": false },
             "attribute_modifiers": {
                 "modifiers": [
                     {
@@ -36,47 +37,47 @@
                         "name": "generic.armor",
                         "amount": 3,
                         "operation": "add_value",
-                        "uuid": [1459404432,1488079393,-1463514196,-494616522],
-                        "slot": "head"
+                        "uuid": [-1162215819,266751390,-1790370760,1740005929],
+                        "slot": "feet"
                     },
                     {
                         "type": "generic.armor_toughness",
                         "name": "generic.armor_toughness",
-                        "amount": 3,
+                        "amount": 6,
                         "operation": "add_value",
-                        "uuid": [1558777766,1264994749,-1099298625,-1857384973],
-                        "slot": "head"
+                        "uuid": [-615235900,1117996387,-2083304338,-1067441373],
+                        "slot": "feet"
                     },
                     {
                         "type": "generic.knockback_resistance",
                         "name": "generic.knockback_registance",
                         "amount": 1,
                         "operation": "add_value",
-                        "uuid": [1921354613,-907984079,-1237078662,-1362185942],
-                        "slot": "head"
+                        "uuid": [1635459495,-1437581246,-1226113972,939302980],
+                        "slot": "feet"
                     },
                     {
                         "type": "generic.max_health",
                         "name": "generic.max_health",
-                        "amount": 5,
+                        "amount": 15,
                         "operation": "add_value",
-                        "uuid": [1712820774,1393183867,-1569273447,-1080917732],
-                        "slot": "head"
+                        "uuid": [1545977515,-1761394405,-1664682913,-1034209656],
+                        "slot": "feet"
                     },
                     {
                         "type": "generic.movement_speed",
                         "name": "generic.movement_speed",
-                        "amount": 0.05,
+                        "amount": -0.025,
                         "operation": "add_multiplied_base",
-                        "uuid": [-1358225545,-352106118,-1531623338,1893204295],
-                        "slot": "head"
+                        "uuid": [145773736,1266306943,-1112758073,369219978],
+                        "slot": "feet"
                     }
                 ],
                 "show_in_tooltip": false
             },
             "trim": {
-                "material": "minecraft:raised_soul",
-                "pattern": "minecraft:raised_soul",
+                "material": "minecraft:firelink",
+                "pattern": "minecraft:firelink",
                 "show_in_tooltip": false
             }
         }

@@ -11,10 +11,10 @@
                         "predicate": {
                             "type": "player",
                             "equipment": {
-                                "head": { "items": ["netherite_helmet"], "count": 1 },
-                                "chest": { "items": ["netherite_chestplate"], "count": 1 },
-                                "legs": { "items": ["netherite_leggings"], "count": 1 },
-                                "feet": { "items": ["netherite_boots"], "count": 1 }
+                                "head": { "items": ["iron_helmet"], "count": 1 },
+                                "chest": { "items": ["iron_chestplate"], "count": 1 },
+                                "legs": { "items": ["iron_leggings"], "count": 1 },
+                                "feet": { "items": ["iron_boots"], "count": 1 }
                             }
                         }
                     },
@@ -26,57 +26,57 @@
             }
         ],
         "components": {
-            "item_name": "{\"bold\":true,\"color\":\"#FDEFF2\",\"italic\":false,\"translate\":\"item.exorcist.hair_ornaments.name\"}",
+            "item_name": "{\"bold\":true,\"color\":\"#D3381C\",\"italic\":false,\"translate\":\"item.paladin.chestplate.name\"}",
             "unbreakable": { "show_in_tooltip": false },
-            "enchantments": { "levels": {"fire_protection": 2, "protection": 2}, "show_in_tooltip": false },
+            "enchantments": { "levels": {"blast_protection":3, "fire_protection": 3, "protection": 4}, "show_in_tooltip": false },
             "attribute_modifiers": {
                 "modifiers": [
                     {
                         "type": "generic.armor",
                         "name": "generic.armor",
-                        "amount": 3,
+                        "amount": 8,
                         "operation": "add_value",
-                        "uuid": [1459404432,1488079393,-1463514196,-494616522],
-                        "slot": "head"
+                        "uuid": [1336268882,-1147383898,-1117486304,880869874],
+                        "slot": "chest"
                     },
                     {
                         "type": "generic.armor_toughness",
                         "name": "generic.armor_toughness",
-                        "amount": 3,
+                        "amount": 6,
                         "operation": "add_value",
-                        "uuid": [1558777766,1264994749,-1099298625,-1857384973],
-                        "slot": "head"
+                        "uuid": [284357632,1616595330,-1585105890,-605846528],
+                        "slot": "chest"
                     },
                     {
                         "type": "generic.knockback_resistance",
                         "name": "generic.knockback_registance",
                         "amount": 1,
                         "operation": "add_value",
-                        "uuid": [1921354613,-907984079,-1237078662,-1362185942],
-                        "slot": "head"
+                        "uuid": [-1275464515,1034962448,-1626267837,-408689371],
+                        "slot": "chest"
                     },
                     {
                         "type": "generic.max_health",
                         "name": "generic.max_health",
-                        "amount": 5,
+                        "amount": 15,
                         "operation": "add_value",
-                        "uuid": [1712820774,1393183867,-1569273447,-1080917732],
-                        "slot": "head"
+                        "uuid": [-468708735,-962115249,-1408584408,222576905],
+                        "slot": "chest"
                     },
                     {
                         "type": "generic.movement_speed",
                         "name": "generic.movement_speed",
-                        "amount": 0.05,
+                        "amount": -0.025,
                         "operation": "add_multiplied_base",
-                        "uuid": [-1358225545,-352106118,-1531623338,1893204295],
-                        "slot": "head"
+                        "uuid": [-1463520368,407850018,-1521902406,-937540830],
+                        "slot": "chest"
                     }
                 ],
                 "show_in_tooltip": false
             },
             "trim": {
-                "material": "minecraft:raised_soul",
-                "pattern": "minecraft:raised_soul",
+                "material": "minecraft:firelink",
+                "pattern": "minecraft:firelink",
                 "show_in_tooltip": false
             }
         }

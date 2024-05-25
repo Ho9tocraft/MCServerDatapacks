@@ -11,10 +11,10 @@
                         "predicate": {
                             "type": "player",
                             "equipment": {
-                                "head": { "items": ["netherite_helmet"], "count": 1 },
-                                "chest": { "items": ["netherite_chestplate"], "count": 1 },
-                                "legs": { "items": ["netherite_leggings"], "count": 1 },
-                                "feet": { "items": ["netherite_boots"], "count": 1 }
+                                "head": { "items": ["iron_helmet"], "count": 1 },
+                                "chest": { "items": ["iron_chestplate"], "count": 1 },
+                                "legs": { "items": ["iron_leggings"], "count": 1 },
+                                "feet": { "items": ["iron_boots"], "count": 1 }
                             }
                         }
                     },
@@ -26,9 +26,9 @@
             }
         ],
         "components": {
-            "item_name": "{\"bold\":true,\"color\":\"#FDEFF2\",\"italic\":false,\"translate\":\"item.exorcist.hair_ornaments.name\"}",
+            "item_name": "{\"bold\":true,\"color\":\"#D3381C\",\"italic\":false,\"translate\":\"item.paladin.helmet.name\"}",
             "unbreakable": { "show_in_tooltip": false },
-            "enchantments": { "levels": {"fire_protection": 2, "protection": 2}, "show_in_tooltip": false },
+            "enchantments": { "levels": {"blast_protection":3, "fire_protection": 3, "protection": 4}, "show_in_tooltip": false },
             "attribute_modifiers": {
                 "modifiers": [
                     {
@@ -36,15 +36,15 @@
                         "name": "generic.armor",
                         "amount": 3,
                         "operation": "add_value",
-                        "uuid": [1459404432,1488079393,-1463514196,-494616522],
+                        "uuid": [-1208119542,1476610504,-1726231357,-1576350078],
                         "slot": "head"
                     },
                     {
                         "type": "generic.armor_toughness",
                         "name": "generic.armor_toughness",
-                        "amount": 3,
+                        "amount": 6,
                         "operation": "add_value",
-                        "uuid": [1558777766,1264994749,-1099298625,-1857384973],
+                        "uuid": [-1841321216,1239764091,-1959391742,656917125],
                         "slot": "head"
                     },
                     {
@@ -52,31 +52,31 @@
                         "name": "generic.knockback_registance",
                         "amount": 1,
                         "operation": "add_value",
-                        "uuid": [1921354613,-907984079,-1237078662,-1362185942],
+                        "uuid": [1868148821,-253670117,-1529900318,-1455100068],
                         "slot": "head"
                     },
                     {
                         "type": "generic.max_health",
                         "name": "generic.max_health",
-                        "amount": 5,
+                        "amount": 15,
                         "operation": "add_value",
-                        "uuid": [1712820774,1393183867,-1569273447,-1080917732],
+                        "uuid": [1911974505,245384034,-1351945456,810860422],
                         "slot": "head"
                     },
                     {
                         "type": "generic.movement_speed",
                         "name": "generic.movement_speed",
-                        "amount": 0.05,
+                        "amount": -0.025,
                         "operation": "add_multiplied_base",
-                        "uuid": [-1358225545,-352106118,-1531623338,1893204295],
+                        "uuid": [37609634,571097888,-1353891354,-820697982],
                         "slot": "head"
                     }
                 ],
                 "show_in_tooltip": false
             },
             "trim": {
-                "material": "minecraft:raised_soul",
-                "pattern": "minecraft:raised_soul",
+                "material": "minecraft:firelink",
+                "pattern": "minecraft:firelink",
                 "show_in_tooltip": false
             }
         }

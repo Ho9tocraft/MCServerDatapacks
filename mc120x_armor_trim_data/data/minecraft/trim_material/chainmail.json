@@ -3,7 +3,7 @@
     "ingredient": "air",
     "description": {
         "color": "#CCCCCC",
-        "translate": "trim_material.minecraft.chainmail"
+        "translate": "trim_material.minecraft.default_chainmail"
     },
     "item_model_index": 0.0000
 }

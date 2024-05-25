@@ -1,7 +1,7 @@
 {
     "asset_id": "netherite",
     "description": {
-        "translate": "trim_pattern.minecraft.netherite"
+        "translate": "trim_pattern.minecraft.default_netherite"
     },
     "template_item": "air"
 }

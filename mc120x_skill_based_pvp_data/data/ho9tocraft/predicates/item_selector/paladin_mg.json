@@ -1,0 +1,25 @@
+{
+    "condition": "all_of",
+    "terms": [
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "player",
+                "equipment": { "mainhand": { "items": [ "plenty_pottery_sherd" ], "count": 1, "components": { "custom_model_data": 1 }}}
+            }
+        },
+        {
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+                "CURRENT_JOB": 0,
+                "NOW_MP": { "min": 1000, "max": 40000 }
+            }
+        },
+        {
+            "condition": "reference",
+            "name": "ho9tocraft:score_condition/magic_skill_score"
+        }
+    ]
+}

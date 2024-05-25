@@ -1,4 +1,8 @@
 #解析のために保存しているため、clientから始まるすべてのフォルダはいらない
 .git/
 client*/
+memo/
+Unique Swords*/
+[bB]lade*/
+[rR]eforge*/
 mc120x_skill_based_pvp_resource/assets/*/textures/

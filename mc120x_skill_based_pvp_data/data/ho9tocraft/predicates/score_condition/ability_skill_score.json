@@ -1,0 +1,7 @@
+{
+    "condition": "entity_scores",
+    "entity": "this",
+    "scores": {
+        "AB_RECAST_T": 0
+    }
+}
