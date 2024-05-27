@@ -80,3 +80,26 @@ scoreboard players set ^VPHandler RESULT_BLU 0
 scoreboard players set ^VPHandler BATTLE_TIMER -1
 scoreboard players set ^VPHandler BATTLE_COND -1
 #endregion
+
+#region Team Settings
+# RED
+team add RED
+team modify RED color red
+team modify RED collisionRule pushOtherTeams
+team modify RED deathMessageVisibility hideForOtherTeams
+team modify RED displayName {"color":"red","translate":"team.ho9tocraft.red.display","fallback":"Red"}
+team modify RED friendlyFire false
+team modify RED nametagVisibility hideForOtherTeams
+team modify RED prefix {"color":"red","translate":"team.ho9tocraft.red.prefix","fallback":"[RED]"}
+team modify RED seeFriendlyInvisibles true
+# BLU
+team add BLU
+team modify BLU color blue
+team modify BLU collisionRule pushOtherTeams
+team modify BLU deathMessageVisibility hideForOtherTeams
+team modify BLU displayName {"color":"blue","translate":"team.ho9tocraft.blue.display","fallback":"Blue"}
+team modify BLU friendlyFire false
+team modify BLU nametagVisibility hideForOtherTeams
+team modify BLU prefix {"color":"blue","translate":"team.ho9tocraft.blue.prefix","fallback":"[BLU]"}
+team modify BLU seeFriendlyInvisibles true
+#endregion

@@ -29,7 +29,7 @@
             }
         ],
         "components": {
-            "item_name": "{\"bold\":true,\"color\":\"#D3381C\",\"italic\":false,\"translate\":\"item.paladin.shield.name\"}",
+            "item_name": "{\"bold\":true,\"color\":\"#D3381C\",\"italic\":false,\"translate\":\"item.paladin.shield.name\",\"fallback\":\"Paladin Shield\"}",
             "unbreakable": { "show_in_tooltip": false },
             "enchantments": { "levels": { "knockback": 5 }, "show_in_tooltip": false },
             "attribute_modifiers": {

@@ -18,8 +18,8 @@
             }
         ],
         "lore": [
-            { "bold": false, "color": "gray", "italic": false, "translate": "skill.exorcist.limit_break.desc", "fallback": "Deals physical damage equal to twice the weapon's attack_damage attributes to all nearby enemies. (Radius: 6m)" }
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.exorcist.limit_break.desc", "fallback": "Deals physical damage equal to twice\n the weapon's attack_damage attributes\n to all nearby enemies.\n(Radius: 6m)" }
         ],
-        "mode": "replace all"
+        "mode": "replace_all"
     }
 ]

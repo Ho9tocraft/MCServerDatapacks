@@ -25,7 +25,7 @@
         ],
         "components": {
             "item_name": "{\"bold\":true,\"color\":\"#C0C0C0\",\"italic\":false,\"translate\":\"skill.paladin.hallowed_ground.name\",\"fallback\":\"Hallowed Ground\"}",
-            "lore": "[\"{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"translate\":\"skill.paladin.hallowed_ground.desc\",\"fallback\":\"Renders you impervious to most attacks. (Duration: 10 sec.)\"}\",\"{\"bold\":false,\"color\":\"aqua\",\"italic\":false,\"translate\":\"skill.cast.instant\",\"fallback\":\"Cast Time: Instant\"}\",\"{\"bold\":true,\"color\":\"aqua\",\"italic\":false,\"translate\":\"skill.recast.invincible.pld\",\"fallback\":\"Recast Time: 7 min.\"}\"]",
+            "lore": ["{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"translate\":\"skill.paladin.hallowed_ground.desc\",\"fallback\":\"Renders you impervious to most attacks. (Duration: 10 sec.)\"}","{\"bold\":false,\"color\":\"aqua\",\"italic\":false,\"translate\":\"skill.cast.instant\",\"fallback\":\"Cast Time: Instant\"}","{\"bold\":true,\"color\":\"aqua\",\"italic\":false,\"translate\":\"skill.recast.invincible.pld\",\"fallback\":\"Recast Time: 7 min.\"}"],
             "custom_model_data": 0
         }
     }

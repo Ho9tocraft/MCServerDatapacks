@@ -18,8 +18,8 @@
             }
         ],
         "lore": [
-            { "bold": false, "color": "gray", "italic": false, "translate": "skill.paladin.limit_break.desc", "fallback": "Granting Resistance III and Absorption to all nearby allies. (Radius: 30m, Duration: 30 sec.)" }
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.paladin.limit_break.desc", "fallback": "Granting Resistance III and Absorption\n to all nearby allies.\n(Radius: 30m, Duration: 30 sec.)" }
         ],
-        "mode": "replace all"
+        "mode": "replace_all"
     }
 ]

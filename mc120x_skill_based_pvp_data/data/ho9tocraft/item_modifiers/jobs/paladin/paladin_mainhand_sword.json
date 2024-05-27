@@ -29,7 +29,7 @@
             }
         ],
         "components": {
-            "item_name": "{\"bold\":true,\"color\":\"#D3381C\",\"italic\":false,\"translate\":\"item.paladin.sword.name\"}",
+            "item_name": "{\"bold\":true,\"color\":\"#D3381C\",\"italic\":false,\"translate\":\"item.paladin.sword.name\",\"fallback\":\"Anchor Sword\"}",
             "unbreakable": { "show_in_tooltip": false },
             "custom_model_data": 1,
             "enchantments": { "levels": { "sharpness": 3, "sweeping_edge": 3, "looting": 2 }, "show_in_tooltip": false },
