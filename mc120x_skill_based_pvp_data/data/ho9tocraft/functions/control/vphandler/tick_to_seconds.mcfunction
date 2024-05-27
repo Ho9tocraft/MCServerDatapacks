@@ -26,6 +26,6 @@ execute as @a at @s if score ^VPHandler BATTLE_COND matches -1 run scoreboard pl
 execute as @a at @s if score ^VPHandler BATTLE_COND matches -1 run scoreboard players set @s NOW_HP_BLU 0
 #endregion
 #region MPStat_OverflowSync
-execute as @a at @s if score @s NOW_MP > @s MAX_MP run scoreboard players set @s NOW_MP 10000
+execute as @a at @s if score @s NOW_MP > @s MAX_MP run scoreboard players operation @s NOW_HP = @s MAX_MP
 #endregion
 execute if score ^VPHandler TICK_ROOP matches 20 run function #ho9tocraft:vphandlers_post
