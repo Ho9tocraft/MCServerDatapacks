@@ -1,0 +1,18 @@
+{
+    "condition": "all_of",
+    "terms": [
+        {
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+                "NOW_MP": {
+                    "max": 9999
+                }
+            }
+        },
+        {
+            "condition": "random_chance",
+            "chance": 0.2
+        }
+    ]
+}
