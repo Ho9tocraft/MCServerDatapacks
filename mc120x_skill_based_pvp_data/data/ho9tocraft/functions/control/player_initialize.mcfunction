@@ -33,3 +33,5 @@ execute as @a store success score @s scoreInit run scoreboard players get @s LB_
 execute as @a if score @s scoreInit matches 0 run scoreboard players set @s LB_CHARGE 0
 execute as @a store success score @s scoreInit run scoreboard players get @s LB_RECAST_T
 execute as @a if score @s scoreInit matches 0 run scoreboard players set @s LB_RECAST_T 0
+execute as @a store success score @s scoreInit run scoreboard players get @s NOW_SURR_ENEMY
+execute as @a if score @s scoreInit matches 0 run scoreboard players set @s NOW_SURR_ENEMY 0

@@ -64,11 +64,13 @@ scoreboard objectives add AB_RECAST_V dummy
 scoreboard objectives add LB_CHARGE dummy
 #LB_RECAST_T(var: 0 to 100('0' means Ready to Charge))
 scoreboard objectives add LB_RECAST_T dummy
+#NOW_SURR_ENEMY(var: 0 to INT_MAX(More than 1 is considered tangential))
+scoreboard objectives add NOW_SURR_ENEMY dummy
 #BATTLE_TIMER(var: -1 to INT_MAX('0' means Time Up, value means timer seconds, '-1' means Lobby))
 scoreboard objectives add BATTLE_TIMER dummy
 #BATTLE_COND(var: -1 is Lobby, 0 is BattleInit, 1 is Battle, 2 is BattleResult)
 scoreboard objectives add BATTLE_COND dummy
-#BATTLE_STAGE(var: -1 is Lobby, 0.. are Battle Stage)
+#BATTLE_STAGE(var: -1 is Lobby, More than 0 are Battle Stage)
 scoreboard objectives add BATTLE_STAGE dummy
 #endregion
 

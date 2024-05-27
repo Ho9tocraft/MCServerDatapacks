@@ -1,6 +1,8 @@
 {
     "values": [
         "ho9tocraft:control/vphandler/post_process/battle_timer_decr",
+        "ho9tocraft:control/vphandler/post_process/autoscan_enemies",
+        "ho9tocraft:control/vphandler/post_process/mp_regenerate",
         "ho9tocraft:control/vphandler/post_process/tick_to_sec_post"
     ]
 }
