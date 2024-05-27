@@ -2,5 +2,8 @@
   "parent": "minecraft:item/handheld",
   "textures": {
     "layer0": "minecraft:item/iron_sword"
-  }
+  },
+  "overrides": [
+    { "predicate": { "custom_model_data": 1 }, "model": "ho9tocraft:custom/anchor_sword" }
+  ]
 }

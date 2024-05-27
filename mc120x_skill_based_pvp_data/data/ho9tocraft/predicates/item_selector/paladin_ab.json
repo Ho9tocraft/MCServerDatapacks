@@ -6,7 +6,11 @@
             "entity": "this",
             "predicate": {
                 "type": "player",
-                "equipment": { "mainhand": { "items": [ "glowstone_dust" ], "count": 1, "components": { "custom_model_data": 1 }}}
+                "equipment": { "mainhand": {
+                    "items": [ "glowstone_dust" ],
+                    "count": 1,
+                    "components": { "custom_model_data": 1 }
+                }}
             }
         },
         {

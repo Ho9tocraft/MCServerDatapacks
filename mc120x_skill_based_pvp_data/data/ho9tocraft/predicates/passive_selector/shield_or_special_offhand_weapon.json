@@ -1,0 +1,26 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": { "offhand": {
+                    "items": [ "shield" ],
+                    "count": 1
+                }}
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": { "offhand": {
+                    "items": [ "diamond_sword" ],
+                    "count": 1,
+                    "componrnts": { "custom_model_data": 1 }
+                }}
+            }
+        }
+    ]
+}

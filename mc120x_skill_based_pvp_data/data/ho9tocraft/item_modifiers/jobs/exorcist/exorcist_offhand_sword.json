@@ -19,11 +19,8 @@
                         }
                     },
                     {
-                        "condition": "entity_scores",
-                        "entity": "this",
-                        "scores": {
-                            "CURRENT_JOB": -1
-                        }
+                        "condition": "reference",
+                        "name": "ho9tocraft:passive_selector/job_not_selected"
                     }
                 ]
             }

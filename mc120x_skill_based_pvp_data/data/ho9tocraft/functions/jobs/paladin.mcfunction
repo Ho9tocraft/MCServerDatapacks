@@ -17,6 +17,8 @@ execute as @s[scores={CURRENT_JOB=-1}] at @s run item modify entity @s armor.fee
 #region 武器
 execute as @s[scores={CURRENT_JOB=-1}] at @s run item replace entity @s hotbar.0 with iron_sword 1
 execute as @s[scores={CURRENT_JOB=-1}] at @s run item replace entity @s weapon.offhand with shield 1
+execute as @s[scores={CURRENT_JOB=-1}] at @s run item modify entity @s hotbar.0 ho9tocraft:jobs/paladin/paladin_mainhand_sword
+execute as @s[scores={CURRENT_JOB=-1}] at @s run item modify entity @s weapon.offhand ho9tocraft:jobs/paladin/paladin_offhand_shield
 #endregion
 
 #region スキル群

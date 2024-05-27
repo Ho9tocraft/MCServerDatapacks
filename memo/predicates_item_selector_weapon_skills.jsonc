@@ -1,41 +1,59 @@
 {
+    //Weapon Skill Templates
+    //condition: all_of(AND指定)
     "condition": "all_of",
     "terms": [
         {
+            //condition: any_of(OR指定)
             "condition": "any_of",
             "terms": [
                 {
+                    //condition: all_of(AND指定)
                     "condition": "all_of",
                     "terms": [
                         {
+                            //condition: entity_properties(エンティティの情報参照)
                             "condition": "entity_properties",
                             "entity": "this",
                             "predicate": {
                                 "type": "player",
+                                //equipment.mainhand(メインハンドに持っている武器を参照する)
                                 "equipment": { "mainhand": {
+                                    //ウェポンスキルの実行対象にしたいアイテムを1種類だけ設定
                                     "items": [ "iron_sword" ],
+                                    //カウントは必ず1
                                     "count": 1,
+                                    //カスタムモデルデータを必ず変更する。未設定、同一値は論外。
                                     "components": { "custom_model_data": 1 }
                                 }}
                             }
                         },
                         {
+                            //condition: inverted(NOT演算)
                             "condition": "inverted",
                             "term": {
+                                //condition: reference(他のプレディケートファイルを参照)
                                 "condition": "reference",
+                                //盾または指定したいオフハンド武器が存在するなら真
+                                //反転されるので、存在した場合は偽になる
                                 "name": "ho9tocraft:passive_selector/shield_or_special_offhand_weapon"
                             }
                         }
                     ]
                 },
                 {
+                    //condition: entity_properties(エンティティの情報参照)
                     "condition": "entity_properties",
                     "entity": "this",
                     "predicate": {
                         "type": "player",
+                        //equipment.mainhand(メインハンドに持っている武器を参照する)
                         "equipment": { "mainhand": {
+                            //ウェポンスキルの実行対象にしたいアイテムを1種類だけ設定
                             "items": [ "blade_pottery_sherd" ],
+                            //カウントは必ず1
                             "count": 1,
+                            //カスタムモデルデータは、ジョブごとに変更する
                             "components": { "custom_model_data": 1 }
                         }}
                     }
@@ -43,14 +61,18 @@
             ]
         },
         {
+            //condition: entity_scores(スコア参照)
             "condition": "entity_scores",
             "entity": "this",
             "scores": {
+                //対象にしたいジョブのIDを入力する。0はナイト(PLD)を意味する
                 "CURRENT_JOB": 0
             }
         },
         {
+            //condition: reference(他のプレディケートファイルを参照)
             "condition": "reference",
+            //ウェポンスキルのリキャストタイマーが0になっているかを確認する。
             "name": "ho9tocraft:score_condition/weapon_skill_score"
         }
     ]

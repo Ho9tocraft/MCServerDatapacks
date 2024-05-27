@@ -1,0 +1,33 @@
+[
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "all_of",
+                "terms": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "player",
+                            "slots": { "hotbar.1": {
+                                "items": [ "plenty_pottery_sherd" ],
+                                "count": 1,
+                                "components": { "custom_model_data": 1 }
+                            }}
+                        }
+                    },
+                    {
+                        "condition": "reference",
+                        "name": "ho9tocraft:passive_selector/job_not_selected"
+                    }
+                ]
+            }
+        ],
+        "components": {
+            "item_name": "{\"bold\":true,\"color\":\"#C0C0C0\",\"italic\":false,\"translate\":\"skill.paladin.sword_oath.name\"}",
+            "lore": "[\"{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"translate\":\"skill.paladin.sword_oath.desc\"}\",\"{\"bold\":false,\"color\":\"aqua\",\"italic\":false,\"translate\":\"skill.cast.instant\"}\",\"{\"bold\":true,\"color\":\"aqua\",\"italic\":false,\"translate\":\"skill.recast.60sec\"}\",\"{\"bold\":true,\"color\":\"green\",\"italic\":false,\"translate\":\"skill.gcd.50tick\"}\"]",
+            "custom_model_data": 1
+        }
+    }
+]

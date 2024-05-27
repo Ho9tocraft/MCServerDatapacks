@@ -6,7 +6,11 @@
             "entity": "this",
             "predicate": {
                 "type": "player",
-                "equipment": { "mainhand": { "items": [ "plenty_pottery_sherd" ], "count": 1, "components": { "custom_model_data": 1 }}}
+                "equipment": { "mainhand": {
+                    "items": [ "plenty_pottery_sherd" ],
+                    "count": 1,
+                    "components": { "custom_model_data": 1 }
+                }}
             }
         },
         {
