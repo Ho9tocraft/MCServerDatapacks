@@ -9,7 +9,7 @@
                 "equipment": { "mainhand": {
                     "items": [ "glowstone_dust" ],
                     "count": 1,
-                    "components": { "custom_model_data": 1 }
+                    "components": { "custom_model_data": 0 }
                 }}
             }
         },

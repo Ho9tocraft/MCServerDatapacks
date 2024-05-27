@@ -26,7 +26,7 @@
             }
         ],
         "components": {
-            "item_name": "{\"bold\":true,\"color\":\"#D3381C\",\"italic\":false,\"translate\":\"item.paladin.chestplate.name\"}",
+            "item_name": "{\"bold\":true,\"color\":\"#D3381C\",\"italic\":false,\"translate\":\"item.paladin.chestplate.name\",\"fallback\":\"Firelink Chestplate\"}",
             "unbreakable": { "show_in_tooltip": false },
             "enchantments": { "levels": {"blast_protection":3, "fire_protection": 3, "protection": 4}, "show_in_tooltip": false },
             "attribute_modifiers": {

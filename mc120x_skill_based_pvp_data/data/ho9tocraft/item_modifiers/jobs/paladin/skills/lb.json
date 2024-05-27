@@ -1,0 +1,25 @@
+[
+    {
+        "function": "reference",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ho9tocraft:item_selector/common_lbset"
+            }
+        ],
+        "name": "ho9tocraft:jobs/common/limit_break"
+    },
+    {
+        "function": "set_lore",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ho9tocraft:item_selector/common_lbset"
+            }
+        ],
+        "lore": [
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.paladin.limit_break.desc", "fallback": "Granting Resistance III and Absorption to all nearby allies. (Radius: 30m, Duration: 30 sec.)" }
+        ],
+        "mode": "replace all"
+    }
+]

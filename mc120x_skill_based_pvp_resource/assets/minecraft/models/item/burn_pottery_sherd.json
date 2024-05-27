@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/burn_pottery_sherd"
+  },
+  "overrides": [
+    { "predicate": { "custom_model_data": 2 }, "model": "finalfantasyxiv:actions_job/02_exc/hissatsu_kaiten" }
+  ]
+}

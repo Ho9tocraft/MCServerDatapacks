@@ -1,0 +1,20 @@
+{
+    "condition": "all_of",
+    "terms": [
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "player",
+                "slots": { "hotbar.4": {
+                    "items": [ "nether_star" ],
+                    "count": 1
+                }}
+            }
+        },
+        {
+            "condition": "reference",
+            "name": "ho9tocraft:passive_selector/job_not_selected"
+        }
+    ]
+}

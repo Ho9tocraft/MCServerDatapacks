@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/plenty_pottery_sherd"
+  },
+  "overrides": [
+    { "predicate": { "custom_model_data": 0 }, "model": "finalfantasyxiv:actions_job/00_pld/holy_circle" }
+  ]
+}

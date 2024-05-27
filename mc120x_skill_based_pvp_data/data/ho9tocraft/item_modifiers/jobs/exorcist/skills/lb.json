@@ -1,0 +1,25 @@
+[
+    {
+        "function": "reference",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ho9tocraft:item_selector/common_lbset"
+            }
+        ],
+        "name": "ho9tocraft:jobs/common/limit_break"
+    },
+    {
+        "function": "set_lore",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ho9tocraft:item_selector/common_lbset"
+            }
+        ],
+        "lore": [
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.exorcist.limit_break.desc", "fallback": "Deals physical damage equal to twice the weapon's attack_damage attributes to all nearby enemies. (Radius: 6m)" }
+        ],
+        "mode": "replace all"
+    }
+]

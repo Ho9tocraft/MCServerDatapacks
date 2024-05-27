@@ -1,0 +1,32 @@
+[
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "all_of",
+                "terms": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "player",
+                            "slots": { "hotbar.3": {
+                                "items": [ "glowstone_dust" ],
+                                "count": 1
+                            }}
+                        }
+                    },
+                    {
+                        "condition": "reference",
+                        "name": "ho9tocraft:passive_selector/job_not_selected"
+                    }
+                ]
+            }
+        ],
+        "components": {
+            "item_name": "{\"bold\":true,\"color\":\"#C0C0C0\",\"italic\":false,\"translate\":\"skill.exorcist.divine_possession.name\",\"fallback\":\"Divine Possession\"}",
+            "lore": "[\"{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"translate\":\"skill.exorcist.divine_possession.desc\",\"fallback\":\"Increase your movement speed and attack speed. (Duration: 30 sec.)\"}\",\"{\"bold\":false,\"color\":\"aqua\",\"italic\":false,\"translate\":\"skill.cast.instant\",\"fallback\":\"Cast Time: Instant\"}\",\"{\"bold\":true,\"color\":\"aqua\",\"italic\":false,\"translate\":\"skill.recast.60sec\",\"fallback\":\"Recast Time: 1 min.\"}\"]",
+            "custom_model_data": 2
+        }
+    }
+]

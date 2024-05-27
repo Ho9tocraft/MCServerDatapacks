@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/blade_pottery_sherd"
+  },
+  "overrides": [
+    { "predicate": { "custom_model_data": 0 }, "model": "finalfantasyxiv:actions_job/00_pld/sword_oath" },
+    { "predicate": { "custom_model_data": 1 }, "model": "finalfantasyxiv:actions_job/01_drk/delirium_spiller" },
+    { "predicate": { "custom_model_data": 2 }, "model": "finalfantasyxiv:actions_job/02_exc/hissatsu_gyoten" }
+  ]
+}

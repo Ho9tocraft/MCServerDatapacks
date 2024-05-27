@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/glowstone_dust"
+  },
+  "overrides": [
+    { "predicate": { "custom_model_data": 0 }, "model": "finalfantasyxiv:actions_job/00_pld/hallowed_ground" },
+    { "predicate": { "custom_model_data": 1 }, "model": "finalfantasyxiv:actions_job/01_drk/blackest_night" },
+    { "predicate": { "custom_model_data": 2 }, "model": "finalfantasyxiv:actions_job/02_exc/divine_possession" }
+  ]
+}

@@ -26,7 +26,7 @@
             }
         ],
         "components": {
-            "item_name": "{\"bold\":true,\"color\":\"#FDEFF2\",\"italic\":false,\"translate\":\"item.exorcist.leftsword.name\"}",
+            "item_name": "{\"bold\":true,\"color\":\"#FDEFF2\",\"italic\":false,\"translate\":\"item.exorcist.leftsword.name\",\"fallback\":\"Exorcist's Acrobatics Blade\"}",
             "unbreakable": { "show_in_tooltip": false },
             "custom_model_data": 1,
             "enchantments": { "levels": { "sharpness": 10, "sweeping_edge": 3 }, "show_in_tooltip": false },

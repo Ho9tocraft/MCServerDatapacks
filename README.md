@@ -48,5 +48,5 @@ However, since the original resource pack was implemented using OptiFine's CIT (
 Texture files and model files are diverted.  
 However, since the original resource pack was implemented using OptiFine's CIT (Custom Item Textures) feature, some of the model data for Custom Model Data has been prepared here.
 - [FINAL FANTASY XIV Fan Kit](https://na.finalfantasyxiv.com/lodestone/special/fankit/icon/)  
-The texture files have been resized (48x48 -> 32x32) and diverted.  
+The texture files have been resized (any -> 32x32) and diverted.  
 However, the model data for the Custom Model Data is prepared here because it was not originally created for Minecraft.

@@ -1,0 +1,32 @@
+[
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "all_of",
+                "terms": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "player",
+                            "slots": { "hotbar.1": {
+                                "items": [ "blade_pottery_sherd" ],
+                                "count": 1
+                            }}
+                        }
+                    },
+                    {
+                        "condition": "reference",
+                        "name": "ho9tocraft:passive_selector/job_not_selected"
+                    }
+                ]
+            }
+        ],
+        "components": {
+            "item_name": "{\"bold\":true,\"color\":\"#C0C0C0\",\"italic\":false,\"translate\":\"skill.exorcist.hissatsu_gyoten.name\",\"fallback\":\"Hissatsu: Gyoten\"}",
+            "lore": "[\"{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"translate\":\"skill.exorcist.hissatsu_gyoten.desc\",\"fallback\":\"While rapidly approaching the nearest enemy in the vicinity, it deals physical damage to anyone in the same camp as the target within a range starting from the target. (Range: 20m, Radius: 5m)\"}\",\"{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"translate\":\"skill.common.exclude_bind.desc\",\"fallback\":\"Can't be executed while bound.\"}\",\"{\"bold\":false,\"color\":\"aqua\",\"italic\":false,\"translate\":\"skill.cast.instant\",\"fallback\":\"Cast Time: Instant\"}\",\"{\"bold\":true,\"color\":\"aqua\",\"italic\":false,\"translate\":\"skill.recast.10sec\",\"fallback\":\"Recast Time: 10 sec.\"}\",\"{\"bold\":true,\"color\":\"green\",\"italic\":false,\"translate\":\"skill.gcd.50tick\",\"fallback\":\"GCD: 2.5 sec.\"}\"]",
+            "custom_model_data": 2
+        }
+    }
+]
