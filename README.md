@@ -1,13 +1,13 @@
 # Minecraft 1.20.x (1.20.5-1.20.6) Player-vs-Player Datapack and Resource pack
-English / [日本語](docs/ja_jp.md)
+English / [日本語](docs/ja_jp.md)  
 This repository contains data packs and resource packs developed for Minecraft 1.20.x (specifically, 1.20.5 and later).
 ## Datapack
-In addition to the job definitions, it also describes the behavior of the skills.
-One element common to all jobs is "armor performance netherite equivalent, unbreakable".
-The jobs currently scheduled for implementation are as follows. ([Reference(FF14)](https://jp.finalfantasyxiv.com/jobguide/battle/?utm_source=lodestone&utm_medium=pc_banner&utm_campaign=jp_jobguide),[Reference(MoE)](https://moeread.usamimi.info/index.php?%A5%B7%A5%C3%A5%D7%2F%CA%A3%B9%E7))
-:x:Excluded from Physical Ranged DPS are "Machinist" and "Dancer", which are difficult to reproduce.
-:x:Excluded from Magical Ranged DPS are "Summoner", which are difficult to reproduce.
-:x:Excluded are Limited Jobs.
+In addition to the job definitions, it also describes the behavior of the skills.  
+One element common to all jobs is "armor performance netherite equivalent, unbreakable".  
+The jobs currently scheduled for implementation are as follows. ([Reference(FF14)](https://jp.finalfantasyxiv.com/jobguide/battle/?utm_source=lodestone&utm_medium=pc_banner&utm_campaign=jp_jobguide),[Reference(MoE)](https://moeread.usamimi.info/index.php?%A5%B7%A5%C3%A5%D7%2F%CA%A3%B9%E7))  
+:x:Excluded from Physical Ranged DPS are "Machinist" and "Dancer", which are difficult to reproduce.  
+:x:Excluded from Magical Ranged DPS are "Summoner", which are difficult to reproduce.  
+:x:Excluded are Limited Jobs.  
 - TANK (High Health, High DEF, Low Strength(Physical))
   - [ ] Paladin (PLD) [Progress: Work in Progress, Job ID: 0]
   - [ ] Warrior (WAR) [Progress: Pending]
