@@ -11,6 +11,10 @@
         {
             "condition": "reference",
             "name": "ho9tocraft:score_condition/limit_break_predicate"
+        },
+        {
+            "condition": "reference",
+            "name": "ho9tocraft:passive_selector/sneak_detector"
         }
     ]
 }

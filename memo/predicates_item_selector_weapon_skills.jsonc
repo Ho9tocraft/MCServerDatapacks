@@ -74,6 +74,12 @@
             "condition": "reference",
             //ウェポンスキルのリキャストタイマーが0になっているかを確認する。
             "name": "ho9tocraft:score_condition/weapon_skill_score"
+        },
+        {
+            //condition: reference(他のプレディケートファイルを参照)
+            "condition": "reference",
+            //スニーク状態を確認する。
+            "name": "ho9tocraft:passive_selector/sneak_detector"
         }
     ]
 }
