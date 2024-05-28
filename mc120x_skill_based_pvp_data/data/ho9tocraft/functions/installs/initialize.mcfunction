@@ -21,6 +21,8 @@ scoreboard objectives add scoreInit dummy
 scoreboard objectives add TICK_ROOP dummy
 #1 sec. = 20 Ticks
 scoreboard objectives add TICK_PER_SECONDS dummy
+#1 LB Charge = 10 sec.
+scoreboard objectives add LB_C_TIMING dummy
 #endregion
 
 #region PvP Objectives
@@ -56,6 +58,8 @@ scoreboard objectives add WS_RECAST_V dummy
 scoreboard objectives add MG_RECAST_T dummy
 #MG_RECAST_V(var: 0 to INT_MAX(UI))
 scoreboard objectives add MG_RECAST_V dummy
+#CAST_TIMER(var: 0 to INT_MAX(for use Magics))
+scoreboard objectives add CAST_TIMER dummy
 #AB_RECAST_T(var: 0 to INT_MAX('0' means Ready to Use))
 scoreboard objectives add AB_RECAST_T dummy
 #AB_RECAST_V(var: 0 to INT_MAX(UI))
@@ -74,9 +78,20 @@ scoreboard objectives add BATTLE_COND dummy
 scoreboard objectives add BATTLE_STAGE dummy
 #endregion
 
+#region SPEFF_TIMER(var: 0 to INT_MAX(for use Special Effects), 6 difficult Special Effects available)
+scoreboard objectives add SPEFF_DONE dummy
+scoreboard objectives add SPEFF_TIMER_0 dummy
+scoreboard objectives add SPEFF_TIMER_1 dummy
+scoreboard objectives add SPEFF_TIMER_2 dummy
+scoreboard objectives add SPEFF_TIMER_3 dummy
+scoreboard objectives add SPEFF_TIMER_4 dummy
+scoreboard objectives add SPEFF_TIMER_5 dummy
+#endregion
+
 #region Scoreboard Default Value for Dummy Player
 scoreboard players set ^VPHandler TICK_ROOP 1
 scoreboard players set ^VPHandler TICK_PER_SECONDS 20
+scoreboard players set ^VPHandler LB_C_TIMING 1
 scoreboard players set ^VPHandler RESULT_RED 0
 scoreboard players set ^VPHandler RESULT_BLU 0
 scoreboard players set ^VPHandler BATTLE_TIMER -1
