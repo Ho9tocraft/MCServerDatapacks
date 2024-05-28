@@ -25,6 +25,8 @@ execute as @a store success score @s scoreInit run scoreboard players get @s MG_
 execute as @a if score @s scoreInit matches 0 run scoreboard players set @s MG_RECAST_T 0
 execute as @a store success score @s scoreInit run scoreboard players get @s MG_RECAST_V
 execute as @a if score @s scoreInit matches 0 run scoreboard players set @s MG_RECAST_V 0
+execute as @a store success score @s scoreInit run scoreboard players get @s CAST_TIMER
+execute as @a if score @s scoreInit matches 0 run scoreboard players set @s CAST_TIMER 0
 execute as @a store success score @s scoreInit run scoreboard players get @s AB_RECAST_T
 execute as @a if score @s scoreInit matches 0 run scoreboard players set @s AB_RECAST_T 0
 execute as @a store success score @s scoreInit run scoreboard players get @s AB_RECAST_V
@@ -35,3 +37,18 @@ execute as @a store success score @s scoreInit run scoreboard players get @s LB_
 execute as @a if score @s scoreInit matches 0 run scoreboard players set @s LB_RECAST_T 0
 execute as @a store success score @s scoreInit run scoreboard players get @s NOW_SURR_ENEMY
 execute as @a if score @s scoreInit matches 0 run scoreboard players set @s NOW_SURR_ENEMY 0
+#Special Effects
+execute as @a store success score @s scoreInit run scoreboard players get @s SPEFF_DONE
+execute as @a if score @s scoreInit matches 0 run scoreboard players set @s SPEFF_DONE 0
+execute as @a store success score @s scoreInit run scoreboard players get @s SPEFF_TIMER_0
+execute as @a if score @s scoreInit matches 0 run scoreboard players set @s SPEFF_TIMER_0 0
+execute as @a store success score @s scoreInit run scoreboard players get @s SPEFF_TIMER_1
+execute as @a if score @s scoreInit matches 0 run scoreboard players set @s SPEFF_TIMER_1 0
+execute as @a store success score @s scoreInit run scoreboard players get @s SPEFF_TIMER_2
+execute as @a if score @s scoreInit matches 0 run scoreboard players set @s SPEFF_TIMER_2 0
+execute as @a store success score @s scoreInit run scoreboard players get @s SPEFF_TIMER_3
+execute as @a if score @s scoreInit matches 0 run scoreboard players set @s SPEFF_TIMER_3 0
+execute as @a store success score @s scoreInit run scoreboard players get @s SPEFF_TIMER_4
+execute as @a if score @s scoreInit matches 0 run scoreboard players set @s SPEFF_TIMER_4 0
+execute as @a store success score @s scoreInit run scoreboard players get @s SPEFF_TIMER_5
+execute as @a if score @s scoreInit matches 0 run scoreboard players set @s SPEFF_TIMER_5 0

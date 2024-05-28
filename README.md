@@ -28,7 +28,7 @@ The jobs currently scheduled for implementation are as follows. ([Reference(FF14
   - [ ] Reaper (RPR) [Progress: Pending]
   - [ ] Monk (MNK) [Progress: Pending]
   - [ ] Samurai (SAM) [Progress: Pending]
-  - [ ] Exorcist (EXC) [Progress: Work in Progress, Job ID: 2] [^1]
+  - [x] Exorcist (EXC) [Progress: Work in Progress, Job ID: 2] [^1]
   - [ ] Ninja (NIN) [Progress: Pending]
 - Physical Ranged DPS (Medium Health, Minimum DEF, High Strength(Physical))
   - [ ] Bard (BRD) [Progress: Pending]

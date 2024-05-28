@@ -27,6 +27,14 @@
         ],
         "components": {
             "item_name": "{\"bold\":true,\"color\":\"#FDEFF2\",\"italic\":false,\"translate\":\"item.exorcist.leftsword.name\",\"fallback\":\"Exorcist's Acrobatics Blade\"}",
+            "lore": [
+                "{\"bold\":true,\"color\":\"#F8E58C\",\"italic\":false,\"translate\":\"skill.special.offhand\",\"fallback\":\"Extra Skills: Offhand >\"}",
+                "{\"bold\":true,\"color\":\"#C0C0C0\",\"italic\":false,\"translate\":\"skill.exorcist.moonlight_shoha_ii.name\",\"fallback\":\"Moonlight Shoha II\"}",
+                "{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"translate\":\"skill.exorcist.moonlight_shoha_ii.desc\",\"fallback\":\"Deals physical damage to all nearby enemies. \n(Radius: 5m)\"}",
+                "{\"bold\":false,\"color\":\"aqua\",\"italic\":false,\"translate\":\"skill.cast.instant\",\"fallback\":\"Cast Time: Instant\"}",
+                "{\"bold\":true,\"color\":\"aqua\",\"italic\":false,\"translate\":\"skill.recast.50tick\",\"fallback\":\"Recast Time: 2.5 sec.\"}",
+                "{\"bold\":true,\"color\":\"green\",\"italic\":false,\"translate\":\"skill.gcd.50tick\",\"fallback\":\"GCD: 2.5 sec.\"}"
+            ],
             "unbreakable": { "show_in_tooltip": false },
             "custom_model_data": 1,
             "enchantments": { "levels": { "sharpness": 10, "sweeping_edge": 3 }, "show_in_tooltip": false },

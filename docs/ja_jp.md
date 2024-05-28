@@ -28,7 +28,7 @@
   - [ ] リーパー(Reaper / RPR / リ) [Progress: Pending]
   - [ ] モンク(Monk / MNK / モ) [Progress: Pending]
   - [ ] 侍(Samurai / SAM / 侍) [Progress: Pending]
-  - [ ] 巫覡(Exorcist / EXC / 覡) [Progress: Work in Progress, Job ID: 2] [^1]
+  - [x] 巫覡(Exorcist / EXC / 覡) [Progress: Work in Progress, Job ID: 2] [^1]
   - [ ] 忍者(Ninja / NIN / 忍) [Progress: Pending]
 - 遠隔物理DPS(中HP、最低保障防御力、高火力)
   - [ ] 吟遊詩人(Bard / BRD / 詩) [Progress: Pending]
