@@ -14,9 +14,9 @@ The jobs currently scheduled for implementation are as follows. ([Reference(FF14
 :x:Excluded from Magical Ranged DPS are "Summoner", which are difficult to reproduce.  
 :x:Excluded are Limited Jobs.  
 - TANK (High Health, High DEF, Low Strength(Physical))
-  - [ ] Paladin (PLD) [Progress: Work in Progress, Job ID: 0]
+  - [ ] Paladin (PLD) [Progress: Work in Progress, but Progress Only Resources. Job ID: 0]
   - [ ] Warrior (WAR) [Progress: Pending]
-  - [ ] Dark Knight (DRK) [Progress: Work in Progress, Job ID: 1]
+  - [ ] Dark Knight (DRK) [Progress: Work in Progress, but Progress Nothing. Job ID: 1]
   - [ ] Gunbreaker (GNB) [Progress: Pending]
 - HEALER (Low Health, Minimum DEF, Low Strength(Magical), Healing Skills are Available)
   - [ ] White Mage (WHM) [Progress: Pending]
@@ -28,7 +28,7 @@ The jobs currently scheduled for implementation are as follows. ([Reference(FF14
   - [ ] Reaper (RPR) [Progress: Pending]
   - [ ] Monk (MNK) [Progress: Pending]
   - [ ] Samurai (SAM) [Progress: Pending]
-  - [x] Exorcist (EXC) [Progress: Work in Progress, Job ID: 2] [^1]
+  - [x] Exorcist (EXC) [Progress: Beta Builds, Job ID: 2] [^1]
   - [ ] Ninja (NIN) [Progress: Pending]
 - Physical Ranged DPS (Medium Health, Minimum DEF, High Strength(Physical))
   - [ ] Bard (BRD) [Progress: Pending]
