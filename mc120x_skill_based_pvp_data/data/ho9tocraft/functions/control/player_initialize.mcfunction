@@ -1,6 +1,8 @@
 #Player Initialize
 #for Tick Roop, but for Not have scoreboard players
 scoreboard players set @a scoreInit -1
+execute as @a store success score @s scoreInit run scoreboard players get @s death
+execute as @a if score @s scoreInit matches 0 run scoreboard players set @s death 0
 execute as @a store success score @s scoreInit run scoreboard players get @s MAX_MP
 execute as @a if score @s scoreInit matches 0 run scoreboard players set @s MAX_MP 10000
 execute as @a store success score @s scoreInit run scoreboard players get @s NOW_MP
@@ -15,6 +17,10 @@ execute as @a store success score @s scoreInit run scoreboard players get @s TEA
 execute as @a if score @s scoreInit matches 0 run scoreboard players set @s TEAMKILL_RED 0
 execute as @a store success score @s scoreInit run scoreboard players get @s TEAMKILL_BLU
 execute as @a if score @s scoreInit matches 0 run scoreboard players set @s TEAMKILL_BLU 0
+execute as @a store success score @s scoreInit run scoreboard players get @s KILLEDTEAM_RED
+execute as @a if score @s scoreInit matches 0 run scoreboard players set @s KILLEDTEAM_RED 0
+execute as @a store success score @s scoreInit run scoreboard players get @s KILLEDTEAM_BLU
+execute as @a if score @s scoreInit matches 0 run scoreboard players set @s KILLEDTEAM_BLU 0
 execute as @a store success score @s scoreInit run scoreboard players get @s CURRENT_JOB
 execute as @a if score @s scoreInit matches 0 run scoreboard players set @s CURRENT_JOB -1
 execute as @a store success score @s scoreInit run scoreboard players get @s WS_RECAST_T

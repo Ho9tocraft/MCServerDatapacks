@@ -1,5 +1,4 @@
 #LIMIT BREAK
-#define tag LB_Exec
 
 tag @s add LB_Exec
 #region team=RED
@@ -13,5 +12,4 @@ execute as @s at @s run particle end_rod ~ ~ ~ 5 0.1 5 0 300 normal @a[distance=
 execute as @s at @s run particle sweep_attack ~ ~ ~ 5 0.1 5 0 150 normal @a[distance=..30]
 execute as @s at @s run scoreboard players set @s LB_CHARGE 0
 execute as @s at @s run scoreboard players set @s LB_RECAST_T 50
-execute as @s at @s run tag @s remove LB_Exec
 #endregion

@@ -11,12 +11,14 @@ execute as @s[team=BLU] at @s as @e[team=RED,distance=..5,sort=nearest] at @s ru
 #region PostProcess
 # Particles
 execute as @s at @s run particle sweep_attack ~ ~ ~ 5 0.1 5 1 500 normal @a[distance=..30]
-# Recast Timer
+# Additional Effect
 execute as @s at @s run effect give @s minecraft:strength 5 0 false
+# Recast Timer
 execute as @s at @s if score @s LB_CHARGE matches ..90 run scoreboard players add @s LB_CHARGE 10
-execute as @s at @s if score @s WS_RECAST_T matches 0 run scoreboard players set @s WS_RECAST_T 50
+execute as @s at @s if score @s LB_CHARGE matches 91..99 run scoreboard players add @s LB_CHARGE 1
+execute as @s at @s if score @s WS_RECAST_T matches 0..49 run scoreboard players set @s WS_RECAST_T 50
 execute as @s at @s run scoreboard players set @s MG_RECAST_T 200
-execute as @s at @s if score @s AB_RECAST_T matches 0 run scoreboard players set @s AB_RECAST_T 50
-execute as @s at @s if score @s LB_RECAST_T matches 0 run scoreboard players set @s LB_RECAST_T 50
+execute as @s at @s if score @s AB_RECAST_T matches 0..49 run scoreboard players set @s AB_RECAST_T 50
+execute as @s at @s if score @s LB_RECAST_T matches 0..49 run scoreboard players set @s LB_RECAST_T 50
 execute as @s[tag=Kaiten_Exec] at @s run tag @s remove Kaiten_Exec
 #endregion

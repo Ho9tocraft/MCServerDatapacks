@@ -24,9 +24,9 @@ execute as @s[tag=!STAGE_BOUND] at @s run particle sweep_attack ~ ~ ~ 5 0.1 5 1 
 # Recast Timer
 execute as @s[tag=!STAGE_BOUND] at @s if score @s LB_CHARGE matches ..99 run scoreboard players add @s LB_CHARGE 1
 execute as @s[tag=!STAGE_BOUND] at @s run scoreboard players set @s WS_RECAST_T 200
-execute as @s[tag=!STAGE_BOUND] at @s if score @s MG_RECAST_T matches 0 run scoreboard players set @s MG_RECAST_T 50
-execute as @s[tag=!STAGE_BOUND] at @s if score @s AB_RECAST_T matches 0 run scoreboard players set @s AB_RECAST_T 50
-execute as @s[tag=!STAGE_BOUND] at @s if score @s LB_RECAST_T matches 0 run scoreboard players set @s LB_RECAST_T 50
+execute as @s[tag=!STAGE_BOUND] at @s if score @s MG_RECAST_T matches 0..49 run scoreboard players set @s MG_RECAST_T 50
+execute as @s[tag=!STAGE_BOUND] at @s if score @s AB_RECAST_T matches 0..49 run scoreboard players set @s AB_RECAST_T 50
+execute as @s[tag=!STAGE_BOUND] at @s if score @s LB_RECAST_T matches 0..49 run scoreboard players set @s LB_RECAST_T 50
 execute as @s[tag=!STAGE_BOUND,tag=Gyoten_Exec] at @s run tag @s remove Gyoten_Exec
 execute as @a[tag=HISSATSU_GYOTEN_BLU] at @s run tag @s remove HISSATSU_GYOTEN_BLU
 execute as @a[tag=HISSATSU_GYOTEN_RED] at @s run tag @s remove HISSATSU_GYOTEN_RED

@@ -20,14 +20,6 @@
                 "CURRENT_JOB": 0,
                 "NOW_MP": { "min": 1000, "max": 40000 }
             }
-        },
-        {
-            "condition": "reference",
-            "name": "ho9tocraft:score_condition/magic_skill_score"
-        },
-        {
-            "condition": "reference",
-            "name": "ho9tocraft:passive_selector/sneak_detector"
         }
     ]
 }

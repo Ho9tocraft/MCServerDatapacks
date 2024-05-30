@@ -42,7 +42,8 @@
                 { "pattern": "straight_cross", "color": "red" },
                 { "pattern": "cross", "color": "red" },
                 { "pattern": "border", "color": "red" }
-            ]
+            ],
+            "custom_model_data": 1
         }
     }
 ]

@@ -31,7 +31,7 @@ execute as @a at @s if score ^VPHandler BATTLE_COND matches -1 run scoreboard pl
 execute as @a at @s if score ^VPHandler BATTLE_COND matches -1 run scoreboard players set @s NOW_HP_BLU 0
 #endregion
 #region MPStat_OverflowSync
-execute as @a at @s if score @s NOW_MP > @s MAX_MP run scoreboard players operation @s NOW_HP = @s MAX_MP
+execute as @a at @s if score @s NOW_MP > @s MAX_MP run scoreboard players operation @s NOW_MP = @s MAX_MP
 #endregion
 #region SpecialEffect Timer Count
 execute as @a at @s if score @s SPEFF_TIMER_0 matches 1.. run scoreboard players remove @s SPEFF_TIMER_0 1
@@ -40,5 +40,11 @@ execute as @a at @s if score @s SPEFF_TIMER_2 matches 1.. run scoreboard players
 execute as @a at @s if score @s SPEFF_TIMER_3 matches 1.. run scoreboard players remove @s SPEFF_TIMER_3 1
 execute as @a at @s if score @s SPEFF_TIMER_4 matches 1.. run scoreboard players remove @s SPEFF_TIMER_4 1
 execute as @a at @s if score @s SPEFF_TIMER_5 matches 1.. run scoreboard players remove @s SPEFF_TIMER_5 1
+#endregion
+#region Give Saturation Effect when died
+execute as @a at @s if score @s death matches 1.. if score ^VPHandler BATTLE_COND matches -1 run effect give @s saturation infinite 3 true
+# If Battle, Give Resistance V 5 sec.
+execute as @a at @s if score @s death matches 1.. if score ^VPHandler BATTLE_COND matches 0..2 run effect give @s saturation 200 3 true
+execute as @a at @s if score @s death matches 1.. if score ^VPHandler BATTLE_COND matches 0..2 run effect give @s resistance 5 4 true
 #endregion
 execute if score ^VPHandler TICK_ROOP matches 20 run function #ho9tocraft:vphandlers_post

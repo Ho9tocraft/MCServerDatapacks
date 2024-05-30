@@ -1,5 +1,18 @@
 #Skills Wrapper
+#define tag LB_Exec
+#define tag OffWS_Exec
+
+#region Common Magic Casting
+execute as @a[predicate=ho9tocraft:item_selector/common_mgcasting] at @s run scoreboard players remove @s CAST_TIMER 1
+function #ho9tocraft:jobs/job_magic_castfail
+#endregion
 #region ID=0, DisplayName=Paladin
+execute as @a[predicate=ho9tocraft:item_selector/jobs/00_pld/paladin_ws] at @s run function ho9tocraft:skills/00_pld/sword_oath
+execute as @a[predicate=ho9tocraft:item_selector/jobs/00_pld/paladin_mg_exec,tag=HCircle_Cast] at @s run function ho9tocraft:skills/magics/holy_circle_exec
+execute as @a[predicate=ho9tocraft:item_selector/jobs/00_pld/paladin_mg_cast_begin] at @s run function ho9tocraft:skills/00_pld/holy_circle
+execute as @a[predicate=ho9tocraft:item_selector/jobs/00_pld/paladin_ab] at @s run function ho9tocraft:skills/00_pld/hallowed_ground
+execute as @a[predicate=ho9tocraft:item_selector/jobs/00_pld/paladin_offhand_ws] at @s run function ho9tocraft:skills/00_pld/offhand_weapon_skill
+execute as @a[predicate=ho9tocraft:item_selector/jobs/00_pld/paladin_lb] at @s run function ho9tocraft:skills/00_pld/limit_break
 #endregion
 #region ID=1, DisplayName=Dark Knight
 #endregion
@@ -9,4 +22,20 @@ execute as @a[predicate=ho9tocraft:item_selector/jobs/02_exc/exorcist_mg] at @s 
 execute as @a[predicate=ho9tocraft:item_selector/jobs/02_exc/exorcist_ab] at @s run function ho9tocraft:skills/02_exc/divine_possession
 execute as @a[predicate=ho9tocraft:item_selector/jobs/02_exc/exorcist_offhand_ws] at @s run function ho9tocraft:skills/02_exc/offhand_weapon_skill
 execute as @a[predicate=ho9tocraft:item_selector/jobs/02_exc/exorcist_lb] at @s run function ho9tocraft:skills/02_exc/limit_break
+#endregion
+
+#region PostProcess
+execute as @a at @s if score @s SPEFF_DONE matches 1 run scoreboard players set @s SPEFF_DONE 0
+execute as @a[tag=OffWS_Exec] at @s run tag @s remove OffWS_Exec
+execute as @a[tag=LB_Exec] at @s run tag @s remove LB_Exec
+execute as @e[type=armor_stand,tag=ShieldB_PosToRED] at @s anchored eyes unless block ~ ~ ~ air run tp @s ~ ~1 ~
+execute as @e[type=armor_stand,tag=ShieldB_PosToRED] at @s run scoreboard players add @s knockbacked 1
+execute as @e[type=armor_stand,tag=ShieldB_PosToBLU] at @s anchored eyes unless block ~ ~ ~ air run tp @s ~ ~1 ~
+execute as @e[type=armor_stand,tag=ShieldB_PosToBLU] at @s run scoreboard players add @s knockbacked 1
+execute as @e[type=armor_stand,tag=ShieldB_PosToRED] at @s anchored eyes if block ~ ~ ~ air run tp @e[tag=ShieldB_RED,limit=1,sort=nearest] @s
+execute as @e[type=armor_stand,tag=ShieldB_PosToRED] at @s anchored eyes if block ~ ~ ~ air run tag @e[tag=ShieldB_RED,limit=1,sort=nearest] remove ShieldB_RED
+execute as @e[type=armor_stand,tag=ShieldB_PosToBLU] at @s anchored eyes if block ~ ~ ~ air run tp @e[tag=ShieldB_BLU,limit=1,sort=nearest] @s
+execute as @e[type=armor_stand,tag=ShieldB_PosToBLU] at @s anchored eyes if block ~ ~ ~ air run tag @e[tag=ShieldB_BLU,limit=1,sort=nearest] remove ShieldB_BLU
+execute as @e[type=armor_stand,tag=ShieldB_PosToRED] at @s if score @s knockbacked matches 60 run kill @s
+execute as @e[type=armor_stand,tag=ShieldB_PosToBLU] at @s if score @s knockbacked matches 60 run kill @s
 #endregion

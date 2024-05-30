@@ -8,6 +8,10 @@
 #- Time Controls
 #- PvP Objectives
 
+#region Player Saturations
+scoreboard objectives add death deathCount
+#endregion
+
 #region Scoreboard Initializer for Players
 #scoreInit(var: -1 to 1, 
 #'-1' means Not yet initialized,
@@ -88,6 +92,10 @@ scoreboard objectives add SPEFF_TIMER_4 dummy
 scoreboard objectives add SPEFF_TIMER_5 dummy
 #endregion
 
+#region knockback TP Timeout(var: 1 to 60)
+scoreboard objectives add knockbacked dummy
+#endregion
+
 #region Scoreboard Default Value for Dummy Player
 scoreboard players set ^VPHandler TICK_ROOP 1
 scoreboard players set ^VPHandler TICK_PER_SECONDS 20
@@ -103,7 +111,8 @@ scoreboard players set ^VPHandler BATTLE_COND -1
 team add RED
 team modify RED color red
 team modify RED collisionRule pushOtherTeams
-team modify RED deathMessageVisibility hideForOtherTeams
+team modify RED deathMessageVisibility always
+#team modify RED deathMessageVisibility hideForOtherTeams
 team modify RED displayName {"color":"red","translate":"team.ho9tocraft.red.display","fallback":"Red"}
 team modify RED friendlyFire false
 team modify RED nametagVisibility hideForOtherTeams
@@ -113,7 +122,8 @@ team modify RED seeFriendlyInvisibles true
 team add BLU
 team modify BLU color blue
 team modify BLU collisionRule pushOtherTeams
-team modify BLU deathMessageVisibility hideForOtherTeams
+team modify BLU deathMessageVisibility always
+#team modify BLU deathMessageVisibility hideForOtherTeams
 team modify BLU displayName {"color":"blue","translate":"team.ho9tocraft.blue.display","fallback":"Blue"}
 team modify BLU friendlyFire false
 team modify BLU nametagVisibility hideForOtherTeams

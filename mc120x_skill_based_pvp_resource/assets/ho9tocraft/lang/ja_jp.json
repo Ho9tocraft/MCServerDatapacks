@@ -25,7 +25,7 @@
     "skill.paladin.hallowed_ground.desc": "10秒間、自身への一部を除くすべてのダメージを無効化する。",
     "skill.paladin.limit_break.desc": "自身の付近、半径30mのすべての味方に\n耐性IIIと衝撃吸収を30秒の間付与する。",
     "skill.exorcist.moonlight_shoha_ii.name": "月光無明照破",
-    "skill.exorcist.moonlight_shoha_ii.desc": "自身の付近、半径5mのすべての敵に\n物理ダメージを与える。",
+    "skill.exorcist.moonlight_shoha_ii.desc": "自身の付近、半径5mのすべての敵に物理ダメージを与える。",
     "skill.exorcist.hissatsu_gyoten.name": "必殺剣・暁天",
     "skill.exorcist.hissatsu_gyoten.desc": "自身の付近、半径20mの最も近い敵に急接近しつつ、\n対象を起点とした半径5m以内の、\n対象と同じ陣営の者に物理ダメージを与える。",
     "skill.exorcist.hissatsu_kaiten.name": "必殺剣・廻天",
