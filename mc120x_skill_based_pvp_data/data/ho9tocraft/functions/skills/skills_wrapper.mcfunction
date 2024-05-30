@@ -36,6 +36,6 @@ execute as @e[type=armor_stand,tag=ShieldB_PosToRED] at @s anchored eyes if bloc
 execute as @e[type=armor_stand,tag=ShieldB_PosToRED] at @s anchored eyes if block ~ ~ ~ air run tag @e[tag=ShieldB_RED,limit=1,sort=nearest] remove ShieldB_RED
 execute as @e[type=armor_stand,tag=ShieldB_PosToBLU] at @s anchored eyes if block ~ ~ ~ air run tp @e[tag=ShieldB_BLU,limit=1,sort=nearest] @s
 execute as @e[type=armor_stand,tag=ShieldB_PosToBLU] at @s anchored eyes if block ~ ~ ~ air run tag @e[tag=ShieldB_BLU,limit=1,sort=nearest] remove ShieldB_BLU
-execute as @e[type=armor_stand,tag=ShieldB_PosToRED] at @s if score @s knockbacked matches 60 run kill @s
-execute as @e[type=armor_stand,tag=ShieldB_PosToBLU] at @s if score @s knockbacked matches 60 run kill @s
+execute as @e[type=armor_stand,tag=ShieldB_PosToRED] at @s if score @s knockbacked matches 40.. run kill @s
+execute as @e[type=armor_stand,tag=ShieldB_PosToBLU] at @s if score @s knockbacked matches 40.. run kill @s
 #endregion

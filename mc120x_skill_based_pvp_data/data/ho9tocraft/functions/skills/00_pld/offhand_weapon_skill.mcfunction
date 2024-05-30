@@ -9,13 +9,13 @@ execute as @s at @s run tag @s add OffWS_Exec
 #region team=RED
 execute as @s[team=RED] at @s as @e[team=BLU,distance=..5,sort=nearest,limit=1] at @s run tag @s add ShieldB_BLU
 execute as @s[team=RED] at @s as @e[tag=ShieldB_BLU,distance=..5,limit=1] at @s run damage @s 18.0 minecraft:player_attack by @a[team=RED,tag=OffWS_Exec,limit=1]
-execute as @s[team=RED] at @s positioned ^ ^ ^10 run summon armor_stand ~ ~ ~ {NoGravity:1b,Marker:1b,Invisible:1b,NoBasePlate:1b,Tags:["ShieldB_PosToBLU"],DisabledSlots:4144959}
+execute as @s[team=RED] at @s positioned ^ ^ ^10 run summon armor_stand ~ ~ ~ {NoGravity:1b,Marker:1b,Invisible:1b,NoBasePlate:1b,Tags:["ShieldB_PosToBLU"],DisabledSlots:4144959,Silent:true}
 execute as @e[type=armor_stand,tag=ShieldB_PosToBLU,sort=nearest,limit=1] at @s run scoreboard players set @s knockbacked 0
 #endregion
 #region team=BLU
 execute as @s[team=BLU] at @s as @e[team=RED,distance=..5,sort=nearest,limit=1] at @s run tag @s add ShieldB_RED
 execute as @s[team=BLU] at @s as @e[tag=ShieldB_RED,distance=..5,limit=1] at @s run damage @s 18.0 minecraft:player_attack by @a[team=BLU,tag=OffWS_Exec,limit=1]
-execute as @s[team=BLU] at @s positioned ^ ^ ^10 run summon armor_stand ~ ~ ~ {NoGravity:1b,Marker:1b,Invisible:1b,NoBasePlate:1b,Tags:["ShieldB_PosToRED"],DisabledSlots:4144959}
+execute as @s[team=BLU] at @s positioned ^ ^ ^10 run summon armor_stand ~ ~ ~ {NoGravity:1b,Marker:1b,Invisible:1b,NoBasePlate:1b,Tags:["ShieldB_PosToRED"],DisabledSlots:4144959,Silent:true}
 execute as @e[type=armor_stand,tag=ShieldB_PosToRED,sort=nearest,limit=1] at @s run scoreboard players set @s knockbacked 0
 #endregion
 #region PostProcess

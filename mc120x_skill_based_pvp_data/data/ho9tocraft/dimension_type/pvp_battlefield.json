@@ -1,0 +1,18 @@
+{
+    "has_raids": false,
+    "logical_height": 320,
+    "infiniburn": "#infiniburn_overworld",
+    "ambient_light": 1.0,
+    "piglin_safe": true,
+    "bed_works": false,
+    "respawn_anchor_works": false,
+    "ultrawarm": false,
+    "natural": true,
+    "has_skylight": true,
+    "has_ceiling": false,
+    "min_y": -64,
+    "coordinate_scale": 1.00000,
+    "height": 320,
+    "monster_spawn_light_level": 0,
+    "monster_spawn_block_light_limit": 0
+}
