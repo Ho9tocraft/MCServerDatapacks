@@ -14,7 +14,7 @@ The jobs currently scheduled for implementation are as follows. ([Reference(FF14
 :x:Excluded from Magical Ranged DPS are "Summoner", which are difficult to reproduce.  
 :x:Excluded are Limited Jobs.  
 - TANK (High Health, High DEF, Low Strength(Physical))
-  - [ ] Paladin (PLD) [Progress: Work in Progress, but Progress Only Resources. Job ID: 0]
+  - [x] Paladin (PLD) [Progress: Beta Builds, but Progress Only Resources. Job ID: 0]
   - [ ] Warrior (WAR) [Progress: Pending]
   - [ ] Dark Knight (DRK) [Progress: Work in Progress, but Progress Nothing. Job ID: 1]
   - [ ] Gunbreaker (GNB) [Progress: Pending]

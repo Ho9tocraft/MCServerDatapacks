@@ -14,7 +14,7 @@
 :x:遠隔魔法DPSのうち、再現が困難な「召喚士」は除外しています。  
 :x:リミテッドジョブは除外しています。  
 - タンク(高HP、高防御力、低火力)
-  - [ ] ナイト(Paladin / PLD / ナ) [Progress: Work in Progress, but Progress Only Resources. Job ID: 0]
+  - [x] ナイト(Paladin / PLD / ナ) [Progress: Beta Builds, but Progress Only Resources. Job ID: 0]
   - [ ] 戦士(Warrior / WAR / 戦) [Progress: Pending]
   - [ ] 暗黒騎士(Dark Knight / DRK / 暗) [Progress: Work in Progress, but Progress Nothing. Job ID: 1]
   - [ ] ガンブレイカー(Gunbreaker / GNB / ガ) [Progress: Pending]
