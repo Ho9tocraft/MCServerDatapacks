@@ -25,6 +25,13 @@
                                 "condition": "reference",
                                 "name": "ho9tocraft:passive_selector/shield_or_special_offhand_weapon"
                             }
+                        },
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "PROC_TIMER_WS": 0
+                            }
                         }
                     ]
                 },

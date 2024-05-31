@@ -11,14 +11,17 @@
                         "predicate": {
                             "type": "player",
                             "slots": { "hotbar.1": {
-                                "items": [ "blade_pottery_sherd" ],
+                                "items": [ "prismarine_shard" ],
                                 "count": 1
                             }}
                         }
                     },
                     {
-                        "condition": "reference",
-                        "name": "ho9tocraft:passive_selector/job_not_selected"
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "CURRENT_JOB": 2
+                        }
                     }
                 ]
             }
@@ -34,5 +37,34 @@
             ],
             "custom_model_data": 2
         }
+    },
+    {
+        "function": "set_item",
+        "conditions": [
+            {
+                "condition": "all_of",
+                "terms": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "player",
+                            "slots": { "hotbar.1": {
+                                "items": [ "prismarine_shard" ],
+                                "count": 1
+                            }}
+                        }
+                    },
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "CURRENT_JOB": 2
+                        }
+                    }
+                ]
+            }
+        ],
+        "item": "blade_pottery_sherd"
     }
 ]

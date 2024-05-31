@@ -22,11 +22,14 @@ execute as @a[predicate=ho9tocraft:item_selector/common_mg_proc,scores={CURRENT_
 #region ID=1, DisplayName=Dark Knight
 #endregion
 #region ID=2, DisplayName=Exorcist
+execute as @a[predicate=ho9tocraft:item_selector/jobs/proc/02_exc/ws_combo_1] at @s run function ho9tocraft:skills/02_exc/hissatsu_senei
+execute as @a[predicate=ho9tocraft:item_selector/jobs/proc/02_exc/ws_combo_2] at @s run function ho9tocraft:skills/02_exc/midare_setsugekka_fl
 execute as @a[predicate=ho9tocraft:item_selector/jobs/02_exc/exorcist_ws] at @s run function ho9tocraft:skills/02_exc/hissatsu_gyoten
 execute as @a[predicate=ho9tocraft:item_selector/jobs/02_exc/exorcist_mg] at @s run function ho9tocraft:skills/02_exc/hissatsu_kaiten
 execute as @a[predicate=ho9tocraft:item_selector/jobs/02_exc/exorcist_ab] at @s run function ho9tocraft:skills/02_exc/divine_possession
 execute as @a[predicate=ho9tocraft:item_selector/jobs/02_exc/exorcist_offhand_ws] at @s run function ho9tocraft:skills/02_exc/offhand_weapon_skill
 execute as @a[predicate=ho9tocraft:item_selector/jobs/02_exc/exorcist_lb] at @s run function ho9tocraft:skills/02_exc/limit_break
+execute as @a[predicate=ho9tocraft:item_selector/jobs/02_exc/exorcist_proc_test,scores={CURRENT_JOB=2}] at @s run function ho9tocraft:skills/02_exc/proc_fail
 #endregion
 
 #region PostProcess

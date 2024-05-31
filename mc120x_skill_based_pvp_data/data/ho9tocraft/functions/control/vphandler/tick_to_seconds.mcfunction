@@ -50,5 +50,6 @@ execute as @a at @s if score @s death matches 1.. if score ^VPHandler BATTLE_CON
 # If Battle, Give Resistance V 5 sec.
 execute as @a at @s if score @s death matches 1.. if score ^VPHandler BATTLE_COND matches 0..2 run effect give @s saturation 200 3 true
 execute as @a at @s if score @s death matches 1.. if score ^VPHandler BATTLE_COND matches 0..2 run effect give @s resistance 5 4 true
+execute as @a at @s if score @s death matches 1.. run scoreboard players set @s death 0
 #endregion
 execute if score ^VPHandler TICK_ROOP matches 20 run function #ho9tocraft:vphandlers_post
