@@ -50,3 +50,6 @@
 - [FINAL FANTASY XIV ファンキット](https://jp.finalfantasyxiv.com/lodestone/special/fankit/icon/)  
 テクスチャファイルのリサイズ(any→32x32)を行った上で流用しています。  
 ただし、元々Minecraft向けにつくられている訳ではないため、カスタムモデルデータ用のモデルデータはこちらで用意しています。
+- [Moon Diamond tools (Netherite](https://www.planetminecraft.com/texture-pack/moon-diamond-tools-netherite/)  
+テクスチャファイルの名前を変更した上で流用しています。  
+ただし、元々のリソースパックがネザライト装備をそのまま上書きするものであったため、カスタムモデルデータ用のモデルデータはこちらで用意しています。

@@ -1,0 +1,9 @@
+{
+    "asset_name": "none",
+    "ingredient": "air",
+    "description": {
+        "color": "#0095D9",
+        "translate": "trim_material.ho9tocraft.blue_dragoon"
+    },
+    "item_model_index": 0.00003
+}

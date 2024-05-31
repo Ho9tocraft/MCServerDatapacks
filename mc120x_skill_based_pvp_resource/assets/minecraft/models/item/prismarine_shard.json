@@ -1,0 +1,12 @@
+{
+  "__comment": "Combo Icon for Weapon Skill Recasts",
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/prismarine_shard"
+  },
+  "overrides": [
+    { "__comment": "DRK: Shadowbringer", "predicate": { "custom_model_data": 0 }, "model": "finalfantasyxiv:actions_job/01_drk/shadowbringer" },
+    { "__comment": "EXC: Senei", "predicate": { "custom_model_data": 1 }, "model": "finalfantasyxiv:actions_job/02_exc/hissatsu_senei" },
+    { "__comment": "EXC: SetsugekkaFL", "predicate": { "custom_model_data": 2 }, "model": "finalfantasyxiv:actions_job/02_exc/midare_setsugekka" }
+  ]
+}

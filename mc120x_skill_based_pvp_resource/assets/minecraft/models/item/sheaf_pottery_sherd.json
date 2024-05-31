@@ -1,0 +1,16 @@
+{
+  "__comment": "Combo Icon for Magic Recasts",
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/sheaf_pottery_sherd"
+  },
+  "overrides": [
+    { "__comment": "PLD: Confiteor", "predicate": { "custom_model_data": 0 }, "model": "finalfantasyxiv:actions_job/00_pld/confiteor" },
+    { "__comment": "PLD: BladeOfFaith", "predicate": { "custom_model_data": 1 }, "model": "finalfantasyxiv:actions_job/00_pld/blade_of_faith" },
+    { "__comment": "PLD: BladeOfTruth", "predicate": { "custom_model_data": 2 }, "model": "finalfantasyxiv:actions_job/00_pld/blade_of_truth" },
+    { "__comment": "PLD: BladeOfValor", "predicate": { "custom_model_data": 3 }, "model": "finalfantasyxiv:actions_job/00_pld/blade_of_valor" },
+    { "__comment": "DRK: SaltAndDarkness", "predicate": { "custom_model_data": 4 }, "model": "finalfantasyxiv:actions_job/01_drk/salt_and_darkness" },
+    { "__comment": "EXC: Guren", "predicate": { "custom_model_data": 5 }, "model": "finalfantasyxiv:actions_job/02_exc/hissatsu_guren" },
+    { "__comment": "EXC: GokenBS", "predicate": { "custom_model_data": 6 }, "model": "finalfantasyxiv:actions_job/02_exc/tenka_goken" }
+  ]
+}

@@ -8,11 +8,16 @@ function #ho9tocraft:jobs/job_magic_castfail
 #endregion
 #region ID=0, DisplayName=Paladin
 execute as @a[predicate=ho9tocraft:item_selector/jobs/00_pld/paladin_ws] at @s run function ho9tocraft:skills/00_pld/sword_oath
+execute as @a[predicate=ho9tocraft:item_selector/jobs/proc/00_pld/mg_combo_4] at @s run function ho9tocraft:skills/00_pld/blade_of_valor
+execute as @a[predicate=ho9tocraft:item_selector/jobs/proc/00_pld/mg_combo_3] at @s run function ho9tocraft:skills/00_pld/blade_of_truth
+execute as @a[predicate=ho9tocraft:item_selector/jobs/proc/00_pld/mg_combo_2] at @s run function ho9tocraft:skills/00_pld/blade_of_faith
+execute as @a[predicate=ho9tocraft:item_selector/jobs/proc/00_pld/mg_combo_1] at @s run function ho9tocraft:skills/00_pld/confiteor
 execute as @a[predicate=ho9tocraft:item_selector/jobs/00_pld/paladin_mg_exec,tag=HCircle_Cast] at @s run function ho9tocraft:skills/magics/holy_circle_exec
 execute as @a[predicate=ho9tocraft:item_selector/jobs/00_pld/paladin_mg_cast_begin] at @s run function ho9tocraft:skills/00_pld/holy_circle
 execute as @a[predicate=ho9tocraft:item_selector/jobs/00_pld/paladin_ab] at @s run function ho9tocraft:skills/00_pld/hallowed_ground
 execute as @a[predicate=ho9tocraft:item_selector/jobs/00_pld/paladin_offhand_ws] at @s run function ho9tocraft:skills/00_pld/offhand_weapon_skill
 execute as @a[predicate=ho9tocraft:item_selector/jobs/00_pld/paladin_lb] at @s run function ho9tocraft:skills/00_pld/limit_break
+execute as @a[predicate=ho9tocraft:item_selector/common_mg_proc,scores={CURRENT_JOB=0,PROC_TIMER_MG=0}] at @s run function ho9tocraft:skills/00_pld/proc_fail
 #endregion
 #region ID=1, DisplayName=Dark Knight
 #endregion

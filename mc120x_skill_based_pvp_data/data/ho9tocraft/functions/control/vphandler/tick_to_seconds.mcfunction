@@ -41,6 +41,10 @@ execute as @a at @s if score @s SPEFF_TIMER_3 matches 1.. run scoreboard players
 execute as @a at @s if score @s SPEFF_TIMER_4 matches 1.. run scoreboard players remove @s SPEFF_TIMER_4 1
 execute as @a at @s if score @s SPEFF_TIMER_5 matches 1.. run scoreboard players remove @s SPEFF_TIMER_5 1
 #endregion
+#region Proc. Timer Count
+execute as @a at @s if score @s PROC_TIMER_WS matches 1.. run scoreboard players remove @s PROC_TIMER_WS 1
+execute as @a at @s if score @s PROC_TIMER_MG matches 1.. run scoreboard players remove @s PROC_TIMER_MG 1
+#endregion
 #region Give Saturation Effect when died
 execute as @a at @s if score @s death matches 1.. if score ^VPHandler BATTLE_COND matches -1 run effect give @s saturation infinite 3 true
 # If Battle, Give Resistance V 5 sec.

@@ -7,9 +7,9 @@
             "predicate": {
                 "type": "player",
                 "equipment": { "mainhand": {
-                    "items": [ "plenty_pottery_sherd" ],
+                    "items": [ "sheaf_pottery_sherd" ],
                     "count": 1,
-                    "components": { "custom_model_data": 0 }
+                    "components": { "custom_model_data": 3 }
                 }}
             }
         },
@@ -18,8 +18,17 @@
             "entity": "this",
             "scores": {
                 "CURRENT_JOB": 0,
-                "NOW_MP": { "min": 1000 }
+                "NOW_MP": { "min": 1000 },
+                "PROC_TIMER_MG": { "min": 1 }
             }
+        },
+        {
+            "condition": "reference",
+            "name": "ho9tocraft:passive_selector/sneak_detector"
+        },
+        {
+            "condition": "reference",
+            "name": "ho9tocraft:score_condition/magic_skill_score"
         }
     ]
 }

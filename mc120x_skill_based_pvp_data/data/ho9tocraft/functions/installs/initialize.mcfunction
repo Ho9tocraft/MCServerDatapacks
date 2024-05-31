@@ -92,6 +92,11 @@ scoreboard objectives add SPEFF_TIMER_4 dummy
 scoreboard objectives add SPEFF_TIMER_5 dummy
 #endregion
 
+#region PROC_TIMER(var: 0 to INT_MAX(for use Proc Skills))
+scoreboard objectives add PROC_TIMER_WS dummy
+scoreboard objectives add PROC_TIMER_MG dummy
+#endregion
+
 #region knockback TP Timeout(var: 1 to 60)
 scoreboard objectives add knockbacked dummy
 #endregion

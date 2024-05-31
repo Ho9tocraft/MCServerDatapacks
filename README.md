@@ -50,3 +50,6 @@ However, since the original resource pack was implemented using OptiFine's CIT (
 - [FINAL FANTASY XIV Fan Kit](https://na.finalfantasyxiv.com/lodestone/special/fankit/icon/)  
 The texture files have been resized (any -> 32x32) and diverted.  
 However, the model data for the Custom Model Data is prepared here because it was not originally created for Minecraft.
+- [Moon Diamond tools (Netherite](https://www.planetminecraft.com/texture-pack/moon-diamond-tools-netherite/)  
+The texture files are renamed and diverted.  
+However, since the original resource pack was to overwrite the netherite equipment as is, the model data for the Custom Model Data is provided here.

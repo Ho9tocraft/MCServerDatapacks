@@ -58,3 +58,10 @@ execute as @a store success score @s scoreInit run scoreboard players get @s SPE
 execute as @a if score @s scoreInit matches 0 run scoreboard players set @s SPEFF_TIMER_4 0
 execute as @a store success score @s scoreInit run scoreboard players get @s SPEFF_TIMER_5
 execute as @a if score @s scoreInit matches 0 run scoreboard players set @s SPEFF_TIMER_5 0
+#Proc. Timer
+execute as @a store success score @s scoreInit run scoreboard players get @s PROC_TIMER_WS
+execute as @a if score @s scoreInit matches 0 run scoreboard players set @s PROC_TIMER_WS 0
+execute as @a store success score @s scoreInit run scoreboard players get @s PROC_TIMER_MG
+execute as @a if score @s scoreInit matches 0 run scoreboard players set @s PROC_TIMER_MG 0
+#PostProcess
+execute as @a if score @s scoreInit matches 1 run scoreboard players set @s scoreInit 2

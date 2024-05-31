@@ -1,0 +1,71 @@
+[
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "all_of",
+                "terms": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "player",
+                            "slots": { "hotbar.2": {
+                                "items": [ "plenty_pottery_sherd" ],
+                                "count": 1,
+                                "components": { "custom_model_data": 0 }
+                            }}
+                        }
+                    },
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "CURRENT_JOB": 0
+                        }
+                    }
+                ]
+            }
+        ],
+        "components": {
+            "item_name": "{\"bold\":true,\"color\":\"#C0C0C0\",\"italic\":false,\"translate\":\"skill.paladin.confiteor.name\",\"fallback\":\"Confiteor\"}",
+            "lore": [
+                "{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"translate\":\"skill.paladin.target_spell.desc\",\"fallback\":\"Deals magic damage to the nearest enemy and\n any others in the same camp \nas the target within the target's range.\n(Radius: 5m, Range: 25m)\"}",
+                "{\"bold\":false,\"color\":\"aqua\",\"italic\":false,\"translate\":\"skill.cast.instant\",\"fallback\":\"Cast Time: Instant\"}",
+                "{\"bold\":true,\"color\":\"aqua\",\"italic\":false,\"translate\":\"skill.recast.50tick\",\"fallback\":\"Recast Time: 2.5 sec.\"}",
+                "{\"bold\":true,\"color\":\"green\",\"italic\":false,\"translate\":\"skill.gcd.50tick\",\"fallback\":\"GCD: 2.5 sec.\"}"
+            ],
+            "custom_model_data": 0
+        }
+    },
+    {
+        "function": "set_item",
+        "conditions": [
+            {
+                "condition": "all_of",
+                "terms": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "player",
+                            "slots": { "hotbar.2": {
+                                "items": [ "plenty_pottery_sherd" ],
+                                "count": 1,
+                                "components": { "custom_model_data": 0 }
+                            }}
+                        }
+                    },
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "CURRENT_JOB": 0
+                        }
+                    }
+                ]
+            }
+        ],
+        "item": "sheaf_pottery_sherd"
+    }
+]
