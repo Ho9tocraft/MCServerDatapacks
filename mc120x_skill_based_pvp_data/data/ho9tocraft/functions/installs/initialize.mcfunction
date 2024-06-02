@@ -92,6 +92,29 @@ scoreboard objectives add SPEFF_TIMER_4 dummy
 scoreboard objectives add SPEFF_TIMER_5 dummy
 #endregion
 
+#region NGEFF_TIMER(var: 0 to INT_MAX(for use Negative Special Effects), 6 difficult Negative Special Effects available)
+scoreboard objectives add NGEFF_DONE dummy
+scoreboard objectives add NGEFF_TIMER_0 dummy
+scoreboard objectives add NGEFF_TIMER_1 dummy
+scoreboard objectives add NGEFF_TIMER_2 dummy
+scoreboard objectives add NGEFF_TIMER_3 dummy
+scoreboard objectives add NGEFF_TIMER_4 dummy
+scoreboard objectives add NGEFF_TIMER_5 dummy
+# ELDEN RING Based Negative Effect
+## Poison
+scoreboard objectives add POISON_TIMER dummy
+## Scarlet Rot
+scoreboard objectives add SCARROT_TIMER dummy
+## Blood Loss
+scoreboard objectives add BLOOD_TIMER dummy
+## Frostbite
+scoreboard objectives add FROST_TIMER dummy
+## Madness
+scoreboard objectives add MADNESS_TIMER dummy
+## Death
+scoreboard objectives add DEATH_TIMER dummy
+#endregion
+
 #region PROC_TIMER(var: 0 to INT_MAX(for use Proc Skills))
 scoreboard objectives add PROC_TIMER_WS dummy
 scoreboard objectives add PROC_TIMER_MG dummy

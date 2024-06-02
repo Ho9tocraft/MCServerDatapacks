@@ -1,0 +1,9 @@
+{
+    "asset_name": "none",
+    "ingredient": "air",
+    "description": {
+        "color": "#595857",
+        "translate": "trim_material.ho9tocraft.dark_knight"
+    },
+    "item_model_index": 0.00003
+}
