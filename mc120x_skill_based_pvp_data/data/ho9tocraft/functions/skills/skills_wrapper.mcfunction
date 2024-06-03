@@ -1,6 +1,12 @@
 #Skills Wrapper
 #define tag LB_Exec
 #define tag OffWS_Exec
+#define damage_type ho9tocraft:limit_break LB Damage
+#define damage_type ho9tocraft:ngeffect/poison Poison Damage
+#define damage_type ho9tocraft:ngeffect/scarlet_rot Scarlet Rot Damage
+#define damage_type ho9tocraft:ngeffect/frostbite Frostbite Damage
+#define damage_type ho9tocraft:ngeffect/madness Madness Damage
+#define damage_type ho9tocraft:ngeffect/death Death Blighted Damage
 
 #region Common Magic Casting
 execute as @a[predicate=ho9tocraft:item_selector/common_mgcasting] at @s run scoreboard players remove @s CAST_TIMER 1

@@ -1,4 +1,4 @@
-execute as @a[team=RED] at @s if score @s NOW_SURR_ENEMY matches 1.. if entity @a[team=BLU,distance=..10] if score ^VPHandler TICK_ROOP matches 10 run playsound minecraft:block.note_block.pling player @s ~ ~ ~ 1.0 2.0 0.5
-execute as @a[team=RED] at @s if score @s NOW_SURR_ENEMY matches 1.. if entity @a[team=BLU,distance=..15] if score ^VPHandler TICK_ROOP matches 20 run playsound minecraft:block.note_block.pling player @s ~ ~ ~ 1.0 2.0 0.5
-execute as @a[team=BLU] at @s if score @s NOW_SURR_ENEMY matches 1.. if entity @a[team=RED,distance=..10] if score ^VPHandler TICK_ROOP matches 10 run playsound minecraft:block.note_block.pling player @s ~ ~ ~ 1.0 2.0 0.5
+execute as @a[team=RED] at @s if score @s NOW_SURR_ENEMY matches 1.. if entity @a[team=BLU,distance=..15] if score ^VPHandler TICK_ROOP matches 10 run playsound minecraft:block.note_block.pling player @s ~ ~ ~ 1.0 2.0 0.5
+execute as @a[team=RED] at @s if score @s NOW_SURR_ENEMY matches 1.. if entity @a[team=BLU,distance=..30] if score ^VPHandler TICK_ROOP matches 20 run playsound minecraft:block.note_block.pling player @s ~ ~ ~ 1.0 2.0 0.5
 execute as @a[team=BLU] at @s if score @s NOW_SURR_ENEMY matches 1.. if entity @a[team=RED,distance=..15] if score ^VPHandler TICK_ROOP matches 10 run playsound minecraft:block.note_block.pling player @s ~ ~ ~ 1.0 2.0 0.5
+execute as @a[team=BLU] at @s if score @s NOW_SURR_ENEMY matches 1.. if entity @a[team=RED,distance=..30] if score ^VPHandler TICK_ROOP matches 10 run playsound minecraft:block.note_block.pling player @s ~ ~ ~ 1.0 2.0 0.5

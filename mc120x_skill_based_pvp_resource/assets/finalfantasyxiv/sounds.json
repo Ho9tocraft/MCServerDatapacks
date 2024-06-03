@@ -1,0 +1,7 @@
+{
+    "limit_break_activated": {
+        "sounds": [
+            "finalfantasyxiv:ffxiv/ffxiv_lb_activated"
+        ]
+    }
+}

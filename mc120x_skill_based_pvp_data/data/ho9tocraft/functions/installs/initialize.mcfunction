@@ -1,7 +1,10 @@
 #Datapack Initialization
 #define score_holder ^VPHandler
+#define score_holder *
 #define team RED
 #define team BLU
+#define team Spectate
+#define bossbar ho9tocraft:battle_timer Battle Timer
 
 #Scoreboard
 #Sections
@@ -76,10 +79,18 @@ scoreboard objectives add LB_RECAST_T dummy
 scoreboard objectives add NOW_SURR_ENEMY dummy
 #BATTLE_TIMER(var: -1 to INT_MAX('0' means Time Up, value means timer seconds, '-1' means Lobby))
 scoreboard objectives add BATTLE_TIMER dummy
+#B_MVILLAGER(const: 2400)
+scoreboard objectives add B_MVILLAGER dummy
+scoreboard objectives add BMVILGR_CLC dummy
+#B_SUPPLY(const: 3000)
+scoreboard objectives add B_SUPPLY dummy
+scoreboard objectives add B_SPL_CLC dummy
 #BATTLE_COND(var: -1 is Lobby, 0 is BattleInit, 1 is Battle, 2 is BattleResult)
 scoreboard objectives add BATTLE_COND dummy
 #BATTLE_STAGE(var: -1 is Lobby, More than 0 are Battle Stage)
 scoreboard objectives add BATTLE_STAGE dummy
+#STAGE_VOTE(var: -1 is Unselected, More than 0 are Battle Stage)
+scoreboard objectives add STAGE_VOTE trigger
 #endregion
 
 #region SPEFF_TIMER(var: 0 to INT_MAX(for use Special Effects), 6 difficult Special Effects available)
@@ -101,17 +112,17 @@ scoreboard objectives add NGEFF_TIMER_3 dummy
 scoreboard objectives add NGEFF_TIMER_4 dummy
 scoreboard objectives add NGEFF_TIMER_5 dummy
 # ELDEN RING Based Negative Effect
-## Poison
+## Poison (var: 0 to 600, 600 means POISON, add POISON Tags and NGEFF_TIMER(20 sec.))
 scoreboard objectives add POISON_TIMER dummy
-## Scarlet Rot
+## Scarlet Rot (var: 0 to 600, 600 means SCARLET ROT, add SCARROT Tags and NGEFF_TIMER(30 sec.))
 scoreboard objectives add SCARROT_TIMER dummy
-## Blood Loss
+## Blood Loss (var: 0 to 400, 400 means BLOOD LOSS)
 scoreboard objectives add BLOOD_TIMER dummy
-## Frostbite
+## Frostbite (var: 0 to 600, 600 means FROSTBITE, add FROSTBITE Tags and NGEFF_TIMER(10 sec.))
 scoreboard objectives add FROST_TIMER dummy
-## Madness
+## Madness (var: 0 to 600, 600 means MADNESS.)
 scoreboard objectives add MADNESS_TIMER dummy
-## Death
+## Death (var: 0 to 600, 600 means DEATH.)
 scoreboard objectives add DEATH_TIMER dummy
 #endregion
 
@@ -131,7 +142,10 @@ scoreboard players set ^VPHandler LB_C_TIMING 1
 scoreboard players set ^VPHandler RESULT_RED 0
 scoreboard players set ^VPHandler RESULT_BLU 0
 scoreboard players set ^VPHandler BATTLE_TIMER -1
+scoreboard players set ^VPHandler B_MVILLAGER 2400
+scoreboard players set ^VPHandler B_SUPPLY 3000
 scoreboard players set ^VPHandler BATTLE_COND -1
+scoreboard players set ^VPHandler BATTLE_STAGE -1
 #endregion
 
 #region Team Settings
@@ -139,8 +153,7 @@ scoreboard players set ^VPHandler BATTLE_COND -1
 team add RED
 team modify RED color red
 team modify RED collisionRule pushOtherTeams
-team modify RED deathMessageVisibility always
-#team modify RED deathMessageVisibility hideForOtherTeams
+team modify RED deathMessageVisibility hideForOtherTeams
 team modify RED displayName {"color":"red","translate":"team.ho9tocraft.red.display","fallback":"Red"}
 team modify RED friendlyFire false
 team modify RED nametagVisibility hideForOtherTeams
@@ -150,11 +163,28 @@ team modify RED seeFriendlyInvisibles true
 team add BLU
 team modify BLU color blue
 team modify BLU collisionRule pushOtherTeams
-team modify BLU deathMessageVisibility always
-#team modify BLU deathMessageVisibility hideForOtherTeams
+team modify BLU deathMessageVisibility hideForOtherTeams
 team modify BLU displayName {"color":"blue","translate":"team.ho9tocraft.blue.display","fallback":"Blue"}
 team modify BLU friendlyFire false
 team modify BLU nametagVisibility hideForOtherTeams
 team modify BLU prefix {"color":"blue","translate":"team.ho9tocraft.blue.prefix","fallback":"[BLU]"}
 team modify BLU seeFriendlyInvisibles true
+# Spectate
+team add Spectate
+team modify Spectate color gray
+team modify Spectate collisionRule never
+team modify Spectate deathMessageVisibility never
+team modify Spectate displayName {"color":"gray","text":"Spec."}
+team modify Spectate friendlyFire false
+team modify Spectate nametagVisibility hideForOtherTeams
+team modify Spectate seeFriendlyInvisibles true
+#endregion
+
+#region BossBar Settings
+bossbar add ho9tocraft:battle_timer {"translate": "bossbar.battle_timer.init", "fallback": "Warming up Time"}
+bossbar set ho9tocraft:battle_timer color yellow
+bossbar set ho9tocraft:battle_timer max 2400
+bossbar set ho9tocraft:battle_timer value 0
+bossbar set ho9tocraft:battle_timer style notched_10
+bossbar set ho9tocraft:battle_timer visible false
 #endregion

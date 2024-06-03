@@ -1,0 +1,7 @@
+{
+    "message_id": "death_blight",
+    "exhaustion": 1.0,
+    "scaling": "never",
+    "effects": "hurt",
+    "death_message_type": "default"
+}

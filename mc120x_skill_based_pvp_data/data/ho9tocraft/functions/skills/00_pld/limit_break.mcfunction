@@ -1,5 +1,6 @@
 #LIMIT BREAK
 
+execute as @s at @s run playsound finalfantasyxiv:limit_break_activated player @a[distance=..30] ~ ~ ~ 1.0 1.0 0.5
 #region team=RED
 execute as @s[team=RED] at @s run effect give @e[team=RED,distance=..30] absorption 30 4 false
 execute as @s[team=RED] at @s run effect give @e[team=RED,distance=..30] resistance 30 2 false

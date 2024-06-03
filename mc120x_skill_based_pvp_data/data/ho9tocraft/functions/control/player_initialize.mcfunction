@@ -43,6 +43,8 @@ execute as @a store success score @s scoreInit run scoreboard players get @s LB_
 execute as @a if score @s scoreInit matches 0 run scoreboard players set @s LB_RECAST_T 0
 execute as @a store success score @s scoreInit run scoreboard players get @s NOW_SURR_ENEMY
 execute as @a if score @s scoreInit matches 0 run scoreboard players set @s NOW_SURR_ENEMY 0
+execute as @a store success score @s scoreInit run scoreboard players get @s STAGE_VOTE
+execute as @a if score @s scoreInit matches 0 run scoreboard players set @s STAGE_VOTE -1
 #Special Effects
 execute as @a store success score @s scoreInit run scoreboard players get @s SPEFF_DONE
 execute as @a if score @s scoreInit matches 0 run scoreboard players set @s SPEFF_DONE 0
@@ -58,6 +60,33 @@ execute as @a store success score @s scoreInit run scoreboard players get @s SPE
 execute as @a if score @s scoreInit matches 0 run scoreboard players set @s SPEFF_TIMER_4 0
 execute as @a store success score @s scoreInit run scoreboard players get @s SPEFF_TIMER_5
 execute as @a if score @s scoreInit matches 0 run scoreboard players set @s SPEFF_TIMER_5 0
+#Negative Effects
+execute as @a store success score @s scoreInit run scoreboard players get @s NGEFF_DONE
+execute as @a if score @s scoreInit matches 0 run scoreboard players set @s NGEFF_DONE 0
+execute as @a store success score @s scoreInit run scoreboard players get @s NGEFF_TIMER_0
+execute as @a if score @s scoreInit matches 0 run scoreboard players set @s NGEFF_TIMER_0 0
+execute as @a store success score @s scoreInit run scoreboard players get @s NGEFF_TIMER_1
+execute as @a if score @s scoreInit matches 0 run scoreboard players set @s NGEFF_TIMER_1 0
+execute as @a store success score @s scoreInit run scoreboard players get @s NGEFF_TIMER_2
+execute as @a if score @s scoreInit matches 0 run scoreboard players set @s NGEFF_TIMER_2 0
+execute as @a store success score @s scoreInit run scoreboard players get @s NGEFF_TIMER_3
+execute as @a if score @s scoreInit matches 0 run scoreboard players set @s NGEFF_TIMER_3 0
+execute as @a store success score @s scoreInit run scoreboard players get @s NGEFF_TIMER_4
+execute as @a if score @s scoreInit matches 0 run scoreboard players set @s NGEFF_TIMER_4 0
+execute as @a store success score @s scoreInit run scoreboard players get @s NGEFF_TIMER_5
+execute as @a if score @s scoreInit matches 0 run scoreboard players set @s NGEFF_TIMER_5 0
+execute as @a store success score @s scoreInit run scoreboard players get @s POISON_TIMER
+execute as @a if score @s scoreInit matches 0 run scoreboard players set @s POISON_TIMER 0
+execute as @a store success score @s scoreInit run scoreboard players get @s SCARROT_TIMER
+execute as @a if score @s scoreInit matches 0 run scoreboard players set @s SCARROT_TIMER 0
+execute as @a store success score @s scoreInit run scoreboard players get @s BLOOD_TIMER
+execute as @a if score @s scoreInit matches 0 run scoreboard players set @s BLOOD_TIMER 0
+execute as @a store success score @s scoreInit run scoreboard players get @s FROST_TIMER
+execute as @a if score @s scoreInit matches 0 run scoreboard players set @s FROST_TIMER 0
+execute as @a store success score @s scoreInit run scoreboard players get @s MADNESS_TIMER
+execute as @a if score @s scoreInit matches 0 run scoreboard players set @s MADNESS_TIMER 0
+execute as @a store success score @s scoreInit run scoreboard players get @s DEATH_TIMER
+execute as @a if score @s scoreInit matches 0 run scoreboard players set @s DEATH_TIMER 0
 #Proc. Timer
 execute as @a store success score @s scoreInit run scoreboard players get @s PROC_TIMER_WS
 execute as @a if score @s scoreInit matches 0 run scoreboard players set @s PROC_TIMER_WS 0

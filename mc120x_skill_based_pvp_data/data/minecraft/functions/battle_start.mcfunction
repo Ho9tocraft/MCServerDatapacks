@@ -1,0 +1,1 @@
+function ho9tocraft:battle/battle_start

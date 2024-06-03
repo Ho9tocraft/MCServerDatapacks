@@ -41,6 +41,22 @@ execute as @a at @s if score @s SPEFF_TIMER_3 matches 1.. run scoreboard players
 execute as @a at @s if score @s SPEFF_TIMER_4 matches 1.. run scoreboard players remove @s SPEFF_TIMER_4 1
 execute as @a at @s if score @s SPEFF_TIMER_5 matches 1.. run scoreboard players remove @s SPEFF_TIMER_5 1
 #endregion
+#region Negative SpecialEffect Timer Count
+# Common Negative SpecialEffect
+execute as @a at @s if score @s NGEFF_TIMER_0 matches 1.. run scoreboard players remove @s NGEFF_TIMER_0 1
+execute as @a at @s if score @s NGEFF_TIMER_1 matches 1.. run scoreboard players remove @s NGEFF_TIMER_1 1
+execute as @a at @s if score @s NGEFF_TIMER_2 matches 1.. run scoreboard players remove @s NGEFF_TIMER_2 1
+execute as @a at @s if score @s NGEFF_TIMER_3 matches 1.. run scoreboard players remove @s NGEFF_TIMER_3 1
+execute as @a at @s if score @s NGEFF_TIMER_4 matches 1.. run scoreboard players remove @s NGEFF_TIMER_4 1
+execute as @a at @s if score @s NGEFF_TIMER_5 matches 1.. run scoreboard players remove @s NGEFF_TIMER_5 1
+# ELDEN RING Based Negative Effect
+execute as @a at @s if score @s POISON_TIMER matches 1.. run scoreboard players remove @s POISON_TIMER 1
+execute as @a at @s if score @s SCARROT_TIMER matches 1.. run scoreboard players remove @s SCARROT_TIMER 1
+execute as @a at @s if score @s BLOOD_TIMER matches 1.. run scoreboard players remove @s BLOOD_TIMER 1
+execute as @a at @s if score @s FROST_TIMER matches 1.. run scoreboard players remove @s FROST_TIMER 1
+execute as @a at @s if score @s MADNESS_TIMER matches 1.. run scoreboard players remove @s MADNESS_TIMER 1
+execute as @a at @s if score @s DEATH_TIMER matches 1.. run scoreboard players remove @s DEATH_TIMER 1
+#endregion
 #region Proc. Timer Count
 execute as @a at @s if score @s PROC_TIMER_WS matches 1.. run scoreboard players remove @s PROC_TIMER_WS 1
 execute as @a at @s if score @s PROC_TIMER_MG matches 1.. run scoreboard players remove @s PROC_TIMER_MG 1
@@ -50,5 +66,7 @@ execute as @a at @s if score @s death matches 1.. if score ^VPHandler BATTLE_CON
 # If Battle, Give Resistance V 5 sec.
 execute as @a at @s if score @s death matches 1.. if score ^VPHandler BATTLE_COND matches 0..2 run effect give @s saturation 200 3 true
 execute as @a at @s if score @s death matches 1.. if score ^VPHandler BATTLE_COND matches 0..2 run effect give @s resistance 5 4 true
+execute as @a[nbt={Inventory:[{id:"minecraft:glass_bottle"}]}] at @s run clear @s glass_bottle
 #endregion
+function ho9tocraft:battle/process/battle_process
 execute if score ^VPHandler TICK_ROOP matches 20 run function #ho9tocraft:vphandlers_post

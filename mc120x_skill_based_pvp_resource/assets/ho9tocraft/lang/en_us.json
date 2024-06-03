@@ -1,0 +1,14 @@
+{
+    "death.attack.poison": "%1$s died of poisoning.",
+    "death.attack.poison.item": "The%1$s were killed by%3$s toxins used by the%2$s.",
+    "death.attack.poison.player": "%1$s killed by the poison that %2$s heaped on him.",
+    "death.attack.scarlet_rot": "%1$s died of scarlet rot.",
+    "death.attack.scarlet_rot.item": "%1$s were killed by the scarlet rot emanating from the%2$s's%3$s",
+    "death.attack.scarlet_rot.player": "%1$s killed by the vermilion corruption unleashed by the %2$s.",
+    "death.attack.madness": "%1$s died of madness.",
+    "death.attack.madness.item": "%1$s killed by %2$s madness-infused %3$s",
+    "death.attack.madness.player": "%1$s killed by %2$s madness.",
+    "death.attack.death_blight": "%1$s died from a curse.",
+    "death.attack.death_blight.item": "%1$s killed by a curse that was on %2$s %3$s",
+    "death.attack.death_blight.player": "%1$s killed by %2$s curse."
+}
