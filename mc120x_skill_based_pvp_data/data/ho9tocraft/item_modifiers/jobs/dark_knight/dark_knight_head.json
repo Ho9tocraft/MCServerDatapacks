@@ -1,0 +1,84 @@
+[
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "all_of",
+                "terms": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "player",
+                            "equipment": {
+                                "head": { "items": [ "diamond_helmet" ], "count": 1 },
+                                "chest": { "items": [ "diamond_chestplate" ], "count": 1 },
+                                "legs": { "items": [ "diamond_leggings" ], "count": 1 },
+                                "feet": { "items": [ "diamond_boots" ], "count": 1 }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "reference",
+                        "name": "ho9tocraft:passive_selector/job_not_selected"
+                    }
+                ]
+            }
+        ],
+        "components": {
+            "item_name": "{\"bold\":true,\"color\":\"#00BFFF\",\"italic\":false,\"translate\":\"item.dark_knight.helmet.name\",\"fallback\":\"Ignominy Burgeonet\"}",
+            "unbreakable": { "show_in_tooltip": false },
+            "enchantments": { "levels": { "blast_protection": 3, "fire_protection": 3, "protection": 4 }, "show_in_tooltip": false },
+            "attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "generic.armor",
+                        "name": "generic.armor",
+                        "amount": 3,
+                        "operation": "add_value",
+                        "uuid": [-312271947,883836315,-1830252656,-1080245993],
+                        "slot": "head"
+                    },
+                    {
+                        "type": "generic.armor_toughness",
+                        "name": "generic.armor_toughness",
+                        "amount": 4.5,
+                        "operation": "add_value",
+                        "uuid": [1841037643,-735559319,-1450631337,1101008801],
+                        "slot": "head"
+                    },
+                    {
+                        "type": "generic.knockback_resistance",
+                        "name": "generic.knockback_resistance",
+                        "amount": 1,
+                        "operation": "add_value",
+                        "uuid": [1179427154,-1073853244,-1136178912,-1239594958],
+                        "slot": "head"
+                    },
+                    {
+                        "type": "generic.max_health",
+                        "name": "generic.max_health",
+                        "amount": 20,
+                        "operation": "add_value",
+                        "uuid": [-1004572770,287197496,-1979857854,157264307],
+                        "slot": "head"
+                    },
+                    {
+                        "type": "generic.movement_speed",
+                        "name": "generic.movement_speed",
+                        "amount": 0.0125,
+                        "operation": "add_multiplied_base",
+                        "uuid": [1393778214,1654541634,-1783363268,-1116117068],
+                        "slot": "head"
+                    }
+                ],
+                "show_in_tooltip": false
+            },
+            "trim": {
+                "material": "minecraft:dark_knight",
+                "pattern": "minecraft:dark_knight",
+                "show_in_tooltip": true
+            }
+        }
+    }
+]

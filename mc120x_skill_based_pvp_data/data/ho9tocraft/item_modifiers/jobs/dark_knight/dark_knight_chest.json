@@ -1,0 +1,84 @@
+[
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "all_of",
+                "terms": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "player",
+                            "equipment": {
+                                "head": { "items": [ "diamond_helmet" ], "count": 1 },
+                                "chest": { "items": [ "diamond_chestplate" ], "count": 1 },
+                                "legs": { "items": [ "diamond_leggings" ], "count": 1 },
+                                "feet": { "items": [ "diamond_boots" ], "count": 1 }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "reference",
+                        "name": "ho9tocraft:passive_selector/job_not_selected"
+                    }
+                ]
+            }
+        ],
+        "components": {
+            "item_name": "{\"bold\":true,\"color\":\"#00BFFF\",\"italic\":false,\"translate\":\"item.dark_knight.chestplate.name\",\"fallback\":\"Ignominy Cuirass\"}",
+            "unbreakable": { "show_in_tooltip": false },
+            "enchantments": { "levels": { "blast_protection": 3, "fire_protection": 3, "protection": 4 }, "show_in_tooltip": false },
+            "attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "generic.armor",
+                        "name": "generic.armor",
+                        "amount": 8,
+                        "operation": "add_value",
+                        "uuid": [-1684080251,1006520325,-1971695128,884971406],
+                        "slot": "chest"
+                    },
+                    {
+                        "type": "generic.armor_toughness",
+                        "name": "generic.armor_toughness",
+                        "amount": 4.5,
+                        "operation": "add_value",
+                        "uuid": [871622930,-1903475200,-1474087187,1226591863],
+                        "slot": "chest"
+                    },
+                    {
+                        "type": "generic.knockback_resistance",
+                        "name": "generic.knockback_resistance",
+                        "amount": 1,
+                        "operation": "add_value",
+                        "uuid": [802779200,471813988,-1766623040,-702361105],
+                        "slot": "chest"
+                    },
+                    {
+                        "type": "generic.max_health",
+                        "name": "generic.max_health",
+                        "amount": 20,
+                        "operation": "add_value",
+                        "uuid": [623307362,-622965065,-1916140397,-722397967],
+                        "slot": "chest"
+                    },
+                    {
+                        "type": "generic.movement_speed",
+                        "name": "generic.movement_speed",
+                        "amount": 0.0125,
+                        "operation": "add_multiplied_base",
+                        "uuid": [638321500,1958693623,-1501286068,-907041490],
+                        "slot": "chest"
+                    }
+                ],
+                "show_in_tooltip": false
+            },
+            "trim": {
+                "material": "minecraft:dark_knight",
+                "pattern": "minecraft:dark_knight",
+                "show_in_tooltip": true
+            }
+        }
+    }
+]

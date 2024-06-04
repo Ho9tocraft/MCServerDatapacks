@@ -1,0 +1,77 @@
+[
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "all_of",
+                "terms": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "player",
+                            "slots": {
+                                "hotbar.0": { "items": [ "golden_sword" ], "count": 1 }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "reference",
+                        "name": "ho9tocraft:passive_selector/job_not_selected"
+                    }
+                ]
+            }
+        ],
+        "components": {
+            "item_name": "{\"bold\":true,\"color\":\"#D3381C\",\"italic\":false,\"translate\":\"item.dark_knight.greatsword.name\",\"fallback\":\"Ultimate Nothung\"}",
+            "unbreakable": { "show_in_tooltip": false },
+            "custom_model_data": 1,
+            "enchantments": { "levels": { "sweeping_edge": 10 }, "show_in_tooltip": false },
+            "attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "generic.attack_damage",
+                        "name": "generic.attack_damage",
+                        "amount": 16,
+                        "operation": "add_value",
+                        "uuid": [246118707,389761055,-2013024400,-1764715126],
+                        "slot": "mainhand"
+                    },
+                    {
+                        "type": "generic.attack_speed",
+                        "name": "generic.attack_speed",
+                        "amount": 1.45,
+                        "operation": "add_value",
+                        "uuid": [1880853605,-779465683,-1487413980,-1400900244],
+                        "slot": "mainhand"
+                    },
+                    {
+                        "type": "player.entity_interaction_range",
+                        "name": "player.entity_interaction_range",
+                        "amount": 3,
+                        "operation": "add_value",
+                        "uuid": [-370818893,874138405,-1775907906,-1252046134],
+                        "slot": "mainhand"
+                    },
+                    {
+                        "type": "generic.luck",
+                        "name": "generic.luck",
+                        "amount": 1,
+                        "operation": "add_value",
+                        "uuid": [375115416,-1616621719,-2104210582,678785922],
+                        "slot": "mainhand"
+                    },
+                    {
+                        "type": "generic.safe_fall_distance",
+                        "name": "generic.safe_fall_distance",
+                        "amount": 1.5,
+                        "operation": "add_multiplied_base",
+                        "uuid": [1361608419,5914652,-1510244839,-1293720303],
+                        "slot": "mainhand"
+                    }
+                ],
+                "show_in_tooltip": false
+            }
+        }
+    }
+]
