@@ -91,6 +91,8 @@ scoreboard objectives add BATTLE_COND dummy
 scoreboard objectives add BATTLE_STAGE dummy
 #STAGE_VOTE(var: -1 is Unselected, More than 0 are Battle Stage)
 scoreboard objectives add STAGE_VOTE trigger
+#M_SHOP_POP
+scoreboard objectives add M_SHOP_POP dummy
 #endregion
 
 #region SPEFF_TIMER(var: 0 to INT_MAX(for use Special Effects), 6 difficult Special Effects available)
@@ -150,6 +152,7 @@ scoreboard players set ^VPHandler B_MVILLAGER 2400
 scoreboard players set ^VPHandler B_SUPPLY 3000
 scoreboard players set ^VPHandler BATTLE_COND -1
 scoreboard players set ^VPHandler BATTLE_STAGE -1
+scoreboard players set ^VPHandler M_SHOP_POP -1
 #endregion
 
 #region Team Settings

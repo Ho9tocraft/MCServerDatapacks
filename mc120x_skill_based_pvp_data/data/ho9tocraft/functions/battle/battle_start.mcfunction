@@ -3,6 +3,10 @@ effect clear @a saturation
 gamemode adventure @a[scores={CURRENT_JOB=0..}]
 gamemode spectator @a[scores={CURRENT_JOB=-1}]
 team join Spectate @a[scores={CURRENT_JOB=-1}]
+scoreboard players reset * NOW_HP_BLU
+scoreboard players reset * NOW_HP_RED
+scoreboard players set @a[team=RED] NOW_HP_RED 0
+scoreboard players set @a[team=BLU] NOW_HP_BLU 0
 scoreboard players set @a WS_RECAST_T 0
 scoreboard players set @a MG_RECAST_T 0
 scoreboard players set @a AB_RECAST_T 0

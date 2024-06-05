@@ -34,32 +34,35 @@ execute as @a at @s if score ^VPHandler BATTLE_COND matches -1 run scoreboard pl
 execute as @a at @s if score @s NOW_MP > @s MAX_MP run scoreboard players operation @s NOW_MP = @s MAX_MP
 #endregion
 #region SpecialEffect Timer Count
-execute as @a at @s if score @s SPEFF_TIMER_0 matches 1.. run scoreboard players remove @s SPEFF_TIMER_0 1
-execute as @a at @s if score @s SPEFF_TIMER_1 matches 1.. run scoreboard players remove @s SPEFF_TIMER_1 1
-execute as @a at @s if score @s SPEFF_TIMER_2 matches 1.. run scoreboard players remove @s SPEFF_TIMER_2 1
-execute as @a at @s if score @s SPEFF_TIMER_3 matches 1.. run scoreboard players remove @s SPEFF_TIMER_3 1
-execute as @a at @s if score @s SPEFF_TIMER_4 matches 1.. run scoreboard players remove @s SPEFF_TIMER_4 1
-execute as @a at @s if score @s SPEFF_TIMER_5 matches 1.. run scoreboard players remove @s SPEFF_TIMER_5 1
+execute as @e at @s if score @s SPEFF_TIMER_0 matches 1.. run scoreboard players remove @s SPEFF_TIMER_0 1
+execute as @e at @s if score @s SPEFF_TIMER_1 matches 1.. run scoreboard players remove @s SPEFF_TIMER_1 1
+execute as @e at @s if score @s SPEFF_TIMER_2 matches 1.. run scoreboard players remove @s SPEFF_TIMER_2 1
+execute as @e at @s if score @s SPEFF_TIMER_3 matches 1.. run scoreboard players remove @s SPEFF_TIMER_3 1
+execute as @e at @s if score @s SPEFF_TIMER_4 matches 1.. run scoreboard players remove @s SPEFF_TIMER_4 1
+execute as @e at @s if score @s SPEFF_TIMER_5 matches 1.. run scoreboard players remove @s SPEFF_TIMER_5 1
 #endregion
 #region Negative SpecialEffect Timer Count
 # Common Negative SpecialEffect
-execute as @a at @s if score @s NGEFF_TIMER_0 matches 1.. run scoreboard players remove @s NGEFF_TIMER_0 1
-execute as @a at @s if score @s NGEFF_TIMER_1 matches 1.. run scoreboard players remove @s NGEFF_TIMER_1 1
-execute as @a at @s if score @s NGEFF_TIMER_2 matches 1.. run scoreboard players remove @s NGEFF_TIMER_2 1
-execute as @a at @s if score @s NGEFF_TIMER_3 matches 1.. run scoreboard players remove @s NGEFF_TIMER_3 1
-execute as @a at @s if score @s NGEFF_TIMER_4 matches 1.. run scoreboard players remove @s NGEFF_TIMER_4 1
-execute as @a at @s if score @s NGEFF_TIMER_5 matches 1.. run scoreboard players remove @s NGEFF_TIMER_5 1
+execute as @e at @s if score @s NGEFF_TIMER_0 matches 1.. run scoreboard players remove @s NGEFF_TIMER_0 1
+execute as @e at @s if score @s NGEFF_TIMER_1 matches 1.. run scoreboard players remove @s NGEFF_TIMER_1 1
+execute as @e at @s if score @s NGEFF_TIMER_2 matches 1.. run scoreboard players remove @s NGEFF_TIMER_2 1
+execute as @e at @s if score @s NGEFF_TIMER_3 matches 1.. run scoreboard players remove @s NGEFF_TIMER_3 1
+execute as @e at @s if score @s NGEFF_TIMER_4 matches 1.. run scoreboard players remove @s NGEFF_TIMER_4 1
+execute as @e at @s if score @s NGEFF_TIMER_5 matches 1.. run scoreboard players remove @s NGEFF_TIMER_5 1
 # ELDEN RING Based Negative Effect
-execute as @a at @s if score @s POISON_TIMER matches 1.. run scoreboard players remove @s POISON_TIMER 1
-execute as @a at @s if score @s SCARROT_TIMER matches 1.. run scoreboard players remove @s SCARROT_TIMER 1
-execute as @a at @s if score @s BLOOD_TIMER matches 1.. run scoreboard players remove @s BLOOD_TIMER 1
-execute as @a at @s if score @s FROST_TIMER matches 1.. run scoreboard players remove @s FROST_TIMER 1
-execute as @a at @s if score @s MADNESS_TIMER matches 1.. run scoreboard players remove @s MADNESS_TIMER 1
-execute as @a at @s if score @s DEATH_TIMER matches 1.. run scoreboard players remove @s DEATH_TIMER 1
+execute as @e at @s if score @s POISON_TIMER matches 1.. run scoreboard players remove @s POISON_TIMER 1
+execute as @e at @s if score @s SCARROT_TIMER matches 1.. run scoreboard players remove @s SCARROT_TIMER 1
+execute as @e at @s if score @s BLOOD_TIMER matches 1.. run scoreboard players remove @s BLOOD_TIMER 1
+execute as @e at @s if score @s FROST_TIMER matches 1.. run scoreboard players remove @s FROST_TIMER 1
+execute as @e at @s if score @s MADNESS_TIMER matches 1.. run scoreboard players remove @s MADNESS_TIMER 1
+execute as @e at @s if score @s DEATH_TIMER matches 1.. run scoreboard players remove @s DEATH_TIMER 1
 #endregion
 #region Proc. Timer Count
 execute as @a at @s if score @s PROC_TIMER_WS matches 1.. run scoreboard players remove @s PROC_TIMER_WS 1
 execute as @a at @s if score @s PROC_TIMER_MG matches 1.. run scoreboard players remove @s PROC_TIMER_MG 1
+#endregion
+#region Miracle Villager Despawn
+execute as @e[type=villager,tag=MVillagerDesp] at @s if score @s SPEFF_TIMER_0 matches 0 run kill @s
 #endregion
 #region Give Saturation Effect when died
 execute as @a at @s if score ^VPHandler BATTLE_COND matches -1 run effect give @s saturation infinite 3 true
