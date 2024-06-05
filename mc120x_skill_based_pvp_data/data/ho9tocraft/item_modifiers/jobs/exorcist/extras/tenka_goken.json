@@ -30,7 +30,8 @@
         "components": {
             "item_name": "{\"bold\":true,\"color\":\"#C0C0C0\",\"italic\":false,\"translate\":\"skill.exorcist.tenka_goken.name\",\"fallback\":\"Tenka Goken\"}",
             "lore": [
-                "{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"translate\":\"skill.exorcist.tenka_goken.desc\",\"fallback\":\"Deals physical damage\n to all nearby enemies within range.\n(Radius: 8m)\"}",
+                "{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"translate\":\"skill.exorcist.tenka_goken.desc.1\",\"fallback\":\"Deals physical damage to all nearby enemies within range.\n(Radius: 8m)\"}",
+                "{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"translate\":\"skill.exorcist.tenka_goken.range\",\"fallback\":\"(Radius: 8m)\"}",
                 "{\"bold\":false,\"color\":\"aqua\",\"italic\":false,\"translate\":\"skill.cast.instant\",\"fallback\":\"Cast Time: Instant\"}",
                 "{\"bold\":true,\"color\":\"aqua\",\"italic\":false,\"translate\":\"skill.recast.10sec\",\"fallback\":\"Recast Time: 10 sec.\"}",
                 "{\"bold\":true,\"color\":\"green\",\"italic\":false,\"translate\":\"skill.gcd.50tick\",\"fallback\":\"GCD: 2.5 sec.\"}"

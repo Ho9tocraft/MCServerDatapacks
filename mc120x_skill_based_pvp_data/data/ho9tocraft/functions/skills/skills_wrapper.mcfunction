@@ -26,6 +26,13 @@ execute as @a[predicate=ho9tocraft:item_selector/jobs/00_pld/paladin_lb] at @s r
 execute as @a[predicate=ho9tocraft:item_selector/common_mg_proc,scores={CURRENT_JOB=0,PROC_TIMER_MG=0}] at @s run function ho9tocraft:skills/00_pld/proc_fail
 #endregion
 #region ID=1, DisplayName=Dark Knight
+execute as @a[predicate=ho9tocraft:item_selector/jobs/proc/01_drk/ws_combo_1] at @s run function ho9tocraft:skills/01_drk/shadowbringer
+execute as @a[predicate=ho9tocraft:item_selector/jobs/01_drk/dark_knight_ws] at @s run function ho9tocraft:skills/01_drk/delirium_spiller
+execute as @a[predicate=ho9tocraft:item_selector/jobs/proc/01_drk/mg_combo_1] at @s run function ho9tocraft:skills/01_drk/salt_and_darkness
+execute as @a[predicate=ho9tocraft:item_selector/jobs/01_drk/dark_knight_mg] at @s run function ho9tocraft:skills/01_drk/unleash
+execute as @a[predicate=ho9tocraft:item_selector/jobs/01_drk/dark_knight_ab] at @s run function ho9tocraft:skills/01_drk/blackest_night
+execute as @a[predicate=ho9tocraft:item_selector/jobs/01_drk/dark_knight_lb] at @s run function ho9tocraft:skills/01_drk/limit_break
+execute as @a[predicate=ho9tocraft:item_selector/jobs/01_drk/dark_knight_proc_test,scores={CURRENT_JOB=1}] at @s run function ho9tocraft:skills/01_drk/proc_fail
 #endregion
 #region ID=2, DisplayName=Exorcist
 execute as @a[predicate=ho9tocraft:item_selector/jobs/proc/02_exc/ws_combo_1] at @s run function ho9tocraft:skills/02_exc/hissatsu_senei
@@ -42,6 +49,7 @@ execute as @a[predicate=ho9tocraft:item_selector/jobs/02_exc/exorcist_proc_test,
 
 #region PostProcess
 execute as @a at @s if score @s SPEFF_DONE matches 1 run scoreboard players set @s SPEFF_DONE 0
+execute as @a at @s if score @s NGEFF_DONE matches 1 run scoreboard players set @s NGEFF_DONE 0
 execute as @a[tag=OffWS_Exec] at @s run tag @s remove OffWS_Exec
 execute as @a[tag=LB_Exec] at @s run tag @s remove LB_Exec
 execute as @e[type=armor_stand,tag=ShieldB_PosToRED] at @s anchored eyes unless block ~ ~ ~ air run tp @s ~ ~1 ~

@@ -28,7 +28,13 @@
         ],
         "components": {
             "item_name": "{\"bold\":true,\"color\":\"#C0C0C0\",\"italic\":false,\"translate\":\"skill.paladin.holy_circle.name\",\"fallback\":\"Holy Circle\"}",
-            "lore": ["{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"translate\":\"skill.paladin.holy_circle.desc\",\"fallback\":\"Deals magic damage to all nearby enemies.\n(Radius: 5m)\"}","{\"bold\":false,\"color\":\"aqua\",\"italic\":false,\"translate\":\"skill.cast.60tick\",\"fallback\":\"Cast Time: 3 sec.\"}","{\"bold\":true,\"color\":\"aqua\",\"italic\":false,\"translate\":\"skill.recast.50tick\",\"fallback\":\"Recast Time: 2.5 sec.\"}","{\"bold\":true,\"color\":\"green\",\"italic\":false,\"translate\":\"skill.gcd.50tick\",\"fallback\":\"GCD: 2.5 sec.\"}"],
+            "lore": [
+                "{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"translate\":\"skill.paladin.holy_circle.desc.1\",\"fallback\":\"Deals magic damage to all nearby enemies.\"}",
+                "{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"translate\":\"skill.paladin.holy_circle.range\",\"fallback\":\"(Radius: 5m)\"}",
+                "{\"bold\":false,\"color\":\"aqua\",\"italic\":false,\"translate\":\"skill.cast.60tick\",\"fallback\":\"Cast Time: 3 sec.\"}",
+                "{\"bold\":true,\"color\":\"aqua\",\"italic\":false,\"translate\":\"skill.recast.50tick\",\"fallback\":\"Recast Time: 2.5 sec.\"}",
+                "{\"bold\":true,\"color\":\"green\",\"italic\":false,\"translate\":\"skill.gcd.50tick\",\"fallback\":\"GCD: 2.5 sec.\"}"
+            ],
             "custom_model_data": 0
         }
     },

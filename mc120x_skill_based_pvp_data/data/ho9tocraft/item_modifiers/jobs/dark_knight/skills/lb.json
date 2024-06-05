@@ -1,0 +1,21 @@
+[
+    {
+        "function": "reference",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ho9tocraft:item_selector/common_lbset"
+            }
+        ],
+        "name": "ho9tocraft:jobs/common/limit_break"
+    },
+    {
+        "function": "set_lore",
+        "lore": [
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.dark_knight.limit_break.desc.1", "fallback": "Deals unshieldable physical damage to all enemies" },
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.dark_knight.limit_break.desc.2", "fallback": " in a straight line in front of and behind itself." },
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.dark_knight.limit_break.range", "fallback": "(Range: 30m)" }
+        ],
+        "mode": "replace_all"
+    }
+]

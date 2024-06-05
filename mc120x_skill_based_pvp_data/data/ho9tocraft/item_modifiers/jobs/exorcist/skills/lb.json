@@ -18,7 +18,9 @@
             }
         ],
         "lore": [
-            { "bold": false, "color": "gray", "italic": false, "translate": "skill.exorcist.limit_break.desc", "fallback": "Deals physical damage\n to all nearby enemies that\n can't be taken by the shield.\n(Radius: 6m)" }
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.exorcist.limit_break.desc.1", "fallback": "Deals physical damage to all nearby enemies" },
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.exorcist.limit_break.desc.2", "fallback": " that can't be taken by the shield." },
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.exorcist.limit_break.range", "fallback": "(Radius: 6m)" }
         ],
         "mode": "replace_all"
     }

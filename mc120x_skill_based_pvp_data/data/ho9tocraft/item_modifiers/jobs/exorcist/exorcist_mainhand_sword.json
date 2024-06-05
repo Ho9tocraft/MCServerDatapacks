@@ -35,7 +35,7 @@
                     {
                         "type": "generic.attack_damage",
                         "name": "generic.attack_damage",
-                        "amount": 16.5,
+                        "amount": 24.75,
                         "operation": "add_value",
                         "uuid": [623163016,1461340361,-2123294137,1885133823],
                         "slot": "mainhand"

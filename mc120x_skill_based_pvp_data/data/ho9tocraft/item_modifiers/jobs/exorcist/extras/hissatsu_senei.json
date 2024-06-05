@@ -30,7 +30,9 @@
         "components": {
             "item_name": "{\"bold\":true,\"color\":\"#C0C0C0\",\"italic\":false,\"translate\":\"skill.exorcist.hissatsu_senei.name\",\"fallback\":\"Hissatsu: Senei\"}",
             "lore": [
-                "{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"translate\":\"skill.exorcist.hissatsu_senei.desc\",\"fallback\":\"Deals physical damage to the\n nearest enemy from yourself. \n(Range: 3m)\"}",
+                "{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"translate\":\"skill.exorcist.hissatsu_senei.desc.1\",\"fallback\":\"Deals physical damage\"}",
+                "{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"translate\":\"skill.exorcist.hissatsu_senei.desc.2\",\"fallback\":\" to the nearest enemy from yourself.\"}",
+                "{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"translate\":\"skill.exorcist.hissatsu_senei.range\",\"fallback\":\"(Range: 3m)\"}",
                 "{\"bold\":false,\"color\":\"aqua\",\"italic\":false,\"translate\":\"skill.cast.instant\",\"fallback\":\"Cast Time: Instant\"}",
                 "{\"bold\":true,\"color\":\"aqua\",\"italic\":false,\"translate\":\"skill.recast.50tick\",\"fallback\":\"Recast Time: 2.5 sec.\"}",
                 "{\"bold\":true,\"color\":\"green\",\"italic\":false,\"translate\":\"skill.gcd.50tick\",\"fallback\":\"GCD: 2.5 sec.\"}"

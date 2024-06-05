@@ -11,12 +11,12 @@ execute as @s[tag=!STAGE_BOUND] at @s run particle end_rod ~ ~ ~ 0.5 0.1 0.5 0.1
 #region team=RED
 execute as @s[team=RED,tag=!STAGE_BOUND] at @s run tag @e[team=BLU,sort=nearest,distance=..20,limit=1] add HISSATSU_GYOTEN_BLU
 execute as @s[team=RED,tag=!STAGE_BOUND] at @s run tp @s @e[tag=HISSATSU_GYOTEN_BLU,sort=nearest,distance=..20,limit=1]
-execute as @s[team=RED,tag=!STAGE_BOUND] at @s at @e[tag=HISSATSU_GYOTEN_BLU,sort=nearest,distance=..5,limit=1] as @e[team=BLU,sort=nearest,distance=..5] at @s run damage @s 33.0 minecraft:player_attack by @a[team=RED,tag=Gyoten_Exec,limit=1]
+execute as @s[team=RED,tag=!STAGE_BOUND] at @s at @e[tag=HISSATSU_GYOTEN_BLU,sort=nearest,distance=..5,limit=1] as @e[team=BLU,sort=nearest,distance=..5] at @s run damage @s 49.5 minecraft:player_attack by @a[team=RED,tag=Gyoten_Exec,limit=1]
 #endregion
 #region team=BLU
 execute as @s[team=BLU,tag=!STAGE_BOUND] at @s run tag @e[team=RED,sort=nearest,distance=..20,limit=1] add HISSATSU_GYOTEN_RED
 execute as @s[team=BLU,tag=!STAGE_BOUND] at @s run tp @s @e[tag=HISSATSU_GYOTEN_RED,sort=nearest,distance=..20,limit=1]
-execute as @s[team=BLU,tag=!STAGE_BOUND] at @s at @e[tag=HISSATSU_GYOTEN_RED,sort=nearest,distance=..5,limit=1] as @e[team=RED,sort=nearest,distance=..5] at @s run damage @s 33.0 minecraft:player_attack by @a[team=BLU,tag=Gyoten_Exec,limit=1]
+execute as @s[team=BLU,tag=!STAGE_BOUND] at @s at @e[tag=HISSATSU_GYOTEN_RED,sort=nearest,distance=..5,limit=1] as @e[team=RED,sort=nearest,distance=..5] at @s run damage @s 49.5 minecraft:player_attack by @a[team=BLU,tag=Gyoten_Exec,limit=1]
 #endregion
 #region PostProcess
 # Particles

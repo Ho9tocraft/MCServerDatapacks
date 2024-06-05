@@ -1,0 +1,70 @@
+[
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "all_of",
+                "terms": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "player",
+                            "slots": { "hotbar.2": {
+                                "items": [ "sheaf_pottery_sherd" ],
+                                "count": 1
+                            }}
+                        }
+                    },
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "CURRENT_JOB": 1
+                        }
+                    }
+                ]
+            }
+        ],
+        "components": {
+            "item_name": "{\"bold\":true,\"color\":\"#C0C0C0\",\"italic\":false,\"translate\":\"skill.dark_knight.unleash.name\",\"fallback\":\"Unleash\"}",
+            "lore": [
+                "{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"translate\":\"skill.dark_knight.unleash.desc.1\",\"fallback\":\"Deals magic damage to all nearby enemies.\"}",
+                "{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"translate\":\"skill.dark_knight.unleash.range\",\"fallback\":\"(Radius: 5m)\"}",
+                "{\"bold\":false,\"color\":\"aqua\",\"italic\":false,\"translate\":\"skill.cast.instant\",\"fallback\":\"Cast Time: Instant\"}",
+                "{\"bold\":true,\"color\":\"aqua\",\"italic\":false,\"translate\":\"skill.recast.50tick\",\"fallback\":\"Recast Time: 2.5 sec.\"}",
+                "{\"bold\":true,\"color\":\"green\",\"italic\":false,\"translate\":\"skill.gcd.50tick\",\"fallback\":\"GCD: 2.5 sec.\"}"
+            ],
+            "custom_model_data": 1
+        }
+    },
+    {
+        "function": "set_item",
+        "conditions": [
+            {
+                "condition": "all_of",
+                "terms": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "player",
+                            "slots": { "hotbar.2": {
+                                "items": [ "sheaf_pottery_sherd" ],
+                                "count": 1
+                            }}
+                        }
+                    },
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "CURRENT_JOB": 1
+                        }
+                    }
+                ]
+            }
+        ],
+        "item": "plenty_pottery_sherd"
+    }
+]

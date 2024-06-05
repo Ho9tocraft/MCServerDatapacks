@@ -1,0 +1,70 @@
+[
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "all_of",
+                "terms": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "player",
+                            "slots": { "hotbar.2": {
+                                "items": [ "plenty_pottery_sherd" ],
+                                "count": 1,
+                                "components": { "custom_model_data": 1 }
+                            }}
+                        }
+                    },
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "CURRENT_JOB": 1
+                        }
+                    }
+                ]
+            }
+        ],
+        "components": {
+            "item_name": "{\"bold\":true,\"color\":\"#C0C0C0\",\"italic\":false,\"translate\":\"skill.dark_knight.salt_and_darkness.name\",\"fallback\":\"Salt and Darkness\"}",
+            "lore": [
+                "{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"translate\":\"skill.dark_knight.salt_and_darkness.desc.1\",\"fallback\":\"Deals magic damage to all nearby enemies and recovering your HP.\"}",
+                "{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"translate\":\"skill.dark_knight.salt_and_darkness.range\",\"fallback\":\"(Range: 5m, MP Cost: 3000)\"}",
+                "{\"bold\":false,\"color\":\"aqua\",\"italic\":false,\"translate\":\"skill.cast.instant\",\"fallback\":\"Cast Time: Instant\"}",
+                "{\"bold\":true,\"color\":\"aqua\",\"italic\":false,\"translate\":\"skill.recast.60sec\",\"fallback\":\"Recast Time: 1 min.\"}"
+            ],
+            "custom_model_data": 4
+        }
+    },
+    {
+        "function": "set_item",
+        "conditions": [
+            {
+                "condition": "all_of",
+                "terms": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "player",
+                            "slots": { "hotbar.2": {
+                                "items": [ "plenty_pottery_sherd" ],
+                                "count": 1
+                            }}
+                        }
+                    },
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "CURRENT_JOB": 1
+                        }
+                    }
+                ]
+            }
+        ],
+        "item": "sheaf_pottery_sherd"
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "all_of",
+                "terms": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "player",
+                            "slots": { "hotbar.3": {
+                                "items": [ "glowstone_dust" ],
+                                "count": 1
+                            }}
+                        }
+                    },
+                    {
+                        "condition": "reference",
+                        "name": "ho9tocraft:passive_selector/job_not_selected"
+                    }
+                ]
+            }
+        ],
+        "components": {
+            "item_name": "{\"bold\":true,\"color\":\"#C0C0C0\",\"italic\":false,\"translate\":\"skill.dark_knight.blackest_night.name\",\"fallback\":\"The Blackest Night\"}",
+            "lore": [
+                "{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"translate\":\"skill.dark_knight.blackest_night.desc.1\",\"fallback\":\"Grants Resistance, Absorption, and Regeneration.\"}",
+                "{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"translate\":\"skill.dark_knight.blackest_night.range\",\"fallback\":\"(Duration: 10 sec., MP Cost: 3000)\"}",
+                "{\"bold\":false,\"color\":\"aqua\",\"italic\":false,\"translate\":\"skill.cast.instant\",\"fallback\":\"Cast Time: Instant\"}",
+                "{\"bold\":true,\"color\":\"aqua\",\"italic\":false,\"translate\":\"skill.recast.15sec\",\"fallback\":\"Recast Time: 15 sec.\"}"
+            ],
+            "custom_model_data": 1
+        }
+    }
+]

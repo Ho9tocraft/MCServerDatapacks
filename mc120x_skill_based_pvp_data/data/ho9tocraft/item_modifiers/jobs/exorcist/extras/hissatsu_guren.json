@@ -30,7 +30,8 @@
         "components": {
             "item_name": "{\"bold\":true,\"color\":\"#C0C0C0\",\"italic\":false,\"translate\":\"skill.exorcist.hissatsu_guren.name\",\"fallback\":\"Hissatsu: Guren\"}",
             "lore": [
-                "{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"translate\":\"skill.exorcist.hissatsu_guren.desc\",\"fallback\":\"Deals physical damage\n to all enemies within\n a straight line range.\n(Range: 10m, Width: 2m)\"}",
+                "{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"translate\":\"skill.exorcist.hissatsu_guren.desc.1\",\"fallback\":\"Deals physical damage to all enemies within a straight line range.\"}",
+                "{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"translate\":\"skill.exorcist.hissatsu_guren.range\",\"fallback\":\"(Range: 10m)\"}",
                 "{\"bold\":false,\"color\":\"aqua\",\"italic\":false,\"translate\":\"skill.cast.instant\",\"fallback\":\"Cast Time: Instant\"}",
                 "{\"bold\":true,\"color\":\"aqua\",\"italic\":false,\"translate\":\"skill.recast.50tick\",\"fallback\":\"Recast Time: 2.5 sec.\"}",
                 "{\"bold\":true,\"color\":\"green\",\"italic\":false,\"translate\":\"skill.gcd.50tick\",\"fallback\":\"GCD: 2.5 sec.\"}"

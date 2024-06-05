@@ -30,7 +30,8 @@
             "lore": [
                 "{\"bold\":true,\"color\":\"#F8E58C\",\"italic\":false,\"translate\":\"skill.special.offhand\",\"fallback\":\"Extra Skills: Offhand >\"}",
                 "{\"bold\":true,\"color\":\"#C0C0C0\",\"italic\":false,\"translate\":\"skill.exorcist.moonlight_shoha_ii.name\",\"fallback\":\"Moonlight Shoha II\"}",
-                "{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"translate\":\"skill.exorcist.moonlight_shoha_ii.desc\",\"fallback\":\"Deals physical damage to all nearby enemies. \n(Radius: 5m)\"}",
+                "{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"translate\":\"skill.exorcist.moonlight_shoha_ii.desc.1\",\"fallback\":\"Deals physical damage to all nearby enemies.\"}",
+                "{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"translate\":\"skill.exorcist.moonlight_shoha_ii.range\",\"fallback\":\"(Radius: 5m)\"}",
                 "{\"bold\":false,\"color\":\"aqua\",\"italic\":false,\"translate\":\"skill.cast.instant\",\"fallback\":\"Cast Time: Instant\"}",
                 "{\"bold\":true,\"color\":\"aqua\",\"italic\":false,\"translate\":\"skill.recast.50tick\",\"fallback\":\"Recast Time: 2.5 sec.\"}",
                 "{\"bold\":true,\"color\":\"green\",\"italic\":false,\"translate\":\"skill.gcd.50tick\",\"fallback\":\"GCD: 2.5 sec.\"}"
@@ -43,7 +44,7 @@
                     {
                         "type": "generic.attack_damage",
                         "name": "generic.attack_damage",
-                        "amount": 12.5,
+                        "amount": 18.75,
                         "operation": "add_value",
                         "uuid": [-681914312,1043154367,-1558168939,1193282484],
                         "slot": "mainhand"

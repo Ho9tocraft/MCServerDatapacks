@@ -131,6 +131,10 @@ scoreboard objectives add PROC_TIMER_WS dummy
 scoreboard objectives add PROC_TIMER_MG dummy
 #endregion
 
+#region CHARGE_ACT(var: 0 to INT_MAX(for use Shadowbringer, etc.))
+scoreboard objectives add CHARGE_ACT dummy
+#endregion
+
 #region knockback TP Timeout(var: 1 to 60)
 scoreboard objectives add knockbacked dummy
 #endregion

@@ -23,7 +23,7 @@
             }
         ],
         "components": {
-            "item_name": "{\"bold\":true,\"color\":\"#D3381C\",\"italic\":false,\"translate\":\"item.dark_knight.greatsword.name\",\"fallback\":\"Ultimate Nothung\"}",
+            "item_name": "{\"bold\":true,\"color\":\"#00BFFF\",\"italic\":false,\"translate\":\"item.dark_knight.greatsword.name\",\"fallback\":\"Ultimate Nothung\"}",
             "unbreakable": { "show_in_tooltip": false },
             "custom_model_data": 1,
             "enchantments": { "levels": { "sweeping_edge": 10 }, "show_in_tooltip": false },

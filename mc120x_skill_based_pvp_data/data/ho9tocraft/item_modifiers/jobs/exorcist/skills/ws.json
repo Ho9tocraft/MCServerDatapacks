@@ -26,7 +26,9 @@
         "components": {
             "item_name": "{\"bold\":true,\"color\":\"#C0C0C0\",\"italic\":false,\"translate\":\"skill.exorcist.hissatsu_gyoten.name\",\"fallback\":\"Hissatsu: Gyoten\"}",
             "lore": [
-                "{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"translate\":\"skill.exorcist.hissatsu_gyoten.desc\",\"fallback\":\"While rapidly approaching the nearest enemy in the vicinity,\nit deals physical damage to anyone in the same camp as the target within a range starting from the target.\n(Range: 20m, Radius: 5m)\"}",
+                "{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"translate\":\"skill.exorcist.hissatsu_gyoten.desc.1\",\"fallback\":\"While rapidly approaching the nearest enemy in the vicinity,\"}",
+                "{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"translate\":\"skill.exorcist.hissatsu_gyoten.desc.2\",\"fallback\":\"it deals physical damage to anyone in the same camp as the target within a range starting from the target.\n(Range: 20m, Radius: 5m)\"}",
+                "{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"translate\":\"skill.exorcist.hissatsu_gyoten.range\",\"fallback\":\"(Range: 20m, Radius: 5m)\"}",
                 "{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"translate\":\"skill.common.exclude_bind.desc\",\"fallback\":\"Can't be executed while bound.\"}",
                 "{\"bold\":false,\"color\":\"aqua\",\"italic\":false,\"translate\":\"skill.cast.instant\",\"fallback\":\"Cast Time: Instant\"}",
                 "{\"bold\":true,\"color\":\"aqua\",\"italic\":false,\"translate\":\"skill.recast.50tick\",\"fallback\":\"Recast Time: 2.5 sec.\"}",

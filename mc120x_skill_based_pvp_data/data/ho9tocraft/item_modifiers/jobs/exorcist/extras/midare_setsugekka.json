@@ -30,7 +30,9 @@
         "components": {
             "item_name": "{\"bold\":true,\"color\":\"#C0C0C0\",\"italic\":false,\"translate\":\"skill.exorcist.midare_setsugekka.name\",\"fallback\":\"Midare Setsugekka: Frenzied Laughter\"}",
             "lore": [
-                "{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"translate\":\"skill.exorcist.midare_setsugekka.desc\",\"fallback\":\"Deals physical damage to the\n nearest enemy, then disables\n the target for 5 seconds. \n(Range: 6m)\"}",
+                "{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"translate\":\"skill.exorcist.midare_setsugekka.desc.1\",\"fallback\":\"Deals physical damage\"}",
+                "{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"translate\":\"skill.exorcist.midare_setsugekka.desc.2\",\"fallback\":\" to the\n nearest enemy, then disables the target.\"}",
+                "{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"translate\":\"skill.exorcist.midare_setsugekka.range\",\"fallback\":\"(Range: 6m, Disable Duration: 5 sec.)\"}",
                 "{\"bold\":false,\"color\":\"aqua\",\"italic\":false,\"translate\":\"skill.cast.instant\",\"fallback\":\"Cast Time: Instant\"}",
                 "{\"bold\":true,\"color\":\"aqua\",\"italic\":false,\"translate\":\"skill.recast.10sec\",\"fallback\":\"Recast Time: 10 sec.\"}",
                 "{\"bold\":true,\"color\":\"green\",\"italic\":false,\"translate\":\"skill.gcd.50tick\",\"fallback\":\"GCD: 2.5 sec.\"}"
