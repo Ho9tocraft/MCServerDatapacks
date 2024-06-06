@@ -10,6 +10,8 @@ execute as @s[team=BLU] at @s run effect give @e[team=BLU,distance=..30] absorpt
 execute as @s[team=BLU] at @s run effect give @e[team=BLU,distance=..30] resistance 30 2 false
 #endregion
 #region PostProcess
+execute as @s at @s if score @s AB_RECAST_T matches 1.. run scoreboard players remove @s AB_RECAST_T 1200
+execute as @s at @s if score @s AB_RECAST_T matches ..-1 run scoreboard players set @s AB_RECAST_T 0
 execute as @s at @s run scoreboard players set @s LB_CHARGE 0
 execute as @s at @s run scoreboard players set @s LB_RECAST_T 50
 #endregion

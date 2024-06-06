@@ -1,0 +1,22 @@
+{
+    "condition": "all_of",
+    "terms": [
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "player",
+                "equipment": {
+                    "head": { "items": ["diamond_helmet"], "count": 1 },
+                    "chest": { "items": ["diamond_chestplate"], "count": 1 },
+                    "legs": { "items": ["diamond_leggings"], "count": 1 },
+                    "feet": { "items": ["diamond_boots"], "count": 1 }
+                }
+            }
+        },
+        {
+            "condition": "reference",
+            "name": "ho9tocraft:passive_selector/job_not_selected"
+        }
+    ]
+}

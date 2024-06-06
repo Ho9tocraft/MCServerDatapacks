@@ -34,7 +34,7 @@
                 "{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"translate\":\"skill.paladin.target_spell.desc.2\",\"fallback\":\" as the target within the target's range.\"}",
                 "{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"translate\":\"skill.paladin.target_spell.range\",\"fallback\":\"(Radius: 5m, Range: 25m, MP Cost: 1000)\"}",
                 "{\"bold\":false,\"color\":\"aqua\",\"italic\":false,\"translate\":\"skill.cast.instant\",\"fallback\":\"Cast Time: Instant\"}",
-                "{\"bold\":true,\"color\":\"aqua\",\"italic\":false,\"translate\":\"skill.recast.60sec\",\"fallback\":\"Recast Time: 1 min.\"}",
+                "{\"bold\":true,\"color\":\"aqua\",\"italic\":false,\"translate\":\"skill.recast.30sec\",\"fallback\":\"Recast Time: 30 sec.\"}",
                 "{\"bold\":true,\"color\":\"green\",\"italic\":false,\"translate\":\"skill.gcd.50tick\",\"fallback\":\"GCD: 2.5 sec.\"}"
             ],
             "custom_model_data": 3

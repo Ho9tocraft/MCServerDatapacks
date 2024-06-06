@@ -7,6 +7,7 @@
 #define damage_type ho9tocraft:ngeffect/frostbite Frostbite Damage
 #define damage_type ho9tocraft:ngeffect/madness Madness Damage
 #define damage_type ho9tocraft:ngeffect/death Death Blighted Damage
+#define damage_type ho9tocraft:ngeffect/radiation Radiation Pollution Damage
 
 #region Common Magic Casting
 execute as @a[predicate=ho9tocraft:item_selector/common_mgcasting] at @s run scoreboard players remove @s CAST_TIMER 1

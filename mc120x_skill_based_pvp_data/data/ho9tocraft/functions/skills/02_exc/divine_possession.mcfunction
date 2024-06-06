@@ -25,9 +25,10 @@ execute as @s at @s if score @s SPEFF_TIMER_5 matches 600 if score @s SPEFF_DONE
 # Success Event
 execute as @s at @s if score @s SPEFF_DONE matches 1 run effect give @s speed 30 1 true
 execute as @s at @s if score @s SPEFF_DONE matches 1 run effect give @s haste 30 1 true
-execute as @s at @s if score @s SPEFF_DONE matches 1 run effect give @s resistance 30 3 true
+execute as @s at @s if score @s SPEFF_DONE matches 1 run effect give @s resistance 10 3 true
 execute as @s at @s if score @s SPEFF_DONE matches 1 run effect give @s health_boost 30 4 true
-execute as @s at @s if score @s SPEFF_DONE matches 1 run effect give @s regeneration 10 15 true
+execute as @s at @s if score @s SPEFF_DONE matches 1 run effect give @s absorption 30 9 true
+execute as @s at @s if score @s SPEFF_DONE matches 1 run effect give @s instant_health 1 15 true
 execute as @s at @s if score @s SPEFF_DONE matches 1 run tag @s add DIVPOS_EFFECT
 #endregion
 #region PostProcess

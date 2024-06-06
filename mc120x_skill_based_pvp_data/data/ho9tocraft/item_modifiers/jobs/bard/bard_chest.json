@@ -1,0 +1,66 @@
+[
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ho9tocraft:item_selector/equipments/full_iron_not_job_selected"
+            }
+        ],
+        "components": {
+            "item_name": "{\"bold\":true,\"color\":\"#A5C9C1\",\"italic\":false,\"translate\":\"item.bard.tunic.name\",\"fallback\":\"Brioso Gilet\"}",
+            "unbreakable": { "show_in_tooltip": false },
+            "enchantments": { "levels": { "projectile_protection": 2, "protection": 2 }, "show_in_tooltip": false },
+            "attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "generic.armor",
+                        "name": "generic.armor",
+                        "amount": 8,
+                        "operation": "add_value",
+                        "uuid": [1933946294,-775598215,-1240952912,1556315463],
+                        "slot": "chest"
+                    },
+                    {
+                        "type": "generic.armor_toughness",
+                        "name": "generic.armor_toughness",
+                        "amount": 3,
+                        "operation": "add_value",
+                        "uuid": [1567779275,1931233026,-1358105950,-376910021],
+                        "slot": "chest"
+                    },
+                    {
+                        "type": "generic.knockback_resistance",
+                        "name": "generic.knockback_resistance",
+                        "amount": 1,
+                        "operation": "add_value",
+                        "uuid": [-797816547,557926425,-2082484950,-1086364322],
+                        "slot": "chest"
+                    },
+                    {
+                        "type": "generic.max_health",
+                        "name": "generic.max_health",
+                        "amount": 10,
+                        "operation": "add_value",
+                        "uuid": [153675810,-840743097,-1098781246,-161871825],
+                        "slot": "chest"
+                    },
+                    {
+                        "type": "generic.movement_speed",
+                        "name": "generic.movement_speed",
+                        "amount": 0.0375,
+                        "operation": "add_multiplied_base",
+                        "uuid": [-761406836,1230652476,-1131861337,-797366746],
+                        "slot": "chest"
+                    }
+                ],
+                "show_in_tooltip": false
+            },
+            "trim": {
+                "material": "minecraft:bard",
+                "pattern": "minecraft:bard",
+                "show_in_tooltip": false
+            }
+        }
+    }
+]

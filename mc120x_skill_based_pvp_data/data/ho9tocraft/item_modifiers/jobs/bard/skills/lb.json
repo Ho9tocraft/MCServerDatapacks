@@ -1,0 +1,29 @@
+[
+    {
+        "function": "reference",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ho9tocraft:item_selector/common_lbset"
+            }
+        ],
+        "name": "ho9tocraft:jobs/common/limit_break"
+    },
+    {
+        "function": "set_lore",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ho9tocraft:item_selector/common_lbset"
+            }
+        ],
+        "lore": [
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.bard.limit_break.desc.1", "fallback": "Reduces Cast and Recast Times of your Weapon Skills," },
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.bard.limit_break.desc.2", "fallback": " and Increase your movement speed." },
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.bard.limit_break.desc.3", "fallback": "Also, Increase Damage Dealt to you and nearby allies," },
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.bard.limit_break.desc.4", "fallback": " and continuously increases limit gauge." },
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.bard.limit_break.range", "fallback": "(Range: 30m, Duration: 30 sec.)" }
+        ],
+        "mode": "replace_all"
+    }
+]

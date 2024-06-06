@@ -17,11 +17,16 @@ execute as @s[team=BLU] at @s as @e[tag=BoV_TarRED,distance=..25,sort=nearest,li
 #region PostProcess
 # Particles
 # LIMIT BREAK Accumulate
-execute as @s at @s if score @s LB_CHARGE matches 91..99 run scoreboard players add @s LB_CHARGE 1
-execute as @s at @s if score @s LB_CHARGE matches ..90 run scoreboard players add @s LB_CHARGE 10
+execute as @s at @s if score @s LB_CHARGE matches 96..99 run scoreboard players add @s LB_CHARGE 1
+execute as @s at @s if score @s LB_CHARGE matches 91..95 run scoreboard players add @s LB_CHARGE 5
+execute as @s at @s if score @s LB_CHARGE matches 81..90 run scoreboard players add @s LB_CHARGE 10
+execute as @s at @s if score @s LB_CHARGE matches ..80 run scoreboard players add @s LB_CHARGE 20
+execute as @s[tag=SOATH_EFFECT] at @s if score @s LB_CHARGE matches 96..99 run scoreboard players add @s LB_CHARGE 1
+execute as @s[tag=SOATH_EFFECT] at @s if score @s LB_CHARGE matches 91..95 run scoreboard players add @s LB_CHARGE 5
+execute as @s[tag=SOATH_EFFECT] at @s if score @s LB_CHARGE matches ..90 run scoreboard players add @s LB_CHARGE 10
 # Recast Timer
 execute as @s at @s if score @s WS_RECAST_T matches 0..49 run scoreboard players set @s WS_RECAST_T 50
-execute as @s at @s run scoreboard players set @s MG_RECAST_T 1200
+execute as @s at @s run scoreboard players set @s MG_RECAST_T 600
 execute as @s at @s if score @s AB_RECAST_T matches 0..49 run scoreboard players set @s AB_RECAST_T 50
 execute as @s at @s if score @s LB_RECAST_T matches 0..49 run scoreboard players set @s LB_RECAST_T 50
 # Remove Tag for Detectors

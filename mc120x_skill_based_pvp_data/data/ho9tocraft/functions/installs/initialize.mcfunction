@@ -170,7 +170,7 @@ team modify RED seeFriendlyInvisibles true
 team add BLU
 team modify BLU color blue
 team modify BLU collisionRule pushOtherTeams
-team modify BLU deathMessageVisibility hideForOtherTeams
+team modify BLU deathMessageVisibility always
 team modify BLU displayName {"color":"blue","translate":"team.ho9tocraft.blue.display","fallback":"Blue"}
 team modify BLU friendlyFire false
 team modify BLU nametagVisibility hideForOtherTeams
@@ -180,7 +180,7 @@ team modify BLU seeFriendlyInvisibles true
 team add Spectate
 team modify Spectate color gray
 team modify Spectate collisionRule never
-team modify Spectate deathMessageVisibility never
+team modify Spectate deathMessageVisibility always
 team modify Spectate displayName {"color":"gray","text":"Spec."}
 team modify Spectate friendlyFire false
 team modify Spectate nametagVisibility hideForOtherTeams

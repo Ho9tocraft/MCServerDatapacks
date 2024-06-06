@@ -1,0 +1,66 @@
+[
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ho9tocraft:item_selector/equipments/full_iron_not_job_selected"
+            }
+        ],
+        "components": {
+            "item_name": "{\"bold\":true,\"color\":\"#A5C9C1\",\"italic\":false,\"translate\":\"item.bard.helmet.name\",\"fallback\":\"Brioso Chapeau\"}",
+            "unbreakable": { "show_in_tooltip": false },
+            "enchantments": { "levels": { "projectile_protection": 2, "protection": 2 }, "show_in_tooltip": false },
+            "attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "generic.armor",
+                        "name": "generic.armor",
+                        "amount": 3,
+                        "operation": "add_value",
+                        "uuid": [592270555,62473459,-1542022569,858172464],
+                        "slot": "head"
+                    },
+                    {
+                        "type": "generic.armor_toughness",
+                        "name": "generic.armor_toughness",
+                        "amount": 3,
+                        "operation": "add_value",
+                        "uuid": [-1376159884,1569933323,-1408302342,-625288982],
+                        "slot": "head"
+                    },
+                    {
+                        "type": "generic.knockback_resistance",
+                        "name": "generic.knockback_resistance",
+                        "amount": 1,
+                        "operation": "add_value",
+                        "uuid": [-414387523,1369722660,-1168366846,-1136524439],
+                        "slot": "head"
+                    },
+                    {
+                        "type": "generic.max_health",
+                        "name": "generic.max_health",
+                        "amount": 10,
+                        "operation": "add_value",
+                        "uuid": [-1018384021,398937149,-1110385264,-500515137],
+                        "slot": "head"
+                    },
+                    {
+                        "type": "generic.movement_speed",
+                        "name": "generic.movement_speed",
+                        "amount": 0.0375,
+                        "operation": "add_multiplied_base",
+                        "uuid": [-843330632,-1834333162,-1517680970,-421220298],
+                        "slot": "head"
+                    }
+                ],
+                "show_in_tooltip": false
+            },
+            "trim": {
+                "material": "minecraft:bard",
+                "pattern": "minecraft:bard",
+                "show_in_tooltip": false
+            }
+        }
+    }
+]

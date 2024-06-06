@@ -4,6 +4,7 @@
         "layer0": "item/iron_boots"
     },
     "overrides": [
-        {"predicate": {"trim_type": 0.00001}, "model": "ho9tocraft:custom/firelink/boots"}
+        {"predicate": {"trim_type": 0.00001}, "model": "ho9tocraft:custom/firelink/boots"},
+        {"predicate": {"trim_type": 0.00004}, "model": "ho9tocraft:custom/brioso/boots"}
     ]
 }

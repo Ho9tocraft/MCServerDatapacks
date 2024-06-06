@@ -2,7 +2,13 @@
 
 #region Sword Oath Process
 execute as @a[tag=SOATH_EFFECT] at @s if score ^VPHandler TICK_ROOP matches 5 if score @s LB_CHARGE matches ..99 run scoreboard players add @s LB_CHARGE 1
+execute as @a[tag=SOATH_EFFECT] at @s if score ^VPHandler TICK_ROOP matches 5 if score @s LB_CHARGE matches ..99 run scoreboard players add @s LB_CHARGE 1
+execute as @a[tag=SOATH_EFFECT] at @s if score ^VPHandler TICK_ROOP matches 5 if score @s LB_CHARGE matches ..99 if predicate ho9tocraft:random_controller/rand_half run scoreboard players add @s LB_CHARGE 1
+execute as @a[tag=SOATH_EFFECT] at @s if score ^VPHandler TICK_ROOP matches 5 if score @s LB_CHARGE matches ..99 if predicate ho9tocraft:random_controller/rand_half run scoreboard players add @s LB_CHARGE 1
 execute as @a[tag=SOATH_EFFECT] at @s if score ^VPHandler TICK_ROOP matches 15 if score @s LB_CHARGE matches ..99 run scoreboard players add @s LB_CHARGE 1
+execute as @a[tag=SOATH_EFFECT] at @s if score ^VPHandler TICK_ROOP matches 15 if score @s LB_CHARGE matches ..99 run scoreboard players add @s LB_CHARGE 1
+execute as @a[tag=SOATH_EFFECT] at @s if score ^VPHandler TICK_ROOP matches 15 if score @s LB_CHARGE matches ..99 if predicate ho9tocraft:random_controller/rand_half run scoreboard players add @s LB_CHARGE 1
+execute as @a[tag=SOATH_EFFECT] at @s if score ^VPHandler TICK_ROOP matches 15 if score @s LB_CHARGE matches ..99 if predicate ho9tocraft:random_controller/rand_half run scoreboard players add @s LB_CHARGE 1
 execute as @a[tag=SOATH_EFFECT,tag=SO_TIMER_0] at @s if score @s SPEFF_TIMER_0 matches 0 run tag @s remove SOATH_EFFECT
 execute as @a[tag=SOATH_EFFECT,tag=SO_TIMER_1] at @s if score @s SPEFF_TIMER_1 matches 0 run tag @s remove SOATH_EFFECT
 execute as @a[tag=SOATH_EFFECT,tag=SO_TIMER_2] at @s if score @s SPEFF_TIMER_2 matches 0 run tag @s remove SOATH_EFFECT

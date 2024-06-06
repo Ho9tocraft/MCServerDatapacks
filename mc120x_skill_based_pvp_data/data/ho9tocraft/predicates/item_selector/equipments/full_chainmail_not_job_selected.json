@@ -1,0 +1,22 @@
+{
+    "condition": "all_of",
+    "terms": [
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "player",
+                "equipment": {
+                    "head": { "items": ["chainmail_helmet"], "count": 1 },
+                    "chest": { "items": ["chainmail_chestplate"], "count": 1 },
+                    "legs": { "items": ["chainmail_leggings"], "count": 1 },
+                    "feet": { "items": ["chainmail_boots"], "count": 1 }
+                }
+            }
+        },
+        {
+            "condition": "reference",
+            "name": "ho9tocraft:passive_selector/job_not_selected"
+        }
+    ]
+}

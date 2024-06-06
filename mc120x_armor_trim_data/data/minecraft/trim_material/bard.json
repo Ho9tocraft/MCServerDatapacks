@@ -1,0 +1,9 @@
+{
+    "asset_name": "none",
+    "ingredient": "air",
+    "description": {
+        "color": "#E83929",
+        "translate": "trim_material.ho9tocraft.bard"
+    },
+    "item_model_index": 0.00004
+}

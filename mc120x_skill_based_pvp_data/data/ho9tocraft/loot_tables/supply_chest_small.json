@@ -22,7 +22,7 @@
                     ],
                     "type": "item",
                     "name": "minecraft:emerald",
-                    "weight": 4,
+                    "weight": 24,
                     "quality": 2
                 }
             ]
@@ -40,6 +40,24 @@
                 {
                     "type": "item",
                     "name": "minecraft:cooked_beef",
+                    "weight": 16,
+                    "quality": 1
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 0,
+                "max": 2
+            },
+            "bonus_rolls": {
+                "min": 0,
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:stone_pickaxe",
                     "weight": 1,
                     "quality": 1
                 }
@@ -57,27 +75,9 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "minecraft:stone_pickaxe",
-                    "weight": 1,
-                    "quality": 2
-                }
-            ]
-        },
-        {
-            "rolls": {
-                "min": 0,
-                "max": 2
-            },
-            "bonus_rolls": {
-                "min": 1,
-                "max": 2
-            },
-            "entries": [
-                {
-                    "type": "item",
                     "name": "minecraft:beacon",
                     "weight": 1,
-                    "quality": 2
+                    "quality": 1
                 }
             ]
         },
@@ -96,8 +96,8 @@
                         {
                             "function": "set_count",
                             "count": {
-                                "min": 1,
-                                "max": 4
+                                "min": 0,
+                                "max": 2
                             }
                         }
                     ],
@@ -115,7 +115,7 @@
             },
             "bonus_rolls": {
                 "min": 0,
-                "max": 6
+                "max": 2
             },
             "entries": [
                 {
@@ -123,8 +123,8 @@
                         {
                             "function": "set_count",
                             "count": {
-                                "min": 1,
-                                "max": 4
+                                "min": 0,
+                                "max": 2
                             }
                         }
                     ],

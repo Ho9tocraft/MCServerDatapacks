@@ -6,7 +6,7 @@ execute as @s at @s run tag @s add Unlsh_Exec
 execute as @a[team=RED] at @s as @e[team=BLU,distance=..5,sort=nearest] at @s run damage @s 19.2 indirect_magic by @a[team=RED,tag=Unlsh_Exec,sort=nearest,limit=1] from @a[team=RED,tag=Unlsh_Exec,sort=nearest,limit=1]
 #endregion
 #region team=BLU
-execute as @a[team=BLU] at @s as @e[team=BLU,distance=..5,sort=nearest] at @s run damage @s 19.2 indirect_magic by @a[team=BLU,tag=Unlsh_Exec,sort=nearest,limit=1] from @a[team=BLU,tag=Unlsh_Exec,sort=nearest,limit=1]
+execute as @a[team=BLU] at @s as @e[team=RED,distance=..5,sort=nearest] at @s run damage @s 19.2 indirect_magic by @a[team=BLU,tag=Unlsh_Exec,sort=nearest,limit=1] from @a[team=BLU,tag=Unlsh_Exec,sort=nearest,limit=1]
 #endregion
 #region PostProcess
 # Particles

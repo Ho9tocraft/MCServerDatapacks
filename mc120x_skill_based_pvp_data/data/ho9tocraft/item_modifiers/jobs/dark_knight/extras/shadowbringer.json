@@ -28,7 +28,7 @@
             }
         ],
         "components": {
-            "item_name": "{\"bold\":true,\"color\":\"#C0C0C0\",\"italic\":false,\"translate\":\"skill.dark_knight.shadowbringer.name\",\"fallback\":\"Hissatsu: Senei\"}",
+            "item_name": "{\"bold\":true,\"color\":\"#C0C0C0\",\"italic\":false,\"translate\":\"skill.dark_knight.shadowbringer.name\",\"fallback\":\"Shadowbringer\"}",
             "lore": [
                 "{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"translate\":\"skill.dark_knight.shadowbringer.desc.1\",\"fallback\":\"Releases a forward straight line range toward the nearest enemy within range,\"}",
                 "{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"translate\":\"skill.dark_knight.shadowbringer.desc.2\",\"fallback\":\" deals magic damage to enemies within the range.\"}",

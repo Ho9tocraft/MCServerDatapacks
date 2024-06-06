@@ -7,6 +7,7 @@
   "overrides": [
     { "__comment": "DRK: Shadowbringer", "predicate": { "custom_model_data": 0 }, "model": "finalfantasyxiv:actions_job/01_drk/shadowbringer" },
     { "__comment": "EXC: Senei", "predicate": { "custom_model_data": 1 }, "model": "finalfantasyxiv:actions_job/02_exc/hissatsu_senei" },
-    { "__comment": "EXC: SetsugekkaFL", "predicate": { "custom_model_data": 2 }, "model": "finalfantasyxiv:actions_job/02_exc/midare_setsugekka" }
+    { "__comment": "EXC: SetsugekkaFL", "predicate": { "custom_model_data": 2 }, "model": "finalfantasyxiv:actions_job/02_exc/midare_setsugekka" },
+    { "__comment": "BRD: RefulgentArrow", "predicate": { "custom_model_data": 3 }, "model": "finalfantasyxiv:actions_job/03_brd/refulgent_arrow" }
   ]
 }

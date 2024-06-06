@@ -32,7 +32,7 @@ execute as @e[type=armor_stand,tag=ShieldB_PosToRED,sort=nearest,limit=1] at @s 
 #endregion
 #region PostProcess
 # Recast Timer
-execute as @s at @s run scoreboard players set @s WS_RECAST_T 2400
+execute as @s at @s run scoreboard players set @s WS_RECAST_T 50
 execute as @s at @s if score @s MG_RECAST_T matches 0..49 run scoreboard players set @s MG_RECAST_T 50
 execute as @s at @s if score @s AB_RECAST_T matches 0..49 run scoreboard players set @s AB_RECAST_T 50
 execute as @s at @s if score @s LB_RECAST_T matches 0..49 run scoreboard players set @s LB_RECAST_T 50

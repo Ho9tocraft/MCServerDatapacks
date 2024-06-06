@@ -9,10 +9,6 @@ execute as @a store success score @s scoreInit run scoreboard players get @s NOW
 execute as @a if score @s scoreInit matches 0 run scoreboard players set @s NOW_MP 10000
 execute as @a store success score @s scoreInit run scoreboard players get @s NOW_HP
 execute as @a if score @s scoreInit matches 0 run execute store result score @s NOW_HP run data get entity @s Health
-execute as @a store success score @s scoreInit run scoreboard players get @s NOW_HP_RED
-execute as @a if score @s scoreInit matches 0 run scoreboard players set @s NOW_HP_RED 0
-execute as @a store success score @s scoreInit run scoreboard players get @s NOW_HP_BLU
-execute as @a if score @s scoreInit matches 0 run scoreboard players set @s NOW_HP_BLU 0
 execute as @a store success score @s scoreInit run scoreboard players get @s TEAMKILL_RED
 execute as @a if score @s scoreInit matches 0 run scoreboard players set @s TEAMKILL_RED 0
 execute as @a store success score @s scoreInit run scoreboard players get @s TEAMKILL_BLU

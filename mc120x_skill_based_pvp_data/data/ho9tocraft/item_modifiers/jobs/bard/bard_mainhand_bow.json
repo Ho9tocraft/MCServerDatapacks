@@ -1,0 +1,45 @@
+[
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "all_of",
+                "terms": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "player",
+                            "slots": { "hotbar.0": {
+                                "items": [ "minecraft:bow" ],
+                                "count": 1
+                            }}
+                        }
+                    },
+                    {
+                        "condition": "reference",
+                        "name": "ho9tocraft:passive_selector/job_not_selected"
+                    }
+                ]
+            }
+        ],
+        "components": {
+            "item_name": "{\"bold\":true,\"color\":\"#A5C9C1\",\"italic\":false,\"translate\":\"item.bard.bow.name\",\"fallback\":\"Padjali Longbow\"}",
+            "unbreakable": { "show_in_tooltip": false },
+            "enchantments": { "levels": { "power": 10, "piercing": 4, "infinity": 1 }, "show_in_tooltip": false },
+            "attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "generic.safe_fall_distance",
+                        "name": "generic.safe_fall_distance",
+                        "amount": 2.5,
+                        "operation": "add_multiplied_base",
+                        "uuid": [-1019078543,-2057352496,-1127611490,-1689624740],
+                        "slot": "mainhand"
+                    }
+                ],
+                "show_in_tooltip": false
+            }
+        }
+    }
+]

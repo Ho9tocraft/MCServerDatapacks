@@ -2,6 +2,7 @@
     "values": [
         "ho9tocraft:ngeffect/poison",
         "ho9tocraft:ngeffect/scarlet_rot",
-        "ho9tocraft:ngeffect/death"
+        "ho9tocraft:ngeffect/death",
+        "ho9tocraft:ngeffect/radiation"
     ]
 }

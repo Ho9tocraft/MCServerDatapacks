@@ -15,6 +15,14 @@ execute as @s at @s run particle explosion ~ ~5 ~ 5 5 5 1 100 normal @a[distance
 execute as @s at @s run particle flash ~ ~5 ~ 5 5 5 1 125 normal @a[distance=..30]
 # MP Cost
 execute as @s at @s run scoreboard players remove @s NOW_MP 1000
+# LIMIT BREAK Accumulate
+execute as @s at @s if score @s LB_CHARGE matches 96..99 run scoreboard players add @s LB_CHARGE 1
+execute as @s at @s if score @s LB_CHARGE matches 91..95 run scoreboard players add @s LB_CHARGE 5
+execute as @s at @s if score @s LB_CHARGE matches 81..90 run scoreboard players add @s LB_CHARGE 10
+execute as @s at @s if score @s LB_CHARGE matches ..80 run scoreboard players add @s LB_CHARGE 20
+execute as @s[tag=SOATH_EFFECT] at @s if score @s LB_CHARGE matches 96..99 run scoreboard players add @s LB_CHARGE 1
+execute as @s[tag=SOATH_EFFECT] at @s if score @s LB_CHARGE matches 91..95 run scoreboard players add @s LB_CHARGE 5
+execute as @s[tag=SOATH_EFFECT] at @s if score @s LB_CHARGE matches ..90 run scoreboard players add @s LB_CHARGE 10
 # Convert Item to "Confiteor"
 execute as @s at @s run scoreboard players set @s PROC_TIMER_MG 600
 execute as @s at @s run item modify entity @s hotbar.2 ho9tocraft:jobs/paladin/extras/confiteor

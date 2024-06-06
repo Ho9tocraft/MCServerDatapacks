@@ -19,7 +19,9 @@ execute if score ^VPHandler BATTLE_COND matches 1 run scoreboard players operati
 execute if score ^VPHandler BATTLE_COND matches 1 run scoreboard players operation ^VPHandler BMVILGR_CLC = ^VPHandler BATTLE_TIMER
 execute if score ^VPHandler BATTLE_COND matches 1 run scoreboard players operation ^VPHandler B_SPL_CLC %= ^VPHandler B_SUPPLY
 execute if score ^VPHandler BATTLE_COND matches 1 run scoreboard players operation ^VPHandler BMVILGR_CLC %= ^VPHandler B_MVILLAGER
-execute if score ^VPHandler BATTLE_COND matches 1 if score ^VPHandler B_SPL_CLC matches 0 if score ^VPHandler BATTLE_STAGE matches 0 run function ho9tocraft:battle/supply/stage_00_loot
-execute if score ^VPHandler BATTLE_COND matches 1 if score ^VPHandler BMVILGR_CLC matches 0 if score ^VPHandler BATTLE_STAGE matches 0 if predicate ho9tocraft:random_controller/rand_miracle_villager run function ho9tocraft:battle/process/miracle_villager/stage_00_villager
+execute if score ^VPHandler BATTLE_COND matches 1 if score ^VPHandler BATTLE_TIMER matches 1.. if score ^VPHandler B_SPL_CLC matches 0 if score ^VPHandler BATTLE_STAGE matches 0 as @a at @s run tellraw @s ["",{"text": "Supply Chest","color": "yellow"},{"text": " Refilled!"}]
+execute if score ^VPHandler BATTLE_COND matches 1 if score ^VPHandler BATTLE_TIMER matches 1.. if score ^VPHandler B_SPL_CLC matches 0 if score ^VPHandler BATTLE_STAGE matches 0 as @a at @s run playsound entity.player.levelup player @s ~ ~ ~ 1.0 1.0 0.5
+execute if score ^VPHandler BATTLE_COND matches 1 if score ^VPHandler BATTLE_TIMER matches 1.. if score ^VPHandler B_SPL_CLC matches 0 if score ^VPHandler BATTLE_STAGE matches 0 run function ho9tocraft:battle/supply/stage_00_loot
+execute if score ^VPHandler BATTLE_COND matches 1 if score ^VPHandler BATTLE_TIMER matches 1.. if score ^VPHandler BMVILGR_CLC matches 0 if score ^VPHandler BATTLE_STAGE matches 0 if predicate ho9tocraft:random_controller/rand_miracle_villager run function ho9tocraft:battle/process/miracle_villager/stage_00_villager
 
 execute if score ^VPHandler BATTLE_TIMER matches 0 if score ^VPHandler BATTLE_COND matches 1 run function ho9tocraft:battle/process/battle_finish

@@ -1,0 +1,66 @@
+[
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ho9tocraft:item_selector/equipments/full_iron_not_job_selected"
+            }
+        ],
+        "components": {
+            "item_name": "{\"bold\":true,\"color\":\"#A5C9C1\",\"italic\":false,\"translate\":\"item.bard.boots.name\",\"fallback\":\"Brioso Shoes\"}",
+            "unbreakable": { "show_in_tooltip": false },
+            "enchantments": { "levels": { "projectile_protection": 2, "protection": 2 }, "show_in_tooltip": false },
+            "attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "generic.armor",
+                        "name": "generic.armor",
+                        "amount": 3,
+                        "operation": "add_value",
+                        "uuid": [-1441156261,-1008253537,-1659619638,-2107761463],
+                       "slot": "feet"
+                    },
+                    {
+                        "type": "generic.armor_toughness",
+                        "name": "generic.armor_toughness",
+                        "amount": 3,
+                        "operation": "add_value",
+                        "uuid": [1872271310,765347271,-1580535472,301327956],
+                       "slot": "feet"
+                    },
+                    {
+                        "type": "generic.knockback_resistance",
+                        "name": "generic.knockback_resistance",
+                        "amount": 1,
+                        "operation": "add_value",
+                        "uuid": [1017909632,-2131409732,-1092177034,1265751599],
+                       "slot": "feet"
+                    },
+                    {
+                        "type": "generic.max_health",
+                        "name": "generic.max_health",
+                        "amount": 10,
+                        "operation": "add_value",
+                        "uuid": [1277370769,-227261425,-1245986321,2086429088],
+                       "slot": "feet"
+                    },
+                    {
+                        "type": "generic.movement_speed",
+                        "name": "generic.movement_speed",
+                        "amount": 0.0375,
+                        "operation": "add_multiplied_base",
+                        "uuid": [1138823989,2095596847,-2006180030,-913872434],
+                       "slot": "feet"
+                    }
+                ],
+                "show_in_tooltip": false
+            },
+            "trim": {
+                "material": "minecraft:bard",
+                "pattern": "minecraft:bard",
+                "show_in_tooltip": false
+            }
+        }
+    }
+]

@@ -1,0 +1,66 @@
+[
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ho9tocraft:item_selector/equipments/full_iron_not_job_selected"
+            }
+        ],
+        "components": {
+            "item_name": "{\"bold\":true,\"color\":\"#A5C9C1\",\"italic\":false,\"translate\":\"item.bard.leggings.name\",\"fallback\":\"Brioso Bottoms\"}",
+            "unbreakable": { "show_in_tooltip": false },
+            "enchantments": { "levels": { "projectile_protection": 2, "protection": 2 }, "show_in_tooltip": false },
+            "attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "generic.armor",
+                        "name": "generic.armor",
+                        "amount": 6,
+                        "operation": "add_value",
+                        "uuid": [769222426,898254482,-2117843068,1676505447],
+                       "slot": "legs"
+                    },
+                    {
+                        "type": "generic.armor_toughness",
+                        "name": "generic.armor_toughness",
+                        "amount": 3,
+                        "operation": "add_value",
+                        "uuid": [-1279568699,1689274882,-1968717545,-1870969348],
+                       "slot": "legs"
+                    },
+                    {
+                        "type": "generic.knockback_resistance",
+                        "name": "generic.knockback_resistance",
+                        "amount": 1,
+                        "operation": "add_value",
+                        "uuid": [2058008576,-475967890,-1341569863,-705730171],
+                       "slot": "legs"
+                    },
+                    {
+                        "type": "generic.max_health",
+                        "name": "generic.max_health",
+                        "amount": 10,
+                        "operation": "add_value",
+                        "uuid": [480226382,1944932055,-2061279185,-1241222517],
+                       "slot": "legs"
+                    },
+                    {
+                        "type": "generic.movement_speed",
+                        "name": "generic.movement_speed",
+                        "amount": 0.0375,
+                        "operation": "add_multiplied_base",
+                        "uuid": [1302652513,-1061927205,-1152538443,-816234836],
+                       "slot": "legs"
+                    }
+                ],
+                "show_in_tooltip": false
+            },
+            "trim": {
+                "material": "minecraft:bard",
+                "pattern": "minecraft:bard",
+                "show_in_tooltip": false
+            }
+        }
+    }
+]
