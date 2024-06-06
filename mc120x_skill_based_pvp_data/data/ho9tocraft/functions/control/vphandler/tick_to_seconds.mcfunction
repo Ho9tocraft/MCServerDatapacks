@@ -82,5 +82,8 @@ execute as @a[nbt={Inventory:[{id:"minecraft:glass_bottle"}]}] at @s if score ^V
 #region Remove InGround Arrow
 execute as @e[predicate=ho9tocraft:passive_selector/remove_inground_arrow] at @s run kill @s
 #endregion
+#region Remove Expired Nuke
+execute as @e[type=armor_stand,tag=RACT_USER] at @s if score @s SPEFF_TIMER_0 matches 0 run kill @s
+#endregion
 function ho9tocraft:battle/process/battle_process
 execute if score ^VPHandler TICK_ROOP matches 20 run function #ho9tocraft:vphandlers_post
