@@ -14,9 +14,9 @@
 :x:遠隔魔法DPSのうち、再現が困難な「召喚士」は除外しています。  
 :x:リミテッドジョブは除外しています。  
 - タンク(高HP、高防御力、低火力)
-  - [x] ナイト(Paladin / PLD / ナ) [Progress: Release Candidate, Job ID: 0]
+  - [x] ナイト(Paladin / PLD / ナ) [Progress: Release, Job ID: 0]
   - [ ] 戦士(Warrior / WAR / 戦) [Progress: Pending]
-  - [x] 暗黒騎士(Dark Knight / DRK / 暗) [Progress: Beta Builds, Job ID: 1]
+  - [x] 暗黒騎士(Dark Knight / DRK / 暗) [Progress: Release Candidate 1, Job ID: 1]
   - [ ] ガンブレイカー(Gunbreaker / GNB / ガ) [Progress: Pending]
 - ヒーラー(低HP、最低保障防御力、低火力、回復スキルあり)
   - [ ] 白魔道士(White Mage / WHM / 白) [Progress: Pending]
@@ -28,10 +28,10 @@
   - [ ] リーパー(Reaper / RPR / リ) [Progress: Pending]
   - [ ] モンク(Monk / MNK / モ) [Progress: Pending]
   - [ ] 侍(Samurai / SAM / 侍) [Progress: Pending]
-  - [x] 巫覡(Exorcist / EXC / 覡) [Progress: Release Candidate, Job ID: 2] [^1]
+  - [x] 巫覡(Exorcist / EXC / 覡) [Progress: Release Candidate 2, Job ID: 2] [^1]
   - [ ] 忍者(Ninja / NIN / 忍) [Progress: Pending]
 - 遠隔物理DPS(中HP、最低保障防御力、高火力)
-  - [ ] 吟遊詩人(Bard / BRD / 詩) [Progress: Work in Progress, Job ID: 3]
+  - [x] 吟遊詩人(Bard / BRD / 詩) [Progress: Beta Build, Job ID: 3]
 - 遠隔魔法DPS(低HP、最低保障防御力、高火力)
   - [ ] 黒魔道士(Black Mage / BLM / 黒) [Progress: Pending]
   - [ ] 赤魔道士(Red Mage / RDM / 赤) [Progress: Pending]

@@ -14,9 +14,9 @@ The jobs currently scheduled for implementation are as follows. ([Reference(FF14
 :x:Excluded from Magical Ranged DPS are "Summoner", which are difficult to reproduce.  
 :x:Excluded are Limited Jobs.  
 - TANK (High Health, High DEF, Low Strength(Physical))
-  - [x] Paladin (PLD) [Progress: Release Candidate, Job ID: 0]
+  - [x] Paladin (PLD) [Progress: Release, Job ID: 0]
   - [ ] Warrior (WAR) [Progress: Pending]
-  - [x] Dark Knight (DRK) [Progress: Beta Builds, Job ID: 1]
+  - [x] Dark Knight (DRK) [Progress: Release Candidate 1, Job ID: 1]
   - [ ] Gunbreaker (GNB) [Progress: Pending]
 - HEALER (Low Health, Minimum DEF, Low Strength(Magical), Healing Skills are Available)
   - [ ] White Mage (WHM) [Progress: Pending]
@@ -28,10 +28,10 @@ The jobs currently scheduled for implementation are as follows. ([Reference(FF14
   - [ ] Reaper (RPR) [Progress: Pending]
   - [ ] Monk (MNK) [Progress: Pending]
   - [ ] Samurai (SAM) [Progress: Pending]
-  - [x] Exorcist (EXC) [Progress: Release Candidate, Job ID: 2] [^1]
+  - [x] Exorcist (EXC) [Progress: Release Candidate 2, Job ID: 2] [^1]
   - [ ] Ninja (NIN) [Progress: Pending]
 - Physical Ranged DPS (Medium Health, Minimum DEF, High Strength(Physical))
-  - [ ] Bard (BRD) [Progress: Work in Progress, Job ID: 3]
+  - [x] Bard (BRD) [Progress: Beta Build, Job ID: 3]
 - Magical Ranged DPS (Low Health, Minimum DEF, High Strength(Magical))
   - [ ] Black Mage (BLM) [Progress: Pending]
   - [ ] Red Mage (RDM) [Progress: Pending]

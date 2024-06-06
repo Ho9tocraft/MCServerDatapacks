@@ -47,10 +47,27 @@ execute as @a[predicate=ho9tocraft:item_selector/jobs/02_exc/exorcist_offhand_ws
 execute as @a[predicate=ho9tocraft:item_selector/jobs/02_exc/exorcist_lb] at @s run function ho9tocraft:skills/02_exc/limit_break
 execute as @a[predicate=ho9tocraft:item_selector/jobs/02_exc/exorcist_proc_test,scores={CURRENT_JOB=2}] at @s run function ho9tocraft:skills/02_exc/proc_fail
 #endregion
+#region ID=3, DisplayName=Bard
+execute as @a[predicate=ho9tocraft:item_selector/jobs/proc/03_brd/ws_combo_1] at @s run function ho9tocraft:skills/03_brd/refulgent_arrow
+execute as @a[predicate=ho9tocraft:item_selector/jobs/03_brd/bard_ws] at @s run function ho9tocraft:skills/03_brd/burst_shot
+execute as @a[predicate=ho9tocraft:item_selector/jobs/03_brd/bard_mg] at @s run function ho9tocraft:skills/03_brd/caustic_bite
+execute as @a[predicate=ho9tocraft:item_selector/jobs/03_brd/bard_ab] at @s run function ho9tocraft:skills/03_brd/radiant_finale
+execute as @a[predicate=ho9tocraft:item_selector/jobs/03_brd/bard_lb] at @s run function ho9tocraft:skills/03_brd/limit_break
+execute as @a[predicate=ho9tocraft:item_selector/jobs/03_brd/bard_proc_test] at @s run function ho9tocraft:skills/03_brd/proc_fail
+execute as @a[predicate=ho9tocraft:item_selector/jobs/03_brd/bard_reload_arrow] at @s run item replace entity @s inventory.0 with arrow 32
+#endregion
+#region ID=4, DisplayName=Dragoon
+#endregion
+#region ID=5, DisplayName=Red Mage
+#endregion
+#region Support Item
+execute as @a[predicate=ho9tocraft:item_selector/support_item/knight_errantry] at @s run function ho9tocraft:support_item/knight_errantry
+execute as @a[predicate=ho9tocraft:item_selector/support_item/tact_nuke] at @s run function ho9tocraft:support_item/tactical_nuke
+#endregion
 
 #region PostProcess
-execute as @a at @s if score @s SPEFF_DONE matches 1 run scoreboard players set @s SPEFF_DONE 0
-execute as @a at @s if score @s NGEFF_DONE matches 1 run scoreboard players set @s NGEFF_DONE 0
+execute as @e at @s if score @s SPEFF_DONE matches 1 run scoreboard players set @s SPEFF_DONE 0
+execute as @e at @s if score @s NGEFF_DONE matches 1 run scoreboard players set @s NGEFF_DONE 0
 execute as @a[tag=OffWS_Exec] at @s run tag @s remove OffWS_Exec
 execute as @a[tag=LB_Exec] at @s run tag @s remove LB_Exec
 execute as @e[type=armor_stand,tag=ShieldB_PosToRED] at @s anchored eyes unless block ~ ~ ~ air run tp @s ~ ~1 ~

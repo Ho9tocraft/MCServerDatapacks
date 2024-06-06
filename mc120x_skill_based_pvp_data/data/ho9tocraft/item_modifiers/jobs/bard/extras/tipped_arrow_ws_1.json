@@ -1,0 +1,19 @@
+{
+    "function": "set_components",
+    "components": {
+        "item_name": "{\"bold\":true,\"color\":\"#C0C0C0\",\"italic\":false,\"translate\":\"skill.bard.refulgent_arrow.name\",\"fallback\":\"Refulgent Arrow\"}",
+        "potion_contents": {
+            "custom_color": 16777215,
+            "custom_effects": [
+                {
+                    "id": "minecraft:instant_damage",
+                    "amplifier": 2,
+                    "duration": 1,
+                    "show_particles": false,
+                    "show_icon": false,
+                    "ambient": false
+                }
+            ]
+        }
+    }
+}

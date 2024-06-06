@@ -1,0 +1,7 @@
+{
+    "condition": "inverted",
+    "term": {
+        "condition": "reference",
+        "name": "ho9tocraft:passive_selector/have_arrow"
+    }
+}

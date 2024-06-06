@@ -1,6 +1,7 @@
 {
     "values": [
         "ho9tocraft:control/vphandler/tick_to_seconds",
-        "#ho9tocraft:jobs/job_speff_displayhandler"
+        "#ho9tocraft:jobs/job_speff_displayhandler",
+        "#ho9tocraft:common_negative_effect"
     ]
 }

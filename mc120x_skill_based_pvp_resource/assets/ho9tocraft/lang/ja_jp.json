@@ -115,7 +115,7 @@
     "skill.bard.shot_action.reject": "オフハンドが空でない場合は使用できない。",
     "skill.bard.radiant_finale.name": "光神のフィナーレ",
     "skill.bard.radiant_finale.desc.1": "一定時間、自身と周囲の味方の攻撃力を上昇させる。",
-    "skill.bard.radiant_finale.range": "（効果時間: 15秒）",
+    "skill.bard.radiant_finale.range": "（射程:30m, 効果時間: 15秒）",
     "skill.bard.limit_break.desc.1": "自身のウェポンスキルのキャストタイムとリキャストタイムを短縮させ",
     "skill.bard.limit_break.desc.2": "移動速度を上昇させる。",
     "skill.bard.limit_break.desc.3": "更に、自身と周囲の味方の攻撃力を上昇させ、",

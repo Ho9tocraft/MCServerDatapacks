@@ -1,0 +1,16 @@
+{
+    "condition": "all_of",
+    "terms": [
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "player",
+                "equipment": { "mainhand": {
+                    "items": [ "minecraft:armor_stand" ],
+                    "components": { "custom_data": { "special_item": true }}
+                }}
+            }
+        }
+    ]
+}
