@@ -2,6 +2,8 @@
 #define loot_table ho9tocraft:supply_chest_small
 #define loot_table ho9tocraft:supply_chest_large
 
+execute as @a[predicate=ho9tocraft:passive_selector/trotsky_blacklisted] at @s run clear @s stone_pickaxe
+execute as @a[predicate=ho9tocraft:passive_selector/trotsky_blacklisted] at @s run clear @s iron_pickaxe
 execute store result bossbar ho9tocraft:battle_timer value run scoreboard players get ^VPHandler BATTLE_TIMER
 execute if score ^VPHandler BATTLE_COND matches 0..1 if score ^VPHandler BATTLE_STAGE matches 0 run function ho9tocraft:battle/stages/safe_areas/stage_00
 execute if score ^VPHandler BATTLE_TIMER matches 1.. run scoreboard players remove ^VPHandler BATTLE_TIMER 1

@@ -75,6 +75,9 @@ scoreboard objectives add AB_RECAST_V dummy
 scoreboard objectives add LB_CHARGE dummy
 #LB_RECAST_T(var: 0 to 100('0' means Ready to Charge))
 scoreboard objectives add LB_RECAST_T dummy
+#ARROW_COUNT(var: 0 to 32)
+scoreboard objectives add ARROW_COUNT dummy
+scoreboard objectives add MAX_ARROW dummy
 #NOW_SURR_ENEMY(var: 0 to INT_MAX(More than 1 is considered tangential))
 scoreboard objectives add NOW_SURR_ENEMY dummy
 #BATTLE_TIMER(var: -1 to INT_MAX('0' means Time Up, value means timer seconds, '-1' means Lobby))
@@ -153,6 +156,7 @@ scoreboard players set ^VPHandler B_SUPPLY 3000
 scoreboard players set ^VPHandler BATTLE_COND -1
 scoreboard players set ^VPHandler BATTLE_STAGE -1
 scoreboard players set ^VPHandler M_SHOP_POP -1
+scoreboard players set ^VPHandler MAX_ARROW 32
 #endregion
 
 #region Team Settings

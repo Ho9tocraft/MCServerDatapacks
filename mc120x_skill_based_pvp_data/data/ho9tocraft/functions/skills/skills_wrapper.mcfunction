@@ -13,6 +13,10 @@
 execute as @a[predicate=ho9tocraft:item_selector/common_mgcasting] at @s run scoreboard players remove @s CAST_TIMER 1
 function #ho9tocraft:jobs/job_magic_castfail
 #endregion
+#region Arrow Count
+execute as @a at @s store result score @s ARROW_COUNT run clear @s arrow 0
+execute as @a at @s if score @s ARROW_COUNT > ^VPHandler MAX_ARROW run function ho9tocraft:skills/03_brd/bard_arrow_overflow
+#endregion
 #region ID=0, DisplayName=Paladin
 execute as @a[predicate=ho9tocraft:item_selector/jobs/00_pld/paladin_ws] at @s run function ho9tocraft:skills/00_pld/sword_oath
 execute as @a[predicate=ho9tocraft:item_selector/jobs/proc/00_pld/mg_combo_4] at @s run function ho9tocraft:skills/00_pld/blade_of_valor
