@@ -164,7 +164,7 @@ scoreboard players set ^VPHandler MAX_ARROW 32
 team add RED
 team modify RED color red
 team modify RED collisionRule pushOtherTeams
-team modify RED deathMessageVisibility hideForOtherTeams
+team modify RED deathMessageVisibility always
 team modify RED displayName {"color":"red","translate":"team.ho9tocraft.red.display","fallback":"Red"}
 team modify RED friendlyFire false
 team modify RED nametagVisibility hideForOtherTeams
