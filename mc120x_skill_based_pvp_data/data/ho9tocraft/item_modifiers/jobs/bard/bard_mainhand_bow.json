@@ -26,7 +26,7 @@
         "components": {
             "item_name": "{\"bold\":true,\"color\":\"#A5C9C1\",\"italic\":false,\"translate\":\"item.bard.bow.name\",\"fallback\":\"Padjali Longbow\"}",
             "unbreakable": { "show_in_tooltip": false },
-            "enchantments": { "levels": { "power": 10, "piercing": 4, "infinity": 1 }, "show_in_tooltip": false },
+            "enchantments": { "levels": { "power": 25, "piercing": 4, "infinity": 1 }, "show_in_tooltip": false },
             "attribute_modifiers": {
                 "modifiers": [
                     {
