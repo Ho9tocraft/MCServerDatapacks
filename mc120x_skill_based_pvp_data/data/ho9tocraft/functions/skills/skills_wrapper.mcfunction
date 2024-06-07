@@ -15,7 +15,9 @@ function #ho9tocraft:jobs/job_magic_castfail
 #endregion
 #region Arrow Count
 execute as @a at @s store result score @s ARROW_COUNT run clear @s arrow 0
+execute as @a at @s store result score @s T_ARROW_C run clear @s tipped_arrow 0
 execute as @a at @s if score @s ARROW_COUNT > ^VPHandler MAX_ARROW run function ho9tocraft:skills/03_brd/bard_arrow_overflow
+execute as @a at @s if score @s T_ARROW_C matches 2.. run function ho9tocraft:skills/03_brd/bard_tipped_arrow_overflow
 #endregion
 #region ID=0, DisplayName=Paladin
 execute as @a[predicate=ho9tocraft:item_selector/jobs/00_pld/paladin_ws] at @s run function ho9tocraft:skills/00_pld/sword_oath

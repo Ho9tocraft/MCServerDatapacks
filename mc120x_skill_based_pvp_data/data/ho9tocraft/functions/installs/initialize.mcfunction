@@ -78,6 +78,7 @@ scoreboard objectives add LB_RECAST_T dummy
 #ARROW_COUNT(var: 0 to 32)
 scoreboard objectives add ARROW_COUNT dummy
 scoreboard objectives add MAX_ARROW dummy
+scoreboard objectives add T_ARROW_C dummy
 #NOW_SURR_ENEMY(var: 0 to INT_MAX(More than 1 is considered tangential))
 scoreboard objectives add NOW_SURR_ENEMY dummy
 #BATTLE_TIMER(var: -1 to INT_MAX('0' means Time Up, value means timer seconds, '-1' means Lobby))
