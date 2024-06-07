@@ -1,0 +1,9 @@
+{
+    "asset_name": "none",
+    "ingredient": "air",
+    "description": {
+        "color": "#E6E6FA",
+        "translate": "trim_material.ho9tocraft.theogonic_of_casting"
+    },
+    "item_model_index": 0.00006
+}

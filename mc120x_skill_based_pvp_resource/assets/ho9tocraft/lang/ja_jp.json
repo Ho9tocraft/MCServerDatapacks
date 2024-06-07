@@ -143,6 +143,7 @@
     "skill.red_mage.verholy.name": "ヴァルホーリー",
     "skill.red_mage.scorch.name": "スコーチ",
     "skill.red_mage.resolution.name": "レゾリューション",
+    "skill.red_mage.manafication.name": "マナフィケーション",
     "skill.gcd.50tick": "GCD: 2.5 sec.",
     "skill.gcd.60tick": "GCD: 3 sec.",
     "trim_material.minecraft.default_chainmail": "チェインメイル装備(default)",
