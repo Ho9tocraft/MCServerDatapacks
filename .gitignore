@@ -1,5 +1,6 @@
 #解析のために保存しているため、clientから始まるすべてのフォルダはいらない
 .git/
+font*/
 client*/
 memo/txt/
 Unique Swords*/
