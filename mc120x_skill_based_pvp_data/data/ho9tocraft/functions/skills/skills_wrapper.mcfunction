@@ -69,6 +69,7 @@ execute as @a[predicate=ho9tocraft:item_selector/jobs/03_brd/bard_reload_arrow] 
 #region Support Item
 execute as @a[predicate=ho9tocraft:item_selector/support_item/knight_errantry] at @s run function ho9tocraft:support_item/knight_errantry
 execute as @a[predicate=ho9tocraft:item_selector/support_item/tact_nuke] at @s run function ho9tocraft:support_item/tactical_nuke
+function ho9tocraft:support_item/grenade
 #endregion
 
 #region PostProcess

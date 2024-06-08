@@ -97,6 +97,8 @@ scoreboard objectives add BATTLE_STAGE dummy
 scoreboard objectives add STAGE_VOTE trigger
 #M_SHOP_POP
 scoreboard objectives add M_SHOP_POP dummy
+#SNOWBALL
+scoreboard objectives add SNOWBALL minecraft.used:snowball
 #endregion
 
 #region SPEFF_TIMER(var: 0 to INT_MAX(for use Special Effects), 6 difficult Special Effects available)
