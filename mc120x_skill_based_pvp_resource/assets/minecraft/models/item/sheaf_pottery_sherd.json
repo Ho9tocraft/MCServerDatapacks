@@ -11,6 +11,21 @@
     { "__comment": "PLD: BladeOfValor", "predicate": { "custom_model_data": 3 }, "model": "finalfantasyxiv:actions_job/00_pld/blade_of_valor" },
     { "__comment": "DRK: SaltAndDarkness", "predicate": { "custom_model_data": 4 }, "model": "finalfantasyxiv:actions_job/01_drk/salt_and_darkness" },
     { "__comment": "EXC: Guren", "predicate": { "custom_model_data": 5 }, "model": "finalfantasyxiv:actions_job/02_exc/hissatsu_guren" },
-    { "__comment": "EXC: GokenBS", "predicate": { "custom_model_data": 6 }, "model": "finalfantasyxiv:actions_job/02_exc/tenka_goken" }
+    { "__comment": "EXC: GokenBS", "predicate": { "custom_model_data": 6 }, "model": "finalfantasyxiv:actions_job/02_exc/tenka_goken" },
+    { "__comment": "EXC: GokenBS", "predicate": { "custom_model_data": 7 }, "model": "finalfantasyxiv:actions_job/04_drg/stardiver" },
+    { "__comment": "EXC: GokenBS", "predicate": { "custom_model_data": 8 }, "model": "finalfantasyxiv:actions_job/05_edm/jolt_ii" },
+    { "__comment": "EXC: GokenBS", "predicate": { "custom_model_data": 9 }, "model": "finalfantasyxiv:actions_job/05_edm/veraero_iii" },
+    { "__comment": "EXC: GokenBS", "predicate": { "custom_model_data": 10 }, "model": "finalfantasyxiv:actions_job/05_edm/verthunder_iii" },
+    { "__comment": "EXC: GokenBS", "predicate": { "custom_model_data": 11 }, "model": "finalfantasyxiv:actions_job/05_edm/verstone" },
+    { "__comment": "EXC: GokenBS", "predicate": { "custom_model_data": 12 }, "model": "finalfantasyxiv:actions_job/05_edm/verfire" },
+    { "__comment": "EXC: GokenBS", "predicate": { "custom_model_data": 13 }, "model": "finalfantasyxiv:actions_job/05_edm/moulinet" },
+    { "__comment": "EXC: GokenBS", "predicate": { "custom_model_data": 14 }, "model": "finalfantasyxiv:actions_job/05_edm/impact" },
+    { "__comment": "EXC: GokenBS", "predicate": { "custom_model_data": 15 }, "model": "finalfantasyxiv:actions_job/05_edm/veraero_ii" },
+    { "__comment": "EXC: GokenBS", "predicate": { "custom_model_data": 16 }, "model": "finalfantasyxiv:actions_job/05_edm/verthunder_ii" },
+    { "__comment": "EXC: GokenBS", "predicate": { "custom_model_data": 17 }, "model": "finalfantasyxiv:actions_job/05_edm/enchanted_moulinet" },
+    { "__comment": "EXC: GokenBS", "predicate": { "custom_model_data": 18 }, "model": "finalfantasyxiv:actions_job/05_edm/verholy" },
+    { "__comment": "EXC: GokenBS", "predicate": { "custom_model_data": 19 }, "model": "finalfantasyxiv:actions_job/05_edm/verflare" },
+    { "__comment": "EXC: GokenBS", "predicate": { "custom_model_data": 20 }, "model": "finalfantasyxiv:actions_job/05_edm/scorch" },
+    { "__comment": "EXC: GokenBS", "predicate": { "custom_model_data": 21 }, "model": "finalfantasyxiv:actions_job/05_edm/resolution" }
   ]
 }

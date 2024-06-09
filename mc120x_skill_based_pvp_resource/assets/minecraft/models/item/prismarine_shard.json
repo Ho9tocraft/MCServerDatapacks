@@ -8,6 +8,18 @@
     { "__comment": "DRK: Shadowbringer", "predicate": { "custom_model_data": 0 }, "model": "finalfantasyxiv:actions_job/01_drk/shadowbringer" },
     { "__comment": "EXC: Senei", "predicate": { "custom_model_data": 1 }, "model": "finalfantasyxiv:actions_job/02_exc/hissatsu_senei" },
     { "__comment": "EXC: SetsugekkaFL", "predicate": { "custom_model_data": 2 }, "model": "finalfantasyxiv:actions_job/02_exc/midare_setsugekka" },
-    { "__comment": "BRD: RefulgentArrow", "predicate": { "custom_model_data": 3 }, "model": "finalfantasyxiv:actions_job/03_brd/refulgent_arrow" }
+    { "__comment": "BRD: RefulgentArrow", "predicate": { "custom_model_data": 3 }, "model": "finalfantasyxiv:actions_job/03_brd/refulgent_arrow" },
+    { "__comment": "DRG: MirageDive", "predicate": { "custom_model_data": 4 }, "model": "finalfantasyxiv:actions_job/04_drg/mirage_dive" },
+    { "__comment": "DRG: Nastrond", "predicate": { "custom_model_data": 5 }, "model": "finalfantasyxiv:actions_job/04_drg/nastrond" },
+    { "__comment": "RDM: Riposte", "predicate": { "custom_model_data": 6 }, "model": "finalfantasyxiv:actions_job/05_rdm/riposte" },
+    { "__comment": "RDM: Zwerchhau", "predicate": { "custom_model_data": 7 }, "model": "finalfantasyxiv:actions_job/05_rdm/zwerchhau" },
+    { "__comment": "RDM: Redoublement", "predicate": { "custom_model_data": 8 }, "model": "finalfantasyxiv:actions_job/05_rdm/redoublement" },
+    { "__comment": "RDM: Enchanted Riposte", "predicate": { "custom_model_data": 9 }, "model": "finalfantasyxiv:actions_job/05_rdm/enchanted_riposte" },
+    { "__comment": "RDM: Enchanted Zwerchhau", "predicate": { "custom_model_data": 10 }, "model": "finalfantasyxiv:actions_job/05_rdm/enchanted_zwerchhau" },
+    { "__comment": "RDM: Enchanted Redoublement", "predicate": { "custom_model_data": 11 }, "model": "finalfantasyxiv:actions_job/05_rdm/enchanted_redoublement" },
+    { "__comment": "RDM: Verflare", "predicate": { "custom_model_data": 12 }, "model": "finalfantasyxiv:actions_job/05_rdm/verflare" },
+    { "__comment": "RDM: Verholy", "predicate": { "custom_model_data": 13 }, "model": "finalfantasyxiv:actions_job/05_rdm/verholy" },
+    { "__comment": "RDM: Scorch", "predicate": { "custom_model_data": 14 }, "model": "finalfantasyxiv:actions_job/05_rdm/scorch" },
+    { "__comment": "RDM: Resolution", "predicate": { "custom_model_data": 15 }, "model": "finalfantasyxiv:actions_job/05_rdm/resolution" }
   ]
 }

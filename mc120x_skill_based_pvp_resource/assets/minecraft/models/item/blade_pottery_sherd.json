@@ -7,6 +7,8 @@
     { "predicate": { "custom_model_data": 0 }, "model": "finalfantasyxiv:actions_job/00_pld/sword_oath" },
     { "predicate": { "custom_model_data": 1 }, "model": "finalfantasyxiv:actions_job/01_drk/delirium_spiller" },
     { "predicate": { "custom_model_data": 2 }, "model": "finalfantasyxiv:actions_job/02_exc/hissatsu_gyoten" },
-    { "predicate": { "custom_model_data": 3 }, "model": "finalfantasyxiv:actions_job/03_brd/burst_shot" }
+    { "predicate": { "custom_model_data": 3 }, "model": "finalfantasyxiv:actions_job/03_brd/burst_shot" },
+    { "predicate": { "custom_model_data": 4 }, "model": "finalfantasyxiv:actions_job/04_drg/high_jump" },
+    { "predicate": { "custom_model_data": 5 }, "model": "finalfantasyxiv:actions_job/05_rdm/corps_a_corps" }
   ]
 }
