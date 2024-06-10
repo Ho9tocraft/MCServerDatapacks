@@ -1,0 +1,6 @@
+{
+    "parent": "ho9tocraft:custom/based/rapier_type",
+    "textures": {
+        "layer0": "ho9tocraft:item/suzaku_flame_kissed_rapier"
+    }
+}

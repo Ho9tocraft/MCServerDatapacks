@@ -1,0 +1,117 @@
+[
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "all_of",
+                "terms": [
+                    {
+                        "condition": "any_of",
+                        "terms": [
+                            {
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "type": "player",
+                                    "slots": { "hotbar.2": {
+                                        "items": [ "sheaf_pottery_sherd" ],
+                                        "count": 1,
+                                        "components": { "custom_model_data": 11 }
+                                    }}
+                                }
+                            },
+                            {
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "type": "player",
+                                    "slots": { "hotbar.2": {
+                                        "items": [ "sheaf_pottery_sherd" ],
+                                        "count": 1,
+                                        "components": { "custom_model_data": 12 }
+                                    }}
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "CURRENT_JOB": 5
+                        }
+                    }
+                ]
+            }
+        ],
+        "components": {
+            "item_name": "{\"bold\":true,\"color\":\"#C0C0C0\",\"italic\":false,\"translate\":\"skill.red_mage.enchanted_moulinet.name\",\"fallback\":\"Enchanted Moulinet\"}"
+        }
+    },
+    {
+        "function": "set_custom_model_data",
+        "conditions": [
+            {
+                "condition": "all_of",
+                "terms": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "player",
+                            "slots": { "hotbar.2": {
+                                "items": [ "sheaf_pottery_sherd" ],
+                                "count": 1
+                            }}
+                        }
+                    },
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "CURRENT_JOB": 5
+                        }
+                    }
+                ]
+            }
+        ],
+        "value": 13
+    },
+    {
+        "function": "set_lore",
+        "conditions": [
+            {
+                "condition": "all_of",
+                "terms": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "player",
+                            "slots": { "hotbar.2": {
+                                "items": [ "sheaf_pottery_sherd" ],
+                                "count": 1
+                            }}
+                        }
+                    },
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "CURRENT_JOB": 5
+                        }
+                    }
+                ]
+            }
+        ],
+        "lore": [
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.red_mage.enchanted_moulinet.desc.1", "fallback": "Deals magic damage" },
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.red_mage.enchanted_moulinet.desc.2", "fallback": " to all nearby enemies." },
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.red_mage.enchanted_moulinet.range", "fallback": "(Range: 8m)" },
+            { "bold": false, "color": "aqua", "italic": false, "translate": "skill.cast.instant", "fallback": "Cast Time: Instant" },
+            { "bold": true, "color": "aqua", "italic": false, "translate": "skill.recast.30tick", "fallback": "Recast Time: 1.5 sec." },
+            { "bold": true, "color": "green", "italic": false, "translate": "skill.gcd.30tick", "fallback": "GCD: 1.5 sec." }
+        ],
+        "mode": "replace_all"
+    }
+]

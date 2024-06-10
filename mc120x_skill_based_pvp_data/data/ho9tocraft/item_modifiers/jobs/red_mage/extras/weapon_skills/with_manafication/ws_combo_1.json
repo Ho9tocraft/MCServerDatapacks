@@ -1,0 +1,129 @@
+[
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "all_of",
+                "terms": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "player",
+                            "slots": { "hotbar.1": {
+                                "items": [ "blade_pottery_sherd" ],
+                                "count": 1,
+                                "components": { "custom_model_data": 5 }
+                            }}
+                        }
+                    },
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "CURRENT_JOB": 5
+                        }
+                    }
+                ]
+            }
+        ],
+        "components": {
+            "item_name": "{\"bold\":true,\"color\":\"#C0C0C0\",\"italic\":false,\"translate\":\"skill.red_mage.enchanted_riposte.name\",\"fallback\":\"Enchanted Riposte\"}"
+        }
+    },
+    {
+        "function": "set_custom_model_data",
+        "conditions": [
+            {
+                "condition": "all_of",
+                "terms": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "player",
+                            "slots": { "hotbar.1": {
+                                "items": [ "blade_pottery_sherd" ],
+                                "count": 1
+                            }}
+                        }
+                    },
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "CURRENT_JOB": 5
+                        }
+                    }
+                ]
+            }
+        ],
+        "value": 9
+    },
+    {
+        "function": "set_lore",
+        "conditions": [
+            {
+                "condition": "all_of",
+                "terms": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "player",
+                            "slots": { "hotbar.1": {
+                                "items": [ "blade_pottery_sherd" ],
+                                "count": 1
+                            }}
+                        }
+                    },
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "CURRENT_JOB": 5
+                        }
+                    }
+                ]
+            }
+        ],
+        "lore": [
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.red_mage.enchanted_riposte.desc.1", "fallback": "Deals magic damage" },
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.red_mage.enchanted_riposte.desc.2", "fallback": " to the nearest enemy within range." },
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.red_mage.enchanted_riposte.range", "fallback": "(Range: 3m)" },
+            { "bold": false, "color": "aqua", "italic": false, "translate": "skill.cast.instant", "fallback": "Cast Time: Instant" },
+            { "bold": true, "color": "aqua", "italic": false, "translate": "skill.recast.30tick", "fallback": "Recast Time: 1.5 sec." },
+            { "bold": true, "color": "green", "italic": false, "translate": "skill.gcd.30tick", "fallback": "GCD: 1.5 sec." }
+        ],
+        "mode": "replace_all"
+    },
+    {
+        "function": "set_item",
+        "conditions": [
+            {
+                "condition": "all_of",
+                "terms": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "player",
+                            "slots": { "hotbar.1": {
+                                "items": [ "blade_pottery_sherd" ],
+                                "count": 1
+                            }}
+                        }
+                    },
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "CURRENT_JOB": 5
+                        }
+                    }
+                ]
+            }
+        ],
+        "item": "prismarine_shard"
+    }
+]

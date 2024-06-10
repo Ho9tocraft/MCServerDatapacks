@@ -1,0 +1,100 @@
+[
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "all_of",
+                "terms": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "player",
+                            "slots": { "hotbar.2": {
+                                "items": [ "sheaf_pottery_sherd" ],
+                                "count": 1,
+                                "components": { "custom_model_data": 8 }
+                            }}
+                        }
+                    },
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "CURRENT_JOB": 5
+                        }
+                    }
+                ]
+            }
+        ],
+        "components": {
+            "item_name": "{\"bold\":true,\"color\":\"#C0C0C0\",\"italic\":false,\"translate\":\"skill.red_mage.verthunder_iii.name\",\"fallback\":\"Verthunder III\"}"
+        }
+    },
+    {
+        "function": "set_custom_model_data",
+        "conditions": [
+            {
+                "condition": "all_of",
+                "terms": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "player",
+                            "slots": { "hotbar.2": {
+                                "items": [ "sheaf_pottery_sherd" ],
+                                "count": 1
+                            }}
+                        }
+                    },
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "CURRENT_JOB": 5
+                        }
+                    }
+                ]
+            }
+        ],
+        "value": 10
+    },
+    {
+        "function": "set_lore",
+        "conditions": [
+            {
+                "condition": "all_of",
+                "terms": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "player",
+                            "slots": { "hotbar.2": {
+                                "items": [ "sheaf_pottery_sherd" ],
+                                "count": 1
+                            }}
+                        }
+                    },
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "CURRENT_JOB": 5
+                        }
+                    }
+                ]
+            }
+        ],
+        "lore": [
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.red_mage.verthunder_iii.desc.1", "fallback": "Deals magic damage" },
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.red_mage.verthunder_iii.desc.2", "fallback": " to the nearest enemy from yourself." },
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.red_mage.verthunder_iii.range", "fallback": "(Range: 25m, MP Cost: 300)" },
+            { "bold": false, "color": "aqua", "italic": false, "translate": "skill.cast.80tick", "fallback": "Cast Time: 4 sec." },
+            { "bold": true, "color": "aqua", "italic": false, "translate": "skill.recast.50tick", "fallback": "Recast Time: 2.5 sec." },
+            { "bold": true, "color": "green", "italic": false, "translate": "skill.gcd.50tick", "fallback": "GCD: 2.5 sec." }
+        ],
+        "mode": "replace_all"
+    }
+]

@@ -1,0 +1,91 @@
+[
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "all_of",
+                "terms": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "player",
+                            "slots": { "hotbar.1": {
+                                "items": [ "blade_pottery_sherd" ],
+                                "count": 1
+                            }}
+                        }
+                    },
+                    {
+                        "condition": "reference",
+                        "name": "ho9tocraft:passive_selector/job_not_selected"
+                    }
+                ]
+            }
+        ],
+        "components": {
+            "item_name": "{\"bold\":true,\"color\":\"#C0C0C0\",\"italic\":false,\"translate\":\"skill.red_mage.corps_a_corps.name\",\"fallback\":\"Corps-a-Corps\"}"
+        }
+    },
+    {
+        "function": "set_custom_model_data",
+        "conditions": [
+            {
+                "condition": "all_of",
+                "terms": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "player",
+                            "slots": { "hotbar.1": {
+                                "items": [ "blade_pottery_sherd" ],
+                                "count": 1
+                            }}
+                        }
+                    },
+                    {
+                        "condition": "reference",
+                        "name": "ho9tocraft:passive_selector/job_not_selected"
+                    }
+                ]
+            }
+        ],
+        "values": 5
+    },
+    {
+        "function": "set_lore",
+        "conditions": [
+            {
+                "condition": "all_of",
+                "terms": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "player",
+                            "slots": { "hotbar.1": {
+                                "items": [ "blade_pottery_sherd" ],
+                                "count": 1
+                            }}
+                        }
+                    },
+                    {
+                        "condition": "reference",
+                        "name": "ho9tocraft:passive_selector/job_not_selected"
+                    }
+                ]
+            }
+        ],
+        "lore": [
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.red_mage.corps_a_corps.desc.1", "fallback": "Deals physical damage by rapidly approaching" },
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.red_mage.corps_a_corps.desc.2", "fallback": " the nearest enemy from yourself." },
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.red_mage.corps_a_corps.range", "fallback": "(Range: 25m)" },
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.common.exclude_bind.desc", "fallback": "Can't be executed while bound." },
+            { "bold": false, "color": "aqua", "italic": false, "translate": "skill.cast.instant", "fallback": "Cast Time: Instant" },
+            { "bold": true, "color": "aqua", "italic": false, "translate": "skill.recast.20tick", "fallback": "Recast Time: 1 sec." },
+            { "bold": true, "color": "green", "italic": false, "translate": "skill.gcd.20tick", "fallback": "GCD: 1 sec." }
+        ],
+        "mode": "replace_all"
+    }
+]

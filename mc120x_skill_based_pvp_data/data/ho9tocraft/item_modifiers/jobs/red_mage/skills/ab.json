@@ -1,0 +1,89 @@
+[
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "all_of",
+                "terms": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "player",
+                            "slots": { "hotbar.3": {
+                                "items": [ "glowstone_dust" ],
+                                "count": 1
+                            }}
+                        }
+                    },
+                    {
+                        "condition": "reference",
+                        "name": "ho9tocraft:passive_selector/job_not_selected"
+                    }
+                ]
+            }
+        ],
+        "components": {
+            "item_name": "{\"bold\":true,\"color\":\"#C0C0C0\",\"italic\":false,\"translate\":\"skill.red_mage.manafication.name\",\"fallback\":\"Manafication\"}"
+        }
+    },
+    {
+        "function": "set_custom_model_data",
+        "conditions": [
+            {
+                "condition": "all_of",
+                "terms": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "player",
+                            "slots": { "hotbar.3": {
+                                "items": [ "glowstone_dust" ],
+                                "count": 1
+                            }}
+                        }
+                    },
+                    {
+                        "condition": "reference",
+                        "name": "ho9tocraft:passive_selector/job_not_selected"
+                    }
+                ]
+            }
+        ],
+        "values": 5
+    },
+    {
+        "function": "set_lore",
+        "conditions": [
+            {
+                "condition": "all_of",
+                "terms": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "player",
+                            "slots": { "hotbar.3": {
+                                "items": [ "glowstone_dust" ],
+                                "count": 1
+                            }}
+                        }
+                    },
+                    {
+                        "condition": "reference",
+                        "name": "ho9tocraft:passive_selector/job_not_selected"
+                    }
+                ]
+            }
+        ],
+        "lore": [
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.red_mage.manafication.desc.1", "fallback": "Enables the execution of magic sword combos." },
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.red_mage.manafication.desc.2", "fallback": "It also replaces \"Vercure III\" during its duration of effect." },
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.red_mage.manafication.desc.3", "fallback": "Recast Timer is triggered at the end of the effect time." },
+            { "bold": false, "color": "aqua", "italic": false, "translate": "skill.cast.instant", "fallback": "Cast Time: Instant" },
+            { "bold": true, "color": "aqua", "italic": false, "translate": "skill.recast.120sec", "fallback": "Recast Time: 2 min." }
+        ],
+        "mode": "replace_all"
+    }
+]

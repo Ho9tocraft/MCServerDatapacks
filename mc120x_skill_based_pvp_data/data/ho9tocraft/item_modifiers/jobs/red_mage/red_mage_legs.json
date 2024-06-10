@@ -8,7 +8,7 @@
             }
         ],
         "components": {
-            "item_name": "{\"bold\":true,\"color\":\"#EA553A\",\"italic\":false,\"translate\":\"item.caster.theogonic_sandals.name\"}",
+            "item_name": "{\"bold\":true,\"color\":\"#EA553A\",\"italic\":false,\"translate\":\"item.caster.theogonic_sandals.name\",\"fallback\":\"Theogonic Sandals of Casting\"}",
             "unbreakable": { "show_in_tooltip": false },
             "enchantments": { "levels": { "blast_protection": 2, "protection": 2, "binding_curse": 1 }, "show_in_tooltip": false },
             "attribute_modifiers": {

@@ -7,6 +7,8 @@
     { "predicate": { "custom_model_data": 0 }, "model": "finalfantasyxiv:actions_job/00_pld/hallowed_ground" },
     { "predicate": { "custom_model_data": 1 }, "model": "finalfantasyxiv:actions_job/01_drk/blackest_night" },
     { "predicate": { "custom_model_data": 2 }, "model": "finalfantasyxiv:actions_job/02_exc/divine_possession" },
-    { "predicate": { "custom_model_data": 3 }, "model": "finalfantasyxiv:actions_job/03_brd/radiant_finale" }
+    { "predicate": { "custom_model_data": 3 }, "model": "finalfantasyxiv:actions_job/03_brd/radiant_finale" },
+    { "predicate": { "custom_model_data": 4 }, "model": "finalfantasyxiv:actions_job/04_drg/battle_litany" },
+    { "predicate": { "custom_model_data": 5 }, "model": "finalfantasyxiv:actions_job/05_rdm/manafication" }
   ]
 }

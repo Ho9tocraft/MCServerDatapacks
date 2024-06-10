@@ -4,6 +4,7 @@
     "layer0": "minecraft:item/netherite_sword"
   },
   "overrides": [
-    { "predicate": { "custom_model_data": 1 }, "model": "ho9tocraft:custom/yuzuki_blade" }
+    { "predicate": { "custom_model_data": 1 }, "model": "ho9tocraft:custom/yuzuki_blade" },
+    { "predicate": { "custom_model_data": 2 }, "model": "ho9tocraft:custom/suzaku_flame_kissed_rapier" }
   ]
 }

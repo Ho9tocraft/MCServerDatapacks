@@ -1,0 +1,59 @@
+[
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "all_of",
+                "terms": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "player",
+                            "slots": { "hotbar.0": { "items": [ "minecraft:netherite_sword" ], "count": 1 }}
+                        }
+                    },
+                    {
+                        "condition": "reference",
+                        "name": "ho9tocraft:passive_selector/job_not_selected"
+                    }
+                ]
+            }
+        ],
+        "components": {
+            "item_name": "{\"bold\":true,\"color\":\"#EA553A\",\"italic\":false,\"translate\":\"item.red_mage.rapier.name\",\"fallback\":\"Suzaku's Flame-kissed Rapier\"}",
+            "unbreakable": { "show_in_tooltip": false },
+            "custom_model_data": 2,
+            "enchantments": { "levels": { "sharpness": 7, "sweeping_edge": 5 }, "show_in_tooltip": false },
+            "attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "generic.attack_damage",
+                        "name": "generic.attack_damage",
+                        "amount": 18,
+                        "operation": "add_value",
+                        "uuid": [-1931730257,-1682292487,-1624431677,75284988],
+                        "slot": "mainhand"
+                    },
+                    {
+                        "type": "generic.attack_speed",
+                        "name": "generic.attack_speed",
+                        "amount": 1.35,
+                        "operation": "add_value",
+                        "uuid": [967587626,-1170587097,-1386079200,879287351],
+                        "slot": "mainhand"
+                    },
+                    {
+                        "type": "player.entity_interaction_range",
+                        "name": "player.entity_interaction_range",
+                        "amount": 3.25,
+                        "operation": "add_value",
+                        "uuid": [-938220917,-874166212,-1235922419,-2071455301],
+                        "slot": "mainhand"
+                    }
+                ],
+                "show_in_tooltip": false
+            }
+        }
+    }
+]
