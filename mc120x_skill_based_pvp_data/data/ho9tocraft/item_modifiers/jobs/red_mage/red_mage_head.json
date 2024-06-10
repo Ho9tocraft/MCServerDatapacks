@@ -1,0 +1,66 @@
+[
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ho9tocraft:item_selector/equipments/full_gold_not_job_selected"
+            }
+        ],
+        "components": {
+            "item_name": "{\"bold\":true,\"color\":\"#EA553A\",\"italic\":false,\"translate\":\"item.caster.theogonic_circlet.name\"}",
+            "unbreakable": { "show_in_tooltip": false },
+            "enchantments": { "levels": { "blast_protection": 2, "protection": 2, "binding_curse": 1 }, "show_in_tooltip": false },
+            "attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "generic.armor",
+                        "name": "generic.armor",
+                        "amount": 3,
+                        "operation": "add_value",
+                        "uuid": [1060913524,592594766,-1674920672,857292341],
+                        "slot": "head"
+                    },
+                    {
+                        "type": "generic.armor_toughness",
+                        "name": "generic.armor_toughness",
+                        "amount": 3,
+                        "operation": "add_value",
+                        "uuid": [-1302712840,-1926411097,-1965826483,1942738081],
+                        "slot": "head"
+                    },
+                    {
+                        "type": "generic.knockback_resistance",
+                        "name": "generic.knockback_resistance",
+                        "amount": 1,
+                        "operation": "add_value",
+                        "uuid": [-546200912,-327463520,-1999652905,-23983564],
+                        "slot": "head"
+                    },
+                    {
+                        "type": "generic.max_health",
+                        "name": "generic.max_health",
+                        "amount": 5,
+                        "operation": "add_value",
+                        "uuid": [-331499715,-865972544,-1136639569,538593795],
+                        "slot": "head"
+                    },
+                    {
+                        "type": "generic.movement_speed",
+                        "name": "generic.movement_speed",
+                        "amount": 0.0625,
+                        "operation": "add_multiplied_base",
+                        "uuid": [-501345537,-1571796944,-1513933332,-2095073647],
+                        "slot": "head"
+                    }
+                ],
+                "show_in_tooltip": false
+            },
+            "trim": {
+                "material": "minecraft:theogonic_rdm",
+                "pattern": "minecraft:theogonic_rdm",
+                "show_in_tooltip": false
+            }
+        }
+    }
+]

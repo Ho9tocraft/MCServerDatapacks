@@ -1,0 +1,66 @@
+[
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ho9tocraft:item_selector/equipments/full_gold_not_job_selected"
+            }
+        ],
+        "components": {
+            "item_name": "{\"bold\":true,\"color\":\"#EA553A\",\"italic\":false,\"translate\":\"item.caster.theogonic_sandals.name\"}",
+            "unbreakable": { "show_in_tooltip": false },
+            "enchantments": { "levels": { "blast_protection": 2, "protection": 2, "binding_curse": 1 }, "show_in_tooltip": false },
+            "attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "generic.armor",
+                        "name": "generic.armor",
+                        "amount": 6,
+                        "operation": "add_value",
+                        "uuid": [-1745286820,1170820578,-1225011629,-899420140],
+                        "slot": "legs"
+                    },
+                    {
+                        "type": "generic.armor_toughness",
+                        "name": "generic.armor_toughness",
+                        "amount": 3,
+                        "operation": "add_value",
+                        "uuid": [1462728158,-1720234429,-1609843803,-1054688773],
+                        "slot": "legs"
+                    },
+                    {
+                        "type": "generic.knockback_resistance",
+                        "name": "generic.knockback_resistance",
+                        "amount": 1,
+                        "operation": "add_value",
+                        "uuid": [1499675437,736250921,-1968599030,1255921059],
+                        "slot": "legs"
+                    },
+                    {
+                        "type": "generic.max_health",
+                        "name": "generic.max_health",
+                        "amount": 5,
+                        "operation": "add_value",
+                        "uuid": [1781770000,224874408,-2014728654,-388270830],
+                        "slot": "legs"
+                    },
+                    {
+                        "type": "generic.movement_speed",
+                        "name": "generic.movement_speed",
+                        "amount": 0.0625,
+                        "operation": "add_multiplied_base",
+                        "uuid": [500552770,-775206885,-1241657675,658961040],
+                        "slot": "legs"
+                    }
+                ],
+                "show_in_tooltip": false
+            },
+            "trim": {
+                "material": "minecraft:theogonic_rdm",
+                "pattern": "minecraft:theogonic_rdm",
+                "show_in_tooltip": false
+            }
+        }
+    }
+]

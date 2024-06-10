@@ -1,0 +1,66 @@
+[
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ho9tocraft:item_selector/equipments/full_gold_not_job_selected"
+            }
+        ],
+        "components": {
+            "item_name": "{\"bold\":true,\"color\":\"#EA553A\",\"italic\":false,\"translate\":\"item.caster.theogonic_robe.name\"}",
+            "unbreakable": { "show_in_tooltip": false },
+            "enchantments": { "levels": { "blast_protection": 2, "protection": 2, "binding_curse": 1 }, "show_in_tooltip": false },
+            "attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "generic.armor",
+                        "name": "generic.armor",
+                        "amount": 8,
+                        "operation": "add_value",
+                        "uuid": [-1201119261,-1539488334,-1915421853,1440728346],
+                        "slot": "chest"
+                    },
+                    {
+                        "type": "generic.armor_toughness",
+                        "name": "generic.armor_toughness",
+                        "amount": 3,
+                        "operation": "add_value",
+                        "uuid": [-1169743710,-730972101,-1370750384,-1390071278],
+                        "slot": "chest"
+                    },
+                    {
+                        "type": "generic.knockback_resistance",
+                        "name": "generic.knockback_resistance",
+                        "amount": 1,
+                        "operation": "add_value",
+                        "uuid": [1102346697,-1401271349,-1394143973,879302115],
+                        "slot": "chest"
+                    },
+                    {
+                        "type": "generic.max_health",
+                        "name": "generic.max_health",
+                        "amount": 5,
+                        "operation": "add_value",
+                        "uuid": [1437034570,1961508995,-1238023916,-775009905],
+                        "slot": "chest"
+                    },
+                    {
+                        "type": "generic.movement_speed",
+                        "name": "generic.movement_speed",
+                        "amount": 0.0625,
+                        "operation": "add_multiplied_base",
+                        "uuid": [-1453008791,-137477768,-2023430472,1647058947],
+                        "slot": "chest"
+                    }
+                ],
+                "show_in_tooltip": false
+            },
+            "trim": {
+                "material": "minecraft:theogonic_rdm",
+                "pattern": "minecraft:theogonic_rdm",
+                "show_in_tooltip": false
+            }
+        }
+    }
+]
