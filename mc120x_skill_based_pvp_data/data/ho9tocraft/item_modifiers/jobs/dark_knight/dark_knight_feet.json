@@ -10,7 +10,7 @@
         "components": {
             "item_name": "{\"bold\":true,\"color\":\"#00BFFF\",\"italic\":false,\"translate\":\"item.dark_knight.boots.name\",\"fallback\":\"Ignominy Sollerets\"}",
             "unbreakable": { "show_in_tooltip": false },
-            "enchantments": { "levels": { "blast_protection": 3, "fire_protection": 3, "protection": 4 }, "show_in_tooltip": false },
+            "enchantments": { "levels": { "blast_protection": 3, "fire_protection": 3, "protection": 4, "binding_curse": 1 }, "show_in_tooltip": false },
             "attribute_modifiers": {
                 "modifiers": [
                     {

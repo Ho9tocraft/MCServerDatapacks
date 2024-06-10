@@ -10,7 +10,7 @@
         "components": {
             "item_name": "{\"bold\":true,\"color\":\"#FDEFF2\",\"italic\":false,\"translate\":\"item.exorcist.hair_ornaments.name\",\"fallback\":\"Exorcist's Hair Ornaments\"}",
             "unbreakable": { "show_in_tooltip": false },
-            "enchantments": { "levels": {"fire_protection": 2, "protection": 2}, "show_in_tooltip": false },
+            "enchantments": { "levels": { "fire_protection": 2, "protection": 2, "binding_curse": 1 }, "show_in_tooltip": false },
             "attribute_modifiers": {
                 "modifiers": [
                     {
