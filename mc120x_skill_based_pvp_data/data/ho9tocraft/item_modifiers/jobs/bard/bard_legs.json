@@ -10,7 +10,7 @@
         "components": {
             "item_name": "{\"bold\":true,\"color\":\"#A5C9C1\",\"italic\":false,\"translate\":\"item.bard.leggings.name\",\"fallback\":\"Brioso Bottoms\"}",
             "unbreakable": { "show_in_tooltip": false },
-            "enchantments": { "levels": { "projectile_protection": 2, "protection": 2 }, "show_in_tooltip": false },
+            "enchantments": { "levels": { "projectile_protection": 2, "protection": 2, "binding_curse": 1 }, "show_in_tooltip": false },
             "attribute_modifiers": {
                 "modifiers": [
                     {
