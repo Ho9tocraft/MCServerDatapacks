@@ -32,8 +32,8 @@ execute as @s at @s run scoreboard players set @s MG_RECAST_T 20
 execute as @s at @s if score @s AB_RECAST_T matches 0..19 run scoreboard players set @s AB_RECAST_T 20
 execute as @s at @s if score @s LB_RECAST_T matches 0..19 run scoreboard players set @s LB_RECAST_T 20
 # Convert Item to "Jolt II" or "Impact(When you used "Manafication")"
-execute as @s at @s run scoreboard players set @s PROC_TIMER_WS 300
-execute as @s[tag=Mana_EFFECT] at @s run scoreboard players add @s PROC_TIMER_WS 900
+execute as @s at @s run scoreboard players set @s PROC_TIMER_MG 300
+execute as @s[tag=Mana_EFFECT] at @s run scoreboard players add @s PROC_TIMER_MG 900
 execute as @s[tag=!Mana_EFFECT] at @s run item modify entity @s hotbar.2 ho9tocraft:jobs/red_mage/extras/magics/without_manafication/mg_combo_1
 execute as @s[tag=Mana_EFFECT] at @s run item modify entity @s hotbar.2 ho9tocraft:jobs/red_mage/extras/magics/with_manafication/mg_combo_1
 #endregion
