@@ -89,8 +89,8 @@
         "lore": [
             { "bold": false, "color": "gray", "italic": false, "translate": "skill.red_mage.acceleration.desc.1", "fallback": "Doubles the speed of magic casting." },
             { "bold": false, "color": "aqua", "italic": false, "translate": "skill.cast.instant", "fallback": "Cast Time: Instant" },
-            { "bold": false, "color": "aqua", "italic": false, "translate": "skill.recast.20tick", "fallback": "Recast Time: 1 sec." },
-            { "bold": false, "color": "green", "italic": false, "translate": "skill.gcd.20tick", "fallback": "GCD: 1 sec." }
+            { "bold": true, "color": "aqua", "italic": false, "translate": "skill.recast.20tick", "fallback": "Recast Time: 1 sec." },
+            { "bold": true, "color": "green", "italic": false, "translate": "skill.gcd.20tick", "fallback": "GCD: 1 sec." }
         ],
         "mode": "replace_all"
     },
