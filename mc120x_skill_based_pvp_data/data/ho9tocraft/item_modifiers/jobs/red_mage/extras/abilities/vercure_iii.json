@@ -92,7 +92,8 @@
             { "bold": false, "color": "gray", "italic": false, "translate": "skill.red_mage.vercure_iii.range", "fallback": "(Range: 30m, MP Cost: 500)" },
             { "bold": false, "color": "aqua", "italic": false, "translate": "skill.cast.40tick", "fallback": "Cast Time: 2 sec." },
             { "bold": true, "color": "aqua", "italic": false, "translate": "skill.recast.50tick", "fallback": "Recast Time: 2.5 sec." }
-        ]
+        ],
+        "mode": "replace_all"
     },
     {
         "function": "set_item",
