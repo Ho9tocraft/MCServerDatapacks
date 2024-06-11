@@ -1,0 +1,17 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "reference",
+            "name": "ho9tocraft:item_selector/jobs/05_rdm/magics/red_mage_impact_cast_proc"
+        },
+        {
+            "condition": "reference",
+            "name": "ho9tocraft:item_selector/jobs/05_rdm/magics/red_mage_veraero_iii_cast_proc"
+        },
+        {
+            "condition": "reference",
+            "name": "ho9tocraft:item_selector/jobs/05_rdm/magics/red_mage_verthunder_iii_cast_proc"
+        }
+    ]
+}

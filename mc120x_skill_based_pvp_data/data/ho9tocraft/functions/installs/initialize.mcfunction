@@ -109,6 +109,8 @@ scoreboard objectives add SPEFF_TIMER_2 dummy
 scoreboard objectives add SPEFF_TIMER_3 dummy
 scoreboard objectives add SPEFF_TIMER_4 dummy
 scoreboard objectives add SPEFF_TIMER_5 dummy
+# RDM ShiftWhite / ShiftBlack Durations(var: 0 to INT_MAX(Basically, specify 30 seconds to 1 minute.))
+scoreboard objectives add RDM_ShiftEffect dummy
 #endregion
 
 #region NGEFF_TIMER(var: 0 to INT_MAX(for use Negative Special Effects), 6 difficult Negative Special Effects available)
@@ -137,6 +139,7 @@ scoreboard objectives add DEATH_TIMER dummy
 #region PROC_TIMER(var: 0 to INT_MAX(for use Proc Skills))
 scoreboard objectives add PROC_TIMER_WS dummy
 scoreboard objectives add PROC_TIMER_MG dummy
+scoreboard objectives add PROC_TIMER_AB dummy
 #endregion
 
 #region CHARGE_ACT(var: 0 to INT_MAX(for use Shadowbringer, etc.))

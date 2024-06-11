@@ -1,0 +1,16 @@
+{
+    "condition": "all_of",
+    "terms": [
+        {
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+                "CURRENT_JOB": 5
+            }
+        },
+        {
+            "condition": "reference",
+            "name": "ho9tocraft:score_condition/caster_limit_break_score"
+        }
+    ]
+}

@@ -60,6 +60,9 @@ execute as @e at @s if score @s DEATH_TIMER matches 1.. run scoreboard players r
 #region Proc. Timer Count
 execute as @a at @s if score @s PROC_TIMER_WS matches 1.. run scoreboard players remove @s PROC_TIMER_WS 1
 execute as @a at @s if score @s PROC_TIMER_MG matches 1.. run scoreboard players remove @s PROC_TIMER_MG 1
+execute as @a at @s if score @s PROC_TIMER_AB matches 1.. run scoreboard players remove @s PROC_TIMER_AB 1
+# RDM ShiftEffect Count
+execute as @a at @s if score @s RDM_ShiftEffect matches 1.. run scoreboard players remove @s RDM_ShiftEffect 1
 #endregion
 #region Miracle Villager Despawn
 execute as @e[type=villager,tag=MVillagerDesp] at @s if score @s SPEFF_TIMER_0 matches 0 run kill @s

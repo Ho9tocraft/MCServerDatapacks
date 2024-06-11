@@ -4,6 +4,42 @@
         {
             "condition": "reference",
             "name": "ho9tocraft:item_selector/jobs/00_pld/paladin_mg_casting"
+        },
+        {
+            "condition": "reference",
+            "name": "ho9tocraft:item_selector/jobs/05_rdm/magics/red_mage_impact_cast_proc"
+        },
+        {
+            "condition": "reference",
+            "name": "ho9tocraft:item_selector/jobs/05_rdm/magics/red_mage_jolt_ii_cast_proc"
+        },
+        {
+            "condition": "reference",
+            "name": "ho9tocraft:item_selector/jobs/05_rdm/magics/red_mage_veraero_ii_cast_proc"
+        },
+        {
+            "condition": "reference",
+            "name": "ho9tocraft:item_selector/jobs/05_rdm/magics/red_mage_veraero_iii_cast_proc"
+        },
+        {
+            "condition": "reference",
+            "name": "ho9tocraft:item_selector/jobs/05_rdm/magics/red_mage_vercure_iii_cast_proc"
+        },
+        {
+            "condition": "reference",
+            "name": "ho9tocraft:item_selector/jobs/05_rdm/magics/red_mage_verfire_cast_proc"
+        },
+        {
+            "condition": "reference",
+            "name": "ho9tocraft:item_selector/jobs/05_rdm/magics/red_mage_verstone_cast_proc"
+        },
+        {
+            "condition": "reference",
+            "name": "ho9tocraft:item_selector/jobs/05_rdm/magics/red_mage_verthunder_ii_cast_proc"
+        },
+        {
+            "condition": "reference",
+            "name": "ho9tocraft:item_selector/jobs/05_rdm/magics/red_mage_verthunder_iii_cast_proc"
         }
     ]
 }

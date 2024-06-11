@@ -13,7 +13,7 @@
                             "slots": { "hotbar.3": {
                                 "items": [ "glowstone_dust" ],
                                 "count": 1,
-                                "custom_model_data": 5
+                                "components": { "custom_model_data": 5 }
                             }}
                         }
                     },
@@ -89,9 +89,38 @@
         ],
         "lore": [
             { "bold": false, "color": "gray", "italic": false, "translate": "skill.red_mage.vercure_iii.desc.1", "fallback": "Recovers HP of nearby allies greatly." },
-            { "bold": false, "color": "gray", "italic": false, "translate": "skill.red_mage.vercure_iii.range", "fallback": "(Range: 30m)" },
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.red_mage.vercure_iii.range", "fallback": "(Range: 30m, MP Cost: 500)" },
             { "bold": false, "color": "aqua", "italic": false, "translate": "skill.cast.40tick", "fallback": "Cast Time: 2 sec." },
             { "bold": true, "color": "aqua", "italic": false, "translate": "skill.recast.50tick", "fallback": "Recast Time: 2.5 sec." }
         ]
+    },
+    {
+        "function": "set_item",
+        "conditions": [
+            {
+                "condition": "all_of",
+                "terms": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "player",
+                            "slots": { "hotbar.3": {
+                                "items": [ "glowstone_dust" ],
+                                "count": 1
+                            }}
+                        }
+                    },
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "CURRENT_JOB": 5
+                        }
+                    }
+                ]
+            }
+        ],
+        "item": "heart_of_the_sea"
     }
 ]

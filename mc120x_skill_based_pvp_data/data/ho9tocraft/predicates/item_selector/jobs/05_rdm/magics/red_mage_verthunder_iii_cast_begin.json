@@ -1,0 +1,24 @@
+{
+    "condition": "all_of",
+    "terms": [
+        {
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+                "CAST_TIMER": 0
+            }
+        },
+        {
+            "condition": "reference",
+            "name": "ho9tocraft:item_selector/jobs/05_rdm/magics/red_mage_verthunder_iii_core"
+        },
+        {
+            "condition": "reference",
+            "name": "ho9tocraft:score_condition/magic_skill_score"
+        },
+        {
+            "condition": "reference",
+            "name": "ho9tocraft:passive_selector/sneak_detector"
+        }
+    ]
+}

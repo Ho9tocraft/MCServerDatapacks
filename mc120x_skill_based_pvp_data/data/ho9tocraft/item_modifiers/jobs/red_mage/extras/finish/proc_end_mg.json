@@ -10,7 +10,7 @@
                         "entity": "this",
                         "predicate": {
                             "type": "player",
-                            "slots": { "hotbar.1": {
+                            "slots": { "hotbar.2": {
                                 "items": [ "sheaf_pottery_sherd" ],
                                 "count": 1
                             }}
@@ -41,7 +41,7 @@
                         "entity": "this",
                         "predicate": {
                             "type": "player",
-                            "slots": { "hotbar.1": {
+                            "slots": { "hotbar.2": {
                                 "items": [ "sheaf_pottery_sherd" ],
                                 "count": 1
                             }}
@@ -70,7 +70,7 @@
                         "entity": "this",
                         "predicate": {
                             "type": "player",
-                            "slots": { "hotbar.1": {
+                            "slots": { "hotbar.2": {
                                 "items": [ "sheaf_pottery_sherd" ],
                                 "count": 1
                             }}
@@ -105,7 +105,7 @@
                         "entity": "this",
                         "predicate": {
                             "type": "player",
-                            "slots": { "hotbar.1": {
+                            "slots": { "hotbar.2": {
                                 "items": [ "sheaf_pottery_sherd" ],
                                 "count": 1
                             }}

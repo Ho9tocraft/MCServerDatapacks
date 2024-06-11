@@ -4,5 +4,6 @@
         "layer0": "item/gold_boots"
     },
     "overrides": [
+        { "predicate": { "trim_type": 0.00006 }, "model": "ho9tocraft:custom/theogonic/boots" }
     ]
 }

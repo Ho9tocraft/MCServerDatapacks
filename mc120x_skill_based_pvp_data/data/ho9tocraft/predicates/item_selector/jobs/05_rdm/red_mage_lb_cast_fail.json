@@ -1,0 +1,23 @@
+{
+    "condition": "all_of",
+    "terms": [
+        {
+            "condition": "reference",
+            "name": "ho9tocraft:item_selector/jobs/05_rdm/red_mage_lb_core"
+        },
+        {
+            "condition": "inverted",
+            "term": {
+                "condition": "reference",
+                "name": "ho9tocraft:passive_selector/sneak_detector"
+            }
+        },
+        {
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+                "CAST_TIMER": { "min": 1 }
+            }
+        }
+    ]
+}

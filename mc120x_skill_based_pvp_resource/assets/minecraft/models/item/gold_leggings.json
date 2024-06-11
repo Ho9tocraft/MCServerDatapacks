@@ -4,5 +4,6 @@
         "layer0": "item/gold_leggings"
     },
     "overrides": [
+        { "predicate": { "trim_type": 0.00006 }, "model": "ho9tocraft:custom/theogonic/leggings" }
     ]
 }

@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "minecraft:item/gunpowder"
+    "layer0": "minecraft:item/heart_of_the_sea"
   },
   "overrides": [
     { "predicate": { "custom_model_data": 1 }, "model": "finalfantasyxiv:actions_job/05_rdm/vercure_iii" }

@@ -88,6 +88,8 @@ execute as @a store success score @s scoreInit run scoreboard players get @s PRO
 execute as @a if score @s scoreInit matches 0 run scoreboard players set @s PROC_TIMER_WS 0
 execute as @a store success score @s scoreInit run scoreboard players get @s PROC_TIMER_MG
 execute as @a if score @s scoreInit matches 0 run scoreboard players set @s PROC_TIMER_MG 0
+execute as @a store success score @s scoreInit run scoreboard players get @s PROC_TIMER_AB
+execute as @a if score @s scoreInit matches 0 run scoreboard players set @s PROC_TIMER_AB 0
 #Charge Action
 execute as @a store success score @s scoreInit run scoreboard players get @s CHARGE_ACT
 execute as @a if score @s scoreInit matches 0 run scoreboard players set @s CHARGE_ACT 0

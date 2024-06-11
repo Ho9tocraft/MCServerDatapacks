@@ -65,6 +65,53 @@ execute as @a[predicate=ho9tocraft:item_selector/jobs/03_brd/bard_reload_arrow] 
 #region ID=4, DisplayName=Dragoon
 #endregion
 #region ID=5, DisplayName=Red Mage
+#define tag ShiftWhite
+#define tag ShiftBlack
+# WS/Mg Common
+execute as @a[predicate=ho9tocraft:item_selector/jobs/05_rdm/ws_mg_common/resolution] at @s run function ho9tocraft:skills/05_rdm/common/resolution
+execute as @a[predicate=ho9tocraft:item_selector/jobs/05_rdm/ws_mg_common/scorch] at @s run function ho9tocraft:skills/05_rdm/common/scorch
+execute as @a[predicate=ho9tocraft:item_selector/jobs/05_rdm/ws_mg_common/verholy] at @s run function ho9tocraft:skills/05_rdm/common/verholy
+execute as @a[predicate=ho9tocraft:item_selector/jobs/05_rdm/ws_mg_common/verflare] at @s run function ho9tocraft:skills/05_rdm/common/verflare
+# Weapon Skills
+execute as @a[predicate=ho9tocraft:item_selector/jobs/proc/05_rdm/with_manafication/enchanted_redoublement] at @s run function ho9tocraft:skills/05_rdm/weapon_skills/enchanted_redoublement
+execute as @a[predicate=ho9tocraft:item_selector/jobs/proc/05_rdm/with_manafication/enchanted_zwerchhau] at @s run function ho9tocraft:skills/05_rdm/weapon_skills/enchanted_zwerchhau
+execute as @a[predicate=ho9tocraft:item_selector/jobs/proc/05_rdm/with_manafication/enchanted_riposte] at @s run function ho9tocraft:skills/05_rdm/weapon_skills/enchanted_riposte
+execute as @a[predicate=ho9tocraft:item_selector/jobs/proc/05_rdm/without_manafication/redoublement] at @s run function ho9tocraft:skills/05_rdm/weapon_skills/redoublement
+execute as @a[predicate=ho9tocraft:item_selector/jobs/proc/05_rdm/without_manafication/zwerchhau] at @s run function ho9tocraft:skills/05_rdm/weapon_skills/zwerchhau
+execute as @a[predicate=ho9tocraft:item_selector/jobs/proc/05_rdm/without_manafication/riposte] at @s run function ho9tocraft:skills/05_rdm/weapon_skills/riposte
+execute as @a[predicate=ho9tocraft:item_selector/jobs/05_rdm/red_mage_ws] at @s run function ho9tocraft:skills/05_rdm/weapon_skills/corps_a_corps
+# Magics
+## Multi-target Roop
+execute as @a[predicate=ho9tocraft:item_selector/jobs/proc/05_rdm/with_manafication/enchanted_moulinet] at @s run function ho9tocraft:skills/05_rdm/weapon_skills/enchanted_moulinet
+execute as @a[predicate=ho9tocraft:item_selector/jobs/05_rdm/magics/red_mage_verthunder_ii_exec] at @s run function ho9tocraft:skills/05_rdm/exec_magics/verthunder_ii
+execute as @a[predicate=ho9tocraft:item_selector/jobs/05_rdm/magics/red_mage_verthunder_ii_cast_begin] at @s run function ho9tocraft:skills/05_rdm/magics/verthunder_ii
+execute as @a[predicate=ho9tocraft:item_selector/jobs/05_rdm/magics/red_mage_veraero_ii_exec] at @s run function ho9tocraft:skills/05_rdm/exec_magics/veraero_ii
+execute as @a[predicate=ho9tocraft:item_selector/jobs/05_rdm/magics/red_mage_veraero_ii_cast_begin] at @s run function ho9tocraft:skills/05_rdm/magics/veraero_ii
+execute as @a[predicate=ho9tocraft:item_selector/jobs/05_rdm/magics/red_mage_impact_exec] at @s run function ho9tocraft:skills/05_rdm/exec_magics/impact
+execute as @a[predicate=ho9tocraft:item_selector/jobs/05_rdm/magics/red_mage_impact_cast_begin] at @s run function ho9tocraft:skills/05_rdm/magics/impact
+## Single-target Roop
+execute as @a[predicate=ho9tocraft:item_selector/jobs/proc/05_rdm/without_manafication/moulinet] at @s run function ho9tocraft:skills/05_rdm/weapon_skills/moulinet
+execute as @a[predicate=ho9tocraft:item_selector/jobs/05_rdm/magics/red_mage_verfire_exec] at @s run function ho9tocraft:skills/05_rdm/exec_magics/verfire
+execute as @a[predicate=ho9tocraft:item_selector/jobs/05_rdm/magics/red_mage_verfire_cast_begin] at @s run function ho9tocraft:skills/05_rdm/magics/verfire
+execute as @a[predicate=ho9tocraft:item_selector/jobs/05_rdm/magics/red_mage_verthunder_iii_exec] at @s run function ho9tocraft:skills/05_rdm/exec_magics/verthunder_iii
+execute as @a[predicate=ho9tocraft:item_selector/jobs/05_rdm/magics/red_mage_verthunder_iii_cast_begin] at @s run function ho9tocraft:skills/05_rdm/magics/verthunder_iii
+execute as @a[predicate=ho9tocraft:item_selector/jobs/05_rdm/magics/red_mage_verstone_exec] at @s run function ho9tocraft:skills/05_rdm/exec_magics/verstone
+execute as @a[predicate=ho9tocraft:item_selector/jobs/05_rdm/magics/red_mage_verstone_cast_begin] at @s run function ho9tocraft:skills/05_rdm/magics/verstone
+execute as @a[predicate=ho9tocraft:item_selector/jobs/05_rdm/magics/red_mage_veraero_iii_exec] at @s run function ho9tocraft:skills/05_rdm/exec_magics/veraero_iii
+execute as @a[predicate=ho9tocraft:item_selector/jobs/05_rdm/magics/red_mage_veraero_iii_cast_begin] at @s run function ho9tocraft:skills/05_rdm/magics/veraero_iii
+execute as @a[predicate=ho9tocraft:item_selector/jobs/05_rdm/magics/red_mage_jolt_ii_exec] at @s run function ho9tocraft:skills/05_rdm/exec_magics/jolt_ii
+execute as @a[predicate=ho9tocraft:item_selector/jobs/05_rdm/magics/red_mage_jolt_ii_cast_begin] at @s run function ho9tocraft:skills/05_rdm/magics/jolt_ii
+## Start Actions
+execute as @a[predicate=ho9tocraft:item_selector/jobs/05_rdm/red_mage_acceleration] at @s run function ho9tocraft:skills/05_rdm/magics/acceleration
+# Abilities
+execute as @a[predicate=ho9tocraft:item_selector/jobs/05_rdm/magics/red_mage_vercure_iii_exec,tag=Red_Magic_Cast] at @s run function ho9tocraft:skills/05_rdm/exec_magics/vercure_iii
+execute as @a[predicate=ho9tocraft:item_selector/jobs/05_rdm/magics/red_mage_vercure_iii_cast_begin] at @s run function ho9tocraft:skills/05_rdm/magics/vercure_iii
+execute as @a[predicate=ho9tocraft:item_selector/jobs/05_rdm/red_mage_ab] at @s run function ho9tocraft:skills/05_rdm/common/manafication
+# LIMIT BREAK
+execute as @a[predicate=ho9tocraft:item_selector/jobs/05_rdm/red_mage_lb_exec,tag=CasterLB_Cast] at @s run function ho9tocraft:skills/05_rdm/common/limit_break_exec
+execute as @a[predicate=ho9tocraft:item_selector/jobs/05_rdm/red_mage_lb_cast_begin] at @s run function ho9tocraft:skills/05_rdm/common/limit_break
+# Proc Process
+execute as @a[predicate=ho9tocraft:item_selector/jobs/05_rdm/red_mage_proc_test,scores={CURRENT_JOB=5}] run function ho9tocraft:skills/05_rdm/common/proc_fail
 #endregion
 #region Support Item
 execute as @a[predicate=ho9tocraft:item_selector/support_item/knight_errantry] at @s run function ho9tocraft:support_item/knight_errantry
