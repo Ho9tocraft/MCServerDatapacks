@@ -1,5 +1,6 @@
 #Verflare(ヴァルフレア)
 #define tag Verflare_Exec
+#define tag VF_Executed
 #define tag VFlare_TGT_BLU
 #define tag VFlare_TGT_RED
 

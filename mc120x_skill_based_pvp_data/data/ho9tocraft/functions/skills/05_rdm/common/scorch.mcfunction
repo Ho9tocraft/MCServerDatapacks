@@ -4,15 +4,29 @@
 #define tag Scorch_TGT_RED
 
 execute as @s at @s run tag @s add Scorch_Exec
+#region VH_Executed
+execute as @s[tag=VH_Executed] at @s run effect give @s instant_health 1 1 true
+execute as @s[tag=VH_Executed] at @s run effect give @s resistance 10 1 true
+#endregion
 #region team=RED
-execute as @s[team=RED] at @s as @e[team=BLU,distance=..25,sort=nearest,limit=1] at @s run tag @s add Scorch_TGT_BLU
-execute as @e[tag=Scorch_TGT_BLU,limit=1] at @s run damage @s 68 indirect_magic by @a[team=RED,tag=Scorch_Exec,limit=1]
-execute as @e[tag=Scorch_TGT_BLU,limit=1] at @s as @e[team=BLU,tag=!Scorch_TGT_BLU,distance=..5] at @s run damage @s 40.8 indirect_magic by @a[team=RED,tag=Scorch_Exec,limit=1]
+# VH_Executed
+execute as @s[team=RED,tag=!VF_Executed] at @s as @e[team=BLU,distance=..25,sort=nearest,limit=1] at @s run tag @s add Scorch_TGT_BLU
+execute as @s[team=RED,tag=!VF_Executed] at @s as @e[tag=Scorch_TGT_BLU,limit=1] at @s run damage @s 68 indirect_magic by @a[team=RED,tag=Scorch_Exec,limit=1]
+execute as @s[team=RED,tag=!VF_Executed] at @s as @e[tag=Scorch_TGT_BLU,limit=1] at @s as @e[team=BLU,tag=!Scorch_TGT_BLU,distance=..5] at @s run damage @s 40.8 indirect_magic by @a[team=RED,tag=Scorch_Exec,limit=1]
+# VF_Executed
+execute as @s[team=RED,tag=VF_Executed] at @s as @e[team=BLU,distance=..25,sort=nearest,limit=1] at @s run tag @s add Scorch_TGT_BLU
+execute as @s[team=RED,tag=VF_Executed] at @s as @e[tag=Scorch_TGT_BLU,limit=1] at @s run damage @s 102 indirect_magic by @a[team=RED,tag=Scorch_Exec,limit=1]
+execute as @s[team=RED,tag=VF_Executed] at @s as @e[tag=Scorch_TGT_BLU,limit=1] at @s as @e[team=BLU,tag=!Scorch_TGT_BLU,distance=..5] at @s run damage @s 61.2 indirect_magic by @a[team=RED,tag=Scorch_Exec,limit=1]
 #endregion
 #region team=BLU
-execute as @s[team=BLU] at @s as @e[team=RED,distance=..25,sort=nearest,limit=1] at @s run tag @s add Scorch_TGT_RED
-execute as @e[tag=Scorch_TGT_RED,limit=1] at @s run damage @s 68 indirect_magic by @a[team=BLU,tag=Scorch_Exec,limit=1]
-execute as @e[tag=Scorch_TGT_RED,limit=1] at @s as @e[team=RED,tag=!Scorch_TGT_RED,distance=..5] at @s run damage @s 40.8 indirect_magic by @a[team=BLU,tag=Scorch_Exec,limit=1]
+# VH_Executed
+execute as @s[team=BLU,tag=!VF_Executed] at @s as @e[team=RED,distance=..25,sort=nearest,limit=1] at @s run tag @s add Scorch_TGT_RED
+execute as @s[team=BLU,tag=!VF_Executed] at @s as @e[tag=Scorch_TGT_RED,limit=1] at @s run damage @s 68 indirect_magic by @a[team=BLU,tag=Scorch_Exec,limit=1]
+execute as @s[team=BLU,tag=!VF_Executed] at @s as @e[tag=Scorch_TGT_RED,limit=1] at @s as @e[team=RED,tag=!Scorch_TGT_RED,distance=..5] at @s run damage @s 40.8 indirect_magic by @a[team=BLU,tag=Scorch_Exec,limit=1]
+# VF_Executed
+execute as @s[team=BLU,tag=VF_Executed] at @s as @e[team=RED,distance=..25,sort=nearest,limit=1] at @s run tag @s add Scorch_TGT_RED
+execute as @s[team=BLU,tag=VF_Executed] at @s as @e[tag=Scorch_TGT_RED,limit=1] at @s run damage @s 102 indirect_magic by @a[team=BLU,tag=Scorch_Exec,limit=1]
+execute as @s[team=BLU,tag=VF_Executed] at @s as @e[tag=Scorch_TGT_RED,limit=1] at @s as @e[team=RED,tag=!Scorch_TGT_RED,distance=..5] at @s run damage @s 61.2 indirect_magic by @a[team=BLU,tag=Scorch_Exec,limit=1]
 #endregion
 #region PostProcess
 # Remove Tag for Detectors

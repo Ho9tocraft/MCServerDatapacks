@@ -1,5 +1,6 @@
 #Verholy(ヴァルホーリー)
 #define tag Verholy_Exec
+#define tag VH_Executed
 #define tag VHoly_TGT_BLU
 #define tag VHoly_TGT_RED
 
