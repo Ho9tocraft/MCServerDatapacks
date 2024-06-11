@@ -19,8 +19,8 @@ execute as @s at @s run scoreboard players set @s MG_RECAST_T 50
 execute as @s at @s if score @s AB_RECAST_T matches 0..49 run scoreboard players set @s AB_RECAST_T 50
 execute as @s at @s if score @s LB_RECAST_T matches 0..49 run scoreboard players set @s LB_RECAST_T 50
 # ShiftChange
-execute as @s[tag=ShiftWhite] at @s run function ho9tocraft:skills/05_rdm/common/postproc/to_black
-execute as @s[tag=ShiftBlack] at @s run function ho9tocraft:skills/05_rdm/common/postproc/to_white
+execute as @s[tag=ShiftWhite] at @s if score @s SPEFF_DONE matches 0 run function ho9tocraft:skills/05_rdm/common/postproc/to_black
+execute as @s[tag=ShiftBlack] at @s if score @s SPEFF_DONE matches 0 run function ho9tocraft:skills/05_rdm/common/postproc/to_white
 # Remove Exec. User Spec.
 execute as @s[tag=Moul_Exec] at @s run tag @s remove Moul_Exec
 # End of Proc.
