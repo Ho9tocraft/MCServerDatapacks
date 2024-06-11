@@ -278,10 +278,10 @@
     "item.bard.leggings.name": "ブリオソボトム",
     "item.bard.boots.name": "ブリオソシューズ",
     "item.bard.bow.name": "パジャルロングボウ",
-    "item.caster.theogonic_circlet.name": "ブリオソシャポー",
-    "item.caster.theogonic_robe.name": "ブリオソジレ",
-    "item.caster.theogonic_sandals.name": "ブリオソボトム",
-    "item.caster.theogonic_longkilt.name": "ブリオソシューズ",
+    "item.caster.theogonic_circlet.name": "テオゴニアー・キャスターサークレット",
+    "item.caster.theogonic_robe.name": "テオゴニアー・キャスターローブ",
+    "item.caster.theogonic_sandals.name": "テオゴニアー・キャスターロングキルト",
+    "item.caster.theogonic_longkilt.name": "テオゴニアー・キャスターサンダル",
     "item.red_mage.rapier.name": "朱雀細剣【輝】",
     "__END_OF_FILE__": ""
 }

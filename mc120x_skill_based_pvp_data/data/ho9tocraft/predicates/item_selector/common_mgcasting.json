@@ -40,6 +40,10 @@
         {
             "condition": "reference",
             "name": "ho9tocraft:item_selector/jobs/05_rdm/magics/red_mage_verthunder_iii_cast_proc"
+        },
+        {
+            "condition": "reference",
+            "name": "ho9tocraft:item_selector/jobs/05_rdm/red_mage_lb_cast_proc"
         }
     ]
 }
