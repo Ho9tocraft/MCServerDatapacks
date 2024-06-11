@@ -21,6 +21,7 @@ execute as @s at @s if score @s LB_RECAST_T matches 0..29 run scoreboard players
 # Remove Exec. User Spec.
 execute as @s[tag=EMoul_Exec] at @s run tag @s remove EMoul_Exec
 # Convert Item to "Verholy(When Active "ShiftWhite")" or "Verflare(When Active "ShiftBlack")"
+execute as @s at @s run scoreboard players set @s PROC_TIMER_WS 1200
 execute as @s[tag=ShiftWhite] at @s run item modify entity @s hotbar.1 ho9tocraft:jobs/red_mage/extras/common/weapon_skills/verholy_ws_direct
 execute as @s[tag=ShiftWhite] at @s run item modify entity @s hotbar.2 ho9tocraft:jobs/red_mage/extras/common/magics/verholy_mg
 execute as @s[tag=ShiftBlack] at @s run item modify entity @s hotbar.1 ho9tocraft:jobs/red_mage/extras/common/weapon_skills/verflare_ws_direct

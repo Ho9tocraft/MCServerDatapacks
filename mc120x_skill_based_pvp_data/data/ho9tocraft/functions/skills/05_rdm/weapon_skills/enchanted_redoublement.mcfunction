@@ -21,6 +21,7 @@ execute as @s at @s if score @s LB_RECAST_T matches 0..29 run scoreboard players
 # Remove Tag for Detectors
 execute as @s[tag=EZwei_Exec] at @s run tag @s remove EZwei_Exec
 # Convert Item to "Verflare" or "Verholy"
+execute as @s at @s run scoreboard players set @s PROC_TIMER_MG 1200
 execute as @s[tag=ShiftBlack] at @s run item modify entity @s hotbar.1 ho9tocraft:jobs/red_mage/extras/common/weapon_skills/verflare_ws
 execute as @s[tag=ShiftBlack] at @s run item modify entity @s hotbar.2 ho9tocraft:jobs/red_mage/extras/common/magics/verflare_mg_direct
 execute as @s[tag=ShiftWhite] at @s run item modify entity @s hotbar.1 ho9tocraft:jobs/red_mage/extras/common/weapon_skills/verholy_ws

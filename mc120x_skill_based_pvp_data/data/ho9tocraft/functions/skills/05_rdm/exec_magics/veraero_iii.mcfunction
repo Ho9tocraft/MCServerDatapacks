@@ -12,7 +12,7 @@ execute as @s[team=BLU] at @s if score @s CAST_TIMER matches 0 as @e[team=RED,di
 #region PostProcess
 # Particles
 # MP Cost
-execute as @s at @s run scoreboard players remove @s NOW_MP 400
+execute as @s at @s run scoreboard players remove @s NOW_MP 300
 # LIMIT BREAK Accumulate
 execute as @s at @s if score @s LB_CHARGE matches ..97 run scoreboard players add @s LB_CHARGE 3
 execute as @s at @s if score @s LB_CHARGE matches 98..99 run scoreboard players add @s LB_CHARGE 1

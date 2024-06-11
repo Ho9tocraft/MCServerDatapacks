@@ -11,9 +11,9 @@
             "predicate": {
                 "type": "player",
                 "equipment": { "mainhand": {
-                    "items": [ "heart_of_the_sea" ],
+                    "items": [ "sheaf_pottery_sherd" ],
                     "count": 1,
-                    "components": { "custom_model_data": 1 }
+                    "components": { "custom_model_data": 12 }
                 }}
             }
         },
