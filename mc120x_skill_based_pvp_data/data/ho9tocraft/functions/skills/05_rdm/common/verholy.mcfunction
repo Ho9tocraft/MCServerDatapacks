@@ -23,6 +23,8 @@ execute as @e[tag=VHoly_TGT_RED] at @s run tag @s remove VHoly_TGT_RED
 execute as @s at @s if score @s LB_CHARGE matches 96..99 run scoreboard players add @s LB_CHARGE 1
 execute as @s at @s if score @s LB_CHARGE matches ..95 run scoreboard players add @s LB_CHARGE 5
 execute as @s[tag=!ShiftWhite] at @s run function ho9tocraft:skills/05_rdm/common/postproc/to_white
+# Switch Shift
+execute as @s[tag=ShiftWhite] at @s run function ho9tocraft:skills/05_rdm/common/postproc/to_black
 # MP Cost
 execute as @s at @s run scoreboard players remove @s NOW_MP 400
 # Recast Timer
