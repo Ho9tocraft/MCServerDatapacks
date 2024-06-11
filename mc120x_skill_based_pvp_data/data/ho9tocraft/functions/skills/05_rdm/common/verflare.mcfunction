@@ -5,6 +5,7 @@
 #define tag VFlare_TGT_RED
 
 execute as @s at @s run tag @s add Verflare_Exec
+execute as @s at @s run tag @s add VF_Executed
 #region team=RED
 execute as @s[team=RED] at @s as @e[team=BLU,distance=..25,sort=nearest,limit=1] at @s run tag @s add VFlare_TGT_BLU
 execute as @e[tag=VFlare_TGT_BLU,limit=1] at @s run damage @s 60 indirect_magic by @a[team=RED,tag=Verflare_Exec,limit=1]
