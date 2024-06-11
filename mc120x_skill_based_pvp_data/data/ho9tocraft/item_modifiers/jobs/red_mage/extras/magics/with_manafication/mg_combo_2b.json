@@ -28,7 +28,7 @@
             }
         ],
         "components": {
-            "item_name": "{\"bold\":true,\"color\":\"#C0C0C0\",\"italic\":false,\"translate\":\"skill.red_mage.verthunder_iii.name\",\"fallback\":\"Verthunder III\"}"
+            "item_name": "{\"bold\":true,\"color\":\"#C0C0C0\",\"italic\":false,\"translate\":\"skill.red_mage.verthunder_ii.name\",\"fallback\":\"Verthunder II\"}"
         }
     },
     {
@@ -58,7 +58,7 @@
                 ]
             }
         ],
-        "value": 10
+        "value": 16
     },
     {
         "function": "set_lore",
@@ -88,9 +88,9 @@
             }
         ],
         "lore": [
-            { "bold": false, "color": "gray", "italic": false, "translate": "skill.red_mage.verthunder_iii.desc.1", "fallback": "Deals magic damage to all enemies within range," },
-            { "bold": false, "color": "gray", "italic": false, "translate": "skill.red_mage.verthunder_iii.desc.2", "fallback": " starting with the closest enemy within range." },
-            { "bold": false, "color": "gray", "italic": false, "translate": "skill.red_mage.verthunder_iii.range", "fallback": "(Range: 25m, Radius: 5m, MP Cost: 400)" },
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.red_mage.verthunder_ii.desc.1", "fallback": "Deals magic damage to all enemies within range," },
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.red_mage.verthunder_ii.desc.2", "fallback": " starting with the closest enemy within range." },
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.red_mage.verthunder_ii.range", "fallback": "(Range: 25m, Radius: 5m, MP Cost: 400)" },
             { "bold": false, "color": "aqua", "italic": false, "translate": "skill.cast.40tick", "fallback": "Cast Time: 2 sec." },
             { "bold": true, "color": "aqua", "italic": false, "translate": "skill.recast.50tick", "fallback": "Recast Time: 2.5 sec." },
             { "bold": true, "color": "green", "italic": false, "translate": "skill.gcd.50tick", "fallback": "GCD: 2.5 sec." }
