@@ -11,7 +11,7 @@
 #define tag DRK_LB_NGEFF_5
 
 effect give @s hunger 60 255 true
-effect give @s slowness 60 255 true
+effect give @s slowness 60 2 true
 effect give @s unluck 240 3 true
 tag @s add DRK_LB_Exec
 execute as @s at @s run playsound finalfantasyxiv:limit_break_activated player @a[distance=..30] ~ ~ ~ 1.0 1.0 0.5
