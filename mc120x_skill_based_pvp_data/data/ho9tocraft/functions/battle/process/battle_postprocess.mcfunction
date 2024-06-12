@@ -51,4 +51,5 @@ bossbar set ho9tocraft:battle_timer value 0
 bossbar set ho9tocraft:battle_timer name {"translate": "bossbar.battle_timer.init", "fallback": "Warming up Time"}
 team leave *
 gamemode adventure @a[gamemode=spectator]
-effect give @s saturation infinite 5 true
+effect clear @a
+effect give @a saturation infinite 5 true

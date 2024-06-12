@@ -1,5 +1,5 @@
 #Battle Start
-effect clear @a saturation
+effect clear @a
 gamemode adventure @a[scores={CURRENT_JOB=0..}]
 gamemode spectator @a[scores={CURRENT_JOB=-1}]
 team join Spectate @a[scores={CURRENT_JOB=-1}]
