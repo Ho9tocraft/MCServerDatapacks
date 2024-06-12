@@ -2,7 +2,17 @@
 #define tag DRK_LB_Exec
 #define tag DRK_LB_TGT_BLU
 #define tag DRK_LB_TGT_RED
+#define tag DRK_LB_Rebound
+#define tag DRK_LB_NGEFF_0
+#define tag DRK_LB_NGEFF_1
+#define tag DRK_LB_NGEFF_2
+#define tag DRK_LB_NGEFF_3
+#define tag DRK_LB_NGEFF_4
+#define tag DRK_LB_NGEFF_5
 
+effect give @s hunger 60 255 true
+effect give @s slowness 60 255 true
+effect give @s unluck 240 3 true
 tag @s add DRK_LB_Exec
 execute as @s at @s run playsound finalfantasyxiv:limit_break_activated player @a[distance=..30] ~ ~ ~ 1.0 1.0 0.5
 #region team=RED
@@ -55,4 +65,19 @@ execute as @e[tag=DRK_LB_TGT_BLU] at @s run tag @s remove DRK_LB_TGT_BLU
 execute as @e[tag=DRK_LB_TGT_RED] at @s run tag @s remove DRK_LB_TGT_RED
 execute as @s at @s run scoreboard players set @s LB_CHARGE 0
 execute as @s at @s run scoreboard players set @s LB_RECAST_T 50
+# IfScore Sector
+execute as @s at @s if score @s NGEFF_TIMER_0 matches 0 if score @s NGEFF_DONE matches 0 store success score @s NGEFF_DONE run scoreboard players set @s NGEFF_TIMER_0 1200
+execute as @s at @s if score @s NGEFF_TIMER_1 matches 0 if score @s NGEFF_DONE matches 0 store success score @s NGEFF_DONE run scoreboard players set @s NGEFF_TIMER_1 1200
+execute as @s at @s if score @s NGEFF_TIMER_2 matches 0 if score @s NGEFF_DONE matches 0 store success score @s NGEFF_DONE run scoreboard players set @s NGEFF_TIMER_2 1200
+execute as @s at @s if score @s NGEFF_TIMER_3 matches 0 if score @s NGEFF_DONE matches 0 store success score @s NGEFF_DONE run scoreboard players set @s NGEFF_TIMER_3 1200
+execute as @s at @s if score @s NGEFF_TIMER_4 matches 0 if score @s NGEFF_DONE matches 0 store success score @s NGEFF_DONE run scoreboard players set @s NGEFF_TIMER_4 1200
+execute as @s at @s if score @s NGEFF_TIMER_5 matches 0 if score @s NGEFF_DONE matches 0 store success score @s NGEFF_DONE run scoreboard players set @s NGEFF_TIMER_5 1200
+execute as @s at @s if score @s NGEFF_TIMER_0 matches 1200 if score @s NGEFF_DONE matches 1 run tag @s add DRK_LB_NGEFF_0
+execute as @s at @s if score @s NGEFF_TIMER_1 matches 1200 if score @s NGEFF_DONE matches 1 run tag @s add DRK_LB_NGEFF_1
+execute as @s at @s if score @s NGEFF_TIMER_2 matches 1200 if score @s NGEFF_DONE matches 1 run tag @s add DRK_LB_NGEFF_2
+execute as @s at @s if score @s NGEFF_TIMER_3 matches 1200 if score @s NGEFF_DONE matches 1 run tag @s add DRK_LB_NGEFF_3
+execute as @s at @s if score @s NGEFF_TIMER_4 matches 1200 if score @s NGEFF_DONE matches 1 run tag @s add DRK_LB_NGEFF_4
+execute as @s at @s if score @s NGEFF_TIMER_5 matches 1200 if score @s NGEFF_DONE matches 1 run tag @s add DRK_LB_NGEFF_5
+# Success Effect
+execute as @s at @s if score @s NGEFF_TIMER_5 matches 1200 if score @s NGEFF_DONE matches 1 run tag @s add DRK_LB_Rebound
 #endregion
