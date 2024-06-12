@@ -2,6 +2,7 @@
 #define tag LB_Exec
 #define tag OffWS_Exec
 #define damage_type ho9tocraft:limit_break LB Damage
+#define damage_type ho9tocraft:limit_break_magic Indirect Magic LB Damage
 #define damage_type ho9tocraft:ngeffect/poison Poison Damage
 #define damage_type ho9tocraft:ngeffect/scarlet_rot Scarlet Rot Damage
 #define damage_type ho9tocraft:ngeffect/frostbite Frostbite Damage

@@ -1,0 +1,7 @@
+{
+    "message_id": "indirectMagic",
+    "exhaustion": 0.125,
+    "scaling": "never",
+    "effects": "hurt",
+    "death_message_type": "default"
+}
