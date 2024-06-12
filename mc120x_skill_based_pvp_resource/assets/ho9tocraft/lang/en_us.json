@@ -23,6 +23,7 @@
     "trim_material.ho9tocraft.raised_soul": "Raised Soul Attire",
     "trim_material.ho9tocraft.dark_knight": "Ignominy Attire",
     "trim_material.ho9tocraft.bard": "Brioso Attire",
+    "trim_material.ho9tocraft.theogonic_of_casting": "Theogonic of Casting Attire",
     "trim_pattern.minecraft.default_chainmail": "Chainmail Attire(default)",
     "trim_pattern.minecraft.default_iron": "Iron Attire(default)",
     "trim_pattern.minecraft.default_gold": "Gold Attire(default)",
@@ -32,5 +33,6 @@
     "trim_pattern.ho9tocraft.raised_soul": "Raised Soul Attire",
     "trim_pattern.ho9tocraft.dark_knight": "Ignominy Attire",
     "trim_pattern.ho9tocraft.bard": "Brioso Attire",
+    "trim_pattern.ho9tocraft.theogonic_of_casting": "Theogonic of Casting Attire",
     "__END_OF_FILE__": ""
 }

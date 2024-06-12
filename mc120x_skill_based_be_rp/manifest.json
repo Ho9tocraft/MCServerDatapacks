@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Ho9tocraft Skill-based PvP Server Resources",
+        "name": "Ho9tocraft Server Resource Pack",
+        "uuid": "3f435b9f-3c02-4021-83a6-ca9ced1fc27c",
+        "version": [ 1, 0, 0 ],
+        "min_engine_version": [ 1, 20, 80 ]
+    },
+    "modules": [
+        {
+            "description": "Ho9tocraft Skill-based PvP Server Resource Add-on",
+            "type": "resources",
+            "uuid": "4b1b4dde-894c-4677-9006-a2f3fe02673b",
+            "version": [ 1, 0, 0 ]
+        }
+    ]
+}
