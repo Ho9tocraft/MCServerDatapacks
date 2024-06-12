@@ -79,5 +79,5 @@ execute as @s at @s if score @s NGEFF_TIMER_3 matches 1200 if score @s NGEFF_DON
 execute as @s at @s if score @s NGEFF_TIMER_4 matches 1200 if score @s NGEFF_DONE matches 1 run tag @s add DRK_LB_NGEFF_4
 execute as @s at @s if score @s NGEFF_TIMER_5 matches 1200 if score @s NGEFF_DONE matches 1 run tag @s add DRK_LB_NGEFF_5
 # Success Effect
-execute as @s at @s if score @s NGEFF_TIMER_5 matches 1200 if score @s NGEFF_DONE matches 1 run tag @s add DRK_LB_Rebound
+execute as @s at @s if score @s NGEFF_DONE matches 1 run tag @s add DRK_LB_Rebound
 #endregion
