@@ -16,7 +16,7 @@
 - タンク(高HP、高防御力、低火力)
   - [x] ナイト(Paladin / PLD / ナ) [Progress: Release, Job ID: 0]
   - [ ] 戦士(Warrior / WAR / 戦) [Progress: Pending]
-  - [x] 暗黒騎士(Dark Knight / DRK / 暗) [Progress: Release Candidate 1, Job ID: 1]
+  - [x] 暗黒騎士(Dark Knight / DRK / 暗) [Progress: Release Candidate 2, Job ID: 1]
   - [ ] ガンブレイカー(Gunbreaker / GNB / ガ) [Progress: Pending]
 - ヒーラー(低HP、最低保障防御力、低火力、回復スキルあり)
   - [ ] 白魔道士(White Mage / WHM / 白) [Progress: Pending]
@@ -24,7 +24,7 @@
   - [ ] 占星術師(Astrologian / AST / 占) [Progress: Pending]
   - [ ] 賢者(Sage / SGE / 賢) [Progress: Pending]
 - 近接DPS(中HP、低防御力、高火力)
-  - [ ] 竜騎士(Dragoon / DRG / 竜) [Progress: Pending]
+  - [ ] 竜騎士(Dragoon / DRG / 竜) [Progress: Work in Progress, Job ID: 4]
   - [ ] リーパー(Reaper / RPR / リ) [Progress: Pending]
   - [ ] モンク(Monk / MNK / モ) [Progress: Pending]
   - [ ] 侍(Samurai / SAM / 侍) [Progress: Pending]
@@ -34,7 +34,7 @@
   - [x] 吟遊詩人(Bard / BRD / 詩) [Progress: Beta Build, Job ID: 3]
 - 遠隔魔法DPS(低HP、最低保障防御力、高火力)
   - [ ] 黒魔道士(Black Mage / BLM / 黒) [Progress: Pending]
-  - [ ] 赤魔道士(Red Mage / RDM / 赤) [Progress: Pending]
+  - [x] 赤魔道士(Red Mage / RDM / 赤) [Progress: Beta Build, Job ID: 5]
 
 [^1]: 刀を二刀流で使用するジョブ。侍と基本的には同じだが、子細が異なる。FF14に存在しないジョブ。強いて言うならMaster of Epicのサムライが近いか。
 
