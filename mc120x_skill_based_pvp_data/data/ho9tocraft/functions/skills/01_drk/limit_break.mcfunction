@@ -10,7 +10,7 @@
 #define tag DRK_LB_NGEFF_4
 #define tag DRK_LB_NGEFF_5
 
-effect give @s hunger 60 255 true
+effect give @s hunger 10 255 true
 effect give @s slowness 60 2 true
 effect give @s unluck 240 3 true
 tag @s add DRK_LB_Exec
