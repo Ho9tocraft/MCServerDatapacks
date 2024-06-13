@@ -22,7 +22,6 @@ execute as @a[tag=!DLSP_EFFECT,tag=DLSP_TIMER_5] at @s if score @s SPEFF_TIMER_5
 #endregion
 
 #region DRK LB Rebound
-execute as @a[tag=DRK_LB_Rebound] at @s run effect clear @s resistance
 execute as @a[tag=DRK_LB_Rebound] at @s run effect clear @s absorption
 execute as @a[tag=DRK_LB_Rebound] at @s run effect clear @s regeneration
 execute as @a[tag=DRK_LB_Rebound] at @s run effect clear @s fire_resistance
