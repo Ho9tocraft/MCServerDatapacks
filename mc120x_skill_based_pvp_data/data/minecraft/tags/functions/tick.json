@@ -1,6 +1,7 @@
 {
     "values": [
         "ho9tocraft:control/player_initialize",
+        "ho9tocraft:training/mannequin_pop",
         "#ho9tocraft:vphandlers",
         "#ho9tocraft:displayhandler"
     ]

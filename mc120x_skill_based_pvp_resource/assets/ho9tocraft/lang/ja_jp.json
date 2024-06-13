@@ -1,4 +1,5 @@
 {
+    "entity.training_mannequin.name": "木人",
     "bossbar.battle_timer.init": "準備時間",
     "bossbar.battle_timer.main": "残り時間",
     "death.attack.poison": "%1$sは毒に侵されて死んだ",

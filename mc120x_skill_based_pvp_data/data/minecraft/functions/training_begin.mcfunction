@@ -1,0 +1,1 @@
+function ho9tocraft:training/training_start
