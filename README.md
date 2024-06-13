@@ -16,7 +16,7 @@ The jobs currently scheduled for implementation are as follows. ([Reference(FF14
 - TANK (High Health, High DEF, Low Strength(Physical))
   - [x] Paladin (PLD) [Progress: Release, Job ID: 0]
   - [ ] Warrior (WAR) [Progress: Pending]
-  - [x] Dark Knight (DRK) [Progress: Release Candidate 1, Job ID: 1]
+  - [x] Dark Knight (DRK) [Progress: Release Candidate 2, Job ID: 1]
   - [ ] Gunbreaker (GNB) [Progress: Pending]
 - HEALER (Low Health, Minimum DEF, Low Strength(Magical), Healing Skills are Available)
   - [ ] White Mage (WHM) [Progress: Pending]
@@ -24,7 +24,7 @@ The jobs currently scheduled for implementation are as follows. ([Reference(FF14
   - [ ] Astrologian(AST) [Progress: Pending]
   - [ ] Sage(SGE) [Progress: Pending]
 - Melee DPS (Medium Health, Low DEF, High Strength(Physical))
-  - [ ] Dragoon(DRG) [Progress: Pending]
+  - [ ] Dragoon(DRG) [Progress: Work in Progress, Job ID: 4]
   - [ ] Reaper (RPR) [Progress: Pending]
   - [ ] Monk (MNK) [Progress: Pending]
   - [ ] Samurai (SAM) [Progress: Pending]
@@ -34,7 +34,7 @@ The jobs currently scheduled for implementation are as follows. ([Reference(FF14
   - [x] Bard (BRD) [Progress: Beta Build, Job ID: 3]
 - Magical Ranged DPS (Low Health, Minimum DEF, High Strength(Magical))
   - [ ] Black Mage (BLM) [Progress: Pending]
-  - [ ] Red Mage (RDM) [Progress: Pending]
+  - [x] Red Mage (RDM) [Progress: Progress: Beta Build, Job ID: 5]
 
 [^1]: A job that uses two katana in dual wielding. It is basically the same as FF14's Samurai, but the details are different. This job doesn't exist in FF14. If I had to say, it is similar to MoE's Samurai.
 
