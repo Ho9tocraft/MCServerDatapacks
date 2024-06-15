@@ -3,7 +3,7 @@
 #define tag GRENADE_BLU
 #define tag grenade
 
-execute as @a[scores={SNOWBALL=1..}] at @s run tellraw @a ["",{ "bold": false, "italic": false, "translate": "use.grenade.name", "fallback": "%1$s used \"Grenade\".", "with": [ { "selector": "@s" }]}]
+execute as @a[scores={SNOWBALL=1..}] at @s run tellraw @a ["",{ "bold": false, "italic": false, "translate": "use.grenade.name", "fallback": "%1$s used \"Grenade\".", "with": [ { "selector": "@s" }], "color": "#FFA500"}]
 execute as @a[scores={SNOWBALL=1..}] at @s run tag @s add GRENADE_Exec
 execute as @a[scores={SNOWBALL=1..},team=RED] at @s as @e[type=snowball,distance=..1.520001] at @s run tag @s add GRENADE_RED
 execute as @a[scores={SNOWBALL=1..},team=BLU] at @s as @e[type=snowball,distance=..1.520001] at @s run tag @s add GRENADE_BLU
