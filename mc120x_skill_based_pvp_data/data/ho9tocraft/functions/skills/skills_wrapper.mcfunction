@@ -115,6 +115,7 @@ execute as @a[predicate=ho9tocraft:item_selector/jobs/05_rdm/red_mage_lb_cast_be
 execute as @a[predicate=ho9tocraft:item_selector/jobs/05_rdm/red_mage_proc_test,scores={CURRENT_JOB=5}] run function ho9tocraft:skills/05_rdm/common/proc_fail
 #endregion
 #region Support Item
+execute as @a[predicate=ho9tocraft:item_selector/support_item/ambrosia] at @s run function ho9tocraft:support_item/ambrosia
 execute as @a[predicate=ho9tocraft:item_selector/support_item/knight_errantry] at @s run function ho9tocraft:support_item/knight_errantry
 execute as @a[predicate=ho9tocraft:item_selector/support_item/tact_nuke] at @s run function ho9tocraft:support_item/tactical_nuke
 function ho9tocraft:support_item/grenade

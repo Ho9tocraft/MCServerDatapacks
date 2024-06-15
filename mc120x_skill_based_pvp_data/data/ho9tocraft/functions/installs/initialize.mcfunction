@@ -103,6 +103,9 @@ scoreboard objectives add STAGE_VOTE trigger
 scoreboard objectives add M_SHOP_POP dummy
 #SNOWBALL
 scoreboard objectives add SNOWBALL minecraft.used:snowball
+#AMBROSIA RECAST
+scoreboard objectives add AR_RECAST_T dummy
+scoreboard objectives add AR_RECAST_V dummy
 #endregion
 
 #region SPEFF_TIMER(var: 0 to INT_MAX(for use Special Effects), 6 difficult Special Effects available)
