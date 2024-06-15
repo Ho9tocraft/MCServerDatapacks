@@ -1,0 +1,1 @@
+function ho9tocraft:training/tutorial_process/tutorial_gamerule
