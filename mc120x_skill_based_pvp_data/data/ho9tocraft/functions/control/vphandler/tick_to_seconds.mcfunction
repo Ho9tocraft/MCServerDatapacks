@@ -21,10 +21,10 @@ execute as @a[scores={AB_RECAST_T=1..}] at @s run scoreboard players operation @
 execute as @a[scores={AB_RECAST_T=1..}] at @s run scoreboard players add @s AB_RECAST_V 1
 #endregion
 #region AR_RECAST
-execute as @e[scores={AB_RECAST_T=1..}] at @s run scoreboard players remove @s AR_RECAST_T 1
+execute as @e[scores={AR_RECAST_T=1..}] at @s run scoreboard players remove @s AR_RECAST_T 1
 execute as @a at @s run scoreboard players operation @s AR_RECAST_V = @s AR_RECAST_T
-execute as @a[scores={AB_RECAST_T=1..}] at @s run scoreboard players operation @s AR_RECAST_V /= ^VPHandler TICK_PER_SECONDS
-execute as @a[scores={AB_RECAST_T=1..}] at @s run scoreboard players add @s AR_RECAST_V 1
+execute as @a[scores={AR_RECAST_T=1..}] at @s run scoreboard players operation @s AR_RECAST_V /= ^VPHandler TICK_PER_SECONDS
+execute as @a[scores={AR_RECAST_T=1..}] at @s run scoreboard players add @s AR_RECAST_V 1
 #endregion
 #region LB_RECAST
 execute as @a[scores={LB_RECAST_T=1..}] at @s run scoreboard players remove @s LB_RECAST_T 1
