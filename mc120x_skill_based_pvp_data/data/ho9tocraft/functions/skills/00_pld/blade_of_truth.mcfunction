@@ -2,6 +2,7 @@
 #define tag BoT_TarRED
 #define tag BoT_TarBLU
 
+execute as @s at @s run tellraw @a ["",{ "bold": false, "italic": false, "translate": "use.blade_of_truth.name", "fallback": "%1$s used \"Blade of Truth\".", "with": [ { "selector": "@s" }]}]
 execute as @s at @s run tag @s add HCCombo_Exec
 
 #region team=RED

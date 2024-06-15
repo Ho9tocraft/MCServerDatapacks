@@ -1,6 +1,7 @@
 #Verthunder II Exec
 #define tag VerthunderII_Exec
 
+execute as @s at @s run tellraw @a ["",{ "bold": false, "italic": false, "translate": "use.verthunder_ii.name", "fallback": "%1$s used \"Verthunder II\".", "with": [ { "selector": "@s" }]}]
 execute as @s at @s run tag @s add VerthunderII_Exec
 
 #region team=RED

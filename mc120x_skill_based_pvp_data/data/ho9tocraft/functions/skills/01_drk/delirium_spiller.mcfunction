@@ -7,6 +7,7 @@
 #define tag DLSP_TIMER_4
 #define tag DLSP_TIMER_5
 
+execute as @s at @s run tellraw @a ["",{ "bold": false, "italic": false, "translate": "use.delirium_spiller.name", "fallback": "%1$s used \"Delirium Spiller\".", "with": [ { "selector": "@s" }]}]
 #region MainProcess
 # IfScore Sector
 execute as @s at @s if score @s SPEFF_TIMER_0 matches 0 if score @s SPEFF_DONE matches 0 store success score @s SPEFF_DONE run scoreboard players set @s SPEFF_TIMER_0 400

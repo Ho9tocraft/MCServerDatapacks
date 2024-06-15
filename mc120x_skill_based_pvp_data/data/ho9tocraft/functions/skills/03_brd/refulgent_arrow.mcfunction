@@ -1,4 +1,5 @@
 #Refulgent Arrow(リフルジェントアロー)
+execute as @s at @s run tellraw @a ["",{ "bold": false, "italic": false, "translate": "use.refulgent_arrow.name", "fallback": "%1$s used \"Refulgent Arrow\".", "with": [ { "selector": "@s" }]}]
 execute as @s at @s if predicate ho9tocraft:passive_selector/have_arrow run item replace entity @s weapon.offhand with tipped_arrow 1
 execute as @s at @s if predicate ho9tocraft:passive_selector/have_arrow run item modify entity @s weapon.offhand ho9tocraft:jobs/bard/extras/tipped_arrow_ws_1
 execute as @s at @s if predicate ho9tocraft:passive_selector/have_arrow run effect give @s absorption 10 4 false

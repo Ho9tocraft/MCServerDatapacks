@@ -1,6 +1,7 @@
 #Moulinet(ムーリネ)
 #define tag Moul_Exec
 
+execute as @s at @s run tellraw @a ["",{ "bold": false, "italic": false, "translate": "use.moulinet.name", "fallback": "%1$s used \"Moulinet\".", "with": [ { "selector": "@s" }]}]
 execute as @s at @s run tag @s add Moul_Exec
 #region team=RED
 execute as @s[team=RED] at @s as @e[team=BLU,distance=..8] at @s run damage @s 21.6 player_attack by @a[team=RED,tag=Moul_Exec,limit=1]

@@ -3,6 +3,7 @@
 
 execute as @s at @s run tag @s add HCircle_Exec
 
+execute as @s at @s run tellraw @a ["",{ "bold": false, "italic": false, "translate": "use.holy_circle.name", "fallback": "%1$s used \"Holy Circle\".", "with": [ { "selector": "@s" }]}]
 #region team=RED
 execute as @s[team=RED] at @s if score @s CAST_TIMER matches 0 as @e[team=BLU,distance=..5,sort=nearest] at @s run damage @s 18 minecraft:indirect_magic by @a[team=RED,tag=HCircle_Exec,limit=1] from @a[team=RED,tag=HCircle_Exec,limit=1]
 #endregion

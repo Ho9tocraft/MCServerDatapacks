@@ -1,6 +1,7 @@
 #Riposte(リポスト)
 #define tag Ripo_Exec
 
+execute as @s at @s run tellraw @a ["",{ "bold": false, "italic": false, "translate": "use.riposte.name", "fallback": "%1$s used \"Riposte\".", "with": [ { "selector": "@s" }]}]
 execute as @s at @s run tag @s add Ripo_Exec
 #region team=RED
 execute as @s[team=RED] at @s as @e[team=BLU,distance=..3,sort=nearest,limit=1] at @s run damage @s 46.8 player_attack by @a[team=RED,tag=Ripo_Exec,limit=1]

@@ -1,6 +1,7 @@
 #Hissatsu: Senei(必殺剣・閃影)
 #define tag Senei_Exec
 
+execute as @s at @s run tellraw @a ["",{ "bold": false, "italic": false, "translate": "use.hissatsu_senei.name", "fallback": "%1$s used \"Hissatsu: Senei\".", "with": [ { "selector": "@s" }]}]
 execute as @s at @s run tag @s add Senei_Exec
 #region team=RED
 execute as @s[team=RED] at @s as @e[team=BLU,distance=..3,sort=nearest,limit=1] at @s run damage @s 106.425 player_attack by @a[team=RED,tag=Senei_Exec,sort=nearest,limit=1]

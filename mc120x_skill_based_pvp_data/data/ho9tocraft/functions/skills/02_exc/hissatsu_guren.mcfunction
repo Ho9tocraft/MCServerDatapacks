@@ -1,6 +1,7 @@
 #Hissatsu: Guren(必殺剣・紅蓮)
 #define tag Guren_Exec
 
+execute as @s at @s run tellraw @a ["",{ "bold": false, "italic": false, "translate": "use.hissatsu_guren.name", "fallback": "%1$s used \"Hissatsu: Guren\".", "with": [ { "selector": "@s" }]}]
 execute as @s at @s run tag @s add Guren_Exec
 #region team=RED
 execute as @s[team=RED] at @s anchored eyes rotated ~ 0 positioned ^ ^ ^1 as @e[team=BLU,distance=..1.5] at @s run damage @s 123.75 player_attack by @a[team=RED,tag=Guren_Exec,limit=1] from @a[team=RED,tag=Guren_Exec,limit=1]

@@ -7,6 +7,7 @@
 #define tag SO_TIMER_4
 #define tag SO_TIMER_5
 
+execute as @s at @s run tellraw @a ["",{ "bold": false, "italic": false, "translate": "use.sword_oath.name", "fallback": "%1$s used \"Sword Oath\".", "with": [ { "selector": "@s" }]}]
 #region MainProcess
 # IfScore Sector
 #優先度: TIMER_0 > TIMER_1 > TIMER_2 > TIMER_3 > TIMER_4 > TIMER_5
