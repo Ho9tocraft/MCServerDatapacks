@@ -32,6 +32,10 @@ scoreboard objectives add TICK_PER_SECONDS dummy
 scoreboard objectives add LB_C_TIMING dummy
 #endregion
 
+#region Tutorial Objectives
+scoreboard objectives add Tutorial_Read trigger
+#endregion
+
 #region PvP Objectives
 #MAX_MP(const: 10k)
 scoreboard objectives add MAX_MP dummy

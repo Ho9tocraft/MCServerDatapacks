@@ -18,7 +18,7 @@ scoreboard objectives setdisplay sidebar.team.blue NOW_HP_BLU
 scoreboard objectives setdisplay sidebar.team.red NOW_HP_RED
 execute if score ^VPHandler BATTLE_STAGE matches 0 run function ho9tocraft:battle/stages/tpto/stage_00_spawnpoint
 execute if score ^VPHandler BATTLE_STAGE matches 0 run function ho9tocraft:battle/stages/respawn_points/stage_00
-function ho9tocraft:battle/process/init_battle_job
+execute as @a at @s run function ho9tocraft:battle/process/init_battle_job
 bossbar set ho9tocraft:battle_timer players @a
 bossbar set ho9tocraft:battle_timer visible true
 effect give @a[gamemode=adventure] resistance 120 4 true

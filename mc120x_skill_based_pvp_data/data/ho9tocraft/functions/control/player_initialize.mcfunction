@@ -1,6 +1,8 @@
 #Player Initialize
 #for Tick Roop, but for Not have scoreboard players
 scoreboard players set @a scoreInit -1
+execute as @a store success score @s scoreInit run scoreboard players get @s Tutorial_Read
+execute as @a if score @s scoreInit matches 0 run scoreboard players set @s Tutorial_Read -1
 execute as @a store success score @s scoreInit run scoreboard players get @s death
 execute as @a if score @s scoreInit matches 0 run scoreboard players set @s death 0
 execute as @a store success score @s scoreInit run scoreboard players get @s MAX_MP
