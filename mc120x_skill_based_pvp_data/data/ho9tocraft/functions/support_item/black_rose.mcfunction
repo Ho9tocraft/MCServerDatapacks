@@ -15,3 +15,4 @@ execute as @s at @s as @e[type=!villager] at @s run scoreboard players set @s AB
 execute as @s at @s as @e[type=!villager] at @s run scoreboard players set @s AR_RECAST_T 2147483647
 execute as @s at @s as @e[type=!villager] at @s run scoreboard players set @s MG_RECAST_T 2147483647
 execute as @s at @s as @e[type=!villager] at @s run scoreboard players set @s WS_RECAST_T 2147483647
+execute as @s at @s run clear @s wither_skeleton_skull

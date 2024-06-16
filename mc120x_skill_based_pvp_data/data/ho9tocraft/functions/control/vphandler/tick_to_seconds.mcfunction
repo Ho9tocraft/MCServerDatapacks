@@ -84,9 +84,9 @@ execute as @a at @s if score @s death matches 1.. if score @s NGEFF_TIMER_5 matc
 #region Give Saturation Effect when died
 execute as @a at @s if score ^VPHandler BATTLE_COND matches -1 run effect give @s saturation infinite 3 true
 # THE EIGHTH UMBRAL ERA Extra Win
-execute as @a at @s if score @s[tag=BRose_EFFECT,team=RED] death matches 1.. if score ^VPHandler BATTLE_COND matches 0..2 run scoreboard players set ^VPHandler RESULT_BLU 2147483647
+execute as @a at @s if score @s[tag=BRose_EFFECT,team=RED] death matches 1.. if score ^VPHandler BATTLE_COND matches 0..2 run scoreboard players set ^VPHandler RESULT_BLU 2147483600
 execute as @a at @s if score @s[tag=BRose_EFFECT,team=RED] death matches 1.. if score ^VPHandler BATTLE_COND matches 0..2 run scoreboard players set ^VPHandler RESULT_RED 0
-execute as @a at @s if score @s[tag=BRose_EFFECT,team=BLU] death matches 1.. if score ^VPHandler BATTLE_COND matches 0..2 run scoreboard players set ^VPHandler RESULT_RED 2147483647
+execute as @a at @s if score @s[tag=BRose_EFFECT,team=BLU] death matches 1.. if score ^VPHandler BATTLE_COND matches 0..2 run scoreboard players set ^VPHandler RESULT_RED 2147483600
 execute as @a at @s if score @s[tag=BRose_EFFECT,team=BLU] death matches 1.. if score ^VPHandler BATTLE_COND matches 0..2 run scoreboard players set ^VPHandler RESULT_BLU 0
 execute as @a at @s if score @s[tag=BRose_EFFECT] death matches 1.. if score ^VPHandler BATTLE_COND matches 0..2 run scoreboard players set ^VPHandler BATTLE_TIMER 1
 # If Battle, Give Resistance V 5 sec.
