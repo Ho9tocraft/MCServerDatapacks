@@ -1,0 +1,74 @@
+[
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ho9tocraft:item_selector/equipments/full_diamond_not_job_selected"
+            }
+        ],
+        "components": {
+            "item_name": "{\"bold\":true,\"color\":\"#007BBB\",\"italic\":false,\"translate\":\"item.dragoon.chestplate.name\",\"fallback\":\"Moon-diamond Chestplate\"}",
+            "unbreakable": { "show_in_tooltip": false },
+            "enchantments": { "levels": { "fire_protection": 2, "protection": 2, "binding_curse": 1 }, "show_in_tooltip": false },
+            "attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "generic.armor",
+                        "name": "generic.armor",
+                        "amount": 8,
+                        "operation": "add_value",
+                        "uuid": [710382338,-1534375768,-1437142411,1038754865],
+                        "slot": "chest"
+                    },
+                    {
+                        "type": "generic.armor_toughness",
+                        "name": "generic.armor_toughness",
+                        "amount": 3,
+                        "operation": "add_value",
+                        "uuid": [-1342072251,633360234,-1915773591,-1145156760],
+                        "slot": "chest"
+                    },
+                    {
+                        "type": "generic.knockback_resistance",
+                        "name": "generic.knockback_resistance",
+                        "amount": 1,
+                        "operation": "add_value",
+                        "uuid": [-1937862496,873483192,-1691006994,1055547049],
+                        "slot": "chest"
+                    },
+                    {
+                        "type": "generic.max_health",
+                        "name": "generic.max_health",
+                        "amount": 10,
+                        "operation": "add_value",
+                        "uuid": [2018481961,-139573487,-2103545607,-1231187776],
+                        "slot": "chest"
+                    },
+                    {
+                        "type": "generic.luck",
+                        "name": "generic.luck",
+                        "amount": 0.2,
+                        "operation": "add_multiplied_base",
+                        "uuid": [518997944,-1537915576,-2061854951,-1476044981],
+                        "slot": "chest"
+                    },
+                    {
+                        "type": "generic.step_height",
+                        "name": "generic.step_height",
+                        "amount": 0.1,
+                        "operation": "add_multiplied_base",
+                        "uuid": [-402915124,1527137350,-1945760268,-1256587543],
+                        "slot": "chest"
+                    }
+                ],
+                "show_in_tooltip": false
+            },
+            "trim": {
+                "material": "minecraft:blue_dragoon",
+                "pattern": "minecraft:blue_dragoon",
+                "show_in_tooltip": false
+            }
+        }
+    }
+]

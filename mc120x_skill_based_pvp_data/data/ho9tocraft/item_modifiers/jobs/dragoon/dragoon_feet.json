@@ -1,0 +1,74 @@
+[
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ho9tocraft:item_selector/equipments/full_diamond_not_job_selected"
+            }
+        ],
+        "components": {
+            "item_name": "{\"bold\":true,\"color\":\"#007BBB\",\"italic\":false,\"translate\":\"item.dragoon.boots.name\",\"fallback\":\"Moon-diamond Boots\"}",
+            "unbreakable": { "show_in_tooltip": false },
+            "enchantments": { "levels": { "fire_protection": 2, "protection": 2, "binding_curse": 1 }, "show_in_tooltip": false },
+            "attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "generic.armor",
+                        "name": "generic.armor",
+                        "amount": 3,
+                        "operation": "add_value",
+                        "uuid": [1014284203,1155941048,-1639045070,331507724],
+                        "slot": "feet"
+                    },
+                    {
+                        "type": "generic.armor_toughness",
+                        "name": "generic.armor_toughness",
+                        "amount": 3,
+                        "operation": "add_value",
+                        "uuid": [703153716,-1006222227,-1228508172,-1163201750],
+                        "slot": "feet"
+                    },
+                    {
+                        "type": "generic.knockback_resistance",
+                        "name": "generic.knockback_resistance",
+                        "amount": 1,
+                        "operation": "add_value",
+                        "uuid": [1105998422,248660165,-1635237194,-159615329],
+                        "slot": "feet"
+                    },
+                    {
+                        "type": "generic.max_health",
+                        "name": "generic.max_health",
+                        "amount": 10,
+                        "operation": "add_value",
+                        "uuid": [2089036528,123815814,-1568103574,-81563991],
+                        "slot": "feet"
+                    },
+                    {
+                        "type": "generic.luck",
+                        "name": "generic.luck",
+                        "amount": 0.2,
+                        "operation": "add_multiplied_base",
+                        "uuid": [-508641216,-216904066,-2057408832,1071910877],
+                        "slot": "feet"
+                    },
+                    {
+                        "type": "generic.step_height",
+                        "name": "generic.step_height",
+                        "amount": 0.1,
+                        "operation": "add_multiplied_base",
+                        "uuid": [-412685966,-1617670192,-1612769163,1653057158],
+                        "slot": "feet"
+                    }
+                ],
+                "show_in_tooltip": false
+            },
+            "trim": {
+                "material": "minecraft:blue_dragoon",
+                "pattern": "minecraft:blue_dragoon",
+                "show_in_tooltip": false
+            }
+        }
+    }
+]

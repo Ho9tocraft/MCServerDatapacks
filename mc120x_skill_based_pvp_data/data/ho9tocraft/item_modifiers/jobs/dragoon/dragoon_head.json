@@ -1,0 +1,74 @@
+[
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ho9tocraft:item_selector/equipments/full_diamond_not_job_selected"
+            }
+        ],
+        "components": {
+            "item_name": "{\"bold\":true,\"color\":\"#007BBB\",\"italic\":false,\"translate\":\"item.dragoon.helmet.name\",\"fallback\":\"Moon-diamond Helmet\"}",
+            "unbreakable": { "show_in_tooltip": false },
+            "enchantments": { "levels": { "fire_protection": 2, "protection": 2, "binding_curse": 1 }, "show_in_tooltip": false },
+            "attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "generic.armor",
+                        "name": "generic.armor",
+                        "amount": 3,
+                        "operation": "add_value",
+                        "uuid": [-1623294385,-497728885,-1375183447,164948598],
+                        "slot": "head"
+                    },
+                    {
+                        "type": "generic.armor_toughness",
+                        "name": "generic.armor_toughness",
+                        "amount": 3,
+                        "operation": "add_value",
+                        "uuid": [1124582789,-478394854,-1363861624,1546677286],
+                        "slot": "head"
+                    },
+                    {
+                        "type": "generic.knockback_resistance",
+                        "name": "generic.knockback_resistance",
+                        "amount": 1,
+                        "operation": "add_value",
+                        "uuid": [447132321,-1157477287,-1667721213,-1416198733],
+                        "slot": "head"
+                    },
+                    {
+                        "type": "generic.max_health",
+                        "name": "generic.max_health",
+                        "amount": 10,
+                        "operation": "add_value",
+                        "uuid": [2047169952,963791580,-1416773960,-73193585],
+                        "slot": "head"
+                    },
+                    {
+                        "type": "generic.luck",
+                        "name": "generic.luck",
+                        "amount": 0.2,
+                        "operation": "add_multiplied_base",
+                        "uuid": [-1034429063,80562277,-1645363462,725151678],
+                        "slot": "head"
+                    },
+                    {
+                        "type": "generic.step_height",
+                        "name": "generic.step_height",
+                        "amount": 0.1,
+                        "operation": "add_multiplied_base",
+                        "uuid": [1006779152,-1776205024,-1959425711,1966055856],
+                        "slot": "head"
+                    }
+                ],
+                "show_in_tooltip": false
+            },
+            "trim": {
+                "material": "minecraft:blue_dragoon",
+                "pattern": "minecraft:blue_dragoon",
+                "show_in_tooltip": false
+            }
+        }
+    }
+]
