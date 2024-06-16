@@ -41,6 +41,7 @@ execute as @e[type=!villager,tag=BRose_EFFECT] at @s run clear @s cooked_mutton
 execute as @e[type=!villager,tag=BRose_EFFECT] at @s run clear @s cooked_porkchop
 execute as @e[type=!villager,tag=BRose_EFFECT] at @s run clear @s cooked_rabbit
 execute as @e[type=!villager,tag=BRose_EFFECT] at @s run clear @s cooked_salmon
+execute as @e[type=!villager,tag=BRose_EFFECT] at @s run scoreboard players set @s NOW_MP 0
 execute as @e[type=!villager,tag=BRose_EFFECT] at @s run scoreboard players set @s LB_CHARGE 0
 execute as @e[type=!villager,tag=BRose_EFFECT] at @s run scoreboard players set @s LB_RECAST_T 2147483647
 execute as @e[type=!villager,tag=BRose_EFFECT] at @s run scoreboard players set @s PROC_TIMER_AB 0
@@ -54,6 +55,9 @@ execute as @e[type=!villager,tag=BRose_EFFECT] at @s run scoreboard players set 
 execute as @e[type=!villager,tag=BRose_EFFECT] at @s run scoreboard players set @s MG_RECAST_V 2147483647
 execute as @e[type=!villager,tag=BRose_EFFECT] at @s run scoreboard players set @s WS_RECAST_T 2147483647
 execute as @e[type=!villager,tag=BRose_EFFECT] at @s run scoreboard players set @s WS_RECAST_V 2147483647
-execute as @e[type=!villager,tag=BRose_EFFECT] at @s if score @s DEATH_TIMER matches ..598 if predicate ho9tocraft:random_controller/rand_half run scoreboard players add @s DEATH_TIMER 2
-execute as @e[type=!villager,tag=BRose_EFFECT] at @s if score @s DEATH_TIMER matches 599 if predicate ho9tocraft:random_controller/rand_half run scoreboard players add @s DEATH_TIMER 1
+execute as @e[type=!villager,tag=BRose_EFFECT] at @s if score @s DEATH_TIMER matches ..560 if predicate ho9tocraft:random_controller/rand_half run scoreboard players add @s DEATH_TIMER 40
+execute as @e[type=!villager,tag=BRose_EFFECT] at @s if score @s DEATH_TIMER matches 561..580 if predicate ho9tocraft:random_controller/rand_half run scoreboard players add @s DEATH_TIMER 20
+execute as @e[type=!villager,tag=BRose_EFFECT] at @s if score @s DEATH_TIMER matches 581..590 if predicate ho9tocraft:random_controller/rand_half run scoreboard players add @s DEATH_TIMER 10
+execute as @e[type=!villager,tag=BRose_EFFECT] at @s if score @s DEATH_TIMER matches 591..595 if predicate ho9tocraft:random_controller/rand_half run scoreboard players add @s DEATH_TIMER 5
+execute as @e[type=!villager,tag=BRose_EFFECT] at @s if score @s DEATH_TIMER matches 596..599 if predicate ho9tocraft:random_controller/rand_half run scoreboard players add @s DEATH_TIMER 1
 execute as @e[type=!villager,tag=BRose_EFFECT] at @s if score @s DEATH_TIMER matches 600 run damage @s 2147483647 ho9tocraft:ngeffect/death by @a[tag=BRose_Exec,limit=1]
