@@ -3,6 +3,7 @@
 #define tag Confi_TarRED
 #define tag Confi_TarBLU
 
+execute as @s at @s run tellraw @a ["",{ "bold": false, "italic": false, "translate": "use.confiteor.name", "fallback": "%1$s used \"Confiteor\".", "with": [ { "selector": "@s" }]}]
 execute as @s at @s run tag @s add HCCombo_Exec
 
 #region team=RED

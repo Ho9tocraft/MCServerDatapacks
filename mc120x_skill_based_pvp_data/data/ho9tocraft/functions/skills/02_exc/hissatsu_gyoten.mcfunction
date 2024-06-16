@@ -4,6 +4,7 @@
 #define tag HISSATSU_GYOTEN_RED
 #define tag STAGE_BOUND
 
+execute as @s at @s run tellraw @a ["",{ "bold": false, "italic": false, "translate": "use.hissatsu_gyoten.name", "fallback": "%1$s used \"Hissatsu: Gyoten\".", "with": [ { "selector": "@s" }]}]
 execute as @s[tag=!STAGE_BOUND] at @s run tag @s add Gyoten_Exec
 #region pre-moving Particle Effect
 execute as @s[tag=!STAGE_BOUND] at @s run particle end_rod ~ ~ ~ 0.5 0.1 0.5 0.1 100 normal @a[distance=..30]

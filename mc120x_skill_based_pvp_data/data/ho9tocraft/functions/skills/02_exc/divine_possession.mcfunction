@@ -7,6 +7,7 @@
 #define tag DP_TIMER_4
 #define tag DP_TIMER_5
 
+execute as @s at @s run tellraw @a ["",{ "bold": false, "italic": false, "translate": "use.divine_possession.name", "fallback": "%1$s used \"Divine Possession\".", "with": [ { "selector": "@s" }]}]
 #region MainProcess
 # IfScore Sector
 #優先度: TIMER_0 > TIMER_1 > TIMER_2 > TIMER_3 > TIMER_4 > TIMER_5

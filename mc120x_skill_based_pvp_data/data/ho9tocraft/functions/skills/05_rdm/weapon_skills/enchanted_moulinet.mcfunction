@@ -1,6 +1,7 @@
 #Enchanted Moulinet(エンムーリネ)
 #define tag EMoul_Exec
 
+execute as @s at @s run tellraw @a ["",{ "bold": false, "italic": false, "translate": "use.enchanted_moulinet.name", "fallback": "%1$s used \"Enchanted Moulinet\".", "with": [ { "selector": "@s" }]}]
 execute as @s at @s run tag @s add EMoul_Exec
 #region team=RED
 execute as @s[team=RED] at @s as @e[team=BLU,distance=..8] at @s run damage @s 23.4 indirect_magic by @a[team=RED,tag=EMoul_Exec,limit=1]

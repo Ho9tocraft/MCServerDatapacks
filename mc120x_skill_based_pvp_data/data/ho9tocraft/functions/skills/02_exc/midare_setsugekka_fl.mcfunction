@@ -1,6 +1,7 @@
 #Midare Setsugekka: Frenzied Laughter(乱れ雪月花・狂咲)
 #define tag MSFL_Exec
 
+execute as @s at @s run tellraw @a ["",{ "bold": false, "italic": false, "translate": "use.midare_setsugekka_fl.name", "fallback": "%1$s used \"Midare Setsugekka: Frenzied Laugher\".", "with": [ { "selector": "@s" }], "color": "#FFD700"}]
 execute as @s at @s run tag @s add MSFL_Exec
 #region team=RED
 execute as @s[team=RED] at @s as @e[team=BLU,distance=..6,sort=nearest,limit=1] at @s run damage @s 158.4 player_attack by @a[team=RED,tag=MSFL_Exec,sort=nearest,limit=1]

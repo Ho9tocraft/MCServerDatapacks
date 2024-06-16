@@ -1,6 +1,7 @@
 #Salt and Darkness
 #define tag NaCl_Exec
 
+execute as @s at @s run tellraw @a ["",{ "bold": false, "italic": false, "translate": "use.salt_and_darkness.name", "fallback": "%1$s used \"Salt and Darkness\".", "with": [ { "selector": "@s" }]}]
 execute as @s at @s run tag @s add NaCl_Exec
 #region team=RED
 execute as @a[team=RED] at @s as @e[team=BLU,distance=..5,sort=nearest] at @s run damage @s 60.0 indirect_magic by @a[team=RED,tag=NaCl_Exec,sort=nearest,limit=1] from @a[team=RED,tag=NaCl_Exec,sort=nearest,limit=1]

@@ -1,6 +1,7 @@
 #Corps-a-Corps(コル・ア・コル)
 #define tag CaC_Exec
 
+execute as @s at @s run tellraw @a ["",{ "bold": false, "italic": false, "translate": "use.corps_a_corps.name", "fallback": "%1$s used \"Corps-a-Corps\".", "with": [ { "selector": "@s" }]}]
 execute as @s[tag=!STAGE_BOUND] at @s run tag @s add CaC_Exec
 #region pre-moving Particles
 #endregion

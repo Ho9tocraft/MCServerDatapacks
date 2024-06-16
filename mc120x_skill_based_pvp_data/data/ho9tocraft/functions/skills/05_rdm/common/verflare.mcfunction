@@ -4,6 +4,7 @@
 #define tag VFlare_TGT_BLU
 #define tag VFlare_TGT_RED
 
+execute as @s at @s run tellraw @a ["",{ "bold": false, "italic": false, "translate": "use.verflare.name", "fallback": "%1$s used \"Verflare\".", "with": [ { "selector": "@s" }]}]
 execute as @s at @s run tag @s add Verflare_Exec
 execute as @s at @s run tag @s add VF_Executed
 #region team=RED

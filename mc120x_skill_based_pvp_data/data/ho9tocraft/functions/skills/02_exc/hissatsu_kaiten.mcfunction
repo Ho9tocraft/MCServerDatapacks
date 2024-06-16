@@ -1,6 +1,7 @@
 #Hissatsu: Kaiten(必殺剣・廻天)
 #define tag Kaiten_Exec
 
+execute as @s at @s run tellraw @a ["",{ "bold": false, "italic": false, "translate": "use.hissatsu_kaiten.name", "fallback": "%1$s used \"Hissatsu: Kaiten\".", "with": [ { "selector": "@s" }]}]
 execute as @s at @s run tag @s add Kaiten_Exec
 #region team=RED
 execute as @s[team=RED] at @s as @e[team=BLU,distance=..5,sort=nearest] at @s run damage @s 41.25 minecraft:player_attack by @a[team=RED,tag=Kaiten_Exec,limit=1]

@@ -3,6 +3,7 @@
 #define tag ShBr_NearBLU
 #define tag ShBr_NearRED
 
+execute as @s at @s run tellraw @a ["",{ "bold": false, "italic": false, "translate": "use.shadowbringer.name", "fallback": "%1$s used \"Shadowbringer\".", "with": [ { "selector": "@s" }]}]
 execute as @s at @s run tag @s add ShBr_Exec
 #region team=RED
 # detect Nearest

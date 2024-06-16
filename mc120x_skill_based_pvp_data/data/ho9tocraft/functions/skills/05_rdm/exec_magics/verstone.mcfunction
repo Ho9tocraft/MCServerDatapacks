@@ -1,6 +1,7 @@
 #Verstone Exec
 #define tag Verstone_Exec
 
+execute as @s at @s run tellraw @a ["",{ "bold": false, "italic": false, "translate": "use.verstone.name", "fallback": "%1$s used \"Verstone\".", "with": [ { "selector": "@s" }]}]
 execute as @s at @s run tag @s add Verstone_Exec
 
 #region team=RED

@@ -1,6 +1,7 @@
 #Veraero II Exec
 #define tag VeraeroII_Exec
 
+execute as @s at @s run tellraw @a ["",{ "bold": false, "italic": false, "translate": "use.veraero_ii.name", "fallback": "%1$s used \"Veraero II\".", "with": [ { "selector": "@s" }]}]
 execute as @s at @s run tag @s add VeraeroII_Exec
 
 #region team=RED

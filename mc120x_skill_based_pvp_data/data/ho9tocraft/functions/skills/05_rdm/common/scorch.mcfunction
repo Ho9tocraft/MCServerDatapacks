@@ -3,6 +3,7 @@
 #define tag Scorch_TGT_BLU
 #define tag Scorch_TGT_RED
 
+execute as @s at @s run tellraw @a ["",{ "bold": false, "italic": false, "translate": "use.scorch.name", "fallback": "%1$s used \"Scorch\".", "with": [ { "selector": "@s" }]}]
 execute as @s at @s run tag @s add Scorch_Exec
 #region VH_Executed
 execute as @s[tag=VH_Executed] at @s run effect give @s instant_health 1 1 true

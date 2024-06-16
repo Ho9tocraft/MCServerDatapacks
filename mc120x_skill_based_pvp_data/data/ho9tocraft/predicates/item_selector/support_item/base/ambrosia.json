@@ -1,0 +1,17 @@
+{
+    "condition": "all_of",
+    "terms": [
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "player",
+                "equipment": { "mainhand": {
+                    "items": [ "orange_dye" ],
+                    "count": 1,
+                    "components": { "custom_model_data": 1 }
+                }}
+            }
+        }
+    ]
+}

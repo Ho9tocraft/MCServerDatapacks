@@ -1,6 +1,7 @@
 #Tenka Goken: Binary Star(天下五剣・連星)
 #define tag Goken_Exec
 
+execute as @s at @s run tellraw @a ["",{ "bold": false, "italic": false, "translate": "use.tenka_goken_.name", "fallback": "%1$s used \"Tenka Goken: Binary Star\".", "with": [ { "selector": "@s" }], "color": "#FFD700"}]
 execute as @s at @s run tag @s add Goken_Exec
 #region team=RED
 execute as @s[team=RED] at @s as @e[team=BLU,distance=..8] at @s run damage @s 74.25 player_attack by @a[team=RED,tag=Goken_Exec,sort=nearest,limit=1] from @a[team=RED,tag=Goken_Exec,sort=nearest,limit=1]

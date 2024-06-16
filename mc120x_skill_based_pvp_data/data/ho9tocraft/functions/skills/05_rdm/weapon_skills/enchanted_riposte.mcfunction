@@ -1,6 +1,7 @@
 #Enchanted Riposte(エンリポスト)
 #define tag ERipo_Exec
 
+execute as @s at @s run tellraw @a ["",{ "bold": false, "italic": false, "translate": "use.enchanted_riposte.name", "fallback": "%1$s used \"Enchanted Riposte\".", "with": [ { "selector": "@s" }]}]
 execute as @s at @s run tag @s add ERipo_Exec
 #region team=RED
 execute as @s[team=RED] at @s as @e[team=BLU,distance=..3,sort=nearest,limit=1] at @s run damage @s 50.4 indirect_magic by @a[team=RED,tag=ERipo_Exec,limit=1]

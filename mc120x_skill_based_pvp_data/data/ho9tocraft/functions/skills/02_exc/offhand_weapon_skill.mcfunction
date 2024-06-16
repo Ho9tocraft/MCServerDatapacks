@@ -1,6 +1,7 @@
 #OFFHAND WEAPON SKILL
 #Moonlight Shoha II(月光無明照破)
 
+execute as @s at @s run tellraw @a ["",{ "bold": false, "italic": false, "translate": "use.moonlight_shoha_ii.name", "fallback": "%1$s used \"Moonlight Shoha II\".", "with": [ { "selector": "@s" }]}]
 execute as @s at @s run tag @s add OffWS_Exec
 #region team=RED
 execute as @s[team=RED] at @s as @e[team=BLU,distance=..5] at @s run damage @s 25.0 minecraft:player_attack by @a[team=RED,tag=OffWS_Exec,limit=1]

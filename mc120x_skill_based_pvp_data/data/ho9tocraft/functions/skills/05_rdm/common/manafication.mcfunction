@@ -1,6 +1,7 @@
 #Manafication(マナフィケーション)
 #define tag Mana_EFFECT Manafication Effect Flag
 
+execute as @s at @s run tellraw @a ["",{ "bold": false, "italic": false, "translate": "use.manafication.name", "fallback": "%1$s used \"Manafication\".", "with": [ { "selector": "@s" }]}]
 execute as @s at @s run tag @s add Mana_EFFECT
 execute as @s at @s run scoreboard players set @s PROC_TIMER_AB 1800
 execute as @s at @s run scoreboard players set @s AB_RECAST_T 50

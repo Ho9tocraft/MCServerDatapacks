@@ -1,5 +1,6 @@
 #LIMIT BREAK
 
+execute as @s at @s run tellraw @a ["",{ "bold": false, "italic": false, "translate": "use.exorcist_lb.name", "fallback": "%1$s used \"Retribution Panish of the Heavens\".", "with": [ { "selector": "@s" }], "color": "#FFD700"}]
 tag @s add LB_Exec
 execute as @s at @s run playsound finalfantasyxiv:limit_break_activated player @a[distance=..30] ~ ~ ~ 1.0 1.0 0.5
 #region team=RED

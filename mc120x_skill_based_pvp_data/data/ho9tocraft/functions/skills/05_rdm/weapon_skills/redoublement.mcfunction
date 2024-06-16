@@ -1,6 +1,7 @@
 #Redoublement(ルドゥブルマン)
 #define tag Redouble_Exec
 
+execute as @s at @s run tellraw @a ["",{ "bold": false, "italic": false, "translate": "use.redoublement.name", "fallback": "%1$s used \"Redoublement\".", "with": [ { "selector": "@s" }]}]
 execute as @s at @s run tag @s add Redouble_Exec
 #region team=RED
 execute as @s[team=RED] at @s as @e[team=BLU,distance=..3,sort=nearest,limit=1] at @s run damage @s 54.0 player_attack by @a[team=RED,tag=Redouble_Exec,limit=1]

@@ -3,6 +3,7 @@
 #define tag Resol_TGT_BLU
 #define tag Resol_TGT_RED
 
+execute as @s at @s run tellraw @a ["",{ "bold": false, "italic": false, "translate": "use.resolution.name", "fallback": "%1$s used \"Resolution\".", "with": [ { "selector": "@s" }]}]
 execute as @s at @s run tag @s add Resol_Exec
 #region VH_Executed
 execute as @s[tag=VH_Executed] at @s run effect give @s instant_health 1 1 true

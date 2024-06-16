@@ -5,6 +5,7 @@
 #define tag ShieldB_PosToRED
 #define tag ShieldB_PosToBLU
 
+execute as @s at @s run tellraw @a ["",{ "bold": false, "italic": false, "translate": "use.shield_bash.name", "fallback": "%1$s used \"Shield Bash\".", "with": [ { "selector": "@s" }]}]
 execute as @s at @s run tag @s add OffWS_Exec
 #region team=RED
 execute as @s[team=RED] at @s as @e[team=BLU,distance=..3,sort=nearest,limit=1] at @s run tag @s add ShieldB_BLU

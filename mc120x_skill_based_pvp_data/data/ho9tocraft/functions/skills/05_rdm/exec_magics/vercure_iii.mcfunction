@@ -1,5 +1,6 @@
 #Vercure III Exec
 
+execute as @s at @s run tellraw @a ["",{ "bold": false, "italic": false, "translate": "use.vercure_iii.name", "fallback": "%1$s used \"Vercure III\".", "with": [ { "selector": "@s" }]}]
 #region team=RED
 execute as @s[team=RED] at @s as @e[team=RED,type=!#undead,distance=..30] at @s run effect give @s instant_health 1 3 true
 #endregion

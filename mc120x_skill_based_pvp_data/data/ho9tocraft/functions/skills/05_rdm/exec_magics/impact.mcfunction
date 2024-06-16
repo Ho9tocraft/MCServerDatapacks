@@ -1,6 +1,7 @@
 #Impact Exec
 #define tag Impact_Exec
 
+execute as @s at @s run tellraw @a ["",{ "bold": false, "italic": false, "translate": "use.impact.name", "fallback": "%1$s used \"Impact\".", "with": [ { "selector": "@s" }]}]
 execute as @s at @s run tag @s add Impact_Exec
 
 #region team=RED

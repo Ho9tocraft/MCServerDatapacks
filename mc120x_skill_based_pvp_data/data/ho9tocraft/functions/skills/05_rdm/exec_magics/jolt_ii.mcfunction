@@ -1,6 +1,7 @@
 #Jolt II Exec
 #define tag JoltII_Exec
 
+execute as @s at @s run tellraw @a ["",{ "bold": false, "italic": false, "translate": "use.jolt_ii.name", "fallback": "%1$s used \"Jolt II\".", "with": [ { "selector": "@s" }]}]
 execute as @s at @s run tag @s add JoltII_Exec
 
 #region team=RED

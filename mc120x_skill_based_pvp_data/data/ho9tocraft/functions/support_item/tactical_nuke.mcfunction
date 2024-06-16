@@ -8,6 +8,7 @@
 #define tag RACT_TIMER_4
 #define tag RACT_TIMER_5
 
+execute as @s at @s run tellraw @a ["",{ "bold": false, "italic": false, "translate": "use.nuke.name", "fallback": "%1$s used \"Tactical Nuke\".", "with": [ { "selector": "@s" }], "color": "#FFA500"}]
 #region team=RED
 execute as @s[team=RED] at @s as @e[sort=nearest,team=BLU,limit=1] at @s run summon armor_stand ~ ~ ~ {Team: "RED",Tags:["RACT_USER"],DisabledSlots:4144959,Invisible:true,Silent:true}
 # IfScore Sector

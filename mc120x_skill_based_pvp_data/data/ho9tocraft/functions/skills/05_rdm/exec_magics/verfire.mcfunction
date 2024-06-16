@@ -1,6 +1,7 @@
 #Verfire Exec
 #define tag Verfire_Exec
 
+execute as @s at @s run tellraw @a ["",{ "bold": false, "italic": false, "translate": "use.verfire.name", "fallback": "%1$s used \"Verfire\".", "with": [ { "selector": "@s" }]}]
 execute as @s at @s run tag @s add Verfire_Exec
 
 #region team=RED

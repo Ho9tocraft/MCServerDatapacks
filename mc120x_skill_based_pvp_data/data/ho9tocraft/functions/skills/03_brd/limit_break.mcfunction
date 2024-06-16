@@ -14,6 +14,7 @@
 #define tag FFaO_TIMER_4
 #define tag FFaO_TIMER_5
 
+execute as @s at @s run tellraw @a ["",{ "bold": false, "italic": false, "translate": "use.bard_lb.name", "fallback": "%1$s used \"Final Fantasia\".", "with": [ { "selector": "@s" }], "color": "#FFD700"}]
 execute as @s at @s run playsound finalfantasyxiv:limit_break_activated player @a[distance=..30] ~ ~ ~ 1.0 1.0 0.5
 #region Owner
 # IfScore Sector

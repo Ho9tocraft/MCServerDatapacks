@@ -1,6 +1,7 @@
 #Enchanted Zwerchhau(エンツヴェルクハウ)
 #define tag EZwei_Exec
 
+execute as @s at @s run tellraw @a ["",{ "bold": false, "italic": false, "translate": "use.enchanted_redoublement.name", "fallback": "%1$s used \"Enchanted Redoublement\".", "with": [ { "selector": "@s" }]}]
 execute as @s at @s run tag @s add EZwei_Exec
 #region team=RED
 execute as @s[team=RED] at @s as @e[team=BLU,distance=..3,sort=nearest,limit=1] at @s run damage @s 61.2 indirect_magic by @a[team=RED,tag=EZwei_Exec,limit=1]
