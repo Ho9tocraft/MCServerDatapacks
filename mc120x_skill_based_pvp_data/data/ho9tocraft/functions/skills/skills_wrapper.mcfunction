@@ -118,6 +118,7 @@ execute as @a[predicate=ho9tocraft:item_selector/jobs/05_rdm/red_mage_proc_test,
 execute as @a[predicate=ho9tocraft:item_selector/support_item/ambrosia] at @s run function ho9tocraft:support_item/ambrosia
 execute as @a[predicate=ho9tocraft:item_selector/support_item/knight_errantry] at @s run function ho9tocraft:support_item/knight_errantry
 execute as @a[predicate=ho9tocraft:item_selector/support_item/tact_nuke] at @s run function ho9tocraft:support_item/tactical_nuke
+execute as @a[predicate=ho9tocraft:item_selector/support_item/black_rose] at @s run function ho9tocraft:support_item/black_rose
 function ho9tocraft:support_item/grenade
 #endregion
 
