@@ -6,3 +6,7 @@ execute as @a at @s if score @s WS_RECAST_T matches 8401.. run scoreboard player
 execute as @a at @s if score @s MG_RECAST_T matches 8401.. run scoreboard players set @s MG_RECAST_T 0
 execute as @a at @s if score @s AB_RECAST_T matches 8401.. run scoreboard players set @s AB_RECAST_T 0
 execute as @a at @s if score @s AR_RECAST_T matches 8401.. run scoreboard players set @s AR_RECAST_T 1200
+execute as @a at @s run effect clear @s hunger
+execute as @a at @s run effect clear @s weakness
+execute as @a at @s run effect clear @s unluck
+execute as @a at @s run effect give @s instant_health 60 15 true
