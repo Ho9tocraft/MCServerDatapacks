@@ -21,6 +21,9 @@ execute as @e[type=!villager,tag=BRose_EFFECT] at @s run effect give @s unluck i
 execute as @e[type=!villager,tag=BRose_EFFECT] at @s run effect give @s weakness infinite 255 false
 execute as @e[type=!villager,tag=BRose_EFFECT] at @s run clear @s shield
 execute as @e[type=!villager,tag=BRose_EFFECT] at @s run clear @s arrow
+execute as @e[type=!villager,tag=BRose_EFFECT] at @s run clear @s armor_stand
+execute as @e[type=!villager,tag=BRose_EFFECT] at @s run clear @s tnt
+execute as @e[type=!villager,tag=BRose_EFFECT] at @s run clear @s glow_ink_sac
 execute as @e[type=!villager,tag=BRose_EFFECT] at @s run clear @s tipped_arrow
 execute as @e[type=!villager,tag=BRose_EFFECT] at @s run clear @s emerald
 execute as @e[type=!villager,tag=BRose_EFFECT] at @s run clear @s wither_rose
@@ -55,6 +58,4 @@ execute as @e[type=!villager,tag=BRose_EFFECT] at @s run scoreboard players set 
 execute as @e[type=!villager,tag=BRose_EFFECT] at @s run scoreboard players set @s MG_RECAST_V 2147483647
 execute as @e[type=!villager,tag=BRose_EFFECT] at @s run scoreboard players set @s WS_RECAST_T 2147483647
 execute as @e[type=!villager,tag=BRose_EFFECT] at @s run scoreboard players set @s WS_RECAST_V 2147483647
-execute as @e[type=!villager,tag=BRose_EFFECT] at @s if score @s DEATH_TIMER matches ..595 if predicate ho9tocraft:random_controller/rand_half run scoreboard players add @s DEATH_TIMER 5
-execute as @e[type=!villager,tag=BRose_EFFECT] at @s if score @s DEATH_TIMER matches 596..599 if predicate ho9tocraft:random_controller/rand_half run scoreboard players add @s DEATH_TIMER 1
 execute as @e[type=!villager,tag=BRose_EFFECT] at @s if score @s DEATH_TIMER matches 600 run damage @s 2147483647 ho9tocraft:ngeffect/death by @a[tag=BRose_Exec,limit=1]
