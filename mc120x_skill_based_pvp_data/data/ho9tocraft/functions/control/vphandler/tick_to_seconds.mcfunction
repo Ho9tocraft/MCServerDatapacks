@@ -101,7 +101,7 @@ execute as @e[predicate=ho9tocraft:passive_selector/remove_inground_arrow] at @s
 execute as @e[type=armor_stand,tag=RACT_USER] at @s if score @s SPEFF_TIMER_0 matches 0 run kill @s
 #endregion
 #region Remove Light Flood when BATTLE_COND is 2 or -1
-execute as @a at @s unless score @s MAX_MP matches 10000 run scoreboard players set @s MAX_MP 10000
+execute as @a at @s if score ^VPHandler BATTLE_COND matches -1 unless score @s MAX_MP matches 10000 run scoreboard players set @s MAX_MP 10000
 execute as @e[tag=BRose_Exec] at @s if score ^VPHandler BATTLE_COND matches -1 run tag @s remove BRose_Exec
 execute as @e[tag=BRose_Exec] at @s if score ^VPHandler BATTLE_COND matches 2 run tag @s remove BRose_Exec
 execute as @e[tag=BRose_EFFECT] at @s if score ^VPHandler BATTLE_COND matches -1 run tag @s remove BRose_EFFECT
