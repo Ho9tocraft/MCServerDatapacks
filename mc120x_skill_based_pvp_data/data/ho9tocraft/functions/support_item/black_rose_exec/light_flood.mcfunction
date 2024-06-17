@@ -59,8 +59,8 @@ execute as @e[type=!villager,tag=BRose_EFFECT,team=!Spectate] at @s run scoreboa
 execute as @e[type=!villager,tag=BRose_EFFECT,team=!Spectate] at @s run scoreboard players set @s WS_RECAST_T 2147483647
 execute as @e[type=!villager,tag=BRose_EFFECT,team=!Spectate] at @s run scoreboard players set @s WS_RECAST_V 2147483647
 # LIGHTFLOOD DEATH
-execute as @e[type=!villager,tag=BRose_EFFECT] at @s if score ^VPHandler TICK_ROOP matches 3 if predicate ho9tocraft:random_controller/rand_1_3 run scoreboard players add @s DEATH_TIMER 15
-execute as @e[type=!villager,tag=BRose_EFFECT] at @s if score ^VPHandler TICK_ROOP matches 8 if predicate ho9tocraft:random_controller/rand_1_3 run scoreboard players add @s DEATH_TIMER 15
-execute as @e[type=!villager,tag=BRose_EFFECT] at @s if score ^VPHandler TICK_ROOP matches 13 if predicate ho9tocraft:random_controller/rand_1_3 run scoreboard players add @s DEATH_TIMER 15
-execute as @e[type=!villager,tag=BRose_EFFECT] at @s if score ^VPHandler TICK_ROOP matches 18 if predicate ho9tocraft:random_controller/rand_1_3 run scoreboard players add @s DEATH_TIMER 15
+execute as @e[type=!villager,tag=BRose_EFFECT] at @s if score ^VPHandler TICK_ROOP matches 3 if predicate ho9tocraft:random_controller/rand_1_5 run scoreboard players add @s DEATH_TIMER 15
+execute as @e[type=!villager,tag=BRose_EFFECT] at @s if score ^VPHandler TICK_ROOP matches 8 if predicate ho9tocraft:random_controller/rand_1_5 run scoreboard players add @s DEATH_TIMER 15
+execute as @e[type=!villager,tag=BRose_EFFECT] at @s if score ^VPHandler TICK_ROOP matches 13 if predicate ho9tocraft:random_controller/rand_1_5 run scoreboard players add @s DEATH_TIMER 15
+execute as @e[type=!villager,tag=BRose_EFFECT] at @s if score ^VPHandler TICK_ROOP matches 18 if predicate ho9tocraft:random_controller/rand_1_5 run scoreboard players add @s DEATH_TIMER 15
 execute as @e[type=!villager,tag=BRose_EFFECT,team=!Spectate] at @s if score @s DEATH_TIMER matches 600.. run damage @s 2147483647 ho9tocraft:ngeffect/death
