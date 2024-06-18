@@ -119,7 +119,9 @@ execute as @a[predicate=ho9tocraft:item_selector/support_item/ambrosia] at @s ru
 execute as @a[predicate=ho9tocraft:item_selector/support_item/knight_errantry] at @s run function ho9tocraft:support_item/knight_errantry
 execute as @a[predicate=ho9tocraft:item_selector/support_item/tact_nuke] at @s run function ho9tocraft:support_item/tactical_nuke
 execute as @a[predicate=ho9tocraft:item_selector/support_item/black_rose] at @s run function ho9tocraft:support_item/black_rose
+execute as @a[predicate=ho9tocraft:item_selector/support_item/converging_wish] at @s run function ho9tocraft:support_item/converging_wish
 function ho9tocraft:support_item/grenade
+function ho9tocraft:support_item/c_wish_exec/c_wish_postprocess
 #endregion
 
 #region PostProcess
