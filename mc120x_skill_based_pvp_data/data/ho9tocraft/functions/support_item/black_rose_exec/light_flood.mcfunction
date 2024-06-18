@@ -44,23 +44,11 @@ execute as @e[type=!villager,tag=BRose_EFFECT,team=!Spectate] at @s run clear @s
 execute as @e[type=!villager,tag=BRose_EFFECT,team=!Spectate] at @s run clear @s cooked_porkchop
 execute as @e[type=!villager,tag=BRose_EFFECT,team=!Spectate] at @s run clear @s cooked_rabbit
 execute as @e[type=!villager,tag=BRose_EFFECT,team=!Spectate] at @s run clear @s cooked_salmon
-execute as @e[type=!villager,tag=BRose_EFFECT,team=!Spectate] at @s run scoreboard players set @s NOW_MP 0
-execute as @e[type=!villager,tag=BRose_EFFECT,team=!Spectate] at @s run scoreboard players set @s LB_CHARGE 0
-execute as @e[type=!villager,tag=BRose_EFFECT,team=!Spectate] at @s run scoreboard players set @s LB_RECAST_T 2147483647
-execute as @e[type=!villager,tag=BRose_EFFECT,team=!Spectate] at @s run scoreboard players set @s PROC_TIMER_AB 0
-execute as @e[type=!villager,tag=BRose_EFFECT,team=!Spectate] at @s run scoreboard players set @s PROC_TIMER_MG 0
-execute as @e[type=!villager,tag=BRose_EFFECT,team=!Spectate] at @s run scoreboard players set @s PROC_TIMER_WS 0
-execute as @e[type=!villager,tag=BRose_EFFECT,team=!Spectate] at @s run scoreboard players set @s AB_RECAST_T 2147483647
-execute as @e[type=!villager,tag=BRose_EFFECT,team=!Spectate] at @s run scoreboard players set @s AB_RECAST_V 2147483647
-execute as @e[type=!villager,tag=BRose_EFFECT,team=!Spectate] at @s run scoreboard players set @s AR_RECAST_T 2147483647
-execute as @e[type=!villager,tag=BRose_EFFECT,team=!Spectate] at @s run scoreboard players set @s AR_RECAST_V 2147483647
-execute as @e[type=!villager,tag=BRose_EFFECT,team=!Spectate] at @s run scoreboard players set @s MG_RECAST_T 2147483647
-execute as @e[type=!villager,tag=BRose_EFFECT,team=!Spectate] at @s run scoreboard players set @s MG_RECAST_V 2147483647
-execute as @e[type=!villager,tag=BRose_EFFECT,team=!Spectate] at @s run scoreboard players set @s WS_RECAST_T 2147483647
-execute as @e[type=!villager,tag=BRose_EFFECT,team=!Spectate] at @s run scoreboard players set @s WS_RECAST_V 2147483647
 # LIGHTFLOOD DEATH
-execute as @e[type=!villager,tag=BRose_EFFECT] at @s if score ^VPHandler TICK_ROOP matches 3 if predicate ho9tocraft:random_controller/rand_1_5 run scoreboard players add @s DEATH_TIMER 15
-execute as @e[type=!villager,tag=BRose_EFFECT] at @s if score ^VPHandler TICK_ROOP matches 8 if predicate ho9tocraft:random_controller/rand_1_5 run scoreboard players add @s DEATH_TIMER 15
-execute as @e[type=!villager,tag=BRose_EFFECT] at @s if score ^VPHandler TICK_ROOP matches 13 if predicate ho9tocraft:random_controller/rand_1_5 run scoreboard players add @s DEATH_TIMER 15
-execute as @e[type=!villager,tag=BRose_EFFECT] at @s if score ^VPHandler TICK_ROOP matches 18 if predicate ho9tocraft:random_controller/rand_1_5 run scoreboard players add @s DEATH_TIMER 15
+execute if score ^VPHandler RAND_DAMAGE matches 1.. run scoreboard players set ^VPHandler RAND_DAMAGE 0
+execute if score ^VPHandler BATTLE_COND matches 0..1 store result score ^VPHandler RAND_DAMAGE run random value 1..36
+execute as @e[type=!villager,tag=BRose_EFFECT] at @s if score ^VPHandler TICK_ROOP matches 3 if predicate ho9tocraft:random_controller/rand_3_8 run function ho9tocraft:support_item/black_rose_exec/death_wrapper
+execute as @e[type=!villager,tag=BRose_EFFECT] at @s if score ^VPHandler TICK_ROOP matches 8 if predicate ho9tocraft:random_controller/rand_3_8 run function ho9tocraft:support_item/black_rose_exec/death_wrapper
+execute as @e[type=!villager,tag=BRose_EFFECT] at @s if score ^VPHandler TICK_ROOP matches 13 if predicate ho9tocraft:random_controller/rand_3_8 run function ho9tocraft:support_item/black_rose_exec/death_wrapper
+execute as @e[type=!villager,tag=BRose_EFFECT] at @s if score ^VPHandler TICK_ROOP matches 18 if predicate ho9tocraft:random_controller/rand_3_8 run function ho9tocraft:support_item/black_rose_exec/death_wrapper
 execute as @e[type=!villager,tag=BRose_EFFECT,team=!Spectate] at @s if score @s DEATH_TIMER matches 600.. run damage @s 2147483647 ho9tocraft:ngeffect/death
