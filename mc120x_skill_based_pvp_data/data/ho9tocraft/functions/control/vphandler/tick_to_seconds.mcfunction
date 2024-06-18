@@ -83,6 +83,9 @@ execute as @a at @s if score @s death matches 1.. if score @s NGEFF_TIMER_5 matc
 #endregion
 #region Give Saturation Effect when died
 execute as @a at @s if score ^VPHandler BATTLE_COND matches -1 run effect give @s saturation infinite 3 true
+# THE EIGHTH UMBRAL ERA Extra Win
+execute as @a at @s if score @s[tag=BRose_EFFECT,team=RED] death matches 1.. if score ^VPHandler BATTLE_COND matches 0..2 run scoreboard players add ^VPHandler RESULT_BLU 10
+execute as @a at @s if score @s[tag=BRose_EFFECT,team=BLU] death matches 1.. if score ^VPHandler BATTLE_COND matches 0..2 run scoreboard players add ^VPHandler RESULT_RED 10
 # If Battle, Give Resistance V 5 sec.
 execute as @a at @s if score @s death matches 1.. if score ^VPHandler BATTLE_COND matches 0..2 run effect give @s saturation 200 3 true
 execute as @a at @s if score @s death matches 1.. if score ^VPHandler BATTLE_COND matches 0..2 run effect give @s resistance 5 4 true
@@ -93,6 +96,10 @@ execute as @e[predicate=ho9tocraft:passive_selector/remove_inground_arrow] at @s
 #endregion
 #region Remove Expired Nuke
 execute as @e[type=armor_stand,tag=RACT_USER] at @s if score @s SPEFF_TIMER_0 matches 0 run kill @s
+#endregion
+#region Remove Light Flood when BATTLE_COND is 2 or -1
+execute as @e[tag=BRose_EFFECT] at @s if score ^VPHandler BATTLE_COND matches -1 run tag @s remove BRose_EFFECT
+execute as @e[tag=BRose_EFFECT] at @s if score ^VPHandler BATTLE_COND matches 2 run tag @s remove BRose_EFFECT
 #endregion
 function ho9tocraft:battle/process/battle_process
 execute if score ^VPHandler TICK_ROOP matches 20 run function #ho9tocraft:vphandlers_post

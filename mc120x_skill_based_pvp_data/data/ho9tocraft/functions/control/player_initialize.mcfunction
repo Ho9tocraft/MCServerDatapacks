@@ -35,6 +35,10 @@ execute as @a store success score @s scoreInit run scoreboard players get @s AB_
 execute as @a if score @s scoreInit matches 0 run scoreboard players set @s AB_RECAST_T 0
 execute as @a store success score @s scoreInit run scoreboard players get @s AB_RECAST_V
 execute as @a if score @s scoreInit matches 0 run scoreboard players set @s AB_RECAST_V 0
+execute as @a store success score @s scoreInit run scoreboard players get @s AR_RECAST_T
+execute as @a if score @s scoreInit matches 0 run scoreboard players set @s AR_RECAST_T 0
+execute as @a store success score @s scoreInit run scoreboard players get @s AR_RECAST_V
+execute as @a if score @s scoreInit matches 0 run scoreboard players set @s AR_RECAST_V 0
 execute as @a store success score @s scoreInit run scoreboard players get @s LB_CHARGE
 execute as @a if score @s scoreInit matches 0 run scoreboard players set @s LB_CHARGE 0
 execute as @a store success score @s scoreInit run scoreboard players get @s LB_RECAST_T

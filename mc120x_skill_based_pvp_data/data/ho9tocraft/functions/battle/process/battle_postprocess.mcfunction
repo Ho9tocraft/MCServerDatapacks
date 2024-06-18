@@ -53,3 +53,7 @@ team leave *
 gamemode adventure @a[gamemode=spectator]
 effect clear @a
 effect give @a saturation infinite 5 true
+scoreboard players set @a AB_RECAST_T 0
+scoreboard players set @a AR_RECAST_T 0
+scoreboard players set @a MG_RECAST_T 0
+scoreboard players set @a WS_RECAST_T 0

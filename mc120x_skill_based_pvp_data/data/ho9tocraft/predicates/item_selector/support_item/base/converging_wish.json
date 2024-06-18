@@ -7,8 +7,8 @@
             "predicate": {
                 "type": "player",
                 "equipment": { "mainhand": {
-                    "items": [ "orange_dye" ],
-                    "components": { "custom_model_data": 1 }
+                    "items": [ "glow_ink_sac" ],
+                    "components": { "custom_data": { "special_item": true }}
                 }}
             }
         }

@@ -106,6 +106,8 @@ scoreboard objectives add SNOWBALL minecraft.used:snowball
 #AMBROSIA RECAST
 scoreboard objectives add AR_RECAST_T dummy
 scoreboard objectives add AR_RECAST_V dummy
+#RAND_DAMAGE
+scoreboard objectives add RAND_DAMAGE dummy
 #endregion
 
 #region SPEFF_TIMER(var: 0 to INT_MAX(for use Special Effects), 6 difficult Special Effects available)
@@ -170,6 +172,7 @@ scoreboard players set ^VPHandler BATTLE_COND -1
 scoreboard players set ^VPHandler BATTLE_STAGE -1
 scoreboard players set ^VPHandler M_SHOP_POP -1
 scoreboard players set ^VPHandler MAX_ARROW 32
+scoreboard players set ^VPHandler RAND_DAMAGE 0
 #endregion
 
 #region Team Settings
