@@ -28,6 +28,10 @@
         {
             "condition": "reference",
             "name": "ho9tocraft:score_condition/weapon_skill_score"
+        },
+        {
+            "condition": "reference",
+            "name": "ho9tocraft:item_selector/common_hotbar_condition"
         }
     ]
 }
