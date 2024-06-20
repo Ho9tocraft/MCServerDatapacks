@@ -120,6 +120,10 @@
             "scores": {
                 "CURRENT_JOB": 5
             }
+        },
+        {
+            "condition": "reference",
+            "name": "ho9tocraft:item_selector/common_hotbar_condition"
         }
     ]
 }

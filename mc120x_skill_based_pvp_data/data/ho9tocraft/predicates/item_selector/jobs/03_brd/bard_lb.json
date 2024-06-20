@@ -15,6 +15,10 @@
         {
             "condition": "reference",
             "name": "ho9tocraft:passive_selector/sneak_detector"
+        },
+        {
+            "condition": "reference",
+            "name": "ho9tocraft:item_selector/common_hotbar_condition"
         }
     ]
 }
