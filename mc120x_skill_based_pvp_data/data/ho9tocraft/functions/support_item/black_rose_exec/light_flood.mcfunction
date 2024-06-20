@@ -52,4 +52,3 @@ execute as @e[type=!villager,tag=BRose_EFFECT] at @s if score ^VPHandler TICK_RO
 execute as @e[type=!villager,tag=BRose_EFFECT] at @s if score ^VPHandler TICK_ROOP matches 13 if predicate ho9tocraft:random_controller/rand_3_8 run function ho9tocraft:support_item/black_rose_exec/death_wrapper
 execute as @e[type=!villager,tag=BRose_EFFECT] at @s if score ^VPHandler TICK_ROOP matches 18 if predicate ho9tocraft:random_controller/rand_3_8 run function ho9tocraft:support_item/black_rose_exec/death_wrapper
 execute as @e[type=!villager,tag=BRose_EFFECT,team=!Spectate] at @s if score @s DEATH_TIMER matches 600.. run damage @s 2147483647 ho9tocraft:ngeffect/death
-execute as @e[type=!villager,tag=BRose_EFFECT,team=!Spectate] at @s if score @s DEATH_TIMER matches 600.. run scoreboard players set @s DEATH_TIMER 0

@@ -80,6 +80,7 @@ execute as @a at @s if score @s death matches 1.. if score @s NGEFF_TIMER_2 matc
 execute as @a at @s if score @s death matches 1.. if score @s NGEFF_TIMER_3 matches 1.. run scoreboard players set @s NGEFF_TIMER_3 0
 execute as @a at @s if score @s death matches 1.. if score @s NGEFF_TIMER_4 matches 1.. run scoreboard players set @s NGEFF_TIMER_4 0
 execute as @a at @s if score @s death matches 1.. if score @s NGEFF_TIMER_5 matches 1.. run scoreboard players set @s NGEFF_TIMER_5 0
+execute as @a at @s if score @s death matches 1.. if score @s DEATH_TIMER matches 1.. run scoreboard players set @s DEATH_TIMER 0
 #endregion
 #region Give Saturation Effect when died
 execute as @a at @s if score ^VPHandler BATTLE_COND matches -1 run effect give @s saturation infinite 3 true
