@@ -20,6 +20,10 @@
                 "CURRENT_JOB": 0,
                 "NOW_MP": { "min": 1000 }
             }
+        },
+        {
+            "condition": "reference",
+            "name": "ho9tocraft:item_selector/common_hotbar_condition"
         }
     ]
 }
