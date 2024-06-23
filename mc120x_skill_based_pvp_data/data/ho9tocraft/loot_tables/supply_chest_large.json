@@ -65,7 +65,15 @@
                             "function": "set_components",
                             "components": {
                                 "item_name": "{\"bold\":false, \"italic\":false, \"color\":\"#FF00FF\", \"translate\":\"item.loot.arrive_in_light.name\", \"fallback\":\"Arrive in Light\"}",
+                                "custom_model_data": 1,
                                 "custom_data": "{ \"special_item\":true }"
+                            }
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 1
                             }
                         }
                     ]
