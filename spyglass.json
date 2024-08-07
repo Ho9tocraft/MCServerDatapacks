@@ -1,0 +1,12 @@
+{
+    "env": {
+        "gameVersion": "1.20.6"
+    },
+    "lint": {
+        "nameOfNbtKey": "[a-zA-Z0-9_]*",
+        "nameOfObjective": "[a-zA-Z0-9_]*",
+        "nameOfScoreHolder": "[a-zA-Z0-9^_]*",
+        "nameOfTag": "[a-zA-Z0-9^_]*",
+        "nameOfTeam": "[a-zA-Z0-9^_]*"
+    }
+}

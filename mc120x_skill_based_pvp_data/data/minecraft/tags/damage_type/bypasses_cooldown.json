@@ -3,6 +3,8 @@
         "ho9tocraft:ngeffect/poison",
         "ho9tocraft:ngeffect/scarlet_rot",
         "ho9tocraft:ngeffect/death",
-        "ho9tocraft:ngeffect/radiation"
+        "ho9tocraft:ngeffect/radiation",
+        "ho9tocraft:boss/indirect_magic",
+        "ho9tocraft:boss/lightning"
     ]
 }

@@ -1,5 +1,7 @@
 {
     "values": [
+        "ho9tocraft:boss/indirect_magic",
+        "ho9tocraft:boss/lightning",
         "ho9tocraft:ngeffect/poison",
         "ho9tocraft:ngeffect/scarlet_rot",
         "ho9tocraft:ngeffect/frostbite",

@@ -1,0 +1,13 @@
+{
+    "condition": "all_of",
+    "terms": [
+        {
+            "condition": "reference",
+            "name": "ho9tocraft:score_condition/magic_skill_score"
+        },
+        {
+            "condition": "random_chance",
+            "chance": 0.80
+        }
+    ]
+}
