@@ -108,6 +108,15 @@ scoreboard objectives add AR_RECAST_T dummy
 scoreboard objectives add AR_RECAST_V dummy
 #RAND_DAMAGE
 scoreboard objectives add RAND_DAMAGE dummy
+#DYNAMIS
+scoreboard objectives add DYNAMIS dummy
+#RAID_BOSS_USED
+scoreboard objectives add RBOSS_SB_0 dummy
+scoreboard objectives add RBOSS_SB_1 dummy
+scoreboard objectives add RBOSS_SB_2 dummy
+scoreboard objectives add RBOSS_SB_3 dummy
+scoreboard objectives add RBOSS_SB_4 dummy
+scoreboard objectives add RBOSS_SB_5 dummy
 #endregion
 
 #region SPEFF_TIMER(var: 0 to INT_MAX(for use Special Effects), 6 difficult Special Effects available)
