@@ -1,0 +1,20 @@
+[
+    {
+        "function": "reference",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ho9tocraft:item_selector/common_lbset"
+            }
+        ],
+        "name": "ho9tocraft:jobs/common/limit_break"
+    },
+    {
+        "function": "set_lore",
+        "lore": [
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.dragoon.limit_break.desc.1", "fallback": "Deals physical damage to one of the nearest enemies." },
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.dragoon.limit_break.range", "fallback": "(Range: 10m)" }
+        ],
+        "mode": "replace_all"
+    }
+]

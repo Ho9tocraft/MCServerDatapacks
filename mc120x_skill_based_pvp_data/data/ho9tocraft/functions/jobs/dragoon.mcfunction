@@ -17,6 +17,7 @@ execute as @s[predicate=ho9tocraft:passive_selector/job_not_selected] at @s run 
 
 #region 武器
 execute as @s[predicate=ho9tocraft:passive_selector/job_not_selected] at @s run item replace entity @s hotbar.0 with diamond_sword 1
+execute as @s[predicate=ho9tocraft:passive_selector/job_not_selected] at @s run item modify entity @s hotbar.0 ho9tocraft:jobs/dragoon/dragoon_mainhand_spear
 #endregion
 
 #region スキル群
@@ -24,6 +25,10 @@ execute as @s[predicate=ho9tocraft:passive_selector/job_not_selected] at @s run 
 execute as @s[predicate=ho9tocraft:passive_selector/job_not_selected] at @s run item replace entity @s hotbar.2 with burn_pottery_sherd 1
 execute as @s[predicate=ho9tocraft:passive_selector/job_not_selected] at @s run item replace entity @s hotbar.3 with glowstone_dust 1
 execute as @s[predicate=ho9tocraft:passive_selector/job_not_selected] at @s run item replace entity @s hotbar.4 with nether_star 1
+execute as @s[predicate=ho9tocraft:passive_selector/job_not_selected] at @s run item modify entity @s hotbar.1 ho9tocraft:jobs/dragoon/skills/ws
+execute as @s[predicate=ho9tocraft:passive_selector/job_not_selected] at @s run item modify entity @s hotbar.2 ho9tocraft:jobs/dragoon/skills/mg
+execute as @s[predicate=ho9tocraft:passive_selector/job_not_selected] at @s run item modify entity @s hotbar.3 ho9tocraft:jobs/dragoon/skills/ab
+execute as @s[predicate=ho9tocraft:passive_selector/job_not_selected] at @s run item modify entity @s hotbar.4 ho9tocraft:jobs/dragoon/skills/lb
 #endregion
 
 #region ジョブID確定
