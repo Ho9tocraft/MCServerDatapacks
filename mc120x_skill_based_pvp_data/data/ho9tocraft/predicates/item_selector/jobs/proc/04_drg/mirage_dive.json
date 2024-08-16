@@ -1,0 +1,36 @@
+{
+    "condition": "all_of",
+    "terms": [
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": { "mainhand": {
+                    "items": [ "prismarine_shard" ],
+                    "count": 1,
+                    "components": { "custom_model_data": 4 }
+                }}
+            }
+        },
+        {
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+                "CURRENT_JOB": 4,
+                "PROC_TIMER_WS": { "min": 1 }
+            }
+        },
+        {
+            "condition": "reference",
+            "name": "ho9tocraft:passive_selector/sneak_detector"
+        },
+        {
+            "condition": "reference",
+            "name": "ho9tocraft:score_condition/weapon_skill_score"
+        },
+        {
+            "condition": "reference",
+            "name": "ho9tocraft:item_selector/common_hotbar_condition"
+        }
+    ]
+}

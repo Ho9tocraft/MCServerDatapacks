@@ -5,6 +5,6 @@
     },
     "overrides": [
         { "predicate": { "trim_type": 0.00003 }, "model": "ho9tocraft:custom/ignominy/chestplate" },
-        { "predicate": { "trim_type": 0.00005 }, "model": "ho9tocraft:custom/blue_dragoon/chestplate" }
+        { "predicate": { "trim_type": 0.00005 }, "model": "ho9tocraft:custom/dragoon/chestplate" }
     ]
 }

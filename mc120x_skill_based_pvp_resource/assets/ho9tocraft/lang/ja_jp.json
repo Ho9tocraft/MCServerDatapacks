@@ -162,7 +162,7 @@
     "skill.dragoon.geirskogul.name": "ゲイルスコグル",
     "skill.dragoon.geirskogul.desc.1": "射程内の最寄りの敵に向かって前方直線範囲攻撃を放ち、",
     "skill.dragoon.geirskogul.desc.2": "その範囲内の敵に物理ダメージを与える。",
-    "skill.dragoon.geirskogul.desc.3": "2体目以降の対象へのダメージは30％減少する。",
+    "skill.dragoon.geirskogul.desc.3": "2体目以降の対象へのダメージは50％減少する。",
     "skill.dragoon.geirskogul.desc.4": "発動後、自身は「紅の竜血」状態に遷移する。",
     "skill.dragoon.geirskogul.range": "（射程: 15m）",
     "skill.dragoon.stardiver.name": "スターダイバー",

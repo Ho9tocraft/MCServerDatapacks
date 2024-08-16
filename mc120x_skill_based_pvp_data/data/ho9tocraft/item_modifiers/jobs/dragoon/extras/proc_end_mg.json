@@ -11,14 +11,17 @@
                         "predicate": {
                             "type": "player",
                             "slots": { "hotbar.2": {
-                                "items": [ "burn_pottery_sherd" ],
+                                "items": [ "sheaf_pottery_sherd" ],
                                 "count": 1
                             }}
                         }
                     },
                     {
-                        "condition": "reference",
-                        "name": "ho9tocraft:passive_selector/job_not_selected"
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "CURRENT_JOB": 4
+                        }
                     }
                 ]
             }
@@ -36,5 +39,34 @@
             ],
             "custom_model_data": 4
         }
+    },
+    {
+        "function": "set_item",
+        "conditions": [
+            {
+                "condition": "all_of",
+                "terms": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "player",
+                            "slots": { "hotbar.2": {
+                                "items": [ "sheaf_pottery_sherd" ],
+                                "count": 1
+                            }}
+                        }
+                    },
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "CURRENT_JOB": 4
+                        }
+                    }
+                ]
+            }
+        ],
+        "item": "burn_pottery_sherd"
     }
 ]
