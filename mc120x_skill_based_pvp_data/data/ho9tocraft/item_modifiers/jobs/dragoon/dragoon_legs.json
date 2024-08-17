@@ -1,0 +1,74 @@
+[
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ho9tocraft:item_selector/equipments/full_diamond_not_job_selected"
+            }
+        ],
+        "components": {
+            "item_name": "{\"bold\":true,\"color\":\"#007BBB\",\"italic\":false,\"translate\":\"item.dragoon.leggings.name\",\"fallback\":\"Moon-diamond Leggings\"}",
+            "unbreakable": { "show_in_tooltip": false },
+            "enchantments": { "levels": { "fire_protection": 2, "protection": 2, "binding_curse": 1 }, "show_in_tooltip": false },
+            "attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "generic.armor",
+                        "name": "generic.armor",
+                        "amount": 6,
+                        "operation": "add_value",
+                        "uuid": [-938920766,-2099625028,-1610341235,794467376],
+                        "slot": "legs"
+                    },
+                    {
+                        "type": "generic.armor_toughness",
+                        "name": "generic.armor_toughness",
+                        "amount": 3,
+                        "operation": "add_value",
+                        "uuid": [-1975432964,-1529983074,-1451838032,-2112601015],
+                        "slot": "legs"
+                    },
+                    {
+                        "type": "generic.knockback_resistance",
+                        "name": "generic.knockback_resistance",
+                        "amount": 1,
+                        "operation": "add_value",
+                        "uuid": [1952781522,584466726,-1708538882,465769205],
+                        "slot": "legs"
+                    },
+                    {
+                        "type": "generic.max_health",
+                        "name": "generic.max_health",
+                        "amount": 10,
+                        "operation": "add_value",
+                        "uuid": [1299058340,-1439805566,-1626404020,-1126248386],
+                        "slot": "legs"
+                    },
+                    {
+                        "type": "generic.luck",
+                        "name": "generic.luck",
+                        "amount": 0.2,
+                        "operation": "add_multiplied_base",
+                        "uuid": [-485447529,283397198,-1748521144,1892917419],
+                        "slot": "legs"
+                    },
+                    {
+                        "type": "generic.step_height",
+                        "name": "generic.step_height",
+                        "amount": 0.1,
+                        "operation": "add_multiplied_base",
+                        "uuid": [-149858089,-578925081,-1576516638,-2038179088],
+                        "slot": "legs"
+                    }
+                ],
+                "show_in_tooltip": false
+            },
+            "trim": {
+                "material": "minecraft:blue_dragoon",
+                "pattern": "minecraft:blue_dragoon",
+                "show_in_tooltip": false
+            }
+        }
+    }
+]

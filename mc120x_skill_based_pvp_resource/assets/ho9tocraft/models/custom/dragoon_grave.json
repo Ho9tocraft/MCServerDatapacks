@@ -1,0 +1,6 @@
+{
+    "parent": "ho9tocraft:custom/based/big_weapon_greatsword",
+    "textures": {
+        "layer0": "ho9tocraft:item/dragoon_grave"
+    }
+}

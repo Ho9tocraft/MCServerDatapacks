@@ -1,0 +1,40 @@
+[
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "all_of",
+                "terms": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "player",
+                            "slots": { "hotbar.2": {
+                                "items": [ "burn_pottery_sherd" ],
+                                "count": 1
+                            }}
+                        }
+                    },
+                    {
+                        "condition": "reference",
+                        "name": "ho9tocraft:passive_selector/job_not_selected"
+                    }
+                ]
+            }
+        ],
+        "components": {
+            "item_name": "{\"bold\": true, \"color\": \"#C0C0C0\", \"italic\": false, \"translate\": \"skill.dragoon.geirskogul.name\", \"fallback\": \"Geirskogul\"}",
+            "lore": [
+                "{\"bold\": false,\"color\": \"gray\",\"italic\": false,\"translate\": \"skill.dragoon.geirskogul.desc.1\",\"fallback\": \"Releases a forward straight line ranged attack on the nearest enemy within range,\"}",
+                "{\"bold\": false,\"color\": \"gray\",\"italic\": false,\"translate\": \"skill.dragoon.geirskogul.desc.2\",\"fallback\": \"deals physical damage to enemies within its range.\"}",
+                "{\"bold\": false,\"color\": \"gray\",\"italic\": false,\"translate\": \"skill.dragoon.geirskogul.desc.3\",\"fallback\": \"Damage to the second and subsequent targets is reduced by 30%.\"}",
+                "{\"bold\": false,\"color\": \"gray\",\"italic\": false,\"translate\": \"skill.dragoon.geirskogul.desc.4\",\"fallback\": \"After action, the user transitions to the Life of the Dragon.\"}",
+                "{\"bold\": false,\"color\": \"gray\",\"italic\": false,\"translate\": \"skill.dragoon.geirskogul.range\",\"fallback\": \"(Range: 15m)\"}",
+                "{\"bold\": false,\"color\": \"aqua\",\"italic\": false,\"translate\": \"skill.cast.instant\",\"fallback\": \"Cast Time: Instant\"}",
+                "{\"bold\": true,\"color\": \"aqua\",\"italic\": false,\"translate\": \"skill.recast.30tick\",\"fallback\": \"Recast Time: 1.5 sec.\"}"
+            ],
+            "custom_model_data": 4
+        }
+    }
+]

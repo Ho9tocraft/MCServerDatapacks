@@ -4,6 +4,7 @@
         "layer0": "item/diamond_helmet"
     },
     "overrides": [
-        { "predicate": { "trim_type": 0.00003 }, "model": "ho9tocraft:custom/ignominy/helmet" }
+        { "predicate": { "trim_type": 0.00003 }, "model": "ho9tocraft:custom/ignominy/helmet" },
+        { "predicate": { "trim_type": 0.00005 }, "model": "ho9tocraft:custom/dragoon/helmet" }
     ]
 }

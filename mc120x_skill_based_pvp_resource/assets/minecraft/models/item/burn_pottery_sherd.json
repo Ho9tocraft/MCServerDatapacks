@@ -5,6 +5,7 @@
   },
   "overrides": [
     { "predicate": { "custom_model_data": 2 }, "model": "finalfantasyxiv:actions_job/02_exc/hissatsu_kaiten" },
-    { "predicate": { "custom_model_data": 3 }, "model": "finalfantasyxiv:actions_job/03_brd/caustic_bite" }
+    { "predicate": { "custom_model_data": 3 }, "model": "finalfantasyxiv:actions_job/03_brd/caustic_bite" },
+    { "predicate": { "custom_model_data": 4 }, "model": "finalfantasyxiv:actions_job/04_drg/geirskogul" }
   ]
 }

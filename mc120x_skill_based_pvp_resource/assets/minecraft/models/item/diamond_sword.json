@@ -4,6 +4,7 @@
     "layer0": "minecraft:item/diamond_sword"
   },
   "overrides": [
-    { "predicate": { "custom_model_data": 1 }, "model": "ho9tocraft:custom/moonlight_blade" }
+    { "predicate": { "custom_model_data": 1 }, "model": "ho9tocraft:custom/moonlight_blade" },
+    { "predicate": { "custom_model_data": 2 }, "model": "ho9tocraft:custom/dragoon_grave" }
   ]
 }

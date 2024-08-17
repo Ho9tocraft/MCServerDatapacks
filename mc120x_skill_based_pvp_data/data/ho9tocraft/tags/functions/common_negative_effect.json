@@ -1,6 +1,7 @@
 {
     "values": [
         "ho9tocraft:display/common/ngeff_radiation",
+        "ho9tocraft:display/common/ngeff_lb_overheat",
         "ho9tocraft:support_item/black_rose_exec/light_flood"
     ]
 }
