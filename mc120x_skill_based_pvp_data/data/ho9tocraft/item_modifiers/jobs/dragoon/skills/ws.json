@@ -1,0 +1,39 @@
+[
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "all_of",
+                "terms": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "player",
+                            "slots": { "hotbar.1": {
+                                "items": [ "blade_pottery_sherd" ],
+                                "count": 1
+                            }}
+                        }
+                    },
+                    {
+                        "condition": "reference",
+                        "name": "ho9tocraft:passive_selector/job_not_selected"
+                    }
+                ]
+            }
+        ],
+        "components": {
+            "item_name": "{\"bold\":true,\"color\":\"#C0C0C0\",\"italic\":false,\"translate\":\"skill.dragoon.high_jump.name\",\"fallback\":\"High Jump\"}",
+            "lore": [
+                "{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"translate\":\"skill.dragoon.high_jump.desc.1\",\"fallback\":\"Deals physical damage while jumping to the nearest enemy within range.\"}",
+                "{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"translate\":\"skill.dragoon.after_jump.desc\",\"fallback\":\"After the attack, it returns to its original position.\"}",
+                "{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"translate\":\"skill.dragoon.high_jump.range\",\"fallback\":\"(Range: 20m)\"}",
+                "{\"bold\":false,\"color\":\"aqua\",\"italic\":false,\"translate\":\"skill.cast.instant\",\"fallback\":\"Cast Time: Instant\"}",
+                "{\"bold\":true,\"color\":\"aqua\",\"italic\":false,\"translate\":\"skill.recast.50tick\",\"fallback\":\"Recast Time: 2.5 sec.\"}",
+                "{\"bold\":true,\"color\":\"green\",\"italic\":false,\"translate\":\"skill.gcd.50tick\",\"fallback\":\"GCD: 2.5 sec.\"}"
+            ],
+            "custom_model_data": 4
+        }
+    }
+]

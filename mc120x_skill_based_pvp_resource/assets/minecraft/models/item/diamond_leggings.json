@@ -4,6 +4,7 @@
         "layer0": "item/diamond_leggings"
     },
     "overrides": [
-        { "predicate": { "trim_type": 0.00003 }, "model": "ho9tocraft:custom/ignominy/leggings" }
+        { "predicate": { "trim_type": 0.00003 }, "model": "ho9tocraft:custom/ignominy/leggings" },
+        { "predicate": { "trim_type": 0.00005 }, "model": "ho9tocraft:custom/dragoon/leggings" }
     ]
 }

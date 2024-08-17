@@ -1,0 +1,71 @@
+[
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "all_of",
+                "terms": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "player",
+                            "slots": { "hotbar.2": {
+                                "items": [ "burn_pottery_sherd" ],
+                                "count": 1,
+                                "components": { "custom_model_data": 4 }
+                            }}
+                        }
+                    },
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "CURRENT_JOB": 4
+                        }
+                    }
+                ]
+            }
+        ],
+        "components": {
+            "item_name": "{\"bold\":true,\"color\":\"#C0C0C0\",\"italic\":false,\"translate\":\"skill.dragoon.stardiver.name\",\"fallback\":\"Stardiver\"}",
+            "lore": [
+                "{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"translate\":\"skill.dragoon.stardiver.desc.1\",\"fallback\":\"Deals physical damage in a circular area starting\"}",
+                "{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"translate\":\"skill.dragoon.stardiver.desc.2\",\"fallback\":\"from the destination while approaching the nearest enemy.\"}",
+                "{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"translate\":\"skill.dragoon.stardiver.range\",\"fallback\":\"(Range: 20m, Radius: 5m)\"}",
+                "{\"bold\":false,\"color\":\"aqua\",\"italic\":false,\"translate\":\"skill.cast.instant\",\"fallback\":\"Cast Time: Instant\"}",
+                "{\"bold\":true,\"color\":\"aqua\",\"italic\":false,\"translate\":\"skill.recast.30sec\",\"fallback\":\"Recast Time: 30 sec.\"}"
+            ],
+            "custom_model_data": 7
+        }
+    },
+    {
+        "function": "set_item",
+        "conditions": [
+            {
+                "condition": "all_of",
+                "terms": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "player",
+                            "slots": { "hotbar.2": {
+                                "items": [ "burn_pottery_sherd" ],
+                                "count": 1
+                            }}
+                        }
+                    },
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "CURRENT_JOB": 4
+                        }
+                    }
+                ]
+            }
+        ],
+        "item": "sheaf_pottery_sherd"
+    }
+]

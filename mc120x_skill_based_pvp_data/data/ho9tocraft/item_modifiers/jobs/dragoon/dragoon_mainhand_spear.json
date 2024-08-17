@@ -1,0 +1,78 @@
+[
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "all_of",
+                "terms": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "player",
+                            "slots": { "hotbar.0": {
+                                "items": [ "diamond_sword" ],
+                                "count": 1
+                            }}
+                        }
+                    },
+                    {
+                        "condition": "reference",
+                        "name": "ho9tocraft:passive_selector/job_not_selected"
+                    }
+                ]
+            }
+        ],
+        "components": {
+            "item_name": "{\"bold\": true, \"color\": \"#F0FFFF\", \"italic\": false, \"translate\": \"item.dragoon.spear.name\", \"fallback\": \"Dragoon's Grave\"}",
+            "unbreakable": { "show_in_tooltip": false },
+            "custom_model_data": 2,
+            "enchantments": { "levels": { "sweeping_edge": 15 }, "show_in_tooltip": false },
+            "attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "generic.attack_damage",
+                        "name": "generic.attack_damage",
+                        "amount": 16,
+                        "operation": "add_value",
+                        "uuid": [-324801356,-915652423,-1989511715,254959844],
+                        "slot": "mainhand"
+                    },
+                    {
+                        "type": "generic.attack_speed",
+                        "name": "generic.attack_speed",
+                        "amount": 1.15,
+                        "operation": "add_value",
+                        "uuid": [-1725062585,567561231,-1396305419,837576038],
+                        "slot": "mainhand"
+                    },
+                    {
+                        "type": "player.entity_interaction_range",
+                        "name": "player.entity_interaction_range",
+                        "amount": 3.75,
+                        "operation": "add_value",
+                        "uuid": [-109849691,-1364377387,-2108459980,2110909338],
+                        "slot": "mainhand"
+                    },
+                    {
+                        "type": "generic.movement_speed",
+                        "name": "generic.movement_speed",
+                        "amount": 0.35,
+                        "operation": "add_multiplied_base",
+                        "uuid": [1881133309,-421444922,-1236966536,-964797765],
+                        "slot": "mainhand"
+                    },
+                    {
+                        "type": "generic.jump_strength",
+                        "name": "generic.jump_strength",
+                        "amount": 0.5,
+                        "operation": "add_multiplied_base",
+                        "uuid": [893816855,-1106686299,-1735366020,-1367114691],
+                        "slot": "mainhand"
+                    }
+                ],
+                "show_in_tooltip": false
+            }
+        }
+    }
+]
