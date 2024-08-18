@@ -1,6 +1,9 @@
 #Radiation Effect
 #define tag C_Wish_EFFECT
 
+# Particles
+execute as @e[type=armor_stand,tag=RACT_USER,team=RED,sort=nearest,limit=1] at @s run particle dust_color_transition{from_color:[0.000,1.000,0.000],scale:1,to_color:[0.196,0.804,0.196]} ~ ~1 ~ 0.6 1.2 0.6 1 750 normal @a[distance=..30]
+
 #region Under Effect Process
 # team=RED
 ## IfScore Sector

@@ -5,9 +5,11 @@ execute as @s at @s run tellraw @a ["",{ "bold": false, "italic": false, "transl
 execute as @s at @s run tag @s add Verfire_Exec
 
 #region team=RED
+execute as @s[team=RED] at @s if score @s CAST_TIMER matches 0 as @e[team=BLU,distance=..25,sort=nearest,limit=1] at @s run particle flame ~ ~1 ~ 0.6 1.2 0.6 1 750 normal @a[distance=..30]
 execute as @s[team=RED] at @s if score @s CAST_TIMER matches 0 as @e[team=BLU,distance=..25,sort=nearest,limit=1] at @s run damage @s 34.0 indirect_magic by @a[team=RED,tag=Verfire_Exec,limit=1]
 #endregion
 #region team=BLU
+execute as @s[team=BLU] at @s if score @s CAST_TIMER matches 0 as @e[team=RED,distance=..25,sort=nearest,limit=1] at @s run particle flame ~ ~1 ~ 0.6 1.2 0.6 1 750 normal @a[distance=..30]
 execute as @s[team=BLU] at @s if score @s CAST_TIMER matches 0 as @e[team=RED,distance=..25,sort=nearest,limit=1] at @s run damage @s 34.0 indirect_magic by @a[team=BLU,tag=Verfire_Exec,limit=1]
 #endregion
 #region PostProcess

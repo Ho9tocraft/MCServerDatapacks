@@ -5,9 +5,11 @@ execute as @s at @s run tellraw @a ["",{ "bold": false, "italic": false, "transl
 execute as @s at @s run tag @s add VerthunderII_Exec
 
 #region team=RED
+execute as @s[team=RED] at @s if score @s CAST_TIMER matches 0 as @e[team=BLU,distance=..25,sort=nearest,limit=1] at @s run particle dust_color_transition{from_color:[0.278,0.149,0.431],scale:1,to_color:[0.518,0.102,0.459]} ~ ~ ~ 5 1 5 1 1500 normal @a[distance=..30]
 execute as @s[team=RED] at @s if score @s CAST_TIMER matches 0 as @e[team=BLU,distance=..25,sort=nearest,limit=1] at @s as @e[team=BLU,distance=..5] at @s run damage @s 14.0 indirect_magic by @a[team=RED,tag=VerthunderII_Exec,limit=1]
 #endregion
 #region team=BLU
+execute as @s[team=BLU] at @s if score @s CAST_TIMER matches 0 as @e[team=RED,distance=..25,sort=nearest,limit=1] at @s run particle dust_color_transition{from_color:[0.278,0.149,0.431],scale:1,to_color:[0.518,0.102,0.459]} ~ ~ ~ 5 1 5 1 1500 normal @a[distance=..30]
 execute as @s[team=BLU] at @s if score @s CAST_TIMER matches 0 as @e[team=RED,distance=..25,sort=nearest,limit=1] at @s as @e[team=RED,distance=..5] at @s run damage @s 14.0 indirect_magic by @a[team=BLU,tag=VerthunderII_Exec,limit=1]
 #endregion
 #region PostProcess
