@@ -6,9 +6,11 @@ execute as @s at @s run tag @s add Impact_Exec
 
 #region team=RED
 execute as @s[team=RED] at @s if score @s CAST_TIMER matches 0 as @e[team=BLU,distance=..25,sort=nearest,limit=1] at @s as @e[team=BLU,distance=..5] at @s run damage @s 26.0 indirect_magic by @a[team=RED,tag=Impact_Exec,limit=1]
+execute as @s[team=RED] at @s if score @s CAST_TIMER matches 0 as @e[team=BLU,distance=..25,sort=nearest,limit=1] at @s run particle dust_color_transition{from_color:[0.937,0.522,0.490],scale:1,to_color:[0.918,0.333,0.314]} ~ ~ ~ 5 1 5 1 750 normal @a[distance=..30]
 #endregion
 #region team=BLU
 execute as @s[team=BLU] at @s if score @s CAST_TIMER matches 0 as @e[team=RED,distance=..25,sort=nearest,limit=1] at @s as @e[team=RED,distance=..5] at @s run damage @s 26.0 indirect_magic by @a[team=BLU,tag=Impact_Exec,limit=1]
+execute as @s[team=BLU] at @s if score @s CAST_TIMER matches 0 as @e[team=RED,distance=..25,sort=nearest,limit=1] at @s run particle dust_color_transition{from_color:[0.937,0.522,0.490],scale:1,to_color:[0.918,0.333,0.314]} ~ ~ ~ 5 1 5 1 750 normal @a[distance=..30]
 #endregion
 #region PostProcess
 # Particles
