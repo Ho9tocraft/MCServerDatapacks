@@ -8,11 +8,13 @@ execute as @s at @s run tag @s add HCCombo_Exec
 #region team=RED
 execute as @s[team=RED] at @s as @e[team=BLU,distance=..25,sort=nearest,limit=1] at @s run tag @s add BoT_TarBLU
 execute as @s[team=RED] at @s as @e[tag=BoT_TarBLU,distance=..25,sort=nearest,limit=1] at @s run damage @s 30.75 indirect_magic by @a[team=RED,tag=HCCombo_Exec,sort=nearest,limit=1] from @a[team=RED,tag=HCCombo_Exec,sort=nearest,limit=1]
+execute as @s[team=RED] at @s as @e[tag=BoT_TarBLU,distance=..25,sort=nearest,limit=1] at @s run particle dust_color_transition{from_color:[0.855,0.647,0.125],scale:1,to_color:[1.000,0.843,0.000]} ~ ~ ~ 5 3.5 5 1 750 normal @a[distance=..30]
 execute as @s[team=RED] at @s as @e[tag=BoT_TarBLU,distance=..25,sort=nearest,limit=1] at @s as @e[team=BLU,tag=!BoT_TarBLU,distance=..5] at @s run damage @s 15.375 indirect_magic by @a[team=RED,tag=HCCombo_Exec,sort=nearest,limit=1] from @a[team=RED,tag=HCCombo_Exec,sort=nearest,limit=1]
 #endregion
 #region team=BLU
 execute as @s[team=BLU] at @s as @e[team=RED,distance=..25,sort=nearest,limit=1] at @s run tag @s add BoT_TarRED
 execute as @s[team=BLU] at @s as @e[tag=BoT_TarRED,distance=..25,sort=nearest,limit=1] at @s run damage @s 30.75 indirect_magic by @a[team=BLU,tag=HCCombo_Exec,sort=nearest,limit=1] from @a[team=BLU,tag=HCCombo_Exec,sort=nearest,limit=1]
+execute as @s[team=BLU] at @s as @e[tag=BoT_TarRED,distance=..25,sort=nearest,limit=1] at @s run particle dust_color_transition{from_color:[0.855,0.647,0.125],scale:1,to_color:[1.000,0.843,0.000]} ~ ~ ~ 5 3.5 5 1 750 normal @a[distance=..30]
 execute as @s[team=BLU] at @s as @e[tag=BoT_TarRED,distance=..25,sort=nearest,limit=1] at @s as @e[team=RED,tag=!BoT_TarRED,distance=..5] at @s run damage @s 15.375 indirect_magic by @a[team=BLU,tag=HCCombo_Exec,sort=nearest,limit=1] from @a[team=BLU,tag=HCCombo_Exec,sort=nearest,limit=1]
 #endregion
 #region PostProcess
