@@ -24,6 +24,8 @@ execute as @s at @s if score @s LB_CHARGE matches ..80 run scoreboard players ad
 execute as @s[tag=SOATH_EFFECT] at @s if score @s LB_CHARGE matches 96..99 run scoreboard players add @s LB_CHARGE 1
 execute as @s[tag=SOATH_EFFECT] at @s if score @s LB_CHARGE matches 91..95 run scoreboard players add @s LB_CHARGE 5
 execute as @s[tag=SOATH_EFFECT] at @s if score @s LB_CHARGE matches ..90 run scoreboard players add @s LB_CHARGE 10
+# Misfire Prevent Recast Timer
+execute as @s at @s run scoreboard players set @s MG_RECAST_T 20
 # Convert Item to "Confiteor"
 execute as @s at @s run scoreboard players set @s PROC_TIMER_MG 600
 execute as @s at @s run item modify entity @s hotbar.2 ho9tocraft:jobs/paladin/extras/confiteor
