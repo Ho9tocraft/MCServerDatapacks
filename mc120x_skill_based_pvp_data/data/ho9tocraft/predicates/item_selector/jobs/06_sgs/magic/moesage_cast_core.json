@@ -1,0 +1,153 @@
+{
+    "condition": "all_of",
+    "terms": [
+        {
+            "condition": "any_of",
+            "terms": [
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type": "player",
+                        "equipment": { "mainhand": {
+                            "items": [ "blade_pottery_sherd" ],
+                            "count": 1,
+                            "components": { "custom_model_data": 6 }
+                        }}
+                    }
+                },
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type": "player",
+                        "equipment": { "mainhand": {
+                            "items": [ "prismarine_shard" ],
+                            "count": 1,
+                            "components": { "custom_model_data": 16 }
+                        }}
+                    }
+                },
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type": "player",
+                        "equipment": { "mainhand": {
+                            "items": [ "prismarine_shard" ],
+                            "count": 1,
+                            "components": { "custom_model_data": 17 }
+                        }}
+                    }
+                },
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type": "player",
+                        "equipment": { "mainhand": {
+                            "items": [ "prismarine_shard" ],
+                            "count": 1,
+                            "components": { "custom_model_data": 18 }
+                        }}
+                    }
+                },
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type": "player",
+                        "equipment": { "mainhand": {
+                            "items": [ "prismarine_shard" ],
+                            "count": 1,
+                            "components": { "custom_model_data": 19 }
+                        }}
+                    }
+                },
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type": "player",
+                        "equipment": { "mainhand": {
+                            "items": [ "prismarine_shard" ],
+                            "count": 1,
+                            "components": { "custom_model_data": 20 }
+                        }}
+                    }
+                },
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type": "player",
+                        "equipment": { "mainhand": {
+                            "items": [ "plenty_pottery_sherd" ],
+                            "count": 1,
+                            "components": { "custom_model_data": 6 }
+                        }}
+                    }
+                },
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type": "player",
+                        "equipment": { "mainhand": {
+                            "items": [ "sheaf_pottery_sherd" ],
+                            "count": 1,
+                            "components": { "custom_model_data": 22 }
+                        }}
+                    }
+                },
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type": "player",
+                        "equipment": { "mainhand": {
+                            "items": [ "sheaf_pottery_sherd" ],
+                            "count": 1,
+                            "components": { "custom_model_data": 23 }
+                        }}
+                    }
+                },
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type": "player",
+                        "equipment": { "mainhand": {
+                            "items": [ "sheaf_pottery_sherd" ],
+                            "count": 1,
+                            "components": { "custom_model_data": 24 }
+                        }}
+                    }
+                },
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type": "player",
+                        "equipment": { "mainhand": {
+                            "items": [ "glowstone_dust" ],
+                            "count": 1,
+                            "components": { "custom_model_data": 6 }
+                        }}
+                    }
+                }
+            ]
+        },
+        {
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+                "CURRENT_JOB": 6
+            }
+        },
+        {
+            "condition": "reference",
+            "name": "ho9tocraft:item_selector/common_hotbar_condition"
+        }
+    ]
+}

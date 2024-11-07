@@ -1,0 +1,91 @@
+[
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "all_of",
+                "terms": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "player",
+                            "slots": { "hotbar.1": {
+                                "items": [ "glowstone_dust" ],
+                                "count": 1
+                            }}
+                        }
+                    },
+                    {
+                        "condition": "reference",
+                        "name": "ho9tocraft:passive_selector/job_not_selected"
+                    }
+                ]
+            }
+        ],
+        "components": {
+            "item_name": "{\"bold\":true,\"color\":\"#C0C0C0\",\"italic\":false,\"translate\":\"skill.sage_of_scarlet.sacred_circle.name\",\"fallback\":\"Sacred Circle\"}"
+        }
+    },
+    {
+        "function": "set_custom_model_data",
+        "conditions": [
+            {
+                "condition": "all_of",
+                "terms": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "player",
+                            "slots": { "hotbar.1": {
+                                "items": [ "glowstone_dust" ],
+                                "count": 1
+                            }}
+                        }
+                    },
+                    {
+                        "condition": "reference",
+                        "name": "ho9tocraft:passive_selector/job_not_selected"
+                    }
+                ]
+            }
+        ],
+        "value": 6
+    },
+    {
+        "function": "set_lore",
+        "conditions": [
+            {
+                "condition": "all_of",
+                "terms": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "player",
+                            "slots": { "hotbar.1": {
+                                "items": [ "glowstone_dust" ],
+                                "count": 1
+                            }}
+                        }
+                    },
+                    {
+                        "condition": "reference",
+                        "name": "ho9tocraft:passive_selector/job_not_selected"
+                    }
+                ]
+            }
+        ],
+        "lore": [
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.sage_of_scarlet.sacred_circle.desc.1", "fallback": "Starting from yourself," },
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.sage_of_scarlet.sacred_circle.desc.2", "fallback": " heals all allies within range." },
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.sage_of_scarlet.sacred_circle.desc.3", "fallback": "If the “Defensive” has not been granted, it shall be granted." },
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.sage_of_scarlet.sacred_circle.desc.4", "fallback": "If it has already been granted, it will not be granted." },
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.sage_of_scarlet.sacred_circle.range", "fallback": "(Range: 30m, Radius: 5m, MP Cost: 1200)" },
+            { "bold": false, "color": "aqua", "italic": false, "translate": "skill.cast.60tick", "fallback": "Cast Time: 3 sec." },
+            { "bold": true, "color": "aqua", "italic": false, "translate": "skill.recast.90sec", "fallback": "Recast Time: 1.5 min." }
+        ],
+        "mode": "replace_all"
+    }
+]

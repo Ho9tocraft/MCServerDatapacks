@@ -1,0 +1,27 @@
+{
+    "condition": "all_of",
+    "terms": [
+        {
+            "condition": "reference",
+            "name": "ho9tocraft:item_selector/jobs/06_sgs/magic/moesage_cast_core"
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": { "mainhand": {
+                    "items": [ "blade_pottery_sherd" ],
+                    "count": 1,
+                    "components": { "custom_model_data": 6 }
+                }}
+            }
+        },
+        {
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+                "NOW_MP": { "min": 400 }
+            }
+        }
+    ]
+}

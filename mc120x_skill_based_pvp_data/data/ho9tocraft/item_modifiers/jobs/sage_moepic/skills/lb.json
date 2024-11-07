@@ -18,10 +18,9 @@
             }
         ],
         "lore": [
-            { "bold": false, "color": "gray", "italic": false, "translate": "skill.red_mage.limit_break.desc.1", "fallback": "Deals magic damage to all enemies within range," },
-            { "bold": false, "color": "gray", "italic": false, "translate": "skill.red_mage.limit_break.desc.2", "fallback": " starting with the nearest enemy within range." },
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.sage_of_scarlet.limit_break.desc.1", "fallback": "Wipes out enemies within a range starting from yourself." },
             { "bold": false, "color": "gray", "italic": false, "translate": "skill.common.limit_break.casting", "fallback": "This skill requires casting." },
-            { "bold": false, "color": "gray", "italic": false, "translate": "skill.red_mage.limit_break.range", "fallback": "(Range: 50m, Radius: 30m)" },
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.sage_of_scarlet.limit_break.range", "fallback": "(Radius: 50m)" },
             { "bold": false, "color": "aqua", "italic": false, "translate": "skill.cast.100tick", "fallback": "Cast Time: 5 sec." }
         ],
         "mode": "replace_all"

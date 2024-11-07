@@ -1,0 +1,100 @@
+[
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "all_of",
+                "terms": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "player",
+                            "slots": { "hotbar.1": {
+                                "items": [ "prismarine_shard" ],
+                                "count": 1,
+                                "components": { "custom_model_data": 18 }
+                            }}
+                        }
+                    },
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "CURRENT_JOB": 6
+                        }
+                    }
+                ]
+            }
+        ],
+        "components": {
+            "item_name": "{\"bold\":true,\"color\":\"#C0C0C0\",\"italic\":false,\"translate\":\"skill.white_mage.afflatus_misery.name\",\"fallback\":\"Afflatus Misery\"}"
+        }
+    },
+    {
+        "function": "set_lore",
+        "conditions": [
+            {
+                "condition": "all_of",
+                "terms": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "player",
+                            "slots": { "hotbar.1": {
+                                "items": [ "prismarine_shard" ],
+                                "count": 1
+                            }}
+                        }
+                    },
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "CURRENT_JOB": 6
+                        }
+                    }
+                ]
+            }
+        ],
+        "lore": [
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.white_mage.afflatus_misery.desc.1", "fallback": "Deals magic damage" },
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.white_mage.afflatus_misery.desc.2", "fallback": " to targets within range and surrounding enemies." },
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.white_mage.afflatus_misery.range", "fallback": "(Range: 25m, Radius: 5m)" },
+            { "bold": false, "color": "aqua", "italic": false, "translate": "skill.cast.instant", "fallback": "Cast Time: Instant" },
+            { "bold": true, "color": "aqua", "italic": false, "translate": "skill.recast.50tick", "fallback": "Recast Time: 2.5 sec." },
+            { "bold": true, "color": "green", "italic": false, "translate": "skill.gcd.50tick", "fallback": "GCD: 2.5 sec." }
+        ],
+        "mode": "replace_all"
+    },
+    {
+        "function": "set_custom_model_data",
+        "conditions": [
+            {
+                "condition": "all_of",
+                "terms": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "player",
+                            "slots": { "hotbar.1": {
+                                "items": [ "prismarine_shard" ],
+                                "count": 1
+                            }}
+                        }
+                    },
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "CURRENT_JOB": 6
+                        }
+                    }
+                ]
+            }
+        ],
+        "value": 20
+    }
+]

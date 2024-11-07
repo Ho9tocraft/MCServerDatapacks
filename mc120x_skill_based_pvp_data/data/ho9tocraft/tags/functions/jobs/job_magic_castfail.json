@@ -1,6 +1,7 @@
 {
     "values": [
         "ho9tocraft:skills/magics/holy_circle_fail",
-        "ho9tocraft:skills/05_rdm/common/magic_cast_fail"
+        "ho9tocraft:skills/05_rdm/common/magic_cast_fail",
+        "ho9tocraft:skills/06_sgs/common/magic_cast_fail"
     ]
 }

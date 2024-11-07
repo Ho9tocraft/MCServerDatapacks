@@ -1,0 +1,52 @@
+[
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ho9tocraft:item_selector/jobs/proc/06_sgs/ignition_stance_hotbar2"
+            }
+        ],
+        "components": {
+            "item_name": "{\"bold\":true,\"color\":\"#C0C0C0\",\"italic\":false,\"translate\":\"skill.scholar.adloquium.name\",\"fallback\":\"Adloquium\"}"
+        }
+    },
+    {
+        "function": "set_custom_model_data",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ho9tocraft:item_selector/jobs/proc/06_sgs/ignition_stance_hotbar2"
+            }
+        ],
+        "value": 24
+    },
+    {
+        "function": "set_lore",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ho9tocraft:item_selector/jobs/proc/06_sgs/ignition_stance_hotbar2"
+            }
+        ],
+        "lore": [
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.sage_moepic.adloquium.desc.1", "fallback": "Grants resistance and absorption" },
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.sage_moepic.adloquium.desc.2", "fallback": " to yourself and your allies around you." },
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.sage_moepic.adloquium.range", "fallback": "(Radius: 15m, MP Cost: 1000)" },
+            { "bold": false, "color": "aqua", "italic": false, "translate": "skill.cast.40tick", "fallback": "Cast Time: 2 sec." },
+            { "bold": true, "color": "aqua", "italic": false, "translate": "skill.recast.50tick", "fallback": "Recast Time: 2.5 sec." },
+            { "bold": true, "color": "green", "italic": false, "translate": "skill.gcd.50tick", "fallback": "GCD: 2.5 sec." }
+        ],
+        "mode": "replace_all"
+    },
+    {
+        "function": "set_item",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ho9tocraft:item_selector/jobs/proc/06_sgs/ignition_stance_hotbar2"
+            }
+        ],
+        "item": "sheaf_pottery_sherd"
+    }
+]

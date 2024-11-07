@@ -1,0 +1,20 @@
+{
+    "condition": "all_of",
+    "terms": [
+        {
+            "condition": "reference",
+            "name": "ho9tocraft:item_selector/jobs/06_sgs/ws/moesage_broil_ii_cast_core"
+        },
+        {
+            "condition": "reference",
+            "name": "ho9tocraft:passive_selector/sneak_detector"
+        },
+        {
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+                "CAST_TIMER": { "min": 1 }
+            }
+        }
+    ]
+}

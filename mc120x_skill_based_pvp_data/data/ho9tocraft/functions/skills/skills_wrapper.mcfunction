@@ -102,6 +102,14 @@ execute as @a[predicate=ho9tocraft:item_selector/jobs/05_rdm/red_mage_lb_exec,ta
 execute as @a[predicate=ho9tocraft:item_selector/jobs/05_rdm/red_mage_lb_cast_begin] at @s run function ho9tocraft:skills/05_rdm/common/limit_break
 # - Proc Process
 execute as @a[predicate=ho9tocraft:item_selector/jobs/05_rdm/red_mage_proc_test,scores={CURRENT_JOB=5}] run function ho9tocraft:skills/05_rdm/common/proc_fail
+# ID=6, DisplayName=Sage of Scarlet
+execute as @a[predicate=ho9tocraft:item_selector/jobs/06_sgs/ws/moesage_broil_iv_exec] at @s run function ho9tocraft:skills/06_sgs/executing/broil_iv
+execute as @a[predicate=ho9tocraft:item_selector/jobs/06_sgs/ws/moesage_broil_iv_cast_begin] at @s run function ho9tocraft:skills/06_sgs/casting/broil_iv
+execute as @a[predicate=ho9tocraft:item_selector/jobs/06_sgs/ws/moesage_broil_iii_exec] at @s run function ho9tocraft:skills/06_sgs/executing/broil_iii
+execute as @a[predicate=ho9tocraft:item_selector/jobs/06_sgs/ws/moesage_broil_iii_cast_begin] at @s run function ho9tocraft:skills/06_sgs/casting/broil_iii
+execute as @a[predicate=ho9tocraft:item_selector/jobs/06_sgs/ws/moesage_broil_ii_exec] at @s run function ho9tocraft:skills/06_sgs/executing/broil_ii
+execute as @a[predicate=ho9tocraft:item_selector/jobs/06_sgs/ws/moesage_broil_ii_cast_begin] at @s run function ho9tocraft:skills/06_sgs/casting/broil_ii
+execute as @a[predicate=ho9tocraft:item_selector/jobs/06_sgs/moesage_proc_test] at @s run function ho9tocraft:skills/06_sgs/common/proc_fail
 # Support Item
 execute as @a[predicate=ho9tocraft:item_selector/support_item/ambrosia] at @s run function ho9tocraft:support_item/ambrosia
 execute as @a[predicate=ho9tocraft:item_selector/support_item/knight_errantry] at @s run function ho9tocraft:support_item/knight_errantry

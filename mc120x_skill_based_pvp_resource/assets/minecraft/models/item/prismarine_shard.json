@@ -21,10 +21,10 @@
     { "__comment": "RDM: Verholy", "predicate": { "custom_model_data": 13 }, "model": "finalfantasyxiv:actions_job/05_rdm/verholy" },
     { "__comment": "RDM: Scorch", "predicate": { "custom_model_data": 14 }, "model": "finalfantasyxiv:actions_job/05_rdm/scorch" },
     { "__comment": "RDM: Resolution", "predicate": { "custom_model_data": 15 }, "model": "finalfantasyxiv:actions_job/05_rdm/resolution" },
-    { "__comment": "SGS: broil_iii", "predicate": { "custom_model_data": 16 }, "model": "finalfantasyxiv:actions_job/06_sgs/broil_iii" },
-    { "__comment": "SGS: broil_iv", "predicate": { "custom_model_data": 17 }, "model": "finalfantasyxiv:actions_job/06_sgs/broil_iv" },
-    { "__comment": "SGS: dia", "predicate": { "custom_model_data": 18 }, "model": "finalfantasyxiv:actions_job/06_sgs/dia" },
-    { "__comment": "SGS: glare_iii", "predicate": { "custom_model_data": 19 }, "model": "finalfantasyxiv:actions_job/06_sgs/glare_iii" },
-    { "__comment": "SGS: afflatus_misery", "predicate": { "custom_model_data": 20 }, "model": "finalfantasyxiv:actions_job/06_sgs/afflatus_misery" }
+    { "__comment": "SGS: Broil III", "predicate": { "custom_model_data": 16 }, "model": "finalfantasyxiv:actions_job/06_sgs/broil_iii" },
+    { "__comment": "SGS: Broil IV", "predicate": { "custom_model_data": 17 }, "model": "finalfantasyxiv:actions_job/06_sgs/broil_iv" },
+    { "__comment": "SGS: Dia", "predicate": { "custom_model_data": 18 }, "model": "finalfantasyxiv:actions_job/06_sgs/dia" },
+    { "__comment": "SGS: Glare III", "predicate": { "custom_model_data": 19 }, "model": "finalfantasyxiv:actions_job/06_sgs/glare_iii" },
+    { "__comment": "SGS: Afflatus Misery", "predicate": { "custom_model_data": 20 }, "model": "finalfantasyxiv:actions_job/06_sgs/afflatus_misery" }
   ]
 }

@@ -1,0 +1,53 @@
+[
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ho9tocraft:item_selector/jobs/proc/06_sgs/ignition_stance_hotbar1"
+            }
+        ],
+        "components": {
+            "item_name": "{\"bold\":true,\"color\":\"#C0C0C0\",\"italic\":false,\"translate\":\"skill.white_mage.dia.name\",\"fallback\":\"Dia\"}"
+        }
+    },
+    {
+        "function": "set_custom_model_data",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ho9tocraft:item_selector/jobs/proc/06_sgs/ignition_stance_hotbar1"
+            }
+        ],
+        "value": 18
+    },
+    {
+        "function": "set_lore",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ho9tocraft:item_selector/jobs/proc/06_sgs/ignition_stance_hotbar1"
+            }
+        ],
+        "lore": [
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.white_mage.dia.desc.1", "fallback": "Deals magic damage" },
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.white_mage.dia.desc.2", "fallback": " to the nearest enemy from yourself." },
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.white_mage.dia.desc.3", "fallback": "And it grants slowness to the target." },
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.white_mage.dia.range", "fallback": "(Range: 25m, MP Cost: 400)" },
+            { "bold": false, "color": "aqua", "italic": false, "translate": "skill.cast.instant", "fallback": "Cast Time: Instant" },
+            { "bold": true, "color": "aqua", "italic": false, "translate": "skill.recast.50tick", "fallback": "Recast Time: 2.5 sec." },
+            { "bold": true, "color": "green", "italic": false, "translate": "skill.gcd.50tick", "fallback": "GCD: 2.5 sec." }
+        ],
+        "mode": "replace_all"
+    },
+    {
+        "function": "set_item",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ho9tocraft:item_selector/jobs/proc/06_sgs/ignition_stance_hotbar1"
+            }
+        ],
+        "item": "prismarine_shard"
+    }
+]
