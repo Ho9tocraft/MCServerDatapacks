@@ -9,6 +9,7 @@
     { "predicate": { "custom_model_data": 2 }, "model": "finalfantasyxiv:actions_job/02_exc/divine_possession" },
     { "predicate": { "custom_model_data": 3 }, "model": "finalfantasyxiv:actions_job/03_brd/radiant_finale" },
     { "predicate": { "custom_model_data": 4 }, "model": "finalfantasyxiv:actions_job/04_drg/battle_litany" },
-    { "predicate": { "custom_model_data": 5 }, "model": "finalfantasyxiv:actions_job/05_rdm/manafication" }
+    { "predicate": { "custom_model_data": 5 }, "model": "finalfantasyxiv:actions_job/05_rdm/manafication" },
+    { "predicate": { "custom_model_data": 6 }, "model": "finalfantasyxiv:actions_job/06_sgs/galvanize" }
   ]
 }

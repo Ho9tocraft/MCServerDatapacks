@@ -1,0 +1,58 @@
+[
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ho9tocraft:item_selector/equipments/full_gold_not_job_selected"
+            }
+        ],
+        "components": {
+            "item_name": "{\"bold\":true,\"color\":\"#EF857D\",\"italic\":false,\"translate\":\"item.abysslinker_boots.name\",\"fallback\":\"Abysslinker Boots\"}",
+            "unbreakable": { "show_in_tooltip": false },
+            "enchantments": { "levels": { "blast_protection": 2, "projectile_protection": 3, "protection": 2, "soul_speed": 10, "binding_curse": 1 }, "show_in_tooltip": false },
+            "attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "generic.armor",
+                        "name": "generic.armor",
+                        "amount": 3,
+                        "operation": "add_value",
+                        "uuid": [-2116862019,801525274,-1127186075,-1218950116],
+                        "slot": "feet"
+                    },
+                    {
+                        "type": "generic.armor_toughness",
+                        "name": "generic.armor_toughness",
+                        "amount": 3,
+                        "operation": "add_value",
+                        "uuid": [2130523871,2107983096,-1363864207,-232222309],
+                        "slot": "feet"
+                    },
+                    {
+                        "type": "generic.knockback_resistance",
+                        "name": "generic.knockback_resistance",
+                        "amount": 0.5,
+                        "operation": "add_value",
+                        "uuid": [-1970791939,-1158134380,-1732416072,-1049120657],
+                        "slot": "feet"
+                    },
+                    {
+                        "type": "generic.max_health",
+                        "name": "generic.max_health",
+                        "amount": 5,
+                        "operation": "add_value",
+                        "uuid": [-275705959,-1704704282,-1343069635,99482249],
+                        "slot": "feet"
+                    }
+                ],
+                "show_in_tooltip": false
+            },
+            "trim": {
+                "material": "abysslinker",
+                "pattern": "abysslinker",
+                "show_in_tooltip": false
+            }
+        }
+    }
+]

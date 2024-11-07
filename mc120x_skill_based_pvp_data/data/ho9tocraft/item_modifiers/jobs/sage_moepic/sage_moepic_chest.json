@@ -1,0 +1,58 @@
+[
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ho9tocraft:item_selector/equipments/full_gold_not_job_selected"
+            }
+        ],
+        "components": {
+            "item_name": "{\"bold\":true,\"color\":\"#EF857D\",\"italic\":false,\"translate\":\"item.abysslinker_tunic.name\",\"fallback\":\"Abysslinker Tunic\"}",
+            "unbreakable": { "show_in_tooltip": false },
+            "enchantments": { "levels": { "blast_protection": 2, "projectile_protection": 3, "protection": 2, "binding_curse": 1 }, "show_in_tooltip": false },
+            "attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "generic.armor",
+                        "name": "generic.armor",
+                        "amount": 8,
+                        "operation": "add_value",
+                        "uuid": [1612050946,-93303951,-1912083388,78395829],
+                        "slot": "chest"
+                    },
+                    {
+                        "type": "generic.armor_toughness",
+                        "name": "generic.armor_toughness",
+                        "amount": 3,
+                        "operation": "add_value",
+                        "uuid": [236962158,-13155751,-2127718530,2030393341],
+                        "slot": "chest"
+                    },
+                    {
+                        "type": "generic.knockback_resistance",
+                        "name": "generic.knockback_resistance",
+                        "amount": 0.5,
+                        "operation": "add_value",
+                        "uuid": [-381888905,1305036617,-1815244485,-68196281],
+                        "slot": "chest"
+                    },
+                    {
+                        "type": "generic.max_health",
+                        "name": "generic.max_health",
+                        "amount": 5,
+                        "operation": "add_value",
+                        "uuid": [-1049410622,24988896,-1894686132,-608679829],
+                        "slot": "chest"
+                    }
+                ],
+                "show_in_tooltip": false
+            },
+            "trim": {
+                "material": "abysslinker",
+                "pattern": "abysslinker",
+                "show_in_tooltip": false
+            }
+        }
+    }
+]

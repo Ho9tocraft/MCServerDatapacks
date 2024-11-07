@@ -26,6 +26,9 @@
     { "__comment": "RDM: Verholy", "predicate": { "custom_model_data": 18 }, "model": "finalfantasyxiv:actions_job/05_rdm/verholy" },
     { "__comment": "RDM: Verflare", "predicate": { "custom_model_data": 19 }, "model": "finalfantasyxiv:actions_job/05_rdm/verflare" },
     { "__comment": "RDM: Scorch", "predicate": { "custom_model_data": 20 }, "model": "finalfantasyxiv:actions_job/05_rdm/scorch" },
-    { "__comment": "RDM: Resolution", "predicate": { "custom_model_data": 21 }, "model": "finalfantasyxiv:actions_job/05_rdm/resolution" }
+    { "__comment": "RDM: Resolution", "predicate": { "custom_model_data": 21 }, "model": "finalfantasyxiv:actions_job/05_rdm/resolution" },
+    { "__comment": "SGS: Blizzard II", "predicate": { "custom_model_data": 22 }, "model": "finalfantasyxiv:actions_job/06_sgs/blizzard_ii" },
+    { "__comment": "SGS: Paradox", "predicate": { "custom_model_data": 23 }, "model": "finalfantasyxiv:actions_job/06_sgs/paradox" },
+    { "__comment": "SGS: Adloquium", "predicate": { "custom_model_data": 24 }, "model": "finalfantasyxiv:actions_job/06_sgs/adloquium" }
   ]
 }

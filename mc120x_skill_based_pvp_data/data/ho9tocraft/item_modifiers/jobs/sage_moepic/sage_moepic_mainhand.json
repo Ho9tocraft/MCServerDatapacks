@@ -1,0 +1,51 @@
+[
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "all_of",
+                "terms": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "player",
+                            "slots": { "hotbar.0": { "items": [ "minecraft:golden_hoe" ], "count": 1 }}
+                        }
+                    },
+                    {
+                        "condition": "reference",
+                        "name": "ho9tocraft:passive_selector/job_not_selected"
+                    }
+                ]
+            }
+        ],
+        "components": {
+            "item_name": "{\"bold\":true,\"color\":\"#daa520\",\"italic\":false,\"translate\":\"item.sage_moepic.staff.name\",\"fallback\":\"Staff of Meteorite\"}",
+            "unbreakable": { "show_in_tooltip": false },
+            "custom_model_data": 1,
+            "enchantments": { "levels": { "sharpness": 7 }, "show_in_tooltip": false },
+            "attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "generic.attack_damage",
+                        "name": "generic.attack_damage",
+                        "amount": 12,
+                        "operation": "add_value",
+                        "uuid": [1709991264,-1377091049,-2069775316,-572392371],
+                        "slot": "mainhand"
+                    },
+                    {
+                        "type": "generic.attack_speed",
+                        "name": "generic.attack_speed",
+                        "amount": 1.65,
+                        "operation": "add_value",
+                        "uuid": [1618803000,-1756608662,-1818966509,1591870172],
+                        "slot": "mainhand"
+                    }
+                ],
+                "show_in_tooltip": false
+            }
+        }
+    }
+]

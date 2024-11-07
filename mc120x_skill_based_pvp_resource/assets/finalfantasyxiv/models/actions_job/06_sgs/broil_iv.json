@@ -1,0 +1,6 @@
+{
+    "parent": "finalfantasyxiv:item/model_base",
+    "textures": {
+        "layer0": "finalfantasyxiv:item/broil_iv"
+    }
+}

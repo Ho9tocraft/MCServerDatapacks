@@ -1,0 +1,58 @@
+[
+    {
+        "function": "set_components",
+        "conditions": [
+            {
+                "condition": "reference",
+                "name": "ho9tocraft:item_selector/equipments/full_gold_not_job_selected"
+            }
+        ],
+        "components": {
+            "item_name": "{\"bold\":true,\"color\":\"#EF857D\",\"italic\":false,\"translate\":\"item.abysslinker_head.name\",\"fallback\":\"Abysslinker Head\"}",
+            "unbreakable": { "show_in_tooltip": false },
+            "enchantments": { "levels": { "blast_protection": 2, "projectile_protection": 3, "protection": 2, "respiration": 10, "binding_curse": 1 }, "show_in_tooltip": false },
+            "attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "generic.armor",
+                        "name": "generic.armor",
+                        "amount": 3,
+                        "operation": "add_value",
+                        "uuid": [1235457734,-1327347614,-1106909898,-1891369143],
+                        "slot": "head"
+                    },
+                    {
+                        "type": "generic.armor_toughness",
+                        "name": "generic.armor_toughness",
+                        "amount": 3,
+                        "operation": "add_value",
+                        "uuid": [-2072098817,-985773442,-1683000586,647859707],
+                        "slot": "head"
+                    },
+                    {
+                        "type": "generic.knockback_resistance",
+                        "name": "generic.knockback_resistance",
+                        "amount": 0.5,
+                        "operation": "add_value",
+                        "uuid": [1623347506,-228766899,-2074479398,1710072663],
+                        "slot": "head"
+                    },
+                    {
+                        "type": "generic.max_health",
+                        "name": "generic.max_health",
+                        "amount": 5,
+                        "operation": "add_value",
+                        "uuid": [1703791041,1303400352,-1161832058,-1518504557],
+                        "slot": "head"
+                    }
+                ],
+                "show_in_tooltip": false
+            },
+            "trim": {
+                "material": "abysslinker",
+                "pattern": "abysslinker",
+                "show_in_tooltip": false
+            }
+        }
+    }
+]

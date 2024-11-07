@@ -286,6 +286,7 @@
     "trim_material.ho9tocraft.dark_knight": "イグノミニー装備",
     "trim_material.ho9tocraft.bard": "ブリオソ装備",
     "trim_material.ho9tocraft.theogonic_of_casting": "テオゴニアー・キャスター装備",
+    "trim_material.ho9tocraft.abysslinker": "アビスリンカー装備",
     "trim_pattern.minecraft.default_chainmail": "チェインメイル装備(default)",
     "trim_pattern.minecraft.default_iron": "鉄装備(default)",
     "trim_pattern.minecraft.default_gold": "金装備(default)",
@@ -296,6 +297,7 @@
     "trim_pattern.ho9tocraft.dark_knight": "イグノミニー装備",
     "trim_pattern.ho9tocraft.bard": "ブリオソ装備",
     "trim_pattern.ho9tocraft.theogonic_of_casting": "テオゴニアー・キャスター装備",
+    "trim_pattern.ho9tocraft.abysslinker": "アビスリンカー装備",
     "item.shop.ambrosia.name": "アンブロシアの秘薬",
     "item.shop.knight_errantry.name": "騎士の守り",
     "item.shop.tact_nuke.name": "戦術核砲弾",
@@ -335,5 +337,10 @@
     "item.caster.theogonic_sandals.name": "テオゴニアー・キャスターロングキルト",
     "item.caster.theogonic_longkilt.name": "テオゴニアー・キャスターサンダル",
     "item.red_mage.rapier.name": "朱雀細剣【輝】",
+    "item.abysslinker_head.name": "アビスリンカー ヘッド",
+    "item.abysslinker_tunic.name": "アビスリンカー チュニック",
+    "item.abysslinker_leggings.name": "アビスリンカー パンツ",
+    "item.abysslinker_boots.name": "アビスリンカー ブーツ",
+    "item.sage_moepic.staff.name": "隕鉄の杖",
     "__END_OF_FILE__": ""
 }
