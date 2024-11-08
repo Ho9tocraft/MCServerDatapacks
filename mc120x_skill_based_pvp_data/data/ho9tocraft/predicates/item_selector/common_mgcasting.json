@@ -72,6 +72,10 @@
         {
             "condition": "reference",
             "name": "ho9tocraft:item_selector/jobs/06_sgs/magic/sacred_circle_cast_proc"
+        },
+        {
+            "condition": "reference",
+            "name": "ho9tocraft:item_selector/jobs/06_sgs/sage_moepic_lb_cast_proc"
         }
     ]
 }

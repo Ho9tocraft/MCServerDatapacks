@@ -126,6 +126,8 @@ execute as @a[predicate=ho9tocraft:item_selector/jobs/06_sgs/magic/fire_ii_cast_
 # - Abilities
 execute as @a[predicate=ho9tocraft:item_selector/jobs/06_sgs/magic/sacred_circle_exec,tag=SGS_Magic_Cast] at @s run function ho9tocraft:skills/06_sgs/executing/sacred_circle
 execute as @a[predicate=ho9tocraft:item_selector/jobs/06_sgs/magic/sacred_circle_cast_begin] at @s run function ho9tocraft:skills/06_sgs/casting/sacred_circle
+execute as @a[predicate=ho9tocraft:item_selector/jobs/06_sgs/sage_moepic_lb_exec,tag=CasterLB_Cast] at @s run function ho9tocraft:skills/06_sgs/executing/limit_break
+execute as @a[predicate=ho9tocraft:item_selector/jobs/06_sgs/sage_moepic_lb_cast_begin] at @s run function ho9tocraft:skills/06_sgs/casting/limit_break
 # - Common Function
 execute as @a[predicate=ho9tocraft:item_selector/jobs/06_sgs/moesage_proc_test] at @s run function ho9tocraft:skills/06_sgs/common/proc_fail
 # Support Item
