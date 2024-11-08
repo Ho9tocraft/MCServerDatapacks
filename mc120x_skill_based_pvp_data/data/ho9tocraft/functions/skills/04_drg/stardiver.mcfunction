@@ -22,3 +22,5 @@ execute as @s[tag=!STAGE_BOUND] at @s if score @s LB_CHARGE matches 96..99 run s
 execute as @s[tag=!STAGE_BOUND] at @s run scoreboard players set @s MG_RECAST_T 40
 # - Remove Tag for Detectors
 execute as @s[tag=!STAGE_BOUND,tag=SDIVER_Exec] at @s run tag @s remove SDIVER_Exec
+execute as @e[tag=SDIVER_TGT_RED] at @s run tag @s remove SDIVER_TGT_RED
+execute as @e[tag=SDIVER_TGT_BLU] at @s run tag @s remove SDIVER_TGT_BLU
