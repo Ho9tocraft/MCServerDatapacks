@@ -44,6 +44,30 @@
         {
             "condition": "reference",
             "name": "ho9tocraft:item_selector/jobs/05_rdm/red_mage_lb_cast_proc"
+        },
+        {
+            "condition": "reference",
+            "name": "ho9tocraft:item_selector/jobs/06_sgs/ws/moesage_broil_ii_cast_proc"
+        },
+        {
+            "condition": "reference",
+            "name": "ho9tocraft:item_selector/jobs/06_sgs/ws/moesage_broil_iii_cast_proc"
+        },
+        {
+            "condition": "reference",
+            "name": "ho9tocraft:item_selector/jobs/06_sgs/ws/moesage_broil_iv_cast_proc"
+        },
+        {
+            "condition": "reference",
+            "name": "ho9tocraft:item_selector/jobs/06_sgs/magic/fire_ii_cast_proc"
+        },
+        {
+            "condition": "reference",
+            "name": "ho9tocraft:item_selector/jobs/06_sgs/magic/blizzard_ii_cast_proc"
+        },
+        {
+            "condition": "reference",
+            "name": "ho9tocraft:item_selector/jobs/06_sgs/magic/adloquium_cast_proc"
         }
     ]
 }

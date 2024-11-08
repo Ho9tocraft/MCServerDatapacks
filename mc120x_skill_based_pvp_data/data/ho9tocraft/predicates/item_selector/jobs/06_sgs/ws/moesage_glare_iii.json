@@ -9,7 +9,7 @@
                 "equipment": { "mainhand": {
                     "items": [ "prismarine_shard" ],
                     "count": 1,
-                    "components": { "custom_model_data": 18 }
+                    "components": { "custom_model_data": 19 }
                 }}
             }
         },

@@ -18,10 +18,10 @@ execute as @s[predicate=ho9tocraft:passive_selector/job_not_selected] at @s run 
 execute as @s[predicate=ho9tocraft:passive_selector/job_not_selected] at @s run item modify entity @s hotbar.0 ho9tocraft:jobs/sage_moepic/sage_moepic_mainhand
 
 ## スキル群
-execute as @s[predicate=ho9tocraft:passive_selector/job_not_selected] at @s run item replace entity @s horse.1 with blade_pottery_sherd 1
-execute as @s[predicate=ho9tocraft:passive_selector/job_not_selected] at @s run item replace entity @s horse.2 with plenty_pottery_sherd 1
-execute as @s[predicate=ho9tocraft:passive_selector/job_not_selected] at @s run item replace entity @s horse.3 with glowstone_dust 1
-execute as @s[predicate=ho9tocraft:passive_selector/job_not_selected] at @s run item replace entity @s horse.4 with nether_star 1
+execute as @s[predicate=ho9tocraft:passive_selector/job_not_selected] at @s run item replace entity @s hotbar.1 with blade_pottery_sherd 1
+execute as @s[predicate=ho9tocraft:passive_selector/job_not_selected] at @s run item replace entity @s hotbar.2 with plenty_pottery_sherd 1
+execute as @s[predicate=ho9tocraft:passive_selector/job_not_selected] at @s run item replace entity @s hotbar.3 with glowstone_dust 1
+execute as @s[predicate=ho9tocraft:passive_selector/job_not_selected] at @s run item replace entity @s hotbar.4 with nether_star 1
 execute as @s[predicate=ho9tocraft:passive_selector/job_not_selected] at @s run item modify entity @s hotbar.1 ho9tocraft:jobs/sage_moepic/skills/ws
 execute as @s[predicate=ho9tocraft:passive_selector/job_not_selected] at @s run item modify entity @s hotbar.2 ho9tocraft:jobs/sage_moepic/skills/mg
 execute as @s[predicate=ho9tocraft:passive_selector/job_not_selected] at @s run item modify entity @s hotbar.3 ho9tocraft:jobs/sage_moepic/skills/ab

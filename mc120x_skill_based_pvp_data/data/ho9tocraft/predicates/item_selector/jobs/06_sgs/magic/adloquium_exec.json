@@ -3,7 +3,7 @@
     "terms": [
         {
             "condition": "reference",
-            "name": "ho9tocraft:item_selector/jobs/06_sgs/ws/moesage_broil_iv_cast_core"
+            "name": "ho9tocraft:item_selector/jobs/06_sgs/magic/adloquium_cast_core"
         },
         {
             "condition": "reference",

@@ -10,7 +10,7 @@
                         "entity": "this",
                         "predicate": {
                             "type": "player",
-                            "slots": { "hotbar.1": {
+                            "slots": { "hotbar.3": {
                                 "items": [ "glowstone_dust" ],
                                 "count": 1
                             }}
@@ -38,7 +38,7 @@
                         "entity": "this",
                         "predicate": {
                             "type": "player",
-                            "slots": { "hotbar.1": {
+                            "slots": { "hotbar.3": {
                                 "items": [ "glowstone_dust" ],
                                 "count": 1
                             }}
@@ -64,7 +64,7 @@
                         "entity": "this",
                         "predicate": {
                             "type": "player",
-                            "slots": { "hotbar.1": {
+                            "slots": { "hotbar.3": {
                                 "items": [ "glowstone_dust" ],
                                 "count": 1
                             }}

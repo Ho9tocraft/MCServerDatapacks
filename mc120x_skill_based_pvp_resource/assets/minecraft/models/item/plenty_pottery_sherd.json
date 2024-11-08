@@ -6,6 +6,7 @@
   "overrides": [
     { "predicate": { "custom_model_data": 0 }, "model": "finalfantasyxiv:actions_job/00_pld/holy_circle" },
     { "predicate": { "custom_model_data": 1 }, "model": "finalfantasyxiv:actions_job/01_drk/unleash" },
-    { "predicate": { "custom_model_data": 5 }, "model": "finalfantasyxiv:actions_job/05_rdm/acceleration" }
+    { "predicate": { "custom_model_data": 5 }, "model": "finalfantasyxiv:actions_job/05_rdm/acceleration" },
+    { "predicate": { "custom_model_data": 6 }, "model": "finalfantasyxiv:actions_job/06_sgs/fire_ii" }
   ]
 }

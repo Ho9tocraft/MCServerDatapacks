@@ -46,42 +46,6 @@
                     "predicate": {
                         "type": "player",
                         "equipment": { "mainhand": {
-                            "items": [ "prismarine_shard" ],
-                            "count": 1,
-                            "components": { "custom_model_data": 18 }
-                        }}
-                    }
-                },
-                {
-                    "condition": "entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                        "type": "player",
-                        "equipment": { "mainhand": {
-                            "items": [ "prismarine_shard" ],
-                            "count": 1,
-                            "components": { "custom_model_data": 19 }
-                        }}
-                    }
-                },
-                {
-                    "condition": "entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                        "type": "player",
-                        "equipment": { "mainhand": {
-                            "items": [ "prismarine_shard" ],
-                            "count": 1,
-                            "components": { "custom_model_data": 20 }
-                        }}
-                    }
-                },
-                {
-                    "condition": "entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                        "type": "player",
-                        "equipment": { "mainhand": {
                             "items": [ "plenty_pottery_sherd" ],
                             "count": 1,
                             "components": { "custom_model_data": 6 }
@@ -97,18 +61,6 @@
                             "items": [ "sheaf_pottery_sherd" ],
                             "count": 1,
                             "components": { "custom_model_data": 22 }
-                        }}
-                    }
-                },
-                {
-                    "condition": "entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                        "type": "player",
-                        "equipment": { "mainhand": {
-                            "items": [ "sheaf_pottery_sherd" ],
-                            "count": 1,
-                            "components": { "custom_model_data": 23 }
                         }}
                     }
                 },
