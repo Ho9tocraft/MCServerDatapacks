@@ -80,8 +80,8 @@
         "lore": [
             { "bold": false, "color": "gray", "italic": false, "translate": "skill.black_mage.magic.desc.1", "fallback": "Deals magic damage to all enemies within range," },
             { "bold": false, "color": "gray", "italic": false, "translate": "skill.black_mage.magic.desc.2", "fallback": " starting with the closest enemy within range." },
-            { "bold": false, "color": "gray", "italic": false, "translate": "skill.black_mage.magic.range", "fallback": "(Range: 25m, Radius: 5m, MP Cost: 400)" },
-            { "bold": false, "color": "aqua", "italic": false, "translate": "skill.cast.30tick", "fallback": "Cast Time: 1.5 sec." },
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.black_mage.magic.range", "fallback": "(Range: 25m, Radius: 5m, MP Cost: 800)" },
+            { "bold": false, "color": "aqua", "italic": false, "translate": "skill.cast.60tick", "fallback": "Cast Time: 3 sec." },
             { "bold": true, "color": "aqua", "italic": false, "translate": "skill.recast.50tick", "fallback": "Recast Time: 2.5 sec." },
             { "bold": true, "color": "green", "italic": false, "translate": "skill.gcd.50tick", "fallback": "GCD: 2.5 sec." }
         ],

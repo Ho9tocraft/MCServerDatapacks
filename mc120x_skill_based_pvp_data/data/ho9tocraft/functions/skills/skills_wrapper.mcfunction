@@ -103,12 +103,27 @@ execute as @a[predicate=ho9tocraft:item_selector/jobs/05_rdm/red_mage_lb_cast_be
 # - Proc Process
 execute as @a[predicate=ho9tocraft:item_selector/jobs/05_rdm/red_mage_proc_test,scores={CURRENT_JOB=5}] run function ho9tocraft:skills/05_rdm/common/proc_fail
 # ID=6, DisplayName=Sage of Scarlet
+# - Weapon Skills
+## Within Stance
+execute as @a[predicate=ho9tocraft:item_selector/jobs/06_sgs/ws/moesage_misery] at @s run function ho9tocraft:skills/06_sgs/executing/misery
+execute as @a[predicate=ho9tocraft:item_selector/jobs/06_sgs/ws/moesage_glare_iii] at @s run function ho9tocraft:skills/06_sgs/executing/glare_iii
+execute as @a[predicate=ho9tocraft:item_selector/jobs/06_sgs/ws/moesage_dia] at @s run function ho9tocraft:skills/06_sgs/executing/dia
+## Without Stance
 execute as @a[predicate=ho9tocraft:item_selector/jobs/06_sgs/ws/moesage_broil_iv_exec] at @s run function ho9tocraft:skills/06_sgs/executing/broil_iv
 execute as @a[predicate=ho9tocraft:item_selector/jobs/06_sgs/ws/moesage_broil_iv_cast_begin] at @s run function ho9tocraft:skills/06_sgs/casting/broil_iv
 execute as @a[predicate=ho9tocraft:item_selector/jobs/06_sgs/ws/moesage_broil_iii_exec] at @s run function ho9tocraft:skills/06_sgs/executing/broil_iii
 execute as @a[predicate=ho9tocraft:item_selector/jobs/06_sgs/ws/moesage_broil_iii_cast_begin] at @s run function ho9tocraft:skills/06_sgs/casting/broil_iii
 execute as @a[predicate=ho9tocraft:item_selector/jobs/06_sgs/ws/moesage_broil_ii_exec] at @s run function ho9tocraft:skills/06_sgs/executing/broil_ii
 execute as @a[predicate=ho9tocraft:item_selector/jobs/06_sgs/ws/moesage_broil_ii_cast_begin] at @s run function ho9tocraft:skills/06_sgs/casting/broil_ii
+# - Magic Skills
+execute as @a[predicate=ho9tocraft:item_selector/jobs/06_sgs/magic/adloquium_exec] at @s run function ho9tocraft:skills/06_sgs/executing/adloquium
+execute as @a[predicate=ho9tocraft:item_selector/jobs/06_sgs/magic/adloquium_cast_begin] at @s run function ho9tocraft:skills/06_sgs/casting/adloquium
+execute as @a[predicate=ho9tocraft:item_selector/jobs/06_sgs/magic/moesage_paradox] at @s run function ho9tocraft:skills/06_sgs/executing/paradox
+execute as @a[predicate=ho9tocraft:item_selector/jobs/06_sgs/magic/blizzard_ii_exec] at @s run function ho9tocraft:skills/06_sgs/executing/blizzard_ii
+execute as @a[predicate=ho9tocraft:item_selector/jobs/06_sgs/magic/blizzard_ii_cast_begin] at @s run function ho9tocraft:skills/06_sgs/casting/blizzard_ii
+execute as @a[predicate=ho9tocraft:item_selector/jobs/06_sgs/magic/fire_ii_exec] at @s run function ho9tocraft:skills/06_sgs/executing/fire_ii
+execute as @a[predicate=ho9tocraft:item_selector/jobs/06_sgs/magic/fire_ii_cast_begin] at @s run function ho9tocraft:skills/06_sgs/casting/fire_ii
+# - Common Function
 execute as @a[predicate=ho9tocraft:item_selector/jobs/06_sgs/moesage_proc_test] at @s run function ho9tocraft:skills/06_sgs/common/proc_fail
 # Support Item
 execute as @a[predicate=ho9tocraft:item_selector/support_item/ambrosia] at @s run function ho9tocraft:support_item/ambrosia

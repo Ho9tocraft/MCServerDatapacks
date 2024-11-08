@@ -11,7 +11,7 @@
                         "predicate": {
                             "type": "player",
                             "slots": { "hotbar.2": {
-                                "items": [ "plenty_pottery_sherd" ],
+                                "items": [ "sheaf_pottery_sherd" ],
                                 "count": 1,
                                 "components": { "custom_model_data": 22 }
                             }}
@@ -32,6 +32,40 @@
         }
     },
     {
+        "function": "set_lore",
+        "conditions": [
+            {
+                "condition": "all_of",
+                "terms": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "player",
+                            "slots": { "hotbar.1": {
+                                "items": [ "sheaf_pottery_sherd" ],
+                                "count": 1
+                            }}
+                        }
+                    },
+                    {
+                        "condition": "reference",
+                        "name": "ho9tocraft:passive_selector/job_not_selected"
+                    }
+                ]
+            }
+        ],
+        "lore": [
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.black_mage.magic.desc.1", "fallback": "Deals magic damage to all enemies within range," },
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.black_mage.magic.desc.2", "fallback": " starting with the closest enemy within range." },
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.black_mage.magic.range", "fallback": "(Range: 25m, Radius: 5m, MP Cost: 1600)" },
+            { "bold": false, "color": "aqua", "italic": false, "translate": "skill.cast.instant", "fallback": "Cast Time: Instant" },
+            { "bold": true, "color": "aqua", "italic": false, "translate": "skill.recast.50tick", "fallback": "Recast Time: 2.5 sec." },
+            { "bold": true, "color": "green", "italic": false, "translate": "skill.gcd.50tick", "fallback": "GCD: 2.5 sec." }
+        ],
+        "mode": "replace_all"
+    },
+    {
         "function": "set_custom_model_data",
         "conditions": [
             {
@@ -43,7 +77,7 @@
                         "predicate": {
                             "type": "player",
                             "slots": { "hotbar.2": {
-                                "items": [ "plenty_pottery_sherd" ],
+                                "items": [ "sheaf_pottery_sherd" ],
                                 "count": 1
                             }}
                         }

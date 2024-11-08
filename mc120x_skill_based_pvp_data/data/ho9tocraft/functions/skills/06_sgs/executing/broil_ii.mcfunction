@@ -4,11 +4,11 @@ execute as @s at @s run tellraw @a ["",{ "bold": false, "italic": false, "transl
 execute as @s at @s run tag @s add BroilII_Exec
 
 # RED -> BLU
-execute as @s[team=RED] at @s if score @s CAST_TIMER matches 0 as @e[team=BLU,distance=..25,sort=nearest,limit=1] at @s run particle dust_color_transition{from_color:[0.937,0.522,0.490],scale:1,to_color:[0.918,0.333,0.314]} ~ ~1 ~ 0.6 1.2 0.6 1 750 normal @a[distance=..30]
+execute as @s[team=RED] at @s if score @s CAST_TIMER matches 0 as @e[team=BLU,distance=..25,sort=nearest,limit=1] at @s run particle dust_color_transition{from_color:[0.353,0.267,0.596],scale:1,to_color:[0.918,0.333,0.196]} ~ ~ ~ 0.6 2 0.6 1 750 normal @a[distance=..30]
 execute as @s[team=RED] at @s if score @s CAST_TIMER matches 0 as @e[team=BLU,distance=..25,sort=nearest,limit=1] at @s run damage @s 24.0 indirect_magic by @a[team=RED,tag=BroilII_Exec,limit=1]
 
 #BLU -> RED
-execute as @s[team=BLU] at @s if score @s CAST_TIMER matches 0 as @e[team=RED,distance=..25,sort=nearest,limit=1] at @s run particle dust_color_transition{from_color:[0.937,0.522,0.490],scale:1,to_color:[0.918,0.333,0.314]} ~ ~1 ~ 0.6 1.2 0.6 1 750 normal @a[distance=..30]
+execute as @s[team=BLU] at @s if score @s CAST_TIMER matches 0 as @e[team=RED,distance=..25,sort=nearest,limit=1] at @s run particle dust_color_transition{from_color:[0.353,0.267,0.596],scale:1,to_color:[0.918,0.333,0.196]} ~ ~ ~ 0.6 2 0.6 1 750 normal @a[distance=..30]
 execute as @s[team=BLU] at @s if score @s CAST_TIMER matches 0 as @e[team=RED,distance=..25,sort=nearest,limit=1] at @s run damage @s 24.0 indirect_magic by @a[team=BLU,tag=BroilII_Exec,limit=1]
 
 # MP Cost
