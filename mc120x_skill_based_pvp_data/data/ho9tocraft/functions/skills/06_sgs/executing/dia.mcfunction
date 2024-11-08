@@ -12,6 +12,7 @@ execute as @s[team=BLU] at @s as @e[team=RED,distance=..25,sort=nearest,limit=1]
 
 execute as @s at @s run scoreboard players remove @s NOW_MP 400
 execute as @s at @s run scoreboard players set @s WS_RECAST_T 50
+execute as @s at @s run scoreboard players set @s PROC_TIMER_WS 600
 execute as @s at @s if score @s MG_RECAST_T matches 0..49 run scoreboard players set @s MG_RECAST_T 50
 execute as @s at @s if score @s AB_RECAST_T matches 0..49 run scoreboard players set @s AB_RECAST_T 50
 execute as @s at @s if score @s LB_RECAST_T matches 0..49 run scoreboard players set @s LB_RECAST_T 50

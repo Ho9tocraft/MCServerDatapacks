@@ -123,6 +123,9 @@ execute as @a[predicate=ho9tocraft:item_selector/jobs/06_sgs/magic/blizzard_ii_e
 execute as @a[predicate=ho9tocraft:item_selector/jobs/06_sgs/magic/blizzard_ii_cast_begin] at @s run function ho9tocraft:skills/06_sgs/casting/blizzard_ii
 execute as @a[predicate=ho9tocraft:item_selector/jobs/06_sgs/magic/fire_ii_exec,tag=SGS_Magic_Cast] at @s run function ho9tocraft:skills/06_sgs/executing/fire_ii
 execute as @a[predicate=ho9tocraft:item_selector/jobs/06_sgs/magic/fire_ii_cast_begin] at @s run function ho9tocraft:skills/06_sgs/casting/fire_ii
+# - Abilities
+execute as @a[predicate=ho9tocraft:item_selector/jobs/06_sgs/magic/sacred_circle_exec,tag=SGS_Magic_Cast] at @s run function ho9tocraft:skills/06_sgs/executing/sacred_circle
+execute as @a[predicate=ho9tocraft:item_selector/jobs/06_sgs/magic/sacred_circle_cast_begin] at @s run function ho9tocraft:skills/06_sgs/casting/sacred_circle
 # - Common Function
 execute as @a[predicate=ho9tocraft:item_selector/jobs/06_sgs/moesage_proc_test] at @s run function ho9tocraft:skills/06_sgs/common/proc_fail
 # Support Item

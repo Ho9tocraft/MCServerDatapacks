@@ -80,7 +80,7 @@
         "lore": [
             { "bold": false, "color": "gray", "italic": false, "translate": "skill.sage_of_scarlet.sacred_circle.desc.1", "fallback": "Starting from yourself," },
             { "bold": false, "color": "gray", "italic": false, "translate": "skill.sage_of_scarlet.sacred_circle.desc.2", "fallback": " heals all allies within range." },
-            { "bold": false, "color": "gray", "italic": false, "translate": "skill.sage_of_scarlet.sacred_circle.desc.3", "fallback": "If the “Defensive” has not been granted, it shall be granted." },
+            { "bold": false, "color": "gray", "italic": false, "translate": "skill.sage_of_scarlet.sacred_circle.desc.3", "fallback": "And, it grants yourself a “Defensive” with medium probability." },
             { "bold": false, "color": "gray", "italic": false, "translate": "skill.sage_of_scarlet.sacred_circle.desc.4", "fallback": "If it has already been granted, it will not be granted." },
             { "bold": false, "color": "gray", "italic": false, "translate": "skill.sage_of_scarlet.sacred_circle.range", "fallback": "(Range: 30m, Radius: 5m, MP Cost: 1200)" },
             { "bold": false, "color": "aqua", "italic": false, "translate": "skill.cast.60tick", "fallback": "Cast Time: 3 sec." },

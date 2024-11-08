@@ -9,7 +9,7 @@
                     "entity": "this",
                     "predicate": {
                         "type": "player",
-                        "slots": { "hotbar.1": {
+                        "slots": { "hotbar.2": {
                             "items": [ "plenty_pottery_sherd" ],
                             "count": 1,
                             "components": { "custom_model_data": 6 }
@@ -21,7 +21,7 @@
                     "entity": "this",
                     "predicate": {
                         "type": "player",
-                        "slots": { "hotbar.1": {
+                        "slots": { "hotbar.2": {
                             "items": [ "sheaf_pottery_sherd" ],
                             "count": 1
                         }}

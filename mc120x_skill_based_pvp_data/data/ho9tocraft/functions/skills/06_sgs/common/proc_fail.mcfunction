@@ -1,1 +1,3 @@
-execute as @s[predicate=ho9tocraft:item_selector/common_ws_proc] at @s if score @s PROC_TIMER_WS matches 0 run item modify entity @s hotbar.1 ho9tocraft:jobs/sage_moepic/extras/weapon_skills/without_stance/to_broil_ii
+execute as @s[predicate=ho9tocraft:item_selector/common_ws_proc,tag=!Defensive] at @s if score @s PROC_TIMER_WS matches 0 run item modify entity @s hotbar.1 ho9tocraft:jobs/sage_moepic/extras/weapon_skills/without_stance/to_broil_ii
+execute as @s[predicate=ho9tocraft:item_selector/common_ws_proc,tag=Defensive] at @s if score @s PROC_TIMER_WS matches 0 run item modify entity @s hotbar.1 ho9tocraft:jobs/sage_moepic/extras/weapon_skills/within_stance/to_dia
+execute as @s[predicate=ho9tocraft:item_selector/common_mg_proc,tag=!Defensive] at @s if score @s PROC_TIMER_MG matches 0 run item modify entity @s hotbar.2 ho9tocraft:jobs/sage_moepic/extras/magics/without_stance/to_fire_ii
