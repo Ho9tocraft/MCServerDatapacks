@@ -7,6 +7,8 @@ execute as @a[predicate=ho9tocraft:item_selector/jobs/06_sgs/magic/moesage_cast_
 execute as @a[predicate=ho9tocraft:item_selector/jobs/06_sgs/magic/moesage_cast_fail] at @s run scoreboard players set @s CAST_TIMER 0
 
 #LB Interrupted
+execute as @a[predicate=ho9tocraft:item_selector/jobs/06_sgs/sage_moepic_lb_cast_fail,tag=CasterLB_Cast] at @s run effect clear @s resistance
+execute as @a[predicate=ho9tocraft:item_selector/jobs/06_sgs/sage_moepic_lb_cast_fail,tag=CasterLB_Cast] at @s run effect clear @s absorption
 execute as @a[predicate=ho9tocraft:item_selector/jobs/06_sgs/sage_moepic_lb_cast_fail,tag=CasterLB_Cast] at @s run scoreboard players set @s LB_RECAST_T 50
 execute as @a[predicate=ho9tocraft:item_selector/jobs/06_sgs/sage_moepic_lb_cast_fail,tag=CasterLB_Cast] at @s run tag @s remove CasterLB_Cast
 execute as @a[predicate=ho9tocraft:item_selector/jobs/06_sgs/sage_moepic_lb_cast_fail] at @s run scoreboard players set @s CAST_TIMER 0
