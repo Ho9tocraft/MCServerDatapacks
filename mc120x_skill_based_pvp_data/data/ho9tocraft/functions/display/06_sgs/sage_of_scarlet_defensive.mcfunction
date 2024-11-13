@@ -22,5 +22,5 @@ execute as @a[tag=!Defensive,tag=Defensive_TIMER_5] at @s if score @s SPEFF_TIME
 
 #LIMIT BREAK "Fullfilled Ultima" Multi-hit Performance
 execute as @a[tag=FullUltima_Exec] at @s run particle end_rod ~ ~1 ~ 10 10 10 0.25 750 normal @a[distance=..30]
-execute as @a[tag=FullUltima_Exec,team=RED] at @s as @e[team=BLU] at @s run damage @s 7.5 ho9tocraft:limit_break_magic by @a[team=RED,tag=FullUltima_Exec,sort=nearest,limit=1]
-execute as @a[tag=FullUltima_Exec,team=BLU] at @s as @e[team=RED] at @s run damage @s 7.5 ho9tocraft:limit_break_magic by @a[team=BLU,tag=FullUltima_Exec,sort=nearest,limit=1]
+execute as @a[tag=FullUltima_Exec,team=RED] at @s as @e[team=BLU,distance=..10] at @s run damage @s 7.5 ho9tocraft:limit_break_magic by @a[team=RED,tag=FullUltima_Exec,sort=nearest,limit=1]
+execute as @a[tag=FullUltima_Exec,team=BLU] at @s as @e[team=RED,distance=..10] at @s run damage @s 7.5 ho9tocraft:limit_break_magic by @a[team=BLU,tag=FullUltima_Exec,sort=nearest,limit=1]
