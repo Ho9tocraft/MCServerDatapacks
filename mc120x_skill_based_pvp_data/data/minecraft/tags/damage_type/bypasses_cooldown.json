@@ -5,6 +5,8 @@
         "ho9tocraft:ngeffect/death",
         "ho9tocraft:ngeffect/radiation",
         "ho9tocraft:boss/indirect_magic",
-        "ho9tocraft:boss/lightning"
+        "ho9tocraft:boss/lightning",
+        "ho9tocraft:limit_break",
+        "ho9tocraft:limit_break_magic"
     ]
 }
